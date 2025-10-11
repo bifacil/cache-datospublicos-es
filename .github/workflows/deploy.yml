@@ -20,13 +20,13 @@ jobs:
           echo "AWS_SECRET_ACCESS_KEY=${{ secrets.R2_SECRET_ACCESS_KEY }}" >> $GITHUB_ENV
           echo "AWS_DEFAULT_REGION=auto" >> $GITHUB_ENV
 
-      - name: Install AWS CLI (official installer)
+      - name: Install/Update AWS CLI (official)
         run: |
           sudo apt-get update
           sudo apt-get install -y unzip
           curl -sSLo awscliv2.zip https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip
           unzip -q awscliv2.zip
-          sudo ./aws/install
+          sudo ./aws/install --update
           aws --version
 
       - name: Sync static files to R2
