@@ -5,8 +5,8 @@ on:
     branches: [ master ]
 
 env:
-  R2_ENDPOINT: ${{ secrets.R2_ENDPOINT }}
-  R2_BUCKET: cache-datospublicos-es
+  R2_ENDPOINT: ${{ vars.R2_ENDPOINT }}
+  R2_BUCKET: ${{ vars.R2_BUCKET }}
 
 jobs:
   sync-to-r2:
@@ -41,9 +41,27 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Publish Worker
-        uses: cloudflare/wrangler-action@v3
+
+      # Node para instalar wrangler
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: deploy
+          node-version: '20'
+
+      # Instala wrangler v3 estable
+      - name: Install Wrangler
+        run: npm i -g wrangler@3
+
+      # Diagnóstico opcional (quién soy / versión)
+      - name: Wrangler info
+        run: |
+          wrangler --version
+          wrangler whoami --quiet || true
+
+      # Deploy (verbose) con Account ID por flag
+      - name: Deploy Worker
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          wrangler deploy --account-id "$CLOUDFLARE_ACCOUNT_ID" --verbose
