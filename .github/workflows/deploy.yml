@@ -21,7 +21,9 @@ jobs:
           echo "AWS_DEFAULT_REGION=auto" >> $GITHUB_ENV
 
       - name: Install AWS CLI
-        uses: aws-actions/setup-aws-cli@v2
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y awscli
 
       - name: Sync static files to R2
         run: |
