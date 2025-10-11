@@ -1,95 +1,1369 @@
-﻿<!DOCTYPE html >
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>(404) The page you were looking for doesn't exist.</title>
-    <style type="text/css">
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
+﻿{
+  "CodigoOperacion": "MYH",
+  "IdOperacion": 333,
+  "Operacion": "Mujeres y Hombres en Espa\u00F1a",
+  "CodigoIOE": "30456",
+  "Url": "https://ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C\u0026cid=1254736176984\u0026idp=1254735576508",
+  "Tablas": [
+    {
+      "IdTabla": 10896,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Porcentaje de los trabajadores a tiempo parcial en el empleo total seg\u00FAn periodo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 10897,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Asalariados seg\u00FAn tipo de contrato",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 10898,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Porcentaje de asalariados con contrato temporal seg\u00FAn periodo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 10899,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Asalariados con contrato temporal seg\u00FAn grupos de edad y periodo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 10879,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Tasa de empleo y brecha de g\u00E9nero seg\u00FAn grupos de edad y periodo.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 10883,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Brecha de g\u00E9nero en las tasas de empleo seg\u00FAn edad en la UE y periodo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 10889,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Tasa de empleo seg\u00FAn niveles de educaci\u00F3n y periodo. Espa\u00F1a, UE-27 y UE-28 (de 20 a 64 a\u00F1os)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 10890,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Tasa de empleo seg\u00FAn niveles de educaci\u00F3n en la UE (de 20 a 64 a\u00F1os) y periodo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 10886,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Brecha de g\u00E9nero en las tasas de empleo seg\u00FAn periodo. Espa\u00F1a, UE-27 y UE-28 (de 15 a 64 a\u00F1os)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 10887,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Brecha de g\u00E9nero en las tasas de empleo seg\u00FAn grupos de edad y periodo. Espa\u00F1a, UE-27 y UE-28",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 10893,
+      "CodigoOperacion": "MYH",
+      "Tabla": "N\u00FAmero de trabajadores a tiempo parcial en el empleo total seg\u00FAn periodo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 10894,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Ocupados a tiempo parcial seg\u00FAn grupos de edad y periodo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 10927,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Razones del trabajo a tiempo parcial de las mujeres. Espa\u00F1a y UE-28. (De 15 y m\u00E1s a\u00F1os)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 10943,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Ocupados seg\u00FAn rama de actividad y periodo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 11023,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Ocupados seg\u00FAn ramas de actividad en la UE",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2015-12-04T10:00:00"
+    },
+    {
+      "IdTabla": 11024,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Ocupados seg\u00FAn ocupaci\u00F3n y periodo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 11028,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Ocupados seg\u00FAn situaci\u00F3n profesional y periodo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 11169,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Ocupados (de 15 a 64 a\u00F1os) seg\u00FAn situaci\u00F3n profesional en la UE",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 11170,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Ocupados seg\u00FAn tipo de puesto laboral y periodo.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 11171,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Tasa de empleo de las personas de 25 a 49 a\u00F1os sin hijos/con hijos menores de 12 a\u00F1os seg\u00FAn periodo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 11172,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Tasa de empleo de personas de 25 a 54 a\u00F1os sin hijos/con hijos de 6 a 14 a\u00F1os seg\u00FAn periodo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 11173,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Tasa de empleo de las personas de 25 a 49 a\u00F1os con hijos/sin hijos seg\u00FAn periodo. Espa\u00F1a, UE-27 y UE-28 ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 11175,
+      "CodigoOperacion": "MYH",
+      "Tabla": "N\u00FAmero medio de horas efectivas trabajadas por los ocupados que han trabajado seg\u00FAn situaci\u00F3n profesional y periodo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 11178,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Tasa de paro seg\u00FAn grupos de edad y periodo. Brecha de g\u00E9nero",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 11179,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Tasa de paro y brecha de g\u00E9nero (De 15 a 74 a\u00F1os) seg\u00FAn periodo en la UE",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 11180,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Tasa de paro y brecha de g\u00E9nero seg\u00FAn grupos de edad y periodo en la UE",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 11181,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Tasa de paro seg\u00FAn niveles de educaci\u00F3n en la UE (de 15 a 74 a\u00F1os)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 10940,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Trabajo a tiempo parcial involuntario de trabajadores de 25 a 49 a\u00F1os en la UE seg\u00FAn periodo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 11183,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Tasa de paro seg\u00FAn niveles de educaci\u00F3n y grupos de edad en la UE",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 11185,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Tasa de paro de larga duraci\u00F3n (mayor o igual a 12 meses) seg\u00FAn periodo. Espa\u00F1a, UE-27 y UE-28",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 11186,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Parados de larga duraci\u00F3n seg\u00FAn grupos de edad en la UE",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 11190,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Adultos y ni\u00F1os que viven en hogares sin personas ocupadas seg\u00FAn periodo en la UE",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 11193,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Hombres y mujeres que viven en hogares con muy baja intensidad laboral seg\u00FAn grupos de edad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 11200,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Inactivos seg\u00FAn grupos de edad y periodo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 11202,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Inactivos seg\u00FAn nivel de formaci\u00F3n alcanzado y periodo. CNED-2000",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2015-12-04T10:00:00"
+    },
+    {
+      "IdTabla": 11204,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Personas inactivas seg\u00FAn razones de la inactividad. Espa\u00F1a, UE-27 y UE-28",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 11206,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Personas inactivas seg\u00FAn razones de la inactividad y grupos de edad. Espa\u00F1a, UE-27 y UE-28",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 11211,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Empleo a tiempo parcial de las mujeres seg\u00FAn periodo. Porcentaje sobre el total de ocupados. Espa\u00F1a, UE-27 y UE-28 (de 15 y m\u00E1s a\u00F1os)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 11213,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Empleo a tiempo parcial de las mujeres seg\u00FAn periodo. Porcentaje sobre el total de mujeres empleadas. Espa\u00F1a, UE-27 y UE-28",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 11214,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Participaci\u00F3n de las trabajadoras con contrato temporal en el total de asalariados seg\u00FAn periodo. Espa\u00F1a, UE-27 y UE-28",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 11215,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Participaci\u00F3n de los trabajadores a tiempo parcial en el empleo total en la UE seg\u00FAn periodo (de 15 y m\u00E1s a\u00F1os)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 11216,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Participaci\u00F3n de los asalariados con contrato temporal en el total de asalariados en la UE seg\u00FAn periodo (De 15 y m\u00E1s a\u00F1os)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 11217,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Mujeres asalariadas a tiempo parcial seg\u00FAn periodo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 11218,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Porcentaje de mujeres asalariadas a tiempo parcial sobre el total de asalariadas seg\u00FAn periodo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 13583,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Razones del trabajo a tiempo parcial seg\u00FAn grupos de edad en Espa\u00F1a",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 12737,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Inactivos seg\u00FAn nivel de formaci\u00F3n alcanzado y periodo. CNED-2014",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 24082,
+      "CodigoOperacion": "MYH",
+      "Tabla": "N\u00FAmero medio de horas semanales realizadas por el total de personas ocupadas (hayan o no trabajado en la semana) seg\u00FAn grupos de edad y periodo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 24083,
+      "CodigoOperacion": "MYH",
+      "Tabla": "N\u00FAmero medio de horas semanales realizadas por el total de personas ocupadas (hayan o no trabajado en la semana) seg\u00FAn el nivel de estudios alcanzado",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 53513,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Trabajo a tiempo parcial seg\u00FAn composici\u00F3n del hogar. Espa\u00F1a y UE-28 (De 18 a 64 a\u00F1os)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 53550,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Ocupados a tiempo parcial porque cuidan a personas dependientes (adultos, ni\u00F1os) por grupos de edad y motivo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 53551,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Personas inactivas que no buscan empleo porque cuidan a personas dependientes seg\u00FAn motivo y grupos de edad. Espa\u00F1a [NUEVA]",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T09:00:00"
+    },
+    {
+      "IdTabla": 74859,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Tasa de riesgo de pobreza o exclusi\u00F3n social (objetivo Europa 2030) por grupos de edad y periodo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-18T10:00:00"
+    },
+    {
+      "IdTabla": 74860,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Tasa de riesgo de pobreza o exclusi\u00F3n social (objetivo Europa 2030) por tipo de hogar y periodo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-18T10:00:00"
+    },
+    {
+      "IdTabla": 74861,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Poblaci\u00F3n en riesgo de pobreza o exclusi\u00F3n social (objetivo Europa 2030) por grupos de edad y periodo en la UE",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-18T10:00:00"
+    },
+    {
+      "IdTabla": 74862,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Tasa de riesgo de pobreza o exclusi\u00F3n social (objetivo Europa 2030) por situaci\u00F3n laboral y periodo. Espa\u00F1a y UE-27. (Poblaci\u00F3n de 18 y m\u00E1s a\u00F1os)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-18T10:00:00"
+    },
+    {
+      "IdTabla": 74863,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Tasa de riesgo de pobreza o exclusi\u00F3n social (objetivo Europa 2030) por quintil de renta, tipo de hogar y periodo. Espa\u00F1a y UE-27",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-18T10:00:00"
+    },
+    {
+      "IdTabla": 74864,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Tasa de riesgo de pobreza o exclusi\u00F3n social (objetivo Europa 2030) por nivel de educaci\u00F3n y periodo. Espa\u00F1a y UE-27. (Poblaci\u00F3n de 18 y m\u00E1s a\u00F1os)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-18T10:00:00"
+    },
+    {
+      "IdTabla": 28101,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Brecha salarial de g\u00E9nero (no ajustada a las caracter\u00EDsticas individuales) en salario por hora seg\u00FAn naturaleza del empleador (sector p\u00FAblico, sector privado) y periodo en los pa\u00EDses de la UE",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-18T10:00:00"
+    },
+    {
+      "IdTabla": 13886,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Asalariados y decil de salarios mensuales del empleo principal por nivel de formaci\u00F3n. CNED-2014",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-18T10:00:00"
+    },
+    {
+      "IdTabla": 13945,
+      "CodigoOperacion": "MYH",
+      "Tabla": "L\u00EDmites inferiores de cada decil de renta por unidad de consumo por periodo. Base 2013",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-18T10:00:00"
+    },
+    {
+      "IdTabla": 11765,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Salario bruto mensual del empleo principal. L\u00EDmites inferiores y valores medios de cada decil.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-18T10:00:00"
+    },
+    {
+      "IdTabla": 11194,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Carencia material severa por grupos de edad y periodo. Espa\u00F1a y UE-28",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-18T10:00:00"
+    },
+    {
+      "IdTabla": 11191,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Carencia material por grupos de edad y periodo.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-18T10:00:00"
+    },
+    {
+      "IdTabla": 11187,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Tasa de riesgo de pobreza persistente por grupos de edad y periodo.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-18T10:00:00"
+    },
+    {
+      "IdTabla": 11188,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Tasa de riesgo de pobreza persistente por periodo en la UE",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-18T10:00:00"
+    },
+    {
+      "IdTabla": 11184,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Poblaci\u00F3n en riesgo de pobreza relativa de las personas con trabajo por grupos de edad y periodo. Espa\u00F1a y UE-28 (%)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-18T10:00:00"
+    },
+    {
+      "IdTabla": 10941,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Renta anual neta media por hogar por edad de la persona de referencia y periodo. Base 2013",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-18T10:00:00"
+    },
+    {
+      "IdTabla": 10942,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Renta anual neta media por hogar, persona y unidad de consumo por tipo de hogar. Base 2013",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-18T10:00:00"
+    },
+    {
+      "IdTabla": 11182,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Poblaci\u00F3n en riesgo de pobreza relativa de las personas con trabajo por periodo en la UE (poblaci\u00F3n de 18 y m\u00E1s a\u00F1os)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-18T10:00:00"
+    },
+    {
+      "IdTabla": 11176,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Poblaci\u00F3n en riesgo de pobreza relativa de los hogares unipersonales y brecha de g\u00E9nero por periodo. Espa\u00F1a y UE-28",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-18T10:00:00"
+    },
+    {
+      "IdTabla": 11177,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Poblaci\u00F3n en riesgo de pobreza relativa seg\u00FAn situaci\u00F3n laboral y periodo. Espa\u00F1a y UE-28 (poblaci\u00F3n de 16 a 64 a\u00F1os)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-18T10:00:00"
+    },
+    {
+      "IdTabla": 11025,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Poblaci\u00F3n en riesgo de pobreza relativa por nivel de educaci\u00F3n y periodo. Espa\u00F1a y UE-28 (poblaci\u00F3n de 18 a 64 a\u00F1os)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-18T10:00:00"
+    },
+    {
+      "IdTabla": 11026,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Poblaci\u00F3n en riesgo de pobreza relativa por tipo de hogar y periodo. Espa\u00F1a y UE-28",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-18T10:00:00"
+    },
+    {
+      "IdTabla": 11027,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Distribuci\u00F3n de los hogares por nivel de renta y tipo de hogar en la UE",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-18T10:00:00"
+    },
+    {
+      "IdTabla": 10944,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Renta relativa de las personas mayores por periodo en la UE",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-18T10:00:00"
+    },
+    {
+      "IdTabla": 11009,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Poblaci\u00F3n en riesgo de pobreza relativa y brecha de g\u00E9nero por grupos de edad y periodo. Espa\u00F1a y UE-28",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-18T10:00:00"
+    },
+    {
+      "IdTabla": 11022,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Poblaci\u00F3n en riesgo de pobreza relativa seg\u00FAn edad y periodo en la UE",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-18T10:00:00"
+    },
+    {
+      "IdTabla": 10928,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Personas por decil de renta por unidad de consumo, por edad y periodo. Base 2013",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-18T10:00:00"
+    },
+    {
+      "IdTabla": 10936,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Tasa de sustituci\u00F3n agregada de ingresos de las personas mayores por periodo en la UE",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-18T10:00:00"
+    },
+    {
+      "IdTabla": 10939,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Renta anual neta media por hogar por la persona de referencia y periodo. Base 2013",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-18T10:00:00"
+    },
+    {
+      "IdTabla": 10895,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Brecha salarial de g\u00E9nero (no ajustada a las caracter\u00EDsticas individuales) en salario por hora por secciones de actividad econ\u00F3mica y periodo en la UE",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-18T10:00:00"
+    },
+    {
+      "IdTabla": 10888,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Brecha salarial de g\u00E9nero (no ajustada a las caracter\u00EDsticas individuales) en salario por hora por edad y periodo.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-18T10:00:00"
+    },
+    {
+      "IdTabla": 10891,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Brecha salarial de g\u00E9nero (no ajustada a las caracter\u00EDsticas individuales) en salario por hora por tipo de jornada y periodo. Espa\u00F1a",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-18T10:00:00"
+    },
+    {
+      "IdTabla": 10892,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Brecha salarial de g\u00E9nero (no ajustada a las caracter\u00EDsticas individuales) en salario por hora por sectores de actividad econ\u00F3mica y periodo. Espa\u00F1a y UE-28",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-18T10:00:00"
+    },
+    {
+      "IdTabla": 10885,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Salario por hora por tipo de jornada y periodo.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 10882,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Salario anual medio, mediano, modal, a tiempo completo y a tiempo parcial, por periodo.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 10900,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Percentiles de salarios anuales e indicadores de desigualdad salarial por periodo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 10902,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Percentiles del salario anual. Salario de la mujer respecto al del hombre por periodo.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 10904,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Trabajadores en funci\u00F3n de su ganancia anual con respecto al SMI por periodo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 10905,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Distribuci\u00F3n del salario mensual de hombres y mujeres (sin diferenciar jornada) por deciles y periodo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-18T10:00:00"
+    },
+    {
+      "IdTabla": 10908,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Distribuci\u00F3n conjunta del salario mensual sin diferenciar jornada por deciles y periodo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-18T10:00:00"
+    },
+    {
+      "IdTabla": 10910,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Salario medio por decil y periodo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-18T10:00:00"
+    },
+    {
+      "IdTabla": 10911,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Salario medio anual por sectores de actividad econ\u00F3mica y periodo.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 10916,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Salario medio anual por grupos de ocupaci\u00F3n y periodo.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 10919,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Salario medio anual por tipo de contrato y periodo.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 10920,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Asalariados y decil de salarios mensuales del empleo principal por nivel de formaci\u00F3n. CNED-2000",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-18T10:00:00"
+    },
+    {
+      "IdTabla": 10922,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Asalariados por decil de salarios, tipo de jornada y periodo.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-18T10:00:00"
+    },
+    {
+      "IdTabla": 10924,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Asalariados (sin diferenciar jornada) por naturaleza del empleador, decil de salarios y periodo.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-18T10:00:00"
+    },
+    {
+      "IdTabla": 10926,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Renta anual neta media por persona y unidad de consumo, por edad y periodo. Base 2013",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Salarios",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-18T10:00:00"
+    },
+    {
+      "IdTabla": 12539,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Tasas netas de escolarizaci\u00F3n en educaci\u00F3n infantil por edad y curso. CNED-2000",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Educaci\u00F3n",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2017-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 12540,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Tasas netas de escolarizaci\u00F3n de 16 a 24 a\u00F1os por educaci\u00F3n, edad y curso. CNED-2000",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Educaci\u00F3n",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2019-07-26T12:00:00"
+    },
+    {
+      "IdTabla": 12541,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Poblaci\u00F3n escolarizada en el nivel 0 a los 3 y 4 a\u00F1os en la UE. CNED-2000",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Educaci\u00F3n",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2017-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 12542,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Tasas netas de escolarizaci\u00F3n por edad. Total ense\u00F1anzas",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Educaci\u00F3n",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2022-10-06T09:00:00"
+    },
+    {
+      "IdTabla": 12543,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Abandono temprano de la educaci\u00F3n-formaci\u00F3n de personas de 18 a 24 a\u00F1os. Espa\u00F1a y UE-28",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Educaci\u00F3n",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-09-16T09:00:00"
+    },
+    {
+      "IdTabla": 12544,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Abandono temprano de la educaci\u00F3n-formaci\u00F3n de personas de 18 a 24 a\u00F1os en la UE",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Educaci\u00F3n",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-09-16T09:00:00"
+    },
+    {
+      "IdTabla": 12545,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Poblaci\u00F3n joven (de 20 a 24 a\u00F1os) que ha completado al menos la 2\u00AA etapa de educaci\u00F3n secundaria en la UE. CNED-2000 ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Educaci\u00F3n",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2017-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 12546,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Poblaci\u00F3n joven (de 20 a 24 a\u00F1os) que ha completado al menos la 2\u00AA etapa de educaci\u00F3n secundaria en la UE. CNED-2014 ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Educaci\u00F3n",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-09-16T09:00:00"
+    },
+    {
+      "IdTabla": 12548,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Poblaci\u00F3n de 30 a 34 a\u00F1os con educaci\u00F3n superior en la UE. CNED-2000 ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Educaci\u00F3n",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2017-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 12549,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Poblaci\u00F3n de 30 a 34 a\u00F1os con educaci\u00F3n superior en la UE. CNED-2014 ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Educaci\u00F3n",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-09-16T09:00:00"
+    },
+    {
+      "IdTabla": 12718,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Tasa bruta de poblaci\u00F3n que se grad\u00FAa por nivel educativo.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Educaci\u00F3n",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2022-10-06T09:00:00"
+    },
+    {
+      "IdTabla": 12720,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Mujeres estudiantes presentadas y aprobadas en las pruebas de acceso a la universidad por convocatoria",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Educaci\u00F3n",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-09-16T09:00:00"
+    },
+    {
+      "IdTabla": 12722,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Mujeres matriculadas y egresadas en ense\u00F1anza de grado y de primer y segundo ciclo por rama de ense\u00F1anza. Curso 2014-15",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Educaci\u00F3n",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-09-16T09:00:00"
+    },
+    {
+      "IdTabla": 12724,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Mujeres matriculadas y egresadas en estudios de m\u00E1ster por rama de ense\u00F1anza. Curso 2014-15",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Educaci\u00F3n",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-09-16T09:00:00"
+    },
+    {
+      "IdTabla": 12725,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Nivel de formaci\u00F3n de la poblaci\u00F3n adulta por grupos de edad. CNED-2000",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Educaci\u00F3n",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2017-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 12726,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Nivel de formaci\u00F3n de la poblaci\u00F3n adulta por grupos de edad. CNED-2014",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Educaci\u00F3n",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-09-16T09:00:00"
+    },
+    {
+      "IdTabla": 12727,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Nivel de formaci\u00F3n de la poblaci\u00F3n adulta en la UE. CNED-2014",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Educaci\u00F3n",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-09-16T09:00:00"
+    },
+    {
+      "IdTabla": 12729,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Graduados en ciencias, matem\u00E1ticas y tecnolog\u00EDa por periodo. Espa\u00F1a y UE-28 (% respecto al  total de graduados de cada sexo)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Educaci\u00F3n",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2017-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 12732,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Mujeres en el profesorado por ense\u00F1anza que imparten y curso",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Educaci\u00F3n",
+      "AnyoInicial": "2012",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2022-10-06T09:00:00"
+    },
+    {
+      "IdTabla": 12733,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Mujeres en el profesorado de educaci\u00F3n universitaria en las universidades p\u00FAblicas por categor\u00EDa y curso",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Educaci\u00F3n",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2022-10-06T09:00:00"
+    },
+    {
+      "IdTabla": 12734,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Participaci\u00F3n en educaci\u00F3n-formaci\u00F3n. Espa\u00F1a y UE-28. (De 25 a 64 a\u00F1os)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Educaci\u00F3n",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-09-16T09:00:00"
+    },
+    {
+      "IdTabla": 12735,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Participaci\u00F3n en educaci\u00F3n-formaci\u00F3n en la UE. (De 25 a 64 a\u00F1os)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Educaci\u00F3n",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-09-16T09:00:00"
+    },
+    {
+      "IdTabla": 12736,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Personas que realizaron determinadas actividades culturales en el \u00FAltimo a\u00F1o",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Educaci\u00F3n",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2022-10-06T09:00:00"
+    },
+    {
+      "IdTabla": 14631,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Titulados universitarios del curso 2009-2010 seg\u00FAn situaci\u00F3n laboral en 2014",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Educaci\u00F3n",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2021-07-21T09:00:00"
+    },
+    {
+      "IdTabla": 14638,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Tasas de actividad, empleo y paro en 2014 de los titulados universitarios del curso 2009-2010",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Educaci\u00F3n",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2021-07-21T09:00:00"
+    },
+    {
+      "IdTabla": 14640,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Titulados universitarios del curso 2009-2010 seg\u00FAn situaci\u00F3n de inactividad en 2014",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Educaci\u00F3n",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2021-07-21T09:00:00"
+    },
+    {
+      "IdTabla": 14641,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Titulados universitarios del curso 2009-2010 que no han trabajado seg\u00FAn tiempo de b\u00FAsqueda de empleo transcurrido desde que acabaron la carrera. 2014",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Educaci\u00F3n",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2021-07-21T09:00:00"
+    },
+    {
+      "IdTabla": 14642,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Titulados universitarios del curso 2009-2010 seg\u00FAn tiempo transcurrido desde que acabaron la carrera hasta que encontraron su primer empleo. 2014",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Educaci\u00F3n",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2021-07-21T09:00:00"
+    },
+    {
+      "IdTabla": 14820,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Porcentaje de hombres y mujeres graduados en educaci\u00F3n superior en la UE. CNED-2014",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Educaci\u00F3n",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-09-16T09:00:00"
+    },
+    {
+      "IdTabla": 14882,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Poblaci\u00F3n escolarizada en el nivel 0 a los 3 y 4 a\u00F1os en la UE. CNED-2014",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Educaci\u00F3n",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2022-10-06T09:00:00"
+    },
+    {
+      "IdTabla": 14883,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Tasa de graduados en ciencias, matem\u00E1ticas, inform\u00E1tica, ingenier\u00EDa, industria y construcci\u00F3n en la UE por periodo (1.000 personas de 20 a 29 a\u00F1os)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Educaci\u00F3n",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-09-16T09:00:00"
+    },
+    {
+      "IdTabla": 25201,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Mujeres graduadas en educaci\u00F3n superior por campo de estudio. Espa\u00F1a  y UE-28. CNED-2014",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Educaci\u00F3n",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2022-10-06T09:00:00"
+    },
+    {
+      "IdTabla": 13228,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Tasas netas de escolarizaci\u00F3n en educaci\u00F3n infantil por edad y curso. CNED-2014",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Educaci\u00F3n",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2022-10-06T09:00:00"
+    },
+    {
+      "IdTabla": 13229,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Tasas netas de escolarizaci\u00F3n de 16 a 24 a\u00F1os por educaci\u00F3n, edad y curso. CNED-2014",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Educaci\u00F3n",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2022-10-06T09:00:00"
+    },
+    {
+      "IdTabla": 31406,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Personas entre 18 y 64 a\u00F1os con hijos propios o de la pareja menores de 15 a\u00F1os (1) que no utilizan habitualmente servicios para el cuidado de todos ellos (2), seg\u00FAn el principal motivo por el que no lo hacen, por sexo y relaci\u00F3n con la actividad. 2018",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo del tiempo",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2015-06-03T07:00:00"
+    },
+    {
+      "IdTabla": 31408,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Personas entre 18 y 64 a\u00F1os seg\u00FAn hayan o no dejado de trabajar, o hayan o no reducido la jornada laboral durante al menos un mes seguido (1), para cuidar de familiares dependientes (2), por sexo. 2018",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo del tiempo",
+      "AnyoInicial": "2018",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2015-06-03T07:00:00"
+    },
+    {
+      "IdTabla": 31409,
+      "CodigoOperacion": "MYH",
+      "Tabla": "Personas entre 18 y 64 a\u00F1os con al menos un hijo propio o de la pareja (1), que han dejado de trabajar al menos un mes seguido (2) por cuidado de hijos, dependiendo de si alguno de los per\u00EDodos de interrupci\u00F3n fue para coger una excedencia, por sexo. 2018",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Mujeres y Hombres en Espa\u00F1a. Empleo del tiempo",
+      "AnyoInicial": "2018",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2015-06-03T07:00:00"
     }
-
-    body {
-      font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-      background-color: #2D72D9;
-      color: #fff;
-      -moz-font-smoothing: antialiased;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    .error-container {
-      text-align: center;
-      height: 100%;
-    }
-
-    @media (max-width: 480px) {
-      .error-container {
-        position: relative;
-        top: 50%;
-        height: initial;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    .error-container h1 {
-      margin: 0;
-      font-size: 130px;
-      font-weight: 300;
-    }
-
-    @media (min-width: 480px) {
-      .error-container h1 {
-        position: relative;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    @media (min-width: 768px) {
-      .error-container h1 {
-        font-size: 220px;
-      }
-    }
-
-    .return {
-      color: rgba(255, 255, 255, 0.6);
-      font-weight: 400;
-      letter-spacing: -0.04em;
-      margin: 0;
-    }
-
-    @media (min-width: 480px) {
-      .return {
-        position: absolute;
-        width: 100%;
-        bottom: 30px;
-      }
-    }
-
-    .return a {
-      padding-bottom: 1px;
-      color: #fff;
-      text-decoration: none;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.6);
-      -webkit-transition: border-color 0.1s ease-in;
-      transition: border-color 0.1s ease-in;
-    }
-
-    .return a:hover {
-      border-bottom-color: #fff;
-    }
-  </style>
-  </head>
-  <body>
-    <div class="error-container">
-      <h1>404</h1>
-      <p class="return">La pagina solicitada no existe. <a href="./">Ir a inicio</a></p>
-    </div>
-  </body>
-</html>
+  ]
+}

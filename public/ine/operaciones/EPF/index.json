@@ -1,95 +1,1269 @@
-﻿<!DOCTYPE html >
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>(404) The page you were looking for doesn't exist.</title>
-    <style type="text/css">
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
+﻿{
+  "CodigoOperacion": "EPF",
+  "IdOperacion": 314,
+  "Operacion": "Encuesta de Presupuestos Familiares (EPF)",
+  "CodigoIOE": "30458",
+  "Url": "https://ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C\u0026cid=1254736176806\u0026idp=1254735976608",
+  "Tablas": [
+    {
+      "IdTabla": 10627,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto total monetario y gastos medios por grupos de gasto (2 d\u00EDgitos)",
+      "CodigoTabla": "Censo2011_NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2006",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2016-06-20T09:00:00"
+    },
+    {
+      "IdTabla": 10628,
+      "CodigoOperacion": "EPF",
+      "Tabla": " Gasto total y gastos medios por subgrupos de gasto (3 d\u00EDgitos)",
+      "CodigoTabla": "Censo2011_NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2006",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2016-06-20T09:00:00"
+    },
+    {
+      "IdTabla": 10629,
+      "CodigoOperacion": "EPF",
+      "Tabla": " Gasto total y gastos medios por c\u00F3digos de gasto (4 d\u00EDgitos).",
+      "CodigoTabla": "Censo2011_NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2006",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2016-06-20T09:00:00"
+    },
+    {
+      "IdTabla": 10630,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto total, gastos medios y distribuci\u00F3n porcentual del gasto total por c\u00F3digos de gasto (5 d\u00EDgitos).",
+      "CodigoTabla": "Censo2011_NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2006",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2016-06-20T09:00:00"
+    },
+    {
+      "IdTabla": 10631,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto total y gastos medios por grupos de gasto (2 d\u00EDgitos) (precios constantes de 2006)",
+      "CodigoTabla": "Censo2011_NAC_PCTES",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2006",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2016-06-20T09:00:00"
+    },
+    {
+      "IdTabla": 10632,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto total monetario y gastos medios por grupos de gasto (2 d\u00EDgitos) (precios constantes de 2006)",
+      "CodigoTabla": "Censo2011_NAC_PCTES",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2006",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2016-06-20T09:00:00"
+    },
+    {
+      "IdTabla": 10633,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto total y gastos medios por subgrupos de gasto (3 d\u00EDgitos) (precios constantes de 2006)",
+      "CodigoTabla": "Censo2011_NAC_PCTES",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2006",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2016-06-20T09:00:00"
+    },
+    {
+      "IdTabla": 10634,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto total y gastos medios por c\u00F3digos de gasto (4 d\u00EDgitos) (precios constantes de 2006)",
+      "CodigoTabla": "Censo2011_NAC_PCTES",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2006",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2016-06-20T09:00:00"
+    },
+    {
+      "IdTabla": 10635,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto total y gastos medios por c\u00F3digos de gasto (5 d\u00EDgitos) (precios constantes de 2006)",
+      "CodigoTabla": "Censo2011_NAC_PCTES",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2006",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2016-06-20T09:00:00"
+    },
+    {
+      "IdTabla": 14505,
+      "CodigoOperacion": "EPF",
+      "Tabla": "1. Gasto total y gastos medios por grupos de gasto, seg\u00FAn comunidad aut\u00F3noma de residencia",
+      "CodigoTabla": "ECOICOP_Censo2011_NAC-CCAA",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2006",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-06-27T09:00:00"
+    },
+    {
+      "IdTabla": 28486,
+      "CodigoOperacion": "EPF",
+      "Tabla": "2. Gasto total y gastos medios por grupos de gasto, seg\u00FAn comunidad aut\u00F3noma de residencia",
+      "CodigoTabla": "ECOICOP_Censo2011_NAC-CCAA",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2006",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-06-27T09:00:00"
+    },
+    {
+      "IdTabla": 73778,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto por grupos de gasto (2 d\u00EDgitos)",
+      "CodigoTabla": "COICOP2018_NAC_PCORR",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73779,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto por subgrupos de gasto (3 d\u00EDgitos COICOP 2018/EPF)",
+      "CodigoTabla": "COICOP2018_NAC_PCORR",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73780,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto por c\u00F3digos de gasto (4 d\u00EDgitos COICOP 2018/EPF)",
+      "CodigoTabla": "COICOP2018_NAC_PCORR",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73781,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto por c\u00F3digos de gasto (5 d\u00EDgitos COICOP 2018/EPF)",
+      "CodigoTabla": "COICOP2018_NAC_PCORR",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73782,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto por subgrupos de gasto (3 d\u00EDgitos COICOP 2018)",
+      "CodigoTabla": "COICOP2018_NAC_PCORR",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73783,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto por c\u00F3digos de gasto (4 d\u00EDgitos COICOP 2018)",
+      "CodigoTabla": "COICOP2018_NAC_PCORR",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73784,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto por c\u00F3digos de gasto (5 d\u00EDgitos COICOP 2018)",
+      "CodigoTabla": "COICOP2018_NAC_PCORR",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73785,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto por tama\u00F1o del municipio de residencia",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73786,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto por densidad de poblaci\u00F3n",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73787,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto por sexo y edad del sustentador principal",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73788,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto por nivel de formaci\u00F3n del sustentador principal",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73789,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto por situaci\u00F3n en la actividad del sustentador principal",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73790,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto por situaci\u00F3n profesional del sustentador principal",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73791,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto por ocupaci\u00F3n del sustentador principal (CNO-11, grandes grupos)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73792,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto por tama\u00F1o del hogar",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73793,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto por tipo de hogar",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73794,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto por principal fuente de ingresos del hogar",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73795,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto por nivel de ingresos mensuales netos regulares del hogar",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73796,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto por nacionalidad (espa\u00F1ola o extranjera) del sustentador principal",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73797,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto por pa\u00EDs de nacimiento del sustentador principal",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73798,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto por pa\u00EDs de nacimiento de los padres del sustentador principal",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73799,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto seg\u00FAn tama\u00F1o del municipio de residencia",
+      "CodigoTabla": "COICOP2018_NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73800,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto seg\u00FAn densidad de poblaci\u00F3n",
+      "CodigoTabla": "COICOP2018_NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73801,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto seg\u00FAn sexo y edad del sustentador principal",
+      "CodigoTabla": "COICOP2018_NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73802,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto seg\u00FAn nivel de formaci\u00F3n del sustentador principal",
+      "CodigoTabla": "COICOP2018_NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73803,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto seg\u00FAn situaci\u00F3n en la actividad del sustentador principal",
+      "CodigoTabla": "COICOP2018_NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73804,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto seg\u00FAn situaci\u00F3n profesional del sustentador principal",
+      "CodigoTabla": "COICOP2018_NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73805,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto seg\u00FAn ocupaci\u00F3n del sustentador principal (CNO-11, grandes grupos)",
+      "CodigoTabla": "COICOP2018_NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73806,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto seg\u00FAn tama\u00F1o del hogar",
+      "CodigoTabla": "COICOP2018_NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73807,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto seg\u00FAn tipo de hogar",
+      "CodigoTabla": "COICOP2018_NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73808,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto seg\u00FAn principal fuente de ingresos del hogar",
+      "CodigoTabla": "COICOP2018_NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73809,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto seg\u00FAn nivel de ingresos mensuales netos regulares del hogar",
+      "CodigoTabla": "COICOP2018_NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73810,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto seg\u00FAn nacionalidad (espa\u00F1ola o extranjera) del sustentador principal",
+      "CodigoTabla": "COICOP2018_NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73811,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto seg\u00FAn pa\u00EDs de nacimiento del sustentador principal",
+      "CodigoTabla": "COICOP2018_NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73812,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto seg\u00FAn pa\u00EDs de nacimiento de los padres del sustentador principal",
+      "CodigoTabla": "COICOP2018_NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73813,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Distribuci\u00F3n seg\u00FAn tama\u00F1o del municipio de residencia",
+      "CodigoTabla": "COICOP2018_NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73814,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Distribuci\u00F3n seg\u00FAn densidad de poblaci\u00F3n",
+      "CodigoTabla": "COICOP2018_NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73815,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Distribuci\u00F3n seg\u00FAn sexo y edad del sustentador principal",
+      "CodigoTabla": "COICOP2018_NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73816,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Distribuci\u00F3n seg\u00FAn nivel de formaci\u00F3n del sustentador principal",
+      "CodigoTabla": "COICOP2018_NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73817,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Distribuci\u00F3n seg\u00FAn situaci\u00F3n en la actividad del sustentador principal",
+      "CodigoTabla": "COICOP2018_NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73818,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Distribuci\u00F3n seg\u00FAn situaci\u00F3n profesional del sustentador principal",
+      "CodigoTabla": "COICOP2018_NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73819,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Distribuci\u00F3n seg\u00FAn ocupaci\u00F3n del sustentador principal (CNO-11, grandes grupos)",
+      "CodigoTabla": "COICOP2018_NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73820,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Distribuci\u00F3n seg\u00FAn tama\u00F1o del hogar",
+      "CodigoTabla": "COICOP2018_NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73821,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Distribuci\u00F3n seg\u00FAn tipo de hogar",
+      "CodigoTabla": "COICOP2018_NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73822,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Distribuci\u00F3n seg\u00FAn principal fuente de ingresos del hogar",
+      "CodigoTabla": "COICOP2018_NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73823,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Distribuci\u00F3n seg\u00FAn nivel de ingresos mensuales netos regulares del hogar",
+      "CodigoTabla": "COICOP2018_NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73824,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Distribuci\u00F3n seg\u00FAn nacionalidad (espa\u00F1ola o extranjera) del sustentador principal",
+      "CodigoTabla": "COICOP2018_NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73825,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Distribuci\u00F3n seg\u00FAn pa\u00EDs de nacimiento del sustentador principal",
+      "CodigoTabla": "COICOP2018_NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73826,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Distribuci\u00F3n seg\u00FAn pa\u00EDs de nacimiento de los padres del sustentador principal",
+      "CodigoTabla": "COICOP2018_NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73827,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto medio por hogar, gasto medio por persona y porcentaje de hogares con gasto en determinados c\u00F3digos (lista de algunos c\u00F3digos a 5 d\u00EDgitos COICOP 2018/EPF)",
+      "CodigoTabla": "COICOP2018_NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73828,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto medio por hogar, gasto medio por persona y distribuci\u00F3n del gasto (porcentajes verticales y horizontales) por grupos de gasto y por quintiles de gasto",
+      "CodigoTabla": "COICOP2018_NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73830,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Distribuci\u00F3n seg\u00FAn tama\u00F1o del municipio de residencia",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73831,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Distribuci\u00F3n seg\u00FAn densidad de poblaci\u00F3n",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73832,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Distribuci\u00F3n seg\u00FAn sexo y edad del sustentador principal",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73833,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Distribuci\u00F3n seg\u00FAn nivel de formaci\u00F3n del sustentador principal",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73834,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Distribuci\u00F3n seg\u00FAn situaci\u00F3n en la actividad del sustentador principal",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73835,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Distribuci\u00F3n seg\u00FAn situaci\u00F3n profesional del sustentador principal",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73836,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Distribuci\u00F3n seg\u00FAn ocupaci\u00F3n del sustentador principal (CNO-11, grandes grupos)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73837,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Distribuci\u00F3n seg\u00FAn tama\u00F1o del hogar",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73838,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Distribuci\u00F3n seg\u00FAn tipo de hogar",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73839,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Distribuci\u00F3n seg\u00FAn principal fuente de ingresos del hogar",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73840,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Distribuci\u00F3n seg\u00FAn nivel de ingresos mensuales netos regulares del hogar",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73841,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Distribuci\u00F3n seg\u00FAn nacionalidad (espa\u00F1ola o extranjera) del sustentador principal",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73842,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Distribuci\u00F3n seg\u00FAn pa\u00EDs de nacimiento del sustentador principal",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73843,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Distribuci\u00F3n seg\u00FAn pa\u00EDs de nacimiento de los padres del sustentador principal",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73844,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Cantidades medias consumidas y valor unitario de alimentos, bebidas, tabaco, combustibles y otras fuentes de energ\u00EDa",
+      "CodigoTabla": "COICOP2018_NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": null
+    },
+    {
+      "IdTabla": 73845,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Coeficiente de variaci\u00F3n por grupos de gasto (2 d\u00EDgitos)",
+      "CodigoTabla": "COICOP2018_NAC_CV",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73846,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Coeficiente de variaci\u00F3n por subgrupos de gasto (3 d\u00EDgitos COICOP 2018/EPF)",
+      "CodigoTabla": "COICOP2018_NAC_CV",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73847,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Coeficiente de variaci\u00F3n por c\u00F3digos de gasto (4 d\u00EDgitos COICOP 2018/EPF)",
+      "CodigoTabla": "COICOP2018_NAC_CV",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73848,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Coeficiente de variaci\u00F3n por c\u00F3digos de gasto (5 d\u00EDgitos COICOP 2018/EPF)",
+      "CodigoTabla": "COICOP2018_NAC_CV",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73849,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Coeficiente de variaci\u00F3n por subgrupos de gasto (3 d\u00EDgitos COICOP 2018)",
+      "CodigoTabla": "COICOP2018_NAC_CV",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73850,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Coeficiente de variaci\u00F3n por c\u00F3digos de gasto (4 d\u00EDgitos COICOP 2018)",
+      "CodigoTabla": "COICOP2018_NAC_CV",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73851,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Coeficiente de variaci\u00F3n por c\u00F3digos de gasto (5 d\u00EDgitos COICOP 2018)",
+      "CodigoTabla": "COICOP2018_NAC_CV",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73852,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Coeficiente de variaci\u00F3n por tama\u00F1o del municipio de residencia",
+      "CodigoTabla": "NAC_CV",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73853,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Coeficiente de variaci\u00F3n por densidad de poblaci\u00F3n",
+      "CodigoTabla": "NAC_CV",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73854,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Coeficiente de variaci\u00F3n por sexo y edad del sustentador principal",
+      "CodigoTabla": "NAC_CV",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73855,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Coeficiente de variaci\u00F3n por nivel de formaci\u00F3n del sustentador principal",
+      "CodigoTabla": "NAC_CV",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73856,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Coeficiente de variaci\u00F3n por situaci\u00F3n en la actividad del sustentador principal",
+      "CodigoTabla": "NAC_CV",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73857,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Coeficiente de variaci\u00F3n por situaci\u00F3n profesional del sustentador principal",
+      "CodigoTabla": "NAC_CV",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73858,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Coeficiente de variaci\u00F3n por ocupaci\u00F3n del sustentador principal (CNO-11, grandes grupos)",
+      "CodigoTabla": "NAC_CV",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73859,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Coeficiente de variaci\u00F3n por tama\u00F1o del hogar",
+      "CodigoTabla": "NAC_CV",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73860,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Coeficiente de variaci\u00F3n por tipo de hogar",
+      "CodigoTabla": "NAC_CV",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73861,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Coeficiente de variaci\u00F3n por principal fuente de ingresos del hogar",
+      "CodigoTabla": "NAC_CV",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73862,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Coeficiente de variaci\u00F3n por nivel de ingresos mensuales netos regulares del hogar",
+      "CodigoTabla": "NAC_CV",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73863,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Coeficiente de variaci\u00F3n por nacionalidad (espa\u00F1ola o extranjera) del sustentador principal",
+      "CodigoTabla": "NAC_CV",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73864,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Coeficiente de variaci\u00F3n por pa\u00EDs de nacimiento del sustentador principal",
+      "CodigoTabla": "NAC_CV",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73865,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Coeficiente de variaci\u00F3n por pa\u00EDs de nacimiento de los padres del sustentador principal",
+      "CodigoTabla": "NAC_CV",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73990,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto e \u00EDndice sobre la media del gmp por comunidad aut\u00F3noma de residencia",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73991,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto por grupos de gasto (2 d\u00EDgitos), seg\u00FAn comunidad aut\u00F3noma de residencia",
+      "CodigoTabla": "COICOP2018_NAC-CCAA",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73992,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto por subgrupos de gasto (3 d\u00EDgitos COICOP/EPF), seg\u00FAn comunidad aut\u00F3noma de residencia",
+      "CodigoTabla": "COICOP2018_NAC-CCAA",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73993,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto por c\u00F3digos de gasto (4 d\u00EDgitos COICOP/EPF), seg\u00FAn comunidad aut\u00F3noma de residencia",
+      "CodigoTabla": "COICOP2018_NAC-CCAA",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73994,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto por edad del sustentador principal (reducida), seg\u00FAn comunidad aut\u00F3noma de residencia",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73995,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto por nivel de formaci\u00F3n del sustentador principal (reducida), seg\u00FAn comunidad aut\u00F3noma de residencia",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73996,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto por situaci\u00F3n en la actividad del sustentador principal (reducida), seg\u00FAn comunidad aut\u00F3noma de residencia",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73997,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto por situaci\u00F3n profesional del sustentador principal (reducida), seg\u00FAn comunidad aut\u00F3noma de residencia",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73998,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto por ocupaci\u00F3n del sustentador principal (CNO-11, reducida), seg\u00FAn comunidad aut\u00F3noma de residencia",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 73999,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto por tama\u00F1o del hogar (reducida), seg\u00FAn comunidad aut\u00F3noma de residencia",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 74000,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto por tipo de hogar (reducida), seg\u00FAn comunidad aut\u00F3noma de residencia",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 74001,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto por principal fuente de ingresos del hogar (reducida), seg\u00FAn comunidad aut\u00F3noma de residencia",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 74002,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto por nivel de ingresos del hogar (reducida), seg\u00FAn comunidad aut\u00F3noma de residencia",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 74003,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Coeficiente de variaci\u00F3n por comunidad aut\u00F3noma de residencia",
+      "CodigoTabla": "NAC-CCAA_CV",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 74004,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Coeficiente de variaci\u00F3n por comunidad aut\u00F3noma de residencia y grupos de gasto (2 d\u00EDgitos)",
+      "CodigoTabla": "COICOP2018_NAC-CCAA_CV",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 74005,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Coeficiente de variaci\u00F3n por comunidad aut\u00F3noma de residencia y subgrupos de gasto (3 d\u00EDgitos COICOP/EPF)",
+      "CodigoTabla": "COICOP2018_NAC-CCAA_CV",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 74006,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Distribuci\u00F3n porcentual de hogares y personas seg\u00FAn comunidad aut\u00F3noma de residencia",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 75003,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto por grupos de gasto (2 d\u00EDgitos)",
+      "CodigoTabla": "COICOP2018_NAC_PCTES",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 75004,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto por subgrupos de gasto (3 d\u00EDgitos COICOP 2018/EPF)",
+      "CodigoTabla": "COICOP2018_NAC_PCTES",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 75005,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto por c\u00F3digos de gasto (4 d\u00EDgitos COICOP 2018/EPF)",
+      "CodigoTabla": "COICOP2018_NAC_PCTES",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 75006,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto por c\u00F3digos de gasto (5 d\u00EDgitos COICOP 2018/EPF)",
+      "CodigoTabla": "COICOP2018_NAC_PCTES",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 75007,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto por subgrupos de gasto (3 d\u00EDgitos COICOP 2018)",
+      "CodigoTabla": "COICOP2018_NAC_PCTES",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 75008,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto por c\u00F3digos de gasto (4 d\u00EDgitos COICOP 2018)",
+      "CodigoTabla": "COICOP2018_NAC_PCTES",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 75009,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto por c\u00F3digos de gasto (5 d\u00EDgitos COICOP 2018)",
+      "CodigoTabla": "COICOP2018_NAC_PCTES",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-26T09:00:00"
+    },
+    {
+      "IdTabla": 75408,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto por grupos de gasto (2 d\u00EDgitos)",
+      "CodigoTabla": "COICOP2018_NAC_PCORR",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": null
+    },
+    {
+      "IdTabla": 75412,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto medio por hogar, gasto medio por persona y porcentaje de hogares con gasto en determinados c\u00F3digos (lista de algunos c\u00F3digos a 5 d\u00EDgitos COICOP 2018/EPF)",
+      "CodigoTabla": "COICOP2018_NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": null
+    },
+    {
+      "IdTabla": 75413,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Gasto medio por hogar, gasto medio por persona y distribuci\u00F3n del gasto (porcentajes verticales y horizontales) por grupos de gasto y por quintiles de gasto",
+      "CodigoTabla": "COICOP2018_NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": null
+    },
+    {
+      "IdTabla": 75526,
+      "CodigoOperacion": "EPF",
+      "Tabla": "Distribuci\u00F3n seg\u00FAn nivel de ingresos mensuales netos regulares del hogar",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Presupuestos Familiares",
+      "AnyoInicial": "2024",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": null
     }
-
-    body {
-      font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-      background-color: #2D72D9;
-      color: #fff;
-      -moz-font-smoothing: antialiased;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    .error-container {
-      text-align: center;
-      height: 100%;
-    }
-
-    @media (max-width: 480px) {
-      .error-container {
-        position: relative;
-        top: 50%;
-        height: initial;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    .error-container h1 {
-      margin: 0;
-      font-size: 130px;
-      font-weight: 300;
-    }
-
-    @media (min-width: 480px) {
-      .error-container h1 {
-        position: relative;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    @media (min-width: 768px) {
-      .error-container h1 {
-        font-size: 220px;
-      }
-    }
-
-    .return {
-      color: rgba(255, 255, 255, 0.6);
-      font-weight: 400;
-      letter-spacing: -0.04em;
-      margin: 0;
-    }
-
-    @media (min-width: 480px) {
-      .return {
-        position: absolute;
-        width: 100%;
-        bottom: 30px;
-      }
-    }
-
-    .return a {
-      padding-bottom: 1px;
-      color: #fff;
-      text-decoration: none;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.6);
-      -webkit-transition: border-color 0.1s ease-in;
-      transition: border-color 0.1s ease-in;
-    }
-
-    .return a:hover {
-      border-bottom-color: #fff;
-    }
-  </style>
-  </head>
-  <body>
-    <div class="error-container">
-      <h1>404</h1>
-      <p class="return">La pagina solicitada no existe. <a href="./">Ir a inicio</a></p>
-    </div>
-  </body>
-</html>
+  ]
+}

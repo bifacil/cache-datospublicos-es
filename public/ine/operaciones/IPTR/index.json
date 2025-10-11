@@ -1,95 +1,49 @@
-﻿<!DOCTYPE html >
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>(404) The page you were looking for doesn't exist.</title>
-    <style type="text/css">
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
+﻿{
+  "CodigoOperacion": "IPTR",
+  "IdOperacion": 63,
+  "Operacion": "\u00CDndice de Precios de Alojamientos de Turismo Rural",
+  "CodigoIOE": "30229",
+  "Url": "https://ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C\u0026cid=1254736176963\u0026idp=1254735576863",
+  "Tablas": [
+    {
+      "IdTabla": 2007,
+      "CodigoOperacion": "IPTR",
+      "Tabla": "\u00CDndice de Precios en Alojamientos de Turismo Rural (IPTR): \u00EDndice general nacional y desglose por tarifas",
+      "CodigoTabla": "2002_NAC",
+      "Publicacion": "Encuesta de ocupaci\u00F3n en alojamientos tur\u00EDsticos extrahoteleros",
+      "AnyoInicial": "2003",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-01T07:00:00"
+    },
+    {
+      "IdTabla": 2008,
+      "CodigoOperacion": "IPTR",
+      "Tabla": "\u00CDndice de Precios en Alojamientos de Turismo Rural (IPTR): \u00EDndice general nacional y desglose por modalidad de alquiler",
+      "CodigoTabla": "2002_NAC",
+      "Publicacion": "Encuesta de ocupaci\u00F3n en alojamientos tur\u00EDsticos extrahoteleros",
+      "AnyoInicial": "2003",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-01T07:00:00"
+    },
+    {
+      "IdTabla": 2060,
+      "CodigoOperacion": "IPTR",
+      "Tabla": "\u00CDndices de Precios en Alojamientos de Turismo Rural: \u00EDndices y tasas de variaci\u00F3n interanual por comunidades aut\u00F3nomas",
+      "CodigoTabla": "2002_NAC-CCAA",
+      "Publicacion": "Encuesta de ocupaci\u00F3n en alojamientos tur\u00EDsticos extrahoteleros",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-01T07:00:00"
+    },
+    {
+      "IdTabla": 8318,
+      "CodigoOperacion": "IPTR",
+      "Tabla": "\u00CDndice de Precios en Alojamientos de Turismo Rural (IPTR): Coeficiente de variaci\u00F3n, \u00EDndice general nacional",
+      "CodigoTabla": "2002_NAC_CV",
+      "Publicacion": "Encuesta de ocupaci\u00F3n en alojamientos tur\u00EDsticos extrahoteleros",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-01T07:00:00"
     }
-
-    body {
-      font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-      background-color: #2D72D9;
-      color: #fff;
-      -moz-font-smoothing: antialiased;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    .error-container {
-      text-align: center;
-      height: 100%;
-    }
-
-    @media (max-width: 480px) {
-      .error-container {
-        position: relative;
-        top: 50%;
-        height: initial;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    .error-container h1 {
-      margin: 0;
-      font-size: 130px;
-      font-weight: 300;
-    }
-
-    @media (min-width: 480px) {
-      .error-container h1 {
-        position: relative;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    @media (min-width: 768px) {
-      .error-container h1 {
-        font-size: 220px;
-      }
-    }
-
-    .return {
-      color: rgba(255, 255, 255, 0.6);
-      font-weight: 400;
-      letter-spacing: -0.04em;
-      margin: 0;
-    }
-
-    @media (min-width: 480px) {
-      .return {
-        position: absolute;
-        width: 100%;
-        bottom: 30px;
-      }
-    }
-
-    .return a {
-      padding-bottom: 1px;
-      color: #fff;
-      text-decoration: none;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.6);
-      -webkit-transition: border-color 0.1s ease-in;
-      transition: border-color 0.1s ease-in;
-    }
-
-    .return a:hover {
-      border-bottom-color: #fff;
-    }
-  </style>
-  </head>
-  <body>
-    <div class="error-container">
-      <h1>404</h1>
-      <p class="return">La pagina solicitada no existe. <a href="./">Ir a inicio</a></p>
-    </div>
-  </body>
-</html>
+  ]
+}

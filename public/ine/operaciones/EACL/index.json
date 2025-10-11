@@ -1,95 +1,259 @@
-﻿<!DOCTYPE html >
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>(404) The page you were looking for doesn't exist.</title>
-    <style type="text/css">
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
+﻿{
+  "CodigoOperacion": "EACL",
+  "IdOperacion": 139,
+  "Operacion": "Encuesta Anual de Coste Laboral",
+  "CodigoIOE": "30188",
+  "Url": "https://ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C\u0026cid=1254736060920\u0026idp=1254735976596",
+  "Tablas": [
+    {
+      "IdTabla": 9124,
+      "CodigoOperacion": "EACL",
+      "Tabla": "Por tama\u00F1o del establecimiento y sectores de actividad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta Anual de Coste Laboral",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-22T09:00:00"
+    },
+    {
+      "IdTabla": 9125,
+      "CodigoOperacion": "EACL",
+      "Tabla": "Por secciones de la CNAE-09 ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta Anual de Coste Laboral",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-22T09:00:00"
+    },
+    {
+      "IdTabla": 9126,
+      "CodigoOperacion": "EACL",
+      "Tabla": "Por divisiones de la CNAE-09 ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta Anual de Coste Laboral",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-22T09:00:00"
+    },
+    {
+      "IdTabla": 9131,
+      "CodigoOperacion": "EACL",
+      "Tabla": "Por sectores de actividad",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Encuesta Anual de Coste Laboral",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-22T09:00:00"
+    },
+    {
+      "IdTabla": 9137,
+      "CodigoOperacion": "EACL",
+      "Tabla": "Por tama\u00F1o del establecimento",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Encuesta Anual de Coste Laboral",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-22T09:00:00"
+    },
+    {
+      "IdTabla": 9138,
+      "CodigoOperacion": "EACL",
+      "Tabla": "Por sectores de actividad",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Encuesta Anual de Coste Laboral",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-22T09:00:00"
+    },
+    {
+      "IdTabla": 9139,
+      "CodigoOperacion": "EACL",
+      "Tabla": "Por tama\u00F1o del establecimento",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Encuesta Anual de Coste Laboral",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-22T09:00:00"
+    },
+    {
+      "IdTabla": 9140,
+      "CodigoOperacion": "EACL",
+      "Tabla": "Componentes del coste",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta Anual de Coste Laboral",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-08-12T11:00:00"
+    },
+    {
+      "IdTabla": 9144,
+      "CodigoOperacion": "EACL",
+      "Tabla": "Componentes del coste",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta Anual de Coste Laboral",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-08-12T11:00:00"
+    },
+    {
+      "IdTabla": 10837,
+      "CodigoOperacion": "EACL",
+      "Tabla": "Proporci\u00F3n de centros y trabajadores",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta Anual de Coste Laboral",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-08-12T11:00:00"
+    },
+    {
+      "IdTabla": 10850,
+      "CodigoOperacion": "EACL",
+      "Tabla": "Proporci\u00F3n de centros y trabajadores",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta Anual de Coste Laboral",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-22T09:00:00"
+    },
+    {
+      "IdTabla": 10851,
+      "CodigoOperacion": "EACL",
+      "Tabla": "Por secciones de la CNAE-09 ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta Anual de Coste Laboral",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-22T09:00:00"
+    },
+    {
+      "IdTabla": 10852,
+      "CodigoOperacion": "EACL",
+      "Tabla": "Por tama\u00F1o del establecimento y sectores de actividad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta Anual de Coste Laboral",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-22T09:00:00"
+    },
+    {
+      "IdTabla": 10853,
+      "CodigoOperacion": "EACL",
+      "Tabla": "Por divisiones de la CNAE-09 ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta Anual de Coste Laboral",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-22T09:00:00"
+    },
+    {
+      "IdTabla": 10854,
+      "CodigoOperacion": "EACL",
+      "Tabla": "Componentes del coste",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Encuesta Anual de Coste Laboral",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-08-12T11:00:00"
+    },
+    {
+      "IdTabla": 10855,
+      "CodigoOperacion": "EACL",
+      "Tabla": "Proporci\u00F3n de centros y trabajadores",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Encuesta Anual de Coste Laboral",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-08-12T11:00:00"
+    },
+    {
+      "IdTabla": 10856,
+      "CodigoOperacion": "EACL",
+      "Tabla": "Componentes del coste",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Encuesta Anual de Coste Laboral",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-08-12T11:00:00"
+    },
+    {
+      "IdTabla": 10857,
+      "CodigoOperacion": "EACL",
+      "Tabla": "Proporci\u00F3n de centros y trabajadores",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Encuesta Anual de Coste Laboral",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-22T09:00:00"
+    },
+    {
+      "IdTabla": 10914,
+      "CodigoOperacion": "EACL",
+      "Tabla": "Errores de muestreo por a\u00F1o, divisiones de la CNAE-09 y componentes del coste",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta Anual de Coste Laboral",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-22T09:00:00"
+    },
+    {
+      "IdTabla": 10915,
+      "CodigoOperacion": "EACL",
+      "Tabla": "Errores de muestreo por a\u00F1o, comunidad aut\u00F3noma y componentes del coste",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Encuesta Anual de Coste Laboral",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-22T09:00:00"
+    },
+    {
+      "IdTabla": 49234,
+      "CodigoOperacion": "EACL",
+      "Tabla": "Por tama\u00F1o del establecimiento y sectores de actividad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta Anual de Coste Laboral",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-22T09:00:00"
+    },
+    {
+      "IdTabla": 49235,
+      "CodigoOperacion": "EACL",
+      "Tabla": "Por secciones de la CNAE-09 ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta Anual de Coste Laboral",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-22T09:00:00"
+    },
+    {
+      "IdTabla": 49236,
+      "CodigoOperacion": "EACL",
+      "Tabla": "Por divisiones de la CNAE-09 ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta Anual de Coste Laboral",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-22T09:00:00"
+    },
+    {
+      "IdTabla": 49237,
+      "CodigoOperacion": "EACL",
+      "Tabla": "Por sectores de actividad y comunidades y ciudades aut\u00F3nomas",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Encuesta Anual de Coste Laboral",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-22T09:00:00"
+    },
+    {
+      "IdTabla": 49240,
+      "CodigoOperacion": "EACL",
+      "Tabla": "Componentes del coste",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta Anual de Coste Laboral",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-08-12T11:00:00"
     }
-
-    body {
-      font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-      background-color: #2D72D9;
-      color: #fff;
-      -moz-font-smoothing: antialiased;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    .error-container {
-      text-align: center;
-      height: 100%;
-    }
-
-    @media (max-width: 480px) {
-      .error-container {
-        position: relative;
-        top: 50%;
-        height: initial;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    .error-container h1 {
-      margin: 0;
-      font-size: 130px;
-      font-weight: 300;
-    }
-
-    @media (min-width: 480px) {
-      .error-container h1 {
-        position: relative;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    @media (min-width: 768px) {
-      .error-container h1 {
-        font-size: 220px;
-      }
-    }
-
-    .return {
-      color: rgba(255, 255, 255, 0.6);
-      font-weight: 400;
-      letter-spacing: -0.04em;
-      margin: 0;
-    }
-
-    @media (min-width: 480px) {
-      .return {
-        position: absolute;
-        width: 100%;
-        bottom: 30px;
-      }
-    }
-
-    .return a {
-      padding-bottom: 1px;
-      color: #fff;
-      text-decoration: none;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.6);
-      -webkit-transition: border-color 0.1s ease-in;
-      transition: border-color 0.1s ease-in;
-    }
-
-    .return a:hover {
-      border-bottom-color: #fff;
-    }
-  </style>
-  </head>
-  <body>
-    <div class="error-container">
-      <h1>404</h1>
-      <p class="return">La pagina solicitada no existe. <a href="./">Ir a inicio</a></p>
-    </div>
-  </body>
-</html>
+  ]
+}

@@ -1,95 +1,979 @@
-﻿<!DOCTYPE html >
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>(404) The page you were looking for doesn't exist.</title>
-    <style type="text/css">
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
+﻿{
+  "CodigoOperacion": "ICM",
+  "IdOperacion": 32,
+  "Operacion": "\u00CDndices de Comercio al por Menor",
+  "CodigoIOE": "30103",
+  "Url": "https://ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C\u0026cid=1254736176900\u0026idp=1254735576799",
+  "Tablas": [
+    {
+      "IdTabla": 2247,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndice general y de grandes superficies corregido de efecto calendario",
+      "CodigoTabla": "2001_NAC_PCORR-CEC",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "1995",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2017-03-31T07:00:00"
+    },
+    {
+      "IdTabla": 2248,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndice general y de grandes superficies corregido de efecto calendario",
+      "CodigoTabla": "2001_NAC_PCTES-CEC",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2004",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2014-03-13T08:00:00"
+    },
+    {
+      "IdTabla": 2249,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndice de ocupaci\u00F3n (mensual):  nacional general y grandes superficies ",
+      "CodigoTabla": "2001_NAC",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2005",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2014-03-13T08:00:00"
+    },
+    {
+      "IdTabla": 2250,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndice de ocupaci\u00F3n (mensual): por comunidades aut\u00F3nomas ",
+      "CodigoTabla": "2001_CCAA",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2005",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2014-03-13T08:00:00"
+    },
+    {
+      "IdTabla": 2251,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices nacionales: general y por grupos",
+      "CodigoTabla": "2005_NAC_PCORR",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "1995",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2023-12-28T08:00:00"
+    },
+    {
+      "IdTabla": 2252,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices de grandes superficies",
+      "CodigoTabla": "2005_NAC_PCORR",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "1995",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2017-03-31T07:00:00"
+    },
+    {
+      "IdTabla": 2253,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndice general por comunidades aut\u00F3nomas",
+      "CodigoTabla": "2005_CCAA_PCORR",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2002",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2013-12-30T08:00:00"
+    },
+    {
+      "IdTabla": 2254,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndice general y de grandes superficies corregido de efecto calendario",
+      "CodigoTabla": "2005_NAC_PCORR-CEC",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "1995",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2017-03-31T07:00:00"
+    },
+    {
+      "IdTabla": 2255,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices nacionales: general y por grupos",
+      "CodigoTabla": "2005_NAC_PCTES",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2003",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2013-12-30T08:00:00"
+    },
+    {
+      "IdTabla": 2256,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndice general por comunidades aut\u00F3nomas",
+      "CodigoTabla": "2005_CCAA_PCTES",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2003",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2013-12-30T08:00:00"
+    },
+    {
+      "IdTabla": 2257,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndice general y de grandes superficies corregido de efecto calendario",
+      "CodigoTabla": "2005_NAC_PCTES-CEC",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2003",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2016-04-27T07:00:00"
+    },
+    {
+      "IdTabla": 2258,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices de grandes superficies",
+      "CodigoTabla": "2005_NAC_PCTES",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2003",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2013-12-30T08:00:00"
+    },
+    {
+      "IdTabla": 2259,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndice de ocupaci\u00F3n (mensual): nacional general y grandes superficies",
+      "CodigoTabla": "2005_NAC",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2004",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2013-12-30T08:00:00"
+    },
+    {
+      "IdTabla": 2260,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndice de ocupaci\u00F3n (mensual): por comunidades aut\u00F3nomas",
+      "CodigoTabla": "2005_CCAA",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2004",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2013-12-30T08:00:00"
+    },
+    {
+      "IdTabla": 2236,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices de ocupaci\u00F3n seg\u00FAn el tipo de distribuci\u00F3n del comercio",
+      "CodigoTabla": "2005_NAC",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2003",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2023-12-28T08:00:00"
+    },
+    {
+      "IdTabla": 2237,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices nacionales: general y por grupos",
+      "CodigoTabla": "2001_NAC_PCORR",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "1995",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2023-12-28T08:00:00"
+    },
+    {
+      "IdTabla": 2238,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices de grandes superficies",
+      "CodigoTabla": "2001_NAC_PCORR",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "1995",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2017-03-31T07:00:00"
+    },
+    {
+      "IdTabla": 2239,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndice general por comunidades aut\u00F3nomas",
+      "CodigoTabla": "2001_CCAA_PCORR",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2002",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2013-12-30T08:00:00"
+    },
+    {
+      "IdTabla": 2240,
+      "CodigoOperacion": "ICM",
+      "Tabla": "Antiguos \u00EDndices de grandes superficies: general y por grupos",
+      "CodigoTabla": "2001_NAC_PCORR",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "1995",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2017-03-31T07:00:00"
+    },
+    {
+      "IdTabla": 2241,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices nacionales: general y por grupos",
+      "CodigoTabla": "2001_NAC_PCTES",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2003",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2013-12-30T08:00:00"
+    },
+    {
+      "IdTabla": 2242,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices de grandes superficies",
+      "CodigoTabla": "2001_NAC_PCTES",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2003",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2013-12-30T08:00:00"
+    },
+    {
+      "IdTabla": 2243,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndice general por comunidades aut\u00F3nomas",
+      "CodigoTabla": "2001_CCAA_PCTES",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2003",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2013-12-30T08:00:00"
+    },
+    {
+      "IdTabla": 2263,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices nacionales por productos",
+      "CodigoTabla": "2005_NAC_PCORR",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "1995",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2016-03-31T07:00:00"
+    },
+    {
+      "IdTabla": 2264,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices de grandes superficies",
+      "CodigoTabla": "2005_NAC_PCORR",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "1995",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2013-12-30T08:00:00"
+    },
+    {
+      "IdTabla": 2265,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndice general por comunidades aut\u00F3nomas",
+      "CodigoTabla": "2005_CCAA_PCORR",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2001",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2016-04-27T07:00:00"
+    },
+    {
+      "IdTabla": 2266,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices corregidos de efecto calendario",
+      "CodigoTabla": "2005_NAC_PCORR-CEC",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "1995",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2016-03-31T07:00:00"
+    },
+    {
+      "IdTabla": 2267,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices nacionales: generales y por modo de distribuci\u00F3n",
+      "CodigoTabla": "2005_NAC_PCORR",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "1995",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2016-03-31T07:00:00"
+    },
+    {
+      "IdTabla": 2268,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices nacionales por productos",
+      "CodigoTabla": "2005_NAC_PCTES",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2003",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2013-12-30T08:00:00"
+    },
+    {
+      "IdTabla": 2269,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndice general por comunidades aut\u00F3nomas",
+      "CodigoTabla": "2005_CCAA_PCTES",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2003",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2016-04-27T07:00:00"
+    },
+    {
+      "IdTabla": 2270,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices corregidos de efecto calendario",
+      "CodigoTabla": "2005_NAC_PCTES-CEC",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2003",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2013-12-30T08:00:00"
+    },
+    {
+      "IdTabla": 2271,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices de grandes superficies",
+      "CodigoTabla": "2005_NAC_PCTES",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2003",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2013-12-30T08:00:00"
+    },
+    {
+      "IdTabla": 2272,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices nacionales: generales y por modo de distribuci\u00F3n",
+      "CodigoTabla": "2005_NAC_PCTES",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2003",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2016-03-31T07:00:00"
+    },
+    {
+      "IdTabla": 2273,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndice de ocupaci\u00F3n (mensual):  nacional general y grandes superficies",
+      "CodigoTabla": "2005_NAC",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2004",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2013-12-30T08:00:00"
+    },
+    {
+      "IdTabla": 2274,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndice de ocupaci\u00F3n (mensual): por comunidades aut\u00F3nomas",
+      "CodigoTabla": "2005_CCAA",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2004",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2016-04-27T07:00:00"
+    },
+    {
+      "IdTabla": 2275,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices de ocupaci\u00F3n seg\u00FAn el modo de distribuci\u00F3n del comercio",
+      "CodigoTabla": "2005_NAC",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2005",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2013-12-30T08:00:00"
+    },
+    {
+      "IdTabla": 60094,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices por actividad",
+      "CodigoTabla": "2021_NAC_PCORR-CEC",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-29T07:00:00"
+    },
+    {
+      "IdTabla": 60095,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices por actividad",
+      "CodigoTabla": "2021_NAC_CEEC-PCORR",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-29T07:00:00"
+    },
+    {
+      "IdTabla": 60096,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices por actividad",
+      "CodigoTabla": "2021_NAC_PCTES",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-29T07:00:00"
+    },
+    {
+      "IdTabla": 60097,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices por actividad",
+      "CodigoTabla": "2021_NAC_PCTES-CEC",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-29T07:00:00"
+    },
+    {
+      "IdTabla": 60098,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices por actividad",
+      "CodigoTabla": "2021_NAC_PCTES-CEEC",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-29T07:00:00"
+    },
+    {
+      "IdTabla": 60100,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices de especiales agregados",
+      "CodigoTabla": "2021_NAC_PCORR-CEC",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-29T07:00:00"
+    },
+    {
+      "IdTabla": 60101,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices de especiales agregados",
+      "CodigoTabla": "2021_NAC_CEEC-PCORR",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-29T07:00:00"
+    },
+    {
+      "IdTabla": 60102,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices de especiales agregados",
+      "CodigoTabla": "2021_NAC_PCTES-CEC",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-29T07:00:00"
+    },
+    {
+      "IdTabla": 60103,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices de especiales agregados",
+      "CodigoTabla": "2021_NAC_PCTES",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-29T07:00:00"
+    },
+    {
+      "IdTabla": 60104,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices de especiales agregados",
+      "CodigoTabla": "2021_NAC_PCTES-CEEC",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-29T07:00:00"
+    },
+    {
+      "IdTabla": 60105,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices nacionales: comercio sin estaciones de servicio y por modos de distribuci\u00F3n",
+      "CodigoTabla": "2021_NAC_PCORR-CEC",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-29T07:00:00"
+    },
+    {
+      "IdTabla": 60106,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices nacionales: comercio sin estaciones de servicio y por modos de distribuci\u00F3n",
+      "CodigoTabla": "2021_NAC_CEEC-PCORR",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-29T07:00:00"
+    },
+    {
+      "IdTabla": 60107,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices nacionales: comercio sin estaciones de servicio y por modos de distribuci\u00F3n",
+      "CodigoTabla": "2021_NAC_PCTES",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-29T07:00:00"
+    },
+    {
+      "IdTabla": 60108,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices nacionales: comercio sin estaciones de servicio y por modos de distribuci\u00F3n",
+      "CodigoTabla": "2021_NAC_PCTES-CEC",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-29T07:00:00"
+    },
+    {
+      "IdTabla": 60109,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices nacionales: comercio sin estaciones de servicio y por modos de distribuci\u00F3n",
+      "CodigoTabla": "2021_NAC_PCTES-CEEC",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-29T07:00:00"
+    },
+    {
+      "IdTabla": 60110,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices de cifra de negocios por comunidades aut\u00F3nomas. Precios corrientes",
+      "CodigoTabla": "2021_NAC-CCAA_PCORR",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-29T07:00:00"
+    },
+    {
+      "IdTabla": 60111,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices de cifra de negocios por comunidades aut\u00F3nomas. Precios constantes",
+      "CodigoTabla": "2021_NAC-CCAA_PCTES",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-29T07:00:00"
+    },
+    {
+      "IdTabla": 60113,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices por actividad",
+      "CodigoTabla": "2021_NAC_PCORR",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-29T07:00:00"
+    },
+    {
+      "IdTabla": 60114,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices de ocupaci\u00F3n nacionales por actividad",
+      "CodigoTabla": "2021_NAC",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-29T07:00:00"
+    },
+    {
+      "IdTabla": 60115,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices de ocupaci\u00F3n nacionales: comercio sin estaciones de servicio y por modo de distribucion",
+      "CodigoTabla": "2021_NAC",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-29T07:00:00"
+    },
+    {
+      "IdTabla": 60116,
+      "CodigoOperacion": "ICM",
+      "Tabla": "Coeficientes de variaci\u00F3n de la tasa anual de los \u00EDndices cifra de negocio por actividad",
+      "CodigoTabla": "2021_NAC_PCORR-CV",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-29T07:00:00"
+    },
+    {
+      "IdTabla": 60117,
+      "CodigoOperacion": "ICM",
+      "Tabla": "Coeficientes de variaci\u00F3n de la tasa anual de los \u00EDndices de cifra de negocio por especiales agregados",
+      "CodigoTabla": "2021_NAC_PCORR-CV",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-29T07:00:00"
+    },
+    {
+      "IdTabla": 60118,
+      "CodigoOperacion": "ICM",
+      "Tabla": "Coeficientes de variaci\u00F3n de la tasa anual de los \u00EDndices de cifra de negocio por modos de distribuci\u00F3n",
+      "CodigoTabla": "2021_NAC_PCORR-CV",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-29T07:00:00"
+    },
+    {
+      "IdTabla": 60119,
+      "CodigoOperacion": "ICM",
+      "Tabla": "Coeficientes de variaci\u00F3n de la tasa anual del \u00EDndice de ocupaci\u00F3n.",
+      "CodigoTabla": "2021_NAC_CV",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-29T07:00:00"
+    },
+    {
+      "IdTabla": 60120,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices de ocupaci\u00F3n por comunidades aut\u00F3nomas",
+      "CodigoTabla": "2021_NAC-CCAA",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-29T07:00:00"
+    },
+    {
+      "IdTabla": 60121,
+      "CodigoOperacion": "ICM",
+      "Tabla": "Coeficientes de variaci\u00F3n de la tasa anual de los \u00EDndices de cifra de negocio",
+      "CodigoTabla": "2021_NAC-CCAA_PCORR-CV",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-29T07:00:00"
+    },
+    {
+      "IdTabla": 60122,
+      "CodigoOperacion": "ICM",
+      "Tabla": "Coeficientes de variaci\u00F3n de la tasa anual del \u00EDndice de ocupaci\u00F3n.",
+      "CodigoTabla": "2021_NAC-CCAA_CV",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-29T07:00:00"
+    },
+    {
+      "IdTabla": 67167,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices por actividad",
+      "CodigoTabla": "2021_NAC_PCORR",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-29T07:00:00"
+    },
+    {
+      "IdTabla": 67168,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices de especiales agregados",
+      "CodigoTabla": "2021_NAC_PCORR",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-29T07:00:00"
+    },
+    {
+      "IdTabla": 67169,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices por actividad",
+      "CodigoTabla": "2021_NAC_PCORR-CEC",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-29T07:00:00"
+    },
+    {
+      "IdTabla": 67170,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices de especiales agregados",
+      "CodigoTabla": "2021_NAC_PCORR-CEC",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-29T07:00:00"
+    },
+    {
+      "IdTabla": 67171,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices por actividad",
+      "CodigoTabla": "2021_NAC_CEEC-PCORR",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-29T07:00:00"
+    },
+    {
+      "IdTabla": 67172,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices de especiales agregados",
+      "CodigoTabla": "2021_NAC_CEEC-PCORR",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-29T07:00:00"
+    },
+    {
+      "IdTabla": 67173,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices por actividad",
+      "CodigoTabla": "2021_NAC_PCTES",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-29T07:00:00"
+    },
+    {
+      "IdTabla": 67174,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices de especiales agregados",
+      "CodigoTabla": "2021_NAC_PCTES",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-29T07:00:00"
+    },
+    {
+      "IdTabla": 67175,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices por actividad",
+      "CodigoTabla": "2021_NAC_PCTES-CEC",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-29T07:00:00"
+    },
+    {
+      "IdTabla": 67176,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices de especiales agregados",
+      "CodigoTabla": "2021_NAC_PCTES-CEC",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-29T07:00:00"
+    },
+    {
+      "IdTabla": 67177,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices por actividad",
+      "CodigoTabla": "2021_NAC_PCTES-CEEC",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-29T07:00:00"
+    },
+    {
+      "IdTabla": 67178,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices de especiales agregados",
+      "CodigoTabla": "2021_NAC_PCTES-CEEC",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-29T07:00:00"
+    },
+    {
+      "IdTabla": 74013,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices de especiales agregados",
+      "CodigoTabla": "2021_NAC_PCORR",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-29T07:00:00"
+    },
+    {
+      "IdTabla": 74015,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices de cifra de negocios por comunidades aut\u00F3nomas. Precios corrientes",
+      "CodigoTabla": "2021_NAC-CCAA_PCORR",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-29T07:00:00"
+    },
+    {
+      "IdTabla": 75807,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices por actividad",
+      "CodigoTabla": "2021_NAC_PCTES",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-29T07:00:00"
+    },
+    {
+      "IdTabla": 75808,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices de cifra de negocios por comunidades aut\u00F3nomas. Precios constantes",
+      "CodigoTabla": "2021_NAC-CCAA_PCTES",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-29T07:00:00"
+    },
+    {
+      "IdTabla": 75809,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices nacionales: comercio sin estaciones de servicio y por modos de distribuci\u00F3n",
+      "CodigoTabla": "2021_NAC_PCTES-CEEC",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-29T07:00:00"
+    },
+    {
+      "IdTabla": 2277,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices generales seg\u00FAn el modo de distribuci\u00F3n del comercio",
+      "CodigoTabla": "2005_NAC_PCTES",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2003",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2023-12-28T08:00:00"
+    },
+    {
+      "IdTabla": 59787,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices de especiales agregados",
+      "CodigoTabla": "2021_NAC_PCORR",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-29T07:00:00"
+    },
+    {
+      "IdTabla": 59788,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices nacionales: comercio sin estaciones de servicio y por modos de distribuci\u00F3n",
+      "CodigoTabla": "2021_NAC_PCORR",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-29T07:00:00"
+    },
+    {
+      "IdTabla": 2234,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndices generales seg\u00FAn el modo de distribuci\u00F3n del comercio",
+      "CodigoTabla": "2005_NAC_PCORR",
+      "Publicacion": "\u00CDndices de Comercio al por menor",
+      "AnyoInicial": "2003",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2023-12-28T08:00:00"
+    },
+    {
+      "IdTabla": 2235,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndice de ocupaci\u00F3n por comunidades aut\u00F3nomas",
+      "CodigoTabla": "2005_CCAA",
+      "Publicacion": "\u00CDndices de Comercio al por menor. Trimestral",
+      "AnyoInicial": "2001",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2011-09-16T00:24:00"
+    },
+    {
+      "IdTabla": 2276,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndice de ocupaci\u00F3n: nacional general y grandes superficies",
+      "CodigoTabla": "2005_NAC",
+      "Publicacion": "\u00CDndices de Comercio al por menor. Trimestral",
+      "AnyoInicial": "1995",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2011-09-16T00:24:00"
+    },
+    {
+      "IdTabla": 2244,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndice de ocupaci\u00F3n: nacional general y grandes superficies",
+      "CodigoTabla": "2001_NAC",
+      "Publicacion": "\u00CDndices de Comercio al por menor. Trimestral",
+      "AnyoInicial": "1995",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2011-09-16T00:24:00"
+    },
+    {
+      "IdTabla": 2245,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndice de ocupaci\u00F3n por comunidades aut\u00F3nomas",
+      "CodigoTabla": "2001_CCAA",
+      "Publicacion": "\u00CDndices de Comercio al por menor. Trimestral",
+      "AnyoInicial": "2002",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2011-09-16T00:24:00"
+    },
+    {
+      "IdTabla": 2246,
+      "CodigoOperacion": "ICM",
+      "Tabla": "Antiguo \u00EDndice de ocupaci\u00F3n en grandes superficies",
+      "CodigoTabla": "2001_NAC",
+      "Publicacion": "\u00CDndices de Comercio al por menor. Trimestral",
+      "AnyoInicial": "1995",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2011-09-16T00:24:00"
+    },
+    {
+      "IdTabla": 2261,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndice de ocupaci\u00F3n: nacional general y grandes superficies",
+      "CodigoTabla": "2005_NAC",
+      "Publicacion": "\u00CDndices de Comercio al por menor. Trimestral",
+      "AnyoInicial": "1995",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2011-09-16T00:24:00"
+    },
+    {
+      "IdTabla": 2262,
+      "CodigoOperacion": "ICM",
+      "Tabla": "\u00CDndice de ocupaci\u00F3n por comunidades aut\u00F3nomas",
+      "CodigoTabla": "2005_CCAA",
+      "Publicacion": "\u00CDndices de Comercio al por menor. Trimestral",
+      "AnyoInicial": "2001",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2011-09-16T00:24:00"
+    },
+    {
+      "IdTabla": 60252,
+      "CodigoOperacion": "ICM",
+      "Tabla": "Ocupaci\u00F3n Nacionales por actividad",
+      "CodigoTabla": "2021_NAC_P",
+      "Publicacion": "\u00CDndices de Comercio al por menor. Ponderaciones ",
+      "AnyoInicial": "2022",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-27T08:00:00"
+    },
+    {
+      "IdTabla": 60271,
+      "CodigoOperacion": "ICM",
+      "Tabla": "Nacionales generales y por modos de distribuci\u00F3n",
+      "CodigoTabla": "2021_NAC_PCORR-P",
+      "Publicacion": "\u00CDndices de Comercio al por menor. Ponderaciones ",
+      "AnyoInicial": "2022",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-27T08:00:00"
+    },
+    {
+      "IdTabla": 59800,
+      "CodigoOperacion": "ICM",
+      "Tabla": "Nacionales por actividad",
+      "CodigoTabla": "2021_NAC_PCORR-P",
+      "Publicacion": "\u00CDndices de Comercio al por menor. Ponderaciones ",
+      "AnyoInicial": "2022",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-27T08:00:00"
+    },
+    {
+      "IdTabla": 59802,
+      "CodigoOperacion": "ICM",
+      "Tabla": "Ocupaci\u00F3n Nacionales: generales y por modo de distribuci\u00F3n",
+      "CodigoTabla": "2021_NAC_P",
+      "Publicacion": "\u00CDndices de Comercio al por menor. Ponderaciones ",
+      "AnyoInicial": "2022",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-27T08:00:00"
+    },
+    {
+      "IdTabla": 3482,
+      "CodigoOperacion": "ICM",
+      "Tabla": "Nacionales por productos",
+      "CodigoTabla": "2005_NAC_PCORR-P",
+      "Publicacion": "\u00CDndices de Comercio al por menor. Ponderaciones ",
+      "AnyoInicial": "2005",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2014-03-13T08:00:00"
+    },
+    {
+      "IdTabla": 3483,
+      "CodigoOperacion": "ICM",
+      "Tabla": "Nacionales: generales y por modo de distribuci\u00F3n",
+      "CodigoTabla": "2005_NAC_PCORR-P",
+      "Publicacion": "\u00CDndices de Comercio al por menor. Ponderaciones ",
+      "AnyoInicial": "2005",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2014-03-13T08:00:00"
+    },
+    {
+      "IdTabla": 3484,
+      "CodigoOperacion": "ICM",
+      "Tabla": "Ocupaci\u00F3n nacionales: generales y por modo de distribuci\u00F3n",
+      "CodigoTabla": "2005_NAC_P",
+      "Publicacion": "\u00CDndices de Comercio al por menor. Ponderaciones ",
+      "AnyoInicial": "2005",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2014-03-13T08:00:00"
     }
-
-    body {
-      font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-      background-color: #2D72D9;
-      color: #fff;
-      -moz-font-smoothing: antialiased;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    .error-container {
-      text-align: center;
-      height: 100%;
-    }
-
-    @media (max-width: 480px) {
-      .error-container {
-        position: relative;
-        top: 50%;
-        height: initial;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    .error-container h1 {
-      margin: 0;
-      font-size: 130px;
-      font-weight: 300;
-    }
-
-    @media (min-width: 480px) {
-      .error-container h1 {
-        position: relative;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    @media (min-width: 768px) {
-      .error-container h1 {
-        font-size: 220px;
-      }
-    }
-
-    .return {
-      color: rgba(255, 255, 255, 0.6);
-      font-weight: 400;
-      letter-spacing: -0.04em;
-      margin: 0;
-    }
-
-    @media (min-width: 480px) {
-      .return {
-        position: absolute;
-        width: 100%;
-        bottom: 30px;
-      }
-    }
-
-    .return a {
-      padding-bottom: 1px;
-      color: #fff;
-      text-decoration: none;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.6);
-      -webkit-transition: border-color 0.1s ease-in;
-      transition: border-color 0.1s ease-in;
-    }
-
-    .return a:hover {
-      border-bottom-color: #fff;
-    }
-  </style>
-  </head>
-  <body>
-    <div class="error-container">
-      <h1>404</h1>
-      <p class="return">La pagina solicitada no existe. <a href="./">Ir a inicio</a></p>
-    </div>
-  </body>
-</html>
+  ]
+}

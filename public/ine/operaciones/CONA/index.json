@@ -1,95 +1,749 @@
-﻿<!DOCTYPE html >
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>(404) The page you were looking for doesn't exist.</title>
-    <style type="text/css">
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
+﻿{
+  "CodigoOperacion": "CONA",
+  "IdOperacion": 213,
+  "Operacion": "Estad\u00EDstica de Condenados: Adultos",
+  "CodigoIOE": "30466",
+  "Url": "https://ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C\u0026cid=1254736176793\u0026idp=1254735573206",
+  "Tablas": [
+    {
+      "IdTabla": 25645,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Condenados seg\u00FAn sexo, edad y nacionalidad ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 25697,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Condenados seg\u00FAn sexo, edad y n\u00FAmero de delitos",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 25698,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Condenados seg\u00FAn sexo, nacionalidad y n\u00FAmero de delitos",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 25699,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Condenados seg\u00FAn sexo, edad, nacionalidad y n\u00FAmero de delitos ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 25700,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Condenados seg\u00FAn sexo, edad y n\u00FAmero de penas ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 25701,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Condenados seg\u00FAn sexo, nacionalidad y n\u00FAmero de penas ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 25702,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Condenados seg\u00FAn sexo, edad, nacionalidad y n\u00FAmero de penas ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 25703,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Condenados seg\u00FAn sexo y edad",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 25704,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Condenados seg\u00FAn sexo y nacionalidad ",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 25705,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Condenados seg\u00FAn sexo y n\u00FAmero de delitos ",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 25706,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Condenados seg\u00FAn sexo y n\u00FAmero de penas ",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 25707,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Condenados seg\u00FAn sexo y edad",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 25708,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Condenados seg\u00FAn sexo y nacionalidad ",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 25709,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Condenados seg\u00FAn sexo y n\u00FAmero de delitos ",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 25710,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Condenados seg\u00FAn sexo y n\u00FAmero de penas ",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 25711,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Penas seg\u00FAn sexo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 25712,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Penas seg\u00FAn edad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 25713,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Penas seg\u00FAn nacionalidad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 25714,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Penas seg\u00FAn tipo de pena y tipo de delito",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 25715,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Penas de prisi\u00F3n seg\u00FAn duraci\u00F3n de la pena, sexo, edad y nacionalidad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 25716,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Penas de prisi\u00F3n seg\u00FAn duraci\u00F3n de la pena y tipo de delito",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 25717,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Penas seg\u00FAn sexo",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 25718,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Penas seg\u00FAn edad",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 25719,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Penas seg\u00FAn nacionalidad",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 25720,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Penas seg\u00FAn tipo",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 25997,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Delitos seg\u00FAn tipo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 25998,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Delitos seg\u00FAn sexo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 26013,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Delitos seg\u00FAn edad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 26014,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Delitos seg\u00FAn nacionalidad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 26016,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Delitos seg\u00FAn grado de comisi\u00F3n",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 26017,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Delitos seg\u00FAn tipo",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 26019,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Delitos seg\u00FAn sexo",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 26020,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Delitos seg\u00FAn edad",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 26021,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Delitos seg\u00FAn nacionalidad",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 26022,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Delitos seg\u00FAn sexo",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2016",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 26023,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Delitos seg\u00FAn edad",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 26024,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Delitos seg\u00FAn nacionalidad",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 28707,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Condenados por delitos sexuales seg\u00FAn sexo, edad y n\u00FAmero de delitos ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2017",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 28708,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Condenados por delitos sexuales seg\u00FAn sexo, nacionalidad y n\u00FAmero de delitos ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2017",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 28709,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Condenados por delitos sexuales seg\u00FAn nacionalidad, edad y n\u00FAmero de delitos ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2017",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 28710,
+      "CodigoOperacion": "CONA",
+      "Tabla": " Condenados por delitos sexuales seg\u00FAn sexo, edad y n\u00FAmero de penas",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2017",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 28711,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Condenados por delitos sexuales seg\u00FAn sexo, nacionalidad y n\u00FAmero de penas",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2017",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 28712,
+      "CodigoOperacion": "CONA",
+      "Tabla": " Condenados por delitos sexuales seg\u00FAn nacionalidad, edad y n\u00FAmero de penas",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2017",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 28714,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Delitos sexuales seg\u00FAn sexo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2017",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 28715,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Delitos sexuales seg\u00FAn edad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2017",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 28716,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Delitos sexuales seg\u00FAn nacionalidad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2017",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 28717,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Delitos sexuales seg\u00FAn grado de comisi\u00F3n",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2017",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 28718,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Penas por delitos sexuales seg\u00FAn sexo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2017",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 28719,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Penas por delitos sexuales seg\u00FAn edad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2017",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 28720,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Penas por delitos sexuales seg\u00FAn nacionalidad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2017",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 28721,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Penas por delitos sexuales seg\u00FAn tipo de pena y tipo de delito",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2017",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 28722,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Penas de prisi\u00F3n por delitos sexuales seg\u00FAn duraci\u00F3n de la pena, edad y nacionalidad ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2017",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 28723,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Penas de prisi\u00F3n por delitos sexuales seg\u00FAn duraci\u00F3n de la pena y tipo de delito",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2017",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 28724,
+      "CodigoOperacion": "CONA",
+      "Tabla": " Condenados por delitos sexuales seg\u00FAn lugar de condena",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2017",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 28728,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Delitos sexuales seg\u00FAn lugar de condena",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2017",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 28732,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Penas por delitos sexuales seg\u00FAn lugar de condena",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2017",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 28778,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Condenados por delitos sexuales seg\u00FAn lugar de condena",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2017",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 28779,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Delitos sexuales seg\u00FAn lugar de condena",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2017",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 28780,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Penas por delitos sexuales seg\u00FAn lugar de condena",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2017",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 28857,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Condenados por delitos sexuales seg\u00FAn sexo, edad y nacionalidad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2017",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 49046,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Condenados seg\u00FAn sexo, edad y nacionalidad ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 49047,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Condenados seg\u00FAn sexo, edad y n\u00FAmero de delitos",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 49048,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Delitos seg\u00FAn tipo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 49049,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Delitos seg\u00FAn sexo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 49050,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Delitos seg\u00FAn nacionalidad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 49051,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Delitos seg\u00FAn tipo por comunidades y ciudades aut\u00F3nomas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 49052,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Delitos seg\u00FAn sexo por comunidades y ciudades aut\u00F3nomas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 49053,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Delitos seg\u00FAn nacionalidad por comunidades y ciudades aut\u00F3nomas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 49054,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Delitos seg\u00FAn sexo por provincias",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2016",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 49055,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Delitos seg\u00FAn nacionalidad por provincias",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 49058,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Condenados por delitos sexuales seg\u00FAn sexo, edad y nacionalidad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2017",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 49059,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Delitos sexuales seg\u00FAn nacionalidad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2017",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 49067,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Penas seg\u00FAn edad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
+    },
+    {
+      "IdTabla": 49068,
+      "CodigoOperacion": "CONA",
+      "Tabla": "Penas seg\u00FAn nacionalidad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Condenados: Adultos",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-18T09:00:00"
     }
-
-    body {
-      font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-      background-color: #2D72D9;
-      color: #fff;
-      -moz-font-smoothing: antialiased;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    .error-container {
-      text-align: center;
-      height: 100%;
-    }
-
-    @media (max-width: 480px) {
-      .error-container {
-        position: relative;
-        top: 50%;
-        height: initial;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    .error-container h1 {
-      margin: 0;
-      font-size: 130px;
-      font-weight: 300;
-    }
-
-    @media (min-width: 480px) {
-      .error-container h1 {
-        position: relative;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    @media (min-width: 768px) {
-      .error-container h1 {
-        font-size: 220px;
-      }
-    }
-
-    .return {
-      color: rgba(255, 255, 255, 0.6);
-      font-weight: 400;
-      letter-spacing: -0.04em;
-      margin: 0;
-    }
-
-    @media (min-width: 480px) {
-      .return {
-        position: absolute;
-        width: 100%;
-        bottom: 30px;
-      }
-    }
-
-    .return a {
-      padding-bottom: 1px;
-      color: #fff;
-      text-decoration: none;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.6);
-      -webkit-transition: border-color 0.1s ease-in;
-      transition: border-color 0.1s ease-in;
-    }
-
-    .return a:hover {
-      border-bottom-color: #fff;
-    }
-  </style>
-  </head>
-  <body>
-    <div class="error-container">
-      <h1>404</h1>
-      <p class="return">La pagina solicitada no existe. <a href="./">Ir a inicio</a></p>
-    </div>
-  </body>
-</html>
+  ]
+}

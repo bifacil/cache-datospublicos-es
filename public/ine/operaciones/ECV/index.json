@@ -1,95 +1,1759 @@
-﻿<!DOCTYPE html >
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>(404) The page you were looking for doesn't exist.</title>
-    <style type="text/css">
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
+﻿{
+  "CodigoOperacion": "ECV",
+  "IdOperacion": 155,
+  "Operacion": "Encuesta de Condiciones de Vida (ECV)",
+  "CodigoIOE": "30453",
+  "Url": "https://ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C\u0026cid=1254736176807\u0026idp=1254735976608",
+  "Tablas": [
+    {
+      "IdTabla": 9942,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Renta por persona y unidad de consumo por edad y sexo.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9943,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Renta por persona y unidad de consumo por nivel de formaci\u00F3n alcanzado (personas de 16 y m\u00E1s a\u00F1os)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9944,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Renta por persona y unidad de consumo por relaci\u00F3n con la actividad (personas de 16 y m\u00E1s a\u00F1os)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9945,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Renta por persona y unidad de consumo por nacionalidad (personas de 16 y m\u00E1s a\u00F1os).",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9946,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Renta por persona y unidad de consumo por tipo de hogar.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9947,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Renta por persona y unidad consumo por comunidades aut\u00F3nomas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9948,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Renta por hogar por tipo de hogar.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9949,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Renta por hogar por comunidades aut\u00F3nomas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9950,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Renta por hogar por tama\u00F1o del hogar.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9951,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas por decil de renta por unidad de consumo y edad y sexo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9952,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas por decil de renta por unidad de consumo y nivel de formaci\u00F3n alcanzado (personas de 16 y m\u00E1s a\u00F1os).",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9953,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas por decil de renta por unidad de consumo y relaci\u00F3n con la actividad (personas de 16 y m\u00E1s a\u00F1os).",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9954,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas por decil de renta por unidad de consumo y nacionalidad (personas de 16 y m\u00E1s a\u00F1os).",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9955,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas por decil de renta por unidad de consumo y tipo de hogar.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9956,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas por decil de renta por unidad de consumo y comunidades aut\u00F3nomas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9957,
+      "CodigoOperacion": "ECV",
+      "Tabla": "L\u00EDmites inferiores de cada decil",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9958,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Tasa de riesgo de pobreza por edad y sexo.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9959,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Tasa de riesgo de pobreza por nivel de formaci\u00F3n alcanzado (personas de 16 y m\u00E1s a\u00F1os).",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9960,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Tasa de riesgo de pobreza por relaci\u00F3n con la actividad (personas de 16 y m\u00E1s a\u00F1os).",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9961,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Tasa de riesgo de pobreza por nacionalidad (personas de 16 y mas a\u00F1os).",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9962,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Tasa de riesgo de pobreza por tipo de hogar.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9963,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Tasa de riesgo de pobreza por comunidades aut\u00F3nomas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9964,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Umbral de riesgo de pobreza (valores ilustrativos)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9967,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas con carencia material por edad y sexo.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2004",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9968,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas de 16 y m\u00E1s a\u00F1os con carencia material por nivel de formaci\u00F3n alcanzado. ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2004",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9969,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas de 16 y m\u00E1s a\u00F1os con carencia material por relaci\u00F3n con la actividad.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2004",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9970,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas de 16 y m\u00E1s a\u00F1os con carencia material por nacionalidad.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2004",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9971,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas con carencia material por tipo de hogar.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2004",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9972,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas con carencia material por comunidades aut\u00F3nomas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2004",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9973,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas con carencia material por decil de renta por unidad de consumo.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9974,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Hogares con carencia material por tipo de hogar.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2004",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9975,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Hogares con carencia material por comunidades aut\u00F3nomas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2004",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9976,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas con carencia en un determinado n\u00FAmero de conceptos (estrategia Europa 2020) por edad y sexo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2004",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9977,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas de 16 y m\u00E1s a\u00F1os con carencia en un determinado n\u00FAmero de conceptos (estrategia Europa 2020) por nivel de formaci\u00F3n alcanzado.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2004",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9978,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas de 16 y m\u00E1s a\u00F1os con carencia en un determinado n\u00FAmero de conceptos (estrategia Europa 2020) por relaci\u00F3n con la actividad.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2004",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9979,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas de 16 y m\u00E1s a\u00F1os con carencia en un determinado n\u00FAmero de conceptos (estrategia Europa 2020) por nacionalidad.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2004",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9980,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas con carencia en un determinado n\u00FAmero de conceptos (estrategia Europa 2020) por tipo de hogar.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2004",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9981,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas con carencia en un determinado n\u00FAmero de conceptos (estrategia Europa 2020) por comunidades aut\u00F3nomas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2004",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9982,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas con carencia en un determinado n\u00FAmero de conceptos (estrategia Europa 2020) por decil de renta por unidad de consumo.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-20T11:00:00"
+    },
+    {
+      "IdTabla": 9983,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Hogares con carencia en un determinado n\u00FAmero de conceptos (estrategia Europa 2020) por tipo de hogar.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2004",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9984,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Hogares con carencia en un determinado n\u00FAmero de conceptos (estrategia Europa 2020) por comunidades aut\u00F3nomas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2004",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9985,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas por dificultades para llegar a fin de mes y edad y sexo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2004",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9986,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas de 16 y m\u00E1s a\u00F1os por dificultades para llegar a fin de mes y nivel de formaci\u00F3n alcanzado.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2004",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9987,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas de 16 y m\u00E1s a\u00F1os por dificultades para llegar a fin de mes y relaci\u00F3n con la actividad.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2004",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9988,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas de 16 y m\u00E1s a\u00F1os por dificultades para llegar a fin de mes y nacionalidad.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2004",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9989,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas seg\u00FAn dificultades para llegar a fin de mes y tipo de hogar.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2004",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9990,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas seg\u00FAn dificultades para llegar a fin de mes y comunidades aut\u00F3nomas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2004",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9991,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas seg\u00FAn dificultades para llegar a fin de mes y decil de renta por unidad de consumo.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9992,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Hogares seg\u00FAn dificultades para llegar a fin de mes y tipo de hogar.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2004",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9993,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Hogares seg\u00FAn dificultades para llegar a fin de mes y comunidades aut\u00F3nomas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2004",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9994,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Hogares por r\u00E9gimen de tenencia de la vivienda y edad y sexo de la persona de referencia.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2004",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9995,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Hogares por r\u00E9gimen de tenencia de la vivienda y nacionalidad de la persona de referencia.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2004",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9996,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Hogares por r\u00E9gimen de tenencia de la vivienda y tipo de hogar.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2004",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9997,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Hogares por r\u00E9gimen de tenencia de la vivienda y comunidades aut\u00F3nomas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2004",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 9998,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Hogares que sufren determinados problemas en la vivienda y su entorno por edad y sexo de la persona de referencia",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2004",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2021-07-15T09:00:00"
+    },
+    {
+      "IdTabla": 9999,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Hogares que sufren determinados problemas en la vivienda y su entorno por nacionalidad de la persona de referencia.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2004",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2021-07-15T09:00:00"
+    },
+    {
+      "IdTabla": 10000,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Hogares que sufren determinados problemas en la vivienda y su entorno por tipo de hogar.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2004",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2021-07-15T09:00:00"
+    },
+    {
+      "IdTabla": 10001,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Hogares que sufren determinados problemas en la vivienda y su entorno por comunidades aut\u00F3nomas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2004",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2021-07-15T09:00:00"
+    },
+    {
+      "IdTabla": 10002,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Hogares que sufren determinados problemas en la vivienda y su entorno por r\u00E9gimen de tenencia de la vivienda.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2004",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 10003,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Riesgo de pobreza o exclusi\u00F3n social (estrategia Europa 2020). Intersecciones entre subpoblaciones",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 10005,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Riesgo de pobreza o exclusi\u00F3n social (estrategia Europa 2020) y sus componentes por edad y sexo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 10007,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Riesgo de pobreza o exclusi\u00F3n social (estrategia Europa 2020) por nivel de formaci\u00F3n alcanzado (personas de 16 y m\u00E1s a\u00F1os).",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 10008,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Riesgo de pobreza o exclusi\u00F3n social (estrategia Europa 2020) por relaci\u00F3n con la actividad (personas de 16 y m\u00E1s a\u00F1os).",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 10009,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Riesgo de pobreza o exclusi\u00F3n social (estrategia Europa 2020) por nacionalidad (personas de 16 y m\u00E1s a\u00F1os).",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 10010,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Riesgo de pobreza o exclusi\u00F3n social (estrategia Europa 2020) por tipo de hogar.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 10011,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Riesgo de pobreza o exclusi\u00F3n social (estrategia Europa 2020) y sus componentes por CCAA.",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 14645,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas por decil de renta por unidad de consumo y tama\u00F1o del hogar",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 14647,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas por decil de renta por unidad de consumo y n\u00FAmero de perceptores",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 29281,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Tasa de riesgo de pobreza por edad y sexo.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 29282,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Tasa de riesgo de pobreza por comunidades aut\u00F3nomas",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 29287,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Riesgo de pobreza o exclusi\u00F3n social y de sus componentes por edad y sexo.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 29288,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Riesgo de pobreza o exclusi\u00F3n social y de sus componentes por comunidades aut\u00F3nomas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 49145,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Renta por persona y unidad consumo por comunidades aut\u00F3nomas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 49146,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Renta por hogar por comunidades aut\u00F3nomas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 49147,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Tasa de riesgo de pobreza por edad y sexo.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 49148,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Tasa de riesgo de pobreza por comunidades aut\u00F3nomas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 49152,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas por dificultades para llegar a fin de mes y edad y sexo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2004",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 49153,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Hogares por dificultades para llegar a fin de mes y tipo de hogar.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2004",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 55265,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Riesgo de pobreza o exclusi\u00F3n social (nueva definici\u00F3n 2021) y de sus componentes por edad y sexo.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 55266,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Riesgo de pobreza o exclusi\u00F3n social (nueva definici\u00F3n 2021) y de sus componentes por comunidades aut\u00F3nomas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 59945,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Renta por persona y unidad de consumo por tama\u00F1o de hogar.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 59946,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Renta por persona y unidad consumo por n\u00FAmero de perceptores.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 59947,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Renta por persona y unidad consumo por grado de urbanizaci\u00F3n.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 59949,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Renta por persona y unidad consumo por r\u00E9gimen de tenencia de la vivienda.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 59951,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Renta por hogar por n\u00FAmero de perceptores.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 59952,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Renta por hogar por grado de urbanizaci\u00F3n.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 59953,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas por decil de renta por unidad de consumo y r\u00E9gimen de tenencia de la vivienda.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 59954,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Tasa de riesgo de pobreza con umbral fijo en el a\u00F1o 2008 por n\u00FAmero de perceptores.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 59955,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas por decil de renta por unidad de consumo y grado de urbanizaci\u00F3n.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 59956,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Renta por hogar por r\u00E9gimen de tenencia de la vivienda.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 59957,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Tasa de riesgo de pobreza por tama\u00F1o del hogar.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 59958,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Tasa de riesgo de pobreza por n\u00FAmero de perceptores.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 59959,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Tasa de riesgo de pobreza por grado de urbanizaci\u00F3n.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 59960,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Tasa de riesgo de pobreza por r\u00E9gimen de tenencia de la vivienda.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 59961,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Tasa de riesgo de pobreza seg\u00FAn distintos umbrales relativos por edad y sexo.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 59962,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Tasa de riesgo de pobreza con umbral fijo en el a\u00F1o 2008 por edad y sexo.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 59963,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Tasa de riesgo de pobreza con umbral fijo en el a\u00F1o 2008 por nivel de formaci\u00F3n alcanzado (personas de 16 y m\u00E1s a\u00F1os).",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 59964,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Tasa de riesgo de pobreza con umbral fijo en el a\u00F1o 2008 por relaci\u00F3n con la actividad (personas de 16 y m\u00E1s a\u00F1os).",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 59965,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Tasa de riesgo de pobreza con umbral fijo en el a\u00F1o 2008 por nacionalidad (personas de 16 y m\u00E1s a\u00F1os).",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 59967,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Tasa de riesgo de pobreza con umbral fijo en el a\u00F1o 2008 por tipo de hogar.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 59968,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Tasa de riesgo de pobreza con umbral fijo en el a\u00F1o 2008 por tama\u00F1o del hogar.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 59969,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Tasa de riesgo de pobreza con umbral fijo en el a\u00F1o 2008 por grado de urbanizaci\u00F3n. ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 59970,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Desigualdad en la distribuci\u00F3n de ingresos (S80/S20 y coeficiente de Gini) por edad y sexo.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 59971,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Tasa de riesgo de pobreza con umbral fijo en el a\u00F1o 2008 por r\u00E9gimen de tenencia de la vivienda.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 59972,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Tasa de riesgo de pobreza con umbral fijo en el a\u00F1o 2008 por CCAA.",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 60143,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Desigualdad en la distribuci\u00F3n de ingresos (S80/S20 y coeficiente de Gini) por CCAA.",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 60144,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas con carencia material por tama\u00F1o del hogar.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 60145,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas con carencia material por n\u00FAmero de perceptores.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 60146,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas con carencia material por grado de urbanizaci\u00F3n.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 60147,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas con carencia material por r\u00E9gimen de tenencia de la vivienda.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 60149,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas de 16 y m\u00E1s a\u00F1os con carencia en necesidades b\u00E1sicas y actividades sociales y de ocio por tipo de hogar.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 60150,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Hogares con carencia material por tama\u00F1o del hogar.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 60151,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Hogares con carencia material por n\u00FAmero de perceptores.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 60152,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Hogares con carencia material por grado de urbanizaci\u00F3n.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 60153,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Hogares con carencia material por r\u00E9gimen de tenencia de la vivienda.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 60154,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas de 16 y m\u00E1s a\u00F1os con carencia en necesidades b\u00E1sicas y actividades sociales y de ocio por edad y sexo.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 60155,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas de 16 y m\u00E1s a\u00F1os con carencia en necesidades b\u00E1sicas y actividades sociales y de ocio por nivel de formaci\u00F3n alcanzado.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 60156,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas de 16 y m\u00E1s a\u00F1os con carencia en necesidades b\u00E1sicas y actividades sociales y de ocio por relaci\u00F3n con la actividad.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 60157,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas de 16 y m\u00E1s a\u00F1os con carencia en necesidades b\u00E1sicas y actividades sociales y de ocio por nacionalidad.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 60158,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas de 16 y m\u00E1s a\u00F1os con carencia en necesidades b\u00E1sicas y actividades sociales y de ocio por tama\u00F1o del hogar.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 60159,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas de 16 y m\u00E1s a\u00F1os con carencia en necesidades b\u00E1sicas y actividades sociales y de ocio por n\u00FAmero de perceptores.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 60160,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas de 16 y m\u00E1s a\u00F1os con carencia en necesidades b\u00E1sicas y actividades sociales y de ocio por grado de urbanizaci\u00F3n.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 60161,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas de 16 y m\u00E1s a\u00F1os con carencia en necesidades b\u00E1sicas y actividades sociales y de ocio por r\u00E9gimen de tenencia de la vivienda.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 60162,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas de 16 y m\u00E1s a\u00F1os con carencia en necesidades b\u00E1sicas y actividades sociales y de ocio por CCAA. ",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 60163,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas con carencia en un determinado n\u00FAmero de conceptos (estrategia Europa 2020) por tama\u00F1o del hogar.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 60164,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas con carencia en un determinado n\u00FAmero de conceptos (estrategia Europa 2020) por n\u00FAmero de perceptores.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 60165,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas con carencia en un determinado n\u00FAmero de conceptos (estrategia Europa 2020) por grado de urbanizaci\u00F3n.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 60166,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas con carencia en un determinado n\u00FAmero de conceptos (estrategia Europa 2020) por r\u00E9gimen de tenencia de la vivienda.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 60167,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Hogares con carencia en un determinado n\u00FAmero de conceptos (estrategia Europa 2020) por tama\u00F1o del hogar.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 60168,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Hogares con carencia en un determinado n\u00FAmero de conceptos (estrategia Europa 2020) por n\u00FAmero de perceptores.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 60169,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Hogares con carencia en un determinado n\u00FAmero de conceptos (estrategia Europa 2020) por grado de urbanizaci\u00F3n.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 60170,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Hogares con carencia en un determinado n\u00FAmero de conceptos (estrategia Europa 2020) por r\u00E9gimen de tenencia de la vivienda.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 60171,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas seg\u00FAn dificultades para llegar a fin de mes y tama\u00F1o del hogar.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 60173,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas seg\u00FAn dificultades para llegar a fin de mes y grado de urbanizaci\u00F3n.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 60174,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas seg\u00FAn dificultades para llegar a fin de mes y r\u00E9gimen de tenencia de la vivienda.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 60178,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Hogares seg\u00FAn dificultades para llegar a fin de mes y r\u00E9gimen de tenencia de la vivienda.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 60179,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Hogares por r\u00E9gimen de tenencia de la vivienda y tama\u00F1o del hogar.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 60180,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Hogares por r\u00E9gimen de tenencia de la vivienda y n\u00FAmero de perceptores.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 60181,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Hogares por r\u00E9gimen de tenencia de la vivienda y grado de urbanizaci\u00F3n.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 60253,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Riesgo de pobreza o exclusi\u00F3n social (objetivo Europa 2030). Intersecciones entre subpoblaciones",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 60254,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Riesgo de pobreza o exclusi\u00F3n social (objetivo Europa 2030) y sus componentes por edad y sexo.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 60256,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Riesgo de pobreza o exclusi\u00F3n social (objetivo Europa 2030) y sus componentes por nivel de formaci\u00F3n alcanzado (personas de 16 y m\u00E1s a\u00F1os).",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-28T08:00:00"
+    },
+    {
+      "IdTabla": 60257,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Riesgo de pobreza o exclusi\u00F3n social (objetivo Europa 2030) y sus componentes por relaci\u00F3n con la actividad (personas de 16 y m\u00E1s a\u00F1os).",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-28T08:00:00"
+    },
+    {
+      "IdTabla": 60258,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Riesgo de pobreza o exclusi\u00F3n social (objetivo Europa 2030) y sus componentes por nacionalidad (personas de 16 y m\u00E1s a\u00F1os).",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 60259,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Riesgo de pobreza o exclusi\u00F3n social (objetivo Europa 2030) y sus componentes por tipo de hogar.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-28T08:00:00"
+    },
+    {
+      "IdTabla": 60260,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Riesgo de pobreza o exclusi\u00F3n social (objetivo Europa 2030) y sus componentes por tama\u00F1o del hogar.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-28T08:00:00"
+    },
+    {
+      "IdTabla": 60261,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Riesgo de pobreza o exclusi\u00F3n social (objetivo Europa 2030) y sus componentes por n\u00FAmero de perceptores.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-28T08:00:00"
+    },
+    {
+      "IdTabla": 60262,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Riesgo de pobreza o exclusi\u00F3n social (objetivo Europa 2030) y sus componentes por grado de urbanizaci\u00F3n.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-28T08:00:00"
+    },
+    {
+      "IdTabla": 60263,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Riesgo de pobreza o exclusi\u00F3n social (objetivo Europa 2030) y sus componentes por r\u00E9gimen de tenencia de la vivienda.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 60264,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Riesgo de pobreza o exclusi\u00F3n social (objetivo Europa 2030) y sus componentes por CCAA.",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 61787,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Riesgo de pobreza o exclusi\u00F3n social (estrategia Europa 2020) por tama\u00F1o del hogar.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-28T08:00:00"
+    },
+    {
+      "IdTabla": 61788,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Riesgo de pobreza o exclusi\u00F3n social (estrategia Europa 2020) por n\u00FAmero de perceptores.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-28T08:00:00"
+    },
+    {
+      "IdTabla": 61789,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Riesgo de pobreza o exclusi\u00F3n social (estrategia Europa 2020) por grado de urbanizaci\u00F3n.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-28T08:00:00"
+    },
+    {
+      "IdTabla": 61790,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Riesgo de pobreza o exclusi\u00F3n social (estrategia Europa 2020) y sus componentes por r\u00E9gimen de tenencia de la vivienda.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 67240,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Riesgo de pobreza o exclusi\u00F3n social (objetivo Europa 2030) y sus componentes por edad y sexo.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 67245,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Desigualdad en la distribuci\u00F3n de ingresos (S80/S20 y coeficiente de Gini) por edad y sexo.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 67246,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Desigualdad en la distribuci\u00F3n de ingresos (S80/S20 y coeficiente de Gini) por CCAA.",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 67989,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Riesgo de pobreza o exclusi\u00F3n social (objetivo Europa 2030) y sus componentes por CCAA.",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 67990,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Riesgo de pobreza o exclusi\u00F3n social (objetivo Europa 2030) y sus componentes por nivel de formaci\u00F3n alcanzado (personas de 16 y m\u00E1s a\u00F1os).",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-28T08:00:00"
+    },
+    {
+      "IdTabla": 68023,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Riesgo de pobreza o exclusi\u00F3n social (objetivo Europa 2030) y sus componentes por nacionalidad (personas de 16 y m\u00E1s a\u00F1os).",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-13T10:00:00"
+    },
+    {
+      "IdTabla": 68024,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Riesgo de pobreza o exclusi\u00F3n social (objetivo Europa 2030) y sus componentes por pa\u00EDs de nacimiento (personas de 16 y m\u00E1s a\u00F1os).",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-28T08:00:00"
+    },
+    {
+      "IdTabla": 68025,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Riesgo de pobreza o exclusi\u00F3n social (objetivo Europa 2030) y sus componentes por relaci\u00F3n con la actividad m\u00E1s frecuente (personas de 16 y m\u00E1s a\u00F1os).",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-28T08:00:00"
+    },
+    {
+      "IdTabla": 68026,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Riesgo de pobreza o exclusi\u00F3n social (objetivo Europa 2030) y sus componentes por quintil de renta por unidad de consumo (personas de 16 y m\u00E1s a\u00F1os).",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-28T08:00:00"
+    },
+    {
+      "IdTabla": 68027,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Carencia material y social (objetivo Europa 2030) por edad y sexo.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-28T08:00:00"
+    },
+    {
+      "IdTabla": 68028,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Carencia material y social (objetivo Europa 2030) por nivel de formaci\u00F3n alcanzado (personas de 16 y m\u00E1s a\u00F1os).",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-28T08:00:00"
+    },
+    {
+      "IdTabla": 68029,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Carencia material y social (objetivo Europa 2030) por nacionalidad (personas de 16 y m\u00E1s a\u00F1os).",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-28T08:00:00"
+    },
+    {
+      "IdTabla": 68030,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Carencia material y social (objetivo Europa 2030) por pa\u00EDs de nacimiento (personas de 16 y m\u00E1s a\u00F1os).",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-28T08:00:00"
+    },
+    {
+      "IdTabla": 68031,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Carencia material y social (objetivo Europa 2030) por relaci\u00F3n con la actividad m\u00E1s frecuente (personas de 16 y m\u00E1s a\u00F1os).",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-28T08:00:00"
+    },
+    {
+      "IdTabla": 68032,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Carencia material y social (objetivo Europa 2030) por quintil de renta por unidad de consumo.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-28T08:00:00"
+    },
+    {
+      "IdTabla": 68033,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Carencia material y social (objetivo Europa 2030) por CCAA.",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-28T08:00:00"
+    },
+    {
+      "IdTabla": 74867,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Personas con carencia material por edad y sexo.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2004",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2013-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 74868,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Hogares con carencia material por tipo de hogar.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2004",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2013-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 74929,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Desigualdad en la distribuci\u00F3n de ingresos (S80/S20 y coeficiente de Gini) por edad y sexo.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2013-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 75484,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Riesgo de pobreza o exclusi\u00F3n social (objetivo Europa 2030) y sus componentes por pa\u00EDs de nacimiento (personas de 16 y m\u00E1s a\u00F1os).",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-28T08:00:00"
+    },
+    {
+      "IdTabla": 75485,
+      "CodigoOperacion": "ECV",
+      "Tabla": "Riesgo de pobreza o exclusi\u00F3n social (objetivo Europa 2030) y sus componentes por quintil de renta por unidad de consumo (personas de 16 y m\u00E1s a\u00F1os).",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Condiciones de Vida",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-28T08:00:00"
     }
-
-    body {
-      font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-      background-color: #2D72D9;
-      color: #fff;
-      -moz-font-smoothing: antialiased;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    .error-container {
-      text-align: center;
-      height: 100%;
-    }
-
-    @media (max-width: 480px) {
-      .error-container {
-        position: relative;
-        top: 50%;
-        height: initial;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    .error-container h1 {
-      margin: 0;
-      font-size: 130px;
-      font-weight: 300;
-    }
-
-    @media (min-width: 480px) {
-      .error-container h1 {
-        position: relative;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    @media (min-width: 768px) {
-      .error-container h1 {
-        font-size: 220px;
-      }
-    }
-
-    .return {
-      color: rgba(255, 255, 255, 0.6);
-      font-weight: 400;
-      letter-spacing: -0.04em;
-      margin: 0;
-    }
-
-    @media (min-width: 480px) {
-      .return {
-        position: absolute;
-        width: 100%;
-        bottom: 30px;
-      }
-    }
-
-    .return a {
-      padding-bottom: 1px;
-      color: #fff;
-      text-decoration: none;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.6);
-      -webkit-transition: border-color 0.1s ease-in;
-      transition: border-color 0.1s ease-in;
-    }
-
-    .return a:hover {
-      border-bottom-color: #fff;
-    }
-  </style>
-  </head>
-  <body>
-    <div class="error-container">
-      <h1>404</h1>
-      <p class="return">La pagina solicitada no existe. <a href="./">Ir a inicio</a></p>
-    </div>
-  </body>
-</html>
+  ]
+}

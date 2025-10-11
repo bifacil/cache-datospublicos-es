@@ -1,95 +1,329 @@
-﻿<!DOCTYPE html >
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>(404) The page you were looking for doesn't exist.</title>
-    <style type="text/css">
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
+﻿{
+  "CodigoOperacion": "IPRI",
+  "IdOperacion": 27,
+  "Operacion": "\u00CDndices de Precios Industriales",
+  "CodigoIOE": "30051",
+  "Url": "https://ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C\u0026cid=1254736147699\u0026idp=1254735576715",
+  "Tablas": [
+    {
+      "IdTabla": 1786,
+      "CodigoOperacion": "IPRI",
+      "Tabla": "General y por destino econ\u00F3mico de los bienes. Nacional y Comunidades Aut\u00F3nomas.",
+      "CodigoTabla": "2005_CCAA",
+      "Publicacion": "\u00CDndice de Precios Industriales",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2016-05-25T07:00:00"
+    },
+    {
+      "IdTabla": 1788,
+      "CodigoOperacion": "IPRI",
+      "Tabla": "General y por destino econ\u00F3mico de los bienes. CNAE-74 (Anual)",
+      "CodigoTabla": "1990_NAC_M",
+      "Publicacion": "\u00CDndice de Precios Industriales Anual",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2011-01-25T08:00:00"
+    },
+    {
+      "IdTabla": 1789,
+      "CodigoOperacion": "IPRI",
+      "Tabla": "Secciones. Nacional.",
+      "CodigoTabla": "2005_NAC",
+      "Publicacion": "\u00CDndice de Precios Industriales",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2016-05-25T07:00:00"
+    },
+    {
+      "IdTabla": 1796,
+      "CodigoOperacion": "IPRI",
+      "Tabla": "General y por destino econ\u00F3mico de los bienes. Nacional.",
+      "CodigoTabla": "2005_NAC",
+      "Publicacion": "\u00CDndice de Precios Industriales",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2016-05-25T07:00:00"
+    },
+    {
+      "IdTabla": 1800,
+      "CodigoOperacion": "IPRI",
+      "Tabla": "Divisiones. Nacional.",
+      "CodigoTabla": "2005_NAC",
+      "Publicacion": "\u00CDndice de Precios Industriales",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2016-05-25T07:00:00"
+    },
+    {
+      "IdTabla": 1807,
+      "CodigoOperacion": "IPRI",
+      "Tabla": "Grupos. Nacional",
+      "CodigoTabla": "2005_NAC",
+      "Publicacion": "\u00CDndice de Precios Industriales",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2016-05-25T07:00:00"
+    },
+    {
+      "IdTabla": 3381,
+      "CodigoOperacion": "IPRI",
+      "Tabla": "Destino econ\u00F3mico de los bienes",
+      "CodigoTabla": "2005_NAC_P-MDOINT",
+      "Publicacion": "\u00CDndice de Precios Industriales. Ponderaciones",
+      "AnyoInicial": "2005",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2014-02-25T08:00:00"
+    },
+    {
+      "IdTabla": 3392,
+      "CodigoOperacion": "IPRI",
+      "Tabla": "Secciones. Nacional",
+      "CodigoTabla": "2005_NAC_P-MDOINT",
+      "Publicacion": "\u00CDndice de Precios Industriales. Ponderaciones",
+      "AnyoInicial": "2005",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2014-02-25T08:00:00"
+    },
+    {
+      "IdTabla": 3393,
+      "CodigoOperacion": "IPRI",
+      "Tabla": "Divisiones. Nacional",
+      "CodigoTabla": "2005_NAC_P-MDOINT",
+      "Publicacion": "\u00CDndice de Precios Industriales. Ponderaciones",
+      "AnyoInicial": "2005",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2014-02-25T08:00:00"
+    },
+    {
+      "IdTabla": 3395,
+      "CodigoOperacion": "IPRI",
+      "Tabla": "Grupos. Nacional",
+      "CodigoTabla": "2005_NAC_P-MDOINT",
+      "Publicacion": "\u00CDndice de Precios Industriales. Ponderaciones",
+      "AnyoInicial": "2005",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2014-02-25T08:00:00"
+    },
+    {
+      "IdTabla": 61521,
+      "CodigoOperacion": "IPRI",
+      "Tabla": "\u00CDndices nacionales y por comunidad aut\u00F3noma: general y por destino econ\u00F3mico de los bienes",
+      "CodigoTabla": "2021_NAC-CCAA_MDOINT",
+      "Publicacion": "\u00CDndice de Precios Industriales",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 61522,
+      "CodigoOperacion": "IPRI",
+      "Tabla": "\u00CDndices nacionales y por comunidad aut\u00F3noma de secciones.",
+      "CodigoTabla": "2021_NAC-CCAA_MDOINT",
+      "Publicacion": "\u00CDndice de Precios Industriales",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 61523,
+      "CodigoOperacion": "IPRI",
+      "Tabla": "\u00CDndices nacionales y por comunidad aut\u00F3noma de divisiones.",
+      "CodigoTabla": "2021_NAC-CCAA_MDOINT",
+      "Publicacion": "\u00CDndice de Precios Industriales",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 61524,
+      "CodigoOperacion": "IPRI",
+      "Tabla": "\u00CDndices nacionales de grupos.",
+      "CodigoTabla": "2021_NAC_MDOINT",
+      "Publicacion": "\u00CDndice de Precios Industriales",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 61525,
+      "CodigoOperacion": "IPRI",
+      "Tabla": "\u00CDndices nacionales de clases.",
+      "CodigoTabla": "2021_NAC_MDOINT",
+      "Publicacion": "\u00CDndice de Precios Industriales",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 61526,
+      "CodigoOperacion": "IPRI",
+      "Tabla": "\u00CDndices nacionales y por comunidad aut\u00F3noma: general y por destino econ\u00F3mico de los bienes",
+      "CodigoTabla": "2021_NAC-CCAA_MDOINT-M",
+      "Publicacion": "\u00CDndice de Precios Industriales. Medias Anuales",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-04-24T07:00:00"
+    },
+    {
+      "IdTabla": 61527,
+      "CodigoOperacion": "IPRI",
+      "Tabla": "\u00CDndices nacionales y por comunidad aut\u00F3noma de secciones.",
+      "CodigoTabla": "2021_NAC-CCAA_MDOINT-M",
+      "Publicacion": "\u00CDndice de Precios Industriales. Medias Anuales",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-04-24T07:00:00"
+    },
+    {
+      "IdTabla": 61528,
+      "CodigoOperacion": "IPRI",
+      "Tabla": "\u00CDndices nacionales y por comunidad aut\u00F3noma de divisiones.",
+      "CodigoTabla": "2021_NAC-CCAA_MDOINT-M",
+      "Publicacion": "\u00CDndice de Precios Industriales. Medias Anuales",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-04-24T07:00:00"
+    },
+    {
+      "IdTabla": 61529,
+      "CodigoOperacion": "IPRI",
+      "Tabla": "\u00CDndices nacionales de grupos.",
+      "CodigoTabla": "2021_NAC_MDOINT-M",
+      "Publicacion": "\u00CDndice de Precios Industriales. Medias Anuales",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-04-24T07:00:00"
+    },
+    {
+      "IdTabla": 61530,
+      "CodigoOperacion": "IPRI",
+      "Tabla": "\u00CDndices nacionales de clases.",
+      "CodigoTabla": "2021_NAC_MDOINT-M",
+      "Publicacion": "\u00CDndice de Precios Industriales. Medias Anuales",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-04-24T07:00:00"
+    },
+    {
+      "IdTabla": 61531,
+      "CodigoOperacion": "IPRI",
+      "Tabla": "\u00CDndices nacionales y por comunidad aut\u00F3noma: general y por destino econ\u00F3mico de los bienes",
+      "CodigoTabla": "2021_NAC-CCAA_MDOINT-P",
+      "Publicacion": "\u00CDndice de Precios Industriales. Ponderaciones",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-02-24T08:00:00"
+    },
+    {
+      "IdTabla": 61532,
+      "CodigoOperacion": "IPRI",
+      "Tabla": "\u00CDndices nacionales y por comunidad aut\u00F3noma de secciones.",
+      "CodigoTabla": "2021_NAC-CCAA_MDOINT-P",
+      "Publicacion": "\u00CDndice de Precios Industriales. Ponderaciones",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-02-24T08:00:00"
+    },
+    {
+      "IdTabla": 61533,
+      "CodigoOperacion": "IPRI",
+      "Tabla": "\u00CDndices nacionales y por comunidad aut\u00F3noma de divisiones.",
+      "CodigoTabla": "2021_NAC-CCAA_MDOINT-P",
+      "Publicacion": "\u00CDndice de Precios Industriales. Ponderaciones",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-02-24T08:00:00"
+    },
+    {
+      "IdTabla": 61534,
+      "CodigoOperacion": "IPRI",
+      "Tabla": "\u00CDndices nacionales de grupos.",
+      "CodigoTabla": "2021_NAC_MDOINT-P",
+      "Publicacion": "\u00CDndice de Precios Industriales. Ponderaciones",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-02-24T08:00:00"
+    },
+    {
+      "IdTabla": 61535,
+      "CodigoOperacion": "IPRI",
+      "Tabla": "\u00CDndices nacionales de clases.",
+      "CodigoTabla": "2021_NAC_MDOINT-P",
+      "Publicacion": "\u00CDndice de Precios Industriales. Ponderaciones",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-02-24T08:00:00"
+    },
+    {
+      "IdTabla": 67152,
+      "CodigoOperacion": "IPRI",
+      "Tabla": "\u00CDndices nacionales y por comunidad aut\u00F3noma: general y por destino econ\u00F3mico de los bienes",
+      "CodigoTabla": "2021_NAC-CCAA_MDOINT",
+      "Publicacion": "\u00CDndice de Precios Industriales",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 67155,
+      "CodigoOperacion": "IPRI",
+      "Tabla": "\u00CDndices nacionales y por comunidad aut\u00F3noma de secciones.",
+      "CodigoTabla": "2021_NAC-CCAA_MDOINT",
+      "Publicacion": "\u00CDndice de Precios Industriales",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 67158,
+      "CodigoOperacion": "IPRI",
+      "Tabla": "\u00CDndices nacionales y por comunidad aut\u00F3noma de divisiones.",
+      "CodigoTabla": "2021_NAC-CCAA_MDOINT",
+      "Publicacion": "\u00CDndice de Precios Industriales",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 67162,
+      "CodigoOperacion": "IPRI",
+      "Tabla": "\u00CDndices nacionales de grupos.",
+      "CodigoTabla": "2021_NAC_MDOINT",
+      "Publicacion": "\u00CDndice de Precios Industriales",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 67165,
+      "CodigoOperacion": "IPRI",
+      "Tabla": "\u00CDndices nacionales de clases.",
+      "CodigoTabla": "2021_NAC_MDOINT",
+      "Publicacion": "\u00CDndice de Precios Industriales",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 70179,
+      "CodigoOperacion": "IPRI",
+      "Tabla": "\u00CDndices nacionales y por comunidad aut\u00F3noma: general y por destino econ\u00F3mico de los bienes",
+      "CodigoTabla": "2021_NAC-CCAA_MDOINT-M",
+      "Publicacion": "\u00CDndice de Precios Industriales. Medias Anuales",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-04-24T07:00:00"
+    },
+    {
+      "IdTabla": 70180,
+      "CodigoOperacion": "IPRI",
+      "Tabla": "\u00CDndices nacionales y por comunidad aut\u00F3noma de secciones",
+      "CodigoTabla": "2021_NAC-CCAA_MDOINT-M",
+      "Publicacion": "\u00CDndice de Precios Industriales. Medias Anuales",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-04-24T07:00:00"
     }
-
-    body {
-      font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-      background-color: #2D72D9;
-      color: #fff;
-      -moz-font-smoothing: antialiased;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    .error-container {
-      text-align: center;
-      height: 100%;
-    }
-
-    @media (max-width: 480px) {
-      .error-container {
-        position: relative;
-        top: 50%;
-        height: initial;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    .error-container h1 {
-      margin: 0;
-      font-size: 130px;
-      font-weight: 300;
-    }
-
-    @media (min-width: 480px) {
-      .error-container h1 {
-        position: relative;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    @media (min-width: 768px) {
-      .error-container h1 {
-        font-size: 220px;
-      }
-    }
-
-    .return {
-      color: rgba(255, 255, 255, 0.6);
-      font-weight: 400;
-      letter-spacing: -0.04em;
-      margin: 0;
-    }
-
-    @media (min-width: 480px) {
-      .return {
-        position: absolute;
-        width: 100%;
-        bottom: 30px;
-      }
-    }
-
-    .return a {
-      padding-bottom: 1px;
-      color: #fff;
-      text-decoration: none;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.6);
-      -webkit-transition: border-color 0.1s ease-in;
-      transition: border-color 0.1s ease-in;
-    }
-
-    .return a:hover {
-      border-bottom-color: #fff;
-    }
-  </style>
-  </head>
-  <body>
-    <div class="error-container">
-      <h1>404</h1>
-      <p class="return">La pagina solicitada no existe. <a href="./">Ir a inicio</a></p>
-    </div>
-  </body>
-</html>
+  ]
+}

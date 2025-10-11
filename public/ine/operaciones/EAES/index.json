@@ -1,95 +1,219 @@
-﻿<!DOCTYPE html >
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>(404) The page you were looking for doesn't exist.</title>
-    <style type="text/css">
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
+﻿{
+  "CodigoOperacion": "EAES",
+  "IdOperacion": 140,
+  "Operacion": "Encuesta Anual de Estructura Salarial",
+  "CodigoIOE": "30189",
+  "Url": "https://ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C\u0026cid=1254736177025\u0026idp=1254735976596",
+  "Tablas": [
+    {
+      "IdTabla": 28182,
+      "CodigoOperacion": "EAES",
+      "Tabla": "Porcentaje de trabajadores en funci\u00F3n de su ganancia con respecto al Salario M\u00EDnimo Interprofesional (SMI) (respecto al total de trabajadores) por tipo de jornada y sexo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta Anual de Estructura Salarial",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-28T09:00:00"
+    },
+    {
+      "IdTabla": 28183,
+      "CodigoOperacion": "EAES",
+      "Tabla": "Porcentaje de trabajadores en funci\u00F3n de su ganancia con respecto al Salario M\u00EDnimo Interprofesional (SMI) (respecto al intervalo de ganancias) por tipo de jornada y sexo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta Anual de Estructura Salarial",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-28T09:00:00"
+    },
+    {
+      "IdTabla": 28184,
+      "CodigoOperacion": "EAES",
+      "Tabla": "Indicadores de desigualdad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta Anual de Estructura Salarial",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-28T09:00:00"
+    },
+    {
+      "IdTabla": 28185,
+      "CodigoOperacion": "EAES",
+      "Tabla": "Sexo y secciones de actividad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta Anual de Estructura Salarial",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-28T09:00:00"
+    },
+    {
+      "IdTabla": 28186,
+      "CodigoOperacion": "EAES",
+      "Tabla": "Sexo y grupos principales de ocupaci\u00F3n",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta Anual de Estructura Salarial",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-28T09:00:00"
+    },
+    {
+      "IdTabla": 28187,
+      "CodigoOperacion": "EAES",
+      "Tabla": "Sexo y tipo de jornada",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta Anual de Estructura Salarial",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-28T09:00:00"
+    },
+    {
+      "IdTabla": 28188,
+      "CodigoOperacion": "EAES",
+      "Tabla": "Sexo y tipo de contrato",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta Anual de Estructura Salarial",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-28T09:00:00"
+    },
+    {
+      "IdTabla": 28189,
+      "CodigoOperacion": "EAES",
+      "Tabla": "Sexo y edad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta Anual de Estructura Salarial",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-28T09:00:00"
+    },
+    {
+      "IdTabla": 28190,
+      "CodigoOperacion": "EAES",
+      "Tabla": "Sexo y nacionalidad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta Anual de Estructura Salarial",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-28T09:00:00"
+    },
+    {
+      "IdTabla": 28191,
+      "CodigoOperacion": "EAES",
+      "Tabla": "Medias y percentiles por sexo y CCAA",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta Anual de Estructura Salarial",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-28T09:00:00"
+    },
+    {
+      "IdTabla": 28192,
+      "CodigoOperacion": "EAES",
+      "Tabla": "Sexo y sectores de actividad",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta Anual de Estructura Salarial",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-28T09:00:00"
+    },
+    {
+      "IdTabla": 28193,
+      "CodigoOperacion": "EAES",
+      "Tabla": "Sexo y ocupaci\u00F3n",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta Anual de Estructura Salarial",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-28T09:00:00"
+    },
+    {
+      "IdTabla": 28200,
+      "CodigoOperacion": "EAES",
+      "Tabla": "Sexo y tipo de contrato",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta Anual de Estructura Salarial",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-28T09:00:00"
+    },
+    {
+      "IdTabla": 28201,
+      "CodigoOperacion": "EAES",
+      "Tabla": "Sexo y edad",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta Anual de Estructura Salarial",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-28T09:00:00"
+    },
+    {
+      "IdTabla": 28202,
+      "CodigoOperacion": "EAES",
+      "Tabla": "Sexo y nacionalidad",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta Anual de Estructura Salarial",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-28T09:00:00"
+    },
+    {
+      "IdTabla": 28203,
+      "CodigoOperacion": "EAES",
+      "Tabla": "Sexo y sectores de actividad",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta Anual de Estructura Salarial",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-28T09:00:00"
+    },
+    {
+      "IdTabla": 28204,
+      "CodigoOperacion": "EAES",
+      "Tabla": "Sexo y ocupaci\u00F3n",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta Anual de Estructura Salarial",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-28T09:00:00"
+    },
+    {
+      "IdTabla": 28205,
+      "CodigoOperacion": "EAES",
+      "Tabla": "Sexo y tipo de contrato",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta Anual de Estructura Salarial",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-28T09:00:00"
+    },
+    {
+      "IdTabla": 28206,
+      "CodigoOperacion": "EAES",
+      "Tabla": "Coeficientes de variaci\u00F3n para ganancia bruta anual por periodo, secciones de la CNAE-2009 y sexo",
+      "CodigoTabla": "NAC_CV",
+      "Publicacion": "Encuesta Anual de Estructura Salarial",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-28T09:00:00"
+    },
+    {
+      "IdTabla": 28213,
+      "CodigoOperacion": "EAES",
+      "Tabla": "Coeficientes de variaci\u00F3n para ganancia bruta anual por periodo, comunidad aut\u00F3noma y sexo",
+      "CodigoTabla": "NAC-CCAA_CV",
+      "Publicacion": "Encuesta Anual de Estructura Salarial",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-28T09:00:00"
+    },
+    {
+      "IdTabla": 30046,
+      "CodigoOperacion": "EAES",
+      "Tabla": "Ingreso medio por hora desglosado por sexo y sectores de actividad",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta Anual de Estructura Salarial",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-06-20T09:00:00"
     }
-
-    body {
-      font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-      background-color: #2D72D9;
-      color: #fff;
-      -moz-font-smoothing: antialiased;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    .error-container {
-      text-align: center;
-      height: 100%;
-    }
-
-    @media (max-width: 480px) {
-      .error-container {
-        position: relative;
-        top: 50%;
-        height: initial;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    .error-container h1 {
-      margin: 0;
-      font-size: 130px;
-      font-weight: 300;
-    }
-
-    @media (min-width: 480px) {
-      .error-container h1 {
-        position: relative;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    @media (min-width: 768px) {
-      .error-container h1 {
-        font-size: 220px;
-      }
-    }
-
-    .return {
-      color: rgba(255, 255, 255, 0.6);
-      font-weight: 400;
-      letter-spacing: -0.04em;
-      margin: 0;
-    }
-
-    @media (min-width: 480px) {
-      .return {
-        position: absolute;
-        width: 100%;
-        bottom: 30px;
-      }
-    }
-
-    .return a {
-      padding-bottom: 1px;
-      color: #fff;
-      text-decoration: none;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.6);
-      -webkit-transition: border-color 0.1s ease-in;
-      transition: border-color 0.1s ease-in;
-    }
-
-    .return a:hover {
-      border-bottom-color: #fff;
-    }
-  </style>
-  </head>
-  <body>
-    <div class="error-container">
-      <h1>404</h1>
-      <p class="return">La pagina solicitada no existe. <a href="./">Ir a inicio</a></p>
-    </div>
-  </body>
-</html>
+  ]
+}

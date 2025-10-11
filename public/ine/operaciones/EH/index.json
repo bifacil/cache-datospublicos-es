@@ -1,95 +1,159 @@
-﻿<!DOCTYPE html >
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>(404) The page you were looking for doesn't exist.</title>
-    <style type="text/css">
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
+﻿{
+  "CodigoOperacion": "EH",
+  "IdOperacion": 259,
+  "Operacion": "Estad\u00EDstica sobre Ejecuciones Hipotecarias",
+  "CodigoIOE": "30153",
+  "Url": "https://ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C\u0026cid=1254736176993\u0026idp=1254735576606",
+  "Tablas": [
+    {
+      "IdTabla": 7709,
+      "CodigoOperacion": "EH",
+      "Tabla": "Ejecuciones hipotecarias iniciadas e inscritas en los registros de la propiedad sobre fincas r\u00FAsticas y urbanas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica sobre Ejecuciones Hipotecarias",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-17T07:00:00"
+    },
+    {
+      "IdTabla": 7711,
+      "CodigoOperacion": "EH",
+      "Tabla": "Viviendas con ejecuci\u00F3n hipotecaria iniciada seg\u00FAn estado de la vivienda",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Estad\u00EDstica sobre Ejecuciones Hipotecarias",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-17T07:00:00"
+    },
+    {
+      "IdTabla": 7712,
+      "CodigoOperacion": "EH",
+      "Tabla": "Viviendas con ejecuci\u00F3n hipotecaria iniciada seg\u00FAn titular de la vivienda",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Estad\u00EDstica sobre Ejecuciones Hipotecarias",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-17T07:00:00"
+    },
+    {
+      "IdTabla": 10739,
+      "CodigoOperacion": "EH",
+      "Tabla": "Ejecuciones hipotecarias iniciadas e inscritas en los registros de la propiedad sobre fincas r\u00FAsticas y urbanas por comunidad aut\u00F3noma",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Estad\u00EDstica sobre Ejecuciones Hipotecarias. Anual",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-17T07:00:00"
+    },
+    {
+      "IdTabla": 10740,
+      "CodigoOperacion": "EH",
+      "Tabla": "Viviendas con ejecuci\u00F3n hipotecaria iniciada seg\u00FAn estado de la vivienda por comunidad aut\u00F3noma",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Estad\u00EDstica sobre Ejecuciones Hipotecarias. Anual",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-17T07:00:00"
+    },
+    {
+      "IdTabla": 10741,
+      "CodigoOperacion": "EH",
+      "Tabla": "Viviviendas con ejecuci\u00F3n hipotecaria iniciada seg\u00FAn titular de la vivienda por comunidad aut\u00F3noma",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Estad\u00EDstica sobre Ejecuciones Hipotecarias. Anual",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-17T07:00:00"
+    },
+    {
+      "IdTabla": 10743,
+      "CodigoOperacion": "EH",
+      "Tabla": "Ejecuciones hipotecarias iniciadas e inscritas en los registros de la propiedad sobre fincas r\u00FAsticas y urbanas por provincia",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Estad\u00EDstica sobre Ejecuciones Hipotecarias. Anual",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-17T07:00:00"
+    },
+    {
+      "IdTabla": 10744,
+      "CodigoOperacion": "EH",
+      "Tabla": "Viviendas con ejecuci\u00F3n hipotecaria iniciada seg\u00FAn estado de la vivienda por provincia",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Estad\u00EDstica sobre Ejecuciones Hipotecarias. Anual",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-17T07:00:00"
+    },
+    {
+      "IdTabla": 10745,
+      "CodigoOperacion": "EH",
+      "Tabla": "Viviviendas con ejecuci\u00F3n hipotecaria iniciada seg\u00FAn titular de la vivienda por provincia",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Estad\u00EDstica sobre Ejecuciones Hipotecarias. Anual",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-17T07:00:00"
+    },
+    {
+      "IdTabla": 24468,
+      "CodigoOperacion": "EH",
+      "Tabla": "Viviendas habituales de personas f\u00EDsicas con ejecuci\u00F3n hipotecaria. Total nacional",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica sobre Ejecuciones Hipotecarias",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-17T07:00:00"
+    },
+    {
+      "IdTabla": 49281,
+      "CodigoOperacion": "EH",
+      "Tabla": "Ejecuciones hipotecarias iniciadas e inscritas en los registros de la propiedad sobre fincas r\u00FAsticas y urbanas por comunidades y ciudades aut\u00F3nomas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica sobre Ejecuciones Hipotecarias. Anual",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-17T07:00:00"
+    },
+    {
+      "IdTabla": 76197,
+      "CodigoOperacion": "EH",
+      "Tabla": "Ejecuciones hipotecarias iniciadas e inscritas en los registros de la propiedad sobre fincas r\u00FAsticas y urbanas por provincia",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estad\u00EDstica sobre Ejecuciones Hipotecarias. Anual",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-17T07:00:00"
+    },
+    {
+      "IdTabla": 76198,
+      "CodigoOperacion": "EH",
+      "Tabla": "Ejecuciones hipotecarias iniciadas e inscritas en los registros de la propiedad sobre fincas r\u00FAsticas y urbanas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica sobre Ejecuciones Hipotecarias",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-17T07:00:00"
+    },
+    {
+      "IdTabla": 76199,
+      "CodigoOperacion": "EH",
+      "Tabla": "Viviendas con ejecuci\u00F3n hipotecaria iniciada seg\u00FAn estado de la vivienda",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica sobre Ejecuciones Hipotecarias",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-17T07:00:00"
+    },
+    {
+      "IdTabla": 76200,
+      "CodigoOperacion": "EH",
+      "Tabla": "Viviendas con ejecuci\u00F3n hipotecaria iniciada seg\u00FAn titular de la vivienda",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica sobre Ejecuciones Hipotecarias",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-17T07:00:00"
     }
-
-    body {
-      font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-      background-color: #2D72D9;
-      color: #fff;
-      -moz-font-smoothing: antialiased;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    .error-container {
-      text-align: center;
-      height: 100%;
-    }
-
-    @media (max-width: 480px) {
-      .error-container {
-        position: relative;
-        top: 50%;
-        height: initial;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    .error-container h1 {
-      margin: 0;
-      font-size: 130px;
-      font-weight: 300;
-    }
-
-    @media (min-width: 480px) {
-      .error-container h1 {
-        position: relative;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    @media (min-width: 768px) {
-      .error-container h1 {
-        font-size: 220px;
-      }
-    }
-
-    .return {
-      color: rgba(255, 255, 255, 0.6);
-      font-weight: 400;
-      letter-spacing: -0.04em;
-      margin: 0;
-    }
-
-    @media (min-width: 480px) {
-      .return {
-        position: absolute;
-        width: 100%;
-        bottom: 30px;
-      }
-    }
-
-    .return a {
-      padding-bottom: 1px;
-      color: #fff;
-      text-decoration: none;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.6);
-      -webkit-transition: border-color 0.1s ease-in;
-      transition: border-color 0.1s ease-in;
-    }
-
-    .return a:hover {
-      border-bottom-color: #fff;
-    }
-  </style>
-  </head>
-  <body>
-    <div class="error-container">
-      <h1>404</h1>
-      <p class="return">La pagina solicitada no existe. <a href="./">Ir a inicio</a></p>
-    </div>
-  </body>
-</html>
+  ]
+}

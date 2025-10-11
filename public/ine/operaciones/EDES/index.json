@@ -1,95 +1,139 @@
-﻿<!DOCTYPE html >
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>(404) The page you were looking for doesn't exist.</title>
-    <style type="text/css">
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
+﻿{
+  "CodigoOperacion": "EDES",
+  "IdOperacion": 406,
+  "Operacion": "Estimacion del numero de defunciones semanales (EDeS)",
+  "CodigoIOE": "30324",
+  "Url": "https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C\u0026cid=1254736177074\u0026idp=1254735573002",
+  "Tablas": [
+    {
+      "IdTabla": 35168,
+      "CodigoOperacion": "EDES",
+      "Tabla": "Defunciones semanales y acumuladas.Total nacional, comunidades aut\u00F3nomas y provincias",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Estimaci\u00F3n del n\u00FAmero de defunciones semanales",
+      "AnyoInicial": "2016",
+      "PeriodoInicial": "Semana 1",
+      "UltimaModificacion": "2025-09-17T07:00:00"
+    },
+    {
+      "IdTabla": 35169,
+      "CodigoOperacion": "EDES",
+      "Tabla": "Defunciones semanales diferencia absoluta del acumulado por sexo y edad.Total nacional y comunidades aut\u00F3nomas,",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estimaci\u00F3n del n\u00FAmero de defunciones semanales",
+      "AnyoInicial": "2020",
+      "PeriodoInicial": "Semana 1",
+      "UltimaModificacion": "2025-09-17T07:00:00"
+    },
+    {
+      "IdTabla": 35176,
+      "CodigoOperacion": "EDES",
+      "Tabla": "Defunciones semanales, acumuladas y variaci\u00F3n interanual del acumulado. Total nacional y provincias. 1975-2025",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estimaci\u00F3n del n\u00FAmero de defunciones semanales",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "Semana 1",
+      "UltimaModificacion": "2025-09-17T07:00:00"
+    },
+    {
+      "IdTabla": 35177,
+      "CodigoOperacion": "EDES",
+      "Tabla": "Defunciones semanales, acumuladas y variaci\u00F3n interanual del acumulado. Total nacional y CCAA. 1975-2025",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estimaci\u00F3n del n\u00FAmero de defunciones semanales",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "Semana 1",
+      "UltimaModificacion": "2025-09-17T07:00:00"
+    },
+    {
+      "IdTabla": 35178,
+      "CodigoOperacion": "EDES",
+      "Tabla": "Defunciones semanales acumuladas y variaci\u00F3n interanual del acumulado. Islas. 1975-2025",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Estimaci\u00F3n del n\u00FAmero de defunciones semanales",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "Semana 1",
+      "UltimaModificacion": "2025-09-17T07:00:00"
+    },
+    {
+      "IdTabla": 35179,
+      "CodigoOperacion": "EDES",
+      "Tabla": "Defunciones semanales, acumuladas y diferencia absoluta del acumulado por sexo y edad. Total nacional y comunidades aut\u00F3nomas. 1975-2025",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estimaci\u00F3n del n\u00FAmero de defunciones semanales",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "Semana 1",
+      "UltimaModificacion": "2025-09-17T07:00:00"
+    },
+    {
+      "IdTabla": 36166,
+      "CodigoOperacion": "EDES",
+      "Tabla": "Defunciones semanales, acumuladas y diferencia absoluta del acumulado por sexo y edad. Total nacional y provincias. 1975-2025",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estimaci\u00F3n del n\u00FAmero de defunciones semanales",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "Semana 1",
+      "UltimaModificacion": "2025-09-17T07:00:00"
+    },
+    {
+      "IdTabla": 46318,
+      "CodigoOperacion": "EDES",
+      "Tabla": "Defunciones semanales y acumuladas.Total nacional, comunidades aut\u00F3nomas y provincias",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Estimaci\u00F3n del n\u00FAmero de defunciones semanales",
+      "AnyoInicial": "2020",
+      "PeriodoInicial": "Semana 1",
+      "UltimaModificacion": "2025-09-17T07:00:00"
+    },
+    {
+      "IdTabla": 62277,
+      "CodigoOperacion": "EDES",
+      "Tabla": "Defunciones mensuales, acumuladas y variaci\u00F3n interanual del acumulado. Total nacional y CCAA. 2009-2024",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estimaci\u00F3n del n\u00FAmero de defunciones mensuales",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-17T07:00:00"
+    },
+    {
+      "IdTabla": 62278,
+      "CodigoOperacion": "EDES",
+      "Tabla": "Defunciones mensuales, acumuladas y variaci\u00F3n interanual del acumulado. Total nacional y provincias. 2009-2024",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estimaci\u00F3n del n\u00FAmero de defunciones mensuales",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-17T07:00:00"
+    },
+    {
+      "IdTabla": 62279,
+      "CodigoOperacion": "EDES",
+      "Tabla": "Defunciones mensuales acumuladas y variaci\u00F3n interanual del acumulado. Islas. 2009-2024",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Estimaci\u00F3n del n\u00FAmero de defunciones mensuales",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-17T07:00:00"
+    },
+    {
+      "IdTabla": 62280,
+      "CodigoOperacion": "EDES",
+      "Tabla": "Defunciones mensuales, acumuladas y diferencia absoluta del acumulado por sexo y edad. Total nacional y comunidades aut\u00F3nomas. 2009-2024",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estimaci\u00F3n del n\u00FAmero de defunciones mensuales",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-17T07:00:00"
+    },
+    {
+      "IdTabla": 62281,
+      "CodigoOperacion": "EDES",
+      "Tabla": "Defunciones mensuales, acumuladas y diferencia absoluta del acumulado por sexo y edad. Total nacional y provincias. 2009-2024",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estimaci\u00F3n del n\u00FAmero de defunciones mensuales",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-17T07:00:00"
     }
-
-    body {
-      font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-      background-color: #2D72D9;
-      color: #fff;
-      -moz-font-smoothing: antialiased;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    .error-container {
-      text-align: center;
-      height: 100%;
-    }
-
-    @media (max-width: 480px) {
-      .error-container {
-        position: relative;
-        top: 50%;
-        height: initial;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    .error-container h1 {
-      margin: 0;
-      font-size: 130px;
-      font-weight: 300;
-    }
-
-    @media (min-width: 480px) {
-      .error-container h1 {
-        position: relative;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    @media (min-width: 768px) {
-      .error-container h1 {
-        font-size: 220px;
-      }
-    }
-
-    .return {
-      color: rgba(255, 255, 255, 0.6);
-      font-weight: 400;
-      letter-spacing: -0.04em;
-      margin: 0;
-    }
-
-    @media (min-width: 480px) {
-      .return {
-        position: absolute;
-        width: 100%;
-        bottom: 30px;
-      }
-    }
-
-    .return a {
-      padding-bottom: 1px;
-      color: #fff;
-      text-decoration: none;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.6);
-      -webkit-transition: border-color 0.1s ease-in;
-      transition: border-color 0.1s ease-in;
-    }
-
-    .return a:hover {
-      border-bottom-color: #fff;
-    }
-  </style>
-  </head>
-  <body>
-    <div class="error-container">
-      <h1>404</h1>
-      <p class="return">La pagina solicitada no existe. <a href="./">Ir a inicio</a></p>
-    </div>
-  </body>
-</html>
+  ]
+}

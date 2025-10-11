@@ -1,95 +1,219 @@
-﻿<!DOCTYPE html >
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>(404) The page you were looking for doesn't exist.</title>
-    <style type="text/css">
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
+﻿{
+  "CodigoOperacion": "IPI",
+  "IdOperacion": 26,
+  "Operacion": "\u00CDndices de Producci\u00F3n Industrial",
+  "CodigoIOE": "30050",
+  "Url": "https://ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C\u0026cid=1254736145519\u0026idp=1254735576715",
+  "Tablas": [
+    {
+      "IdTabla": 60272,
+      "CodigoOperacion": "IPI",
+      "Tabla": "General y por destino econ\u00F3mico de los bienes. Nacional y Comunidades Aut\u00F3nomas.",
+      "CodigoTabla": "2021_NAC-CCAA",
+      "Publicacion": "\u00CDndice de Producci\u00F3n Industrial",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-06T07:00:00"
+    },
+    {
+      "IdTabla": 60273,
+      "CodigoOperacion": "IPI",
+      "Tabla": "Secciones  Nacional.",
+      "CodigoTabla": "2021_NAC",
+      "Publicacion": "\u00CDndice de Producci\u00F3n Industrial",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-06T07:00:00"
+    },
+    {
+      "IdTabla": 60274,
+      "CodigoOperacion": "IPI",
+      "Tabla": "Divisiones. Nacional.",
+      "CodigoTabla": "2021_NAC",
+      "Publicacion": "\u00CDndice de Producci\u00F3n Industrial",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-06T07:00:00"
+    },
+    {
+      "IdTabla": 60275,
+      "CodigoOperacion": "IPI",
+      "Tabla": "Grupos. Nacional.",
+      "CodigoTabla": "2021_NAC",
+      "Publicacion": "\u00CDndice de Producci\u00F3n Industrial",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-06T07:00:00"
+    },
+    {
+      "IdTabla": 60276,
+      "CodigoOperacion": "IPI",
+      "Tabla": "General y por destino econ\u00F3mico corregidos de efecto calendario. Nacional.",
+      "CodigoTabla": "2021_NAC_CEC",
+      "Publicacion": "\u00CDndice de Producci\u00F3n Industrial",
+      "AnyoInicial": "1992",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-06T07:00:00"
+    },
+    {
+      "IdTabla": 60277,
+      "CodigoOperacion": "IPI",
+      "Tabla": "Secciones corregidas de efecto calendario. Nacional.",
+      "CodigoTabla": "2021_NAC_CEC",
+      "Publicacion": "\u00CDndice de Producci\u00F3n Industrial",
+      "AnyoInicial": "1992",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-06T07:00:00"
+    },
+    {
+      "IdTabla": 60278,
+      "CodigoOperacion": "IPI",
+      "Tabla": "Divisiones corregidas de efecto calendario. Nacional.",
+      "CodigoTabla": "2021_NAC_CEC",
+      "Publicacion": "\u00CDndice de Producci\u00F3n Industrial",
+      "AnyoInicial": "1992",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-06T07:00:00"
+    },
+    {
+      "IdTabla": 60279,
+      "CodigoOperacion": "IPI",
+      "Tabla": "Grupos corregidos de efecto calendario. Nacional.",
+      "CodigoTabla": "2021_NAC_CEC",
+      "Publicacion": "\u00CDndice de Producci\u00F3n Industrial",
+      "AnyoInicial": "1992",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-06T07:00:00"
+    },
+    {
+      "IdTabla": 60280,
+      "CodigoOperacion": "IPI",
+      "Tabla": "General y por destino econ\u00F3mico corregidos  de efectos estacionales y de calendario. Nacional",
+      "CodigoTabla": "2021_NAC_CEEC",
+      "Publicacion": "\u00CDndice de Producci\u00F3n Industrial",
+      "AnyoInicial": "1992",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-06T07:00:00"
+    },
+    {
+      "IdTabla": 60281,
+      "CodigoOperacion": "IPI",
+      "Tabla": "Secciones corregidas  de efectos estacionales y de calendario. Nacional.",
+      "CodigoTabla": "2021_NAC_CEEC",
+      "Publicacion": "\u00CDndice de Producci\u00F3n Industrial",
+      "AnyoInicial": "1992",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-06T07:00:00"
+    },
+    {
+      "IdTabla": 60282,
+      "CodigoOperacion": "IPI",
+      "Tabla": "Divisiones corregidas  de efectos estacionales y de calendario. Nacional.",
+      "CodigoTabla": "2021_NAC_CEEC",
+      "Publicacion": "\u00CDndice de Producci\u00F3n Industrial",
+      "AnyoInicial": "1992",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-06T07:00:00"
+    },
+    {
+      "IdTabla": 60283,
+      "CodigoOperacion": "IPI",
+      "Tabla": "Grupos corregidos  de efectos estacionales y de calendario. Nacional.",
+      "CodigoTabla": "2021_NAC_CEEC",
+      "Publicacion": "\u00CDndice de Producci\u00F3n Industrial",
+      "AnyoInicial": "1992",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-06T07:00:00"
+    },
+    {
+      "IdTabla": 60284,
+      "CodigoOperacion": "IPI",
+      "Tabla": "General y por destino econ\u00F3mico de los bienes. Nacional y Comunidades Aut\u00F3nomas",
+      "CodigoTabla": "2021_NAC-CCAA_P",
+      "Publicacion": "\u00CDndice de Producci\u00F3n Industrial. Ponderaciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-03-08T08:00:00"
+    },
+    {
+      "IdTabla": 60285,
+      "CodigoOperacion": "IPI",
+      "Tabla": "Secciones  Nacional.",
+      "CodigoTabla": "2021_NAC_P",
+      "Publicacion": "\u00CDndice de Producci\u00F3n Industrial. Ponderaciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-03-08T08:00:00"
+    },
+    {
+      "IdTabla": 60286,
+      "CodigoOperacion": "IPI",
+      "Tabla": "Divisiones. Nacional.",
+      "CodigoTabla": "2021_NAC_P",
+      "Publicacion": "\u00CDndice de Producci\u00F3n Industrial. Ponderaciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-03-08T08:00:00"
+    },
+    {
+      "IdTabla": 60287,
+      "CodigoOperacion": "IPI",
+      "Tabla": "Grupos. Nacional",
+      "CodigoTabla": "2021_NAC_P",
+      "Publicacion": "\u00CDndice de Producci\u00F3n Industrial. Ponderaciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-03-08T08:00:00"
+    },
+    {
+      "IdTabla": 70177,
+      "CodigoOperacion": "IPI",
+      "Tabla": "General y por destino econ\u00F3mico de los bienes. Nacional y Comunidades Aut\u00F3nomas",
+      "CodigoTabla": "2021_NAC-CCAA",
+      "Publicacion": "\u00CDndice de Producci\u00F3n Industrial",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-06T07:00:00"
+    },
+    {
+      "IdTabla": 70178,
+      "CodigoOperacion": "IPI",
+      "Tabla": "Secciones  Nacional",
+      "CodigoTabla": "2021_NAC",
+      "Publicacion": "\u00CDndice de Producci\u00F3n Industrial",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-06T07:00:00"
+    },
+    {
+      "IdTabla": 75724,
+      "CodigoOperacion": "IPI",
+      "Tabla": "General y por destino econ\u00F3mico corregidos de efecto calendario. Nacional.",
+      "CodigoTabla": "2021_NAC_CEC",
+      "Publicacion": "\u00CDndice de Producci\u00F3n Industrial",
+      "AnyoInicial": "1992",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-06T07:00:00"
+    },
+    {
+      "IdTabla": 75725,
+      "CodigoOperacion": "IPI",
+      "Tabla": "Grupos corregidos  de efectos estacionales y de calendario. Nacional.",
+      "CodigoTabla": "2021_NAC_CEEC",
+      "Publicacion": "\u00CDndice de Producci\u00F3n Industrial",
+      "AnyoInicial": "1992",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-06T07:00:00"
+    },
+    {
+      "IdTabla": 75726,
+      "CodigoOperacion": "IPI",
+      "Tabla": "Grupos. Nacional.",
+      "CodigoTabla": "2021_NAC",
+      "Publicacion": "\u00CDndice de Producci\u00F3n Industrial",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-06T07:00:00"
     }
-
-    body {
-      font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-      background-color: #2D72D9;
-      color: #fff;
-      -moz-font-smoothing: antialiased;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    .error-container {
-      text-align: center;
-      height: 100%;
-    }
-
-    @media (max-width: 480px) {
-      .error-container {
-        position: relative;
-        top: 50%;
-        height: initial;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    .error-container h1 {
-      margin: 0;
-      font-size: 130px;
-      font-weight: 300;
-    }
-
-    @media (min-width: 480px) {
-      .error-container h1 {
-        position: relative;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    @media (min-width: 768px) {
-      .error-container h1 {
-        font-size: 220px;
-      }
-    }
-
-    .return {
-      color: rgba(255, 255, 255, 0.6);
-      font-weight: 400;
-      letter-spacing: -0.04em;
-      margin: 0;
-    }
-
-    @media (min-width: 480px) {
-      .return {
-        position: absolute;
-        width: 100%;
-        bottom: 30px;
-      }
-    }
-
-    .return a {
-      padding-bottom: 1px;
-      color: #fff;
-      text-decoration: none;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.6);
-      -webkit-transition: border-color 0.1s ease-in;
-      transition: border-color 0.1s ease-in;
-    }
-
-    .return a:hover {
-      border-bottom-color: #fff;
-    }
-  </style>
-  </head>
-  <body>
-    <div class="error-container">
-      <h1>404</h1>
-      <p class="return">La pagina solicitada no existe. <a href="./">Ir a inicio</a></p>
-    </div>
-  </body>
-</html>
+  ]
+}

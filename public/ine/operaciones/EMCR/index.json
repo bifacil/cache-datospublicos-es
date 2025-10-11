@@ -1,95 +1,819 @@
-﻿<!DOCTYPE html >
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>(404) The page you were looking for doesn't exist.</title>
-    <style type="text/css">
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
+﻿{
+  "CodigoOperacion": "EMCR",
+  "IdOperacion": 455,
+  "Operacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+  "CodigoIOE": "30283",
+  "Url": "https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C\u0026cid=1254736177098\u0026idp=1254735573002",
+  "Tablas": [
+    {
+      "IdTabla": 69687,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Inmigraciones procedentes del extranjero por a\u00F1o, sexo y edad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69688,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Inmigraciones procedentes del extranjero por a\u00F1o, sexo, edad (grandes grupos), nacionalidad y pa\u00EDs de nacimiento (Espa\u00F1a/extranjero)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69689,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Inmigraciones procedentes del extranjero por a\u00F1o, sexo, edad (grandes grupos), pa\u00EDs de nacimiento y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69690,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Inmigraciones procedentes del extranjero por a\u00F1o, sexo, pa\u00EDs de procedencia y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69691,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Inmigraciones procedentes del extranjero por comunidad aut\u00F3noma y provincia, a\u00F1o, sexo, edad (grupos quinquenales) y nacionalidad  (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69692,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Inmigraciones procedentes del extranjero por comunidad aut\u00F3noma y provincia, a\u00F1o, sexo, edad (grupos quinquenales) y pa\u00EDs de nacimiento (Espa\u00F1a/extranjero)",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69693,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Inmigraciones procedentes del extranjero por comunidad aut\u00F3noma y provincia, a\u00F1o y nacionalidad",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69694,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Inmigraciones procedentes del extranjero por comunidad aut\u00F3noma y provincia, a\u00F1o y pa\u00EDs de nacimiento",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69695,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Inmigraciones procedentes del extranjero por comunidad aut\u00F3noma y provincia, a\u00F1o y pa\u00EDs de procedencia",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69696,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Inmigraciones procedentes del extranjero por municipio, a\u00F1o y sexo",
+      "CodigoTabla": "NAC-PROV-MUN",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69697,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Inmigraciones procedentes del extranjero por capital de provincia, a\u00F1o, sexo y edad (grandes grupos)",
+      "CodigoTabla": "MUN",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69698,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Inmigraciones procedentes del extranjero por capital de provincia, a\u00F1o, pa\u00EDs de nacimiento (Espa\u00F1a/extranjero) y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "MUN",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69699,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Inmigraciones procedentes del extranjero por isla, a\u00F1o, sexo y edad (grandes grupos)",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69700,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Inmigraciones procedentes del extranjero por isla, a\u00F1o y nacionalidad (agrupaci\u00F3n de pa\u00EDses)",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69701,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Inmigraciones procedentes del extranjero por isla, a\u00F1o y pa\u00EDs de nacimiento (agrupaci\u00F3n de pa\u00EDses)",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69702,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Emigraciones con destino al extranjero por a\u00F1o, sexo y edad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69703,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Emigraciones con destino al extranjero por a\u00F1o, sexo, edad (grandes grupos), nacionalidad y pa\u00EDs de nacimiento (Espa\u00F1a/extranjero)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69704,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Emigraciones con destino al extranjero por a\u00F1o, sexo, edad (grandes grupos), pa\u00EDs de nacimiento y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69705,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Emigraciones con destino al extranjero por a\u00F1o, sexo, pa\u00EDs de destino y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69706,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Emigraciones con destino al extranjero por comunidad aut\u00F3noma, provincia, a\u00F1o, sexo, edad (grupos quinquenales) y nacionalidad  (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69707,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Emigraciones con destino al extranjero por comunidad aut\u00F3noma, provincia, a\u00F1o, sexo, edad (grupos quinquenales) y pa\u00EDs de nacimiento (Espa\u00F1a/extranjero)",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69708,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Emigraciones con destino al extranjero por comunidad aut\u00F3noma, provincia, a\u00F1o y nacionalidad",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69709,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Emigraciones con destino al extranjero por comunidad aut\u00F3noma, provincia, a\u00F1o y pa\u00EDs de nacimiento",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69710,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Emigraciones con destino al extranjero por comunidad aut\u00F3noma, provincia, a\u00F1o y pa\u00EDs de destino",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69711,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Emigraciones con destino al extranjero por municipio, a\u00F1o y sexo",
+      "CodigoTabla": "NAC-PROV-MUN",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69712,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Emigraciones con destino al extranjero por capital de provincia, a\u00F1o, sexo y edad (grandes grupos)",
+      "CodigoTabla": "MUN",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69713,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Emigraciones con destino al extranjero por capital de provincia, a\u00F1o, pa\u00EDs de nacimiento (Espa\u00F1a/extranjero) y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "MUN",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69714,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Emigraciones con destino al extranjero por isla, a\u00F1o, sexo y edad (grandes grupos)",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69715,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Emigraciones con destino al extranjero por isla, a\u00F1o y nacionalidad (agrupaci\u00F3n de pa\u00EDses)",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69716,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Emigraciones con destino al extranjero por isla, a\u00F1o y pa\u00EDs de nacimiento (agrupaci\u00F3n de pa\u00EDses)",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69717,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Migraciones interauton\u00F3micas por a\u00F1o, sexo y edad ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69718,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Migraciones interauton\u00F3micas por a\u00F1o, sexo, edad (grandes grupos) y nacionalidad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69719,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Migraciones interauton\u00F3micas por a\u00F1o, sexo, edad (grandes grupos) y pa\u00EDs de nacimiento",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69720,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Migraciones interauton\u00F3micas por a\u00F1o, sexo, nacionalidad (agrupaci\u00F3n de pa\u00EDses) y pa\u00EDs de nacimiento (agrupaci\u00F3n de pa\u00EDses)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69721,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Migraciones interprovinciales por a\u00F1o, sexo y edad ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69722,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Migraciones interprovinciales por a\u00F1o, sexo, edad (grandes grupos) y nacionalidad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69723,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Migraciones interprovinciales por a\u00F1o, sexo, edad (grandes grupos) y pa\u00EDs de nacimiento",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69724,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Migraciones interprovinciales por a\u00F1o, sexo, nacionalidad (agrupaci\u00F3n de pa\u00EDses) y pa\u00EDs de nacimiento (agrupaci\u00F3n de pa\u00EDses)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69725,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Migraciones intermunicipales por a\u00F1o, sexo y edad ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69726,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Migraciones intermunicipales por a\u00F1o, sexo, edad (grandes grupos) y nacionalidad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69727,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Migraciones intermunicipales por a\u00F1o, sexo, edad (grandes grupos) y pa\u00EDs de nacimiento",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69728,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Migraciones intermunicipales por a\u00F1o, sexo, nacionalidad (agrupaci\u00F3n de pa\u00EDses) y pa\u00EDs de nacimiento (agrupaci\u00F3n de pa\u00EDses)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69729,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Inmigraciones interauton\u00F3micas por comunidad aut\u00F3noma de destino, a\u00F1o, sexo y edad (grandes grupos)",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69730,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Inmigraciones interauton\u00F3micas por comunidad de destino, a\u00F1o, sexo y nacionalidad (espa\u00F1oles/extranjeros)",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69731,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Inmigraciones  interauton\u00F3micas por comunidad de destino, a\u00F1o, sexo y pa\u00EDs de nacimiento (Espa\u00F1a/extranjero)",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69732,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Inmigraciones interprovinciales por provincia de destino, a\u00F1o, sexo y edad (grandes grupos)",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69733,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Inmigraciones interprovinciales por provincia de destino, a\u00F1o, sexo y nacionalidad (espa\u00F1oles/extranjeros)",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69734,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Inmigraciones interprovinciales por provincia de destino, a\u00F1o, sexo y pa\u00EDs de nacimiento (Espa\u00F1a/extranjero)",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69735,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Emigraciones interauton\u00F3micas por comunidad aut\u00F3noma de procedencia, a\u00F1o, sexo y edad (grandes grupos)",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69736,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Emigraciones interauton\u00F3micas por comunidad de procedencia, a\u00F1o, sexo y nacionalidad (espa\u00F1oles/extranjeros)",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69737,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Emigraciones interauton\u00F3micas por comunidad de procedencia, a\u00F1o, sexo y pa\u00EDs de nacimiento (Espa\u00F1a/extranjero)",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69738,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Emigraciones interprovinciales por provincia de procedencia, a\u00F1o, sexo y edad (grandes grupos)",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69739,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Emigraciones interprovinciales por provincia de procedencia, a\u00F1o, sexo y nacionalidad (espa\u00F1oles/extranjeros)",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69740,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Emigraciones interprovinciales por provincia de procedencia, a\u00F1o, sexo y pa\u00EDs de nacimiento (Espa\u00F1a/extranjero)",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69741,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Migraciones interauton\u00F3micas por a\u00F1o, sexo y comunidad aut\u00F3noma de procedencia y destino",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69742,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Migraciones interprovinciales por a\u00F1o, sexo y provincia de procedencia y destino",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69743,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Inmigraciones intermunicipales por municipio de destino, a\u00F1o, sexo y nacionalidad (espa\u00F1oles/extranjeros)",
+      "CodigoTabla": "NAC-PROV-MUN",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69744,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Inmigraciones intermunicipales por municipio de destino, a\u00F1o, sexo y pa\u00EDs de nacimiento (Espa\u00F1a/extranjero)",
+      "CodigoTabla": "NAC-PROV-MUN",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69745,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Emigraciones intermunicipales por municipio de procedencia, a\u00F1o, sexo y nacionalidad (espa\u00F1oles/extranjeros)",
+      "CodigoTabla": "NAC-PROV-MUN",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69746,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Emigraciones intermunicipales por municipio de procedencia, a\u00F1o, sexo y pa\u00EDs de nacimiento (Espa\u00F1a/extranjero)",
+      "CodigoTabla": "NAC-PROV-MUN",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69747,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Inmigraciones intermunicipales por capital de provincia de destino, a\u00F1o, sexo y edad (grupos quinquenales)",
+      "CodigoTabla": "MUN",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69748,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Inmigraciones intermunicipales por capital de provincia de destino, a\u00F1o, sexo y nacionalidad (agrupaci\u00F3n de pa\u00EDses)",
+      "CodigoTabla": "MUN",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69749,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Inmigraciones intermunicipales por capital de provincia de destino, a\u00F1o, sexo y pa\u00EDs de nacimiento (agrupaci\u00F3n de pa\u00EDses)",
+      "CodigoTabla": "MUN",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69750,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Emigraciones intermunicipales por capital de provincia de procedencia, a\u00F1o, sexo y edad (grandes grupos)",
+      "CodigoTabla": "MUN",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69751,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Emigraciones intermunicipales por capital de provincia de procedencia, a\u00F1o, sexo y nacionalidad (agrupaci\u00F3n de pa\u00EDses)",
+      "CodigoTabla": "MUN",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69752,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Emigraciones intermunicipales por capital de provincia de procedencia, a\u00F1o, sexo y pa\u00EDs de nacimiento(agrupaci\u00F3n de pa\u00EDses)",
+      "CodigoTabla": "MUN",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69753,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Migraciones intermunicipales por a\u00F1o, tama\u00F1o del municipio de procedencia, y tama\u00F1o del municipio de destino",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69754,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Migraciones intermunicipales por a\u00F1o, sexo, edad (grandes grupos), nacionalidad (espa\u00F1ola/extranjera) y relaci\u00F3n residencial a principio y final de a\u00F1o",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69755,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Migraciones intermunicipales por a\u00F1o, sexo, edad (grandes grupos), pa\u00EDs de nacimiento (Espa\u00F1a/extranjero) y relaci\u00F3n residencial a principio y final de a\u00F1o",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69756,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Migraciones intermunicipales por comunidad y provincia, a\u00F1o y relaci\u00F3n residencial a principio y final de a\u00F1o",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69757,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Migraciones intermunicipales por capital de provincia, a\u00F1o y relaci\u00F3n residencial a principio y final de a\u00F1o",
+      "CodigoTabla": "MUN",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69758,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Saldos por a\u00F1o, sexo, nacionalidad y tipo de saldo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69759,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Saldos por a\u00F1o, sexo, edad (grupos quinquenales), nacionalidad (agrupaci\u00F3n de pa\u00EDses) y tipo de saldo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69760,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Saldos por a\u00F1o, sexo, pa\u00EDs de nacimiento y tipo de saldo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69761,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Saldos por a\u00F1o, sexo, edad (grupos quinquenales), pa\u00EDs de nacimiento (agrupaci\u00F3n de pa\u00EDses) y tipo de saldo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69762,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Saldos por comunidad aut\u00F3noma, a\u00F1o, sexo, edad (grupos quinquenales), nacionalidad (Espa\u00F1a/extranjero) y tipo de saldo",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69763,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Saldos por comunidad aut\u00F3noma, a\u00F1o, sexo, edad (grupos quinquenales), pa\u00EDs de nacimiento (Espa\u00F1a/extranjero) y tipo de saldo",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69764,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Saldos por provincia, a\u00F1o, sexo, edad (grupos quinquenales), nacionalidad (Espa\u00F1a/extranjero) y tipo de saldo",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69765,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Saldos por provincia, a\u00F1o, sexo, edad (grupos quinquenales), pa\u00EDs de nacimiento (Espa\u00F1a/extranjero) y tipo de saldo",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69766,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Saldos por isla a\u00F1o, sexo y tipo de saldo",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
+    },
+    {
+      "IdTabla": 69767,
+      "CodigoOperacion": "EMCR",
+      "Tabla": "Saldos por municipio, a\u00F1o, sexo y tipo de saldo",
+      "CodigoTabla": "NAC-PROV-MUN",
+      "Publicacion": "Estad\u00EDstica de Migraciones y Cambios de Residencia",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-09T11:30:00"
     }
-
-    body {
-      font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-      background-color: #2D72D9;
-      color: #fff;
-      -moz-font-smoothing: antialiased;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    .error-container {
-      text-align: center;
-      height: 100%;
-    }
-
-    @media (max-width: 480px) {
-      .error-container {
-        position: relative;
-        top: 50%;
-        height: initial;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    .error-container h1 {
-      margin: 0;
-      font-size: 130px;
-      font-weight: 300;
-    }
-
-    @media (min-width: 480px) {
-      .error-container h1 {
-        position: relative;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    @media (min-width: 768px) {
-      .error-container h1 {
-        font-size: 220px;
-      }
-    }
-
-    .return {
-      color: rgba(255, 255, 255, 0.6);
-      font-weight: 400;
-      letter-spacing: -0.04em;
-      margin: 0;
-    }
-
-    @media (min-width: 480px) {
-      .return {
-        position: absolute;
-        width: 100%;
-        bottom: 30px;
-      }
-    }
-
-    .return a {
-      padding-bottom: 1px;
-      color: #fff;
-      text-decoration: none;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.6);
-      -webkit-transition: border-color 0.1s ease-in;
-      transition: border-color 0.1s ease-in;
-    }
-
-    .return a:hover {
-      border-bottom-color: #fff;
-    }
-  </style>
-  </head>
-  <body>
-    <div class="error-container">
-      <h1>404</h1>
-      <p class="return">La pagina solicitada no existe. <a href="./">Ir a inicio</a></p>
-    </div>
-  </body>
-</html>
+  ]
+}

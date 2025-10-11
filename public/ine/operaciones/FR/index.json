@@ -1,95 +1,229 @@
-﻿<!DOCTYPE html >
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>(404) The page you were looking for doesn't exist.</title>
-    <style type="text/css">
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
+﻿{
+  "CodigoOperacion": "FR",
+  "IdOperacion": 330,
+  "Operacion": "Movimientos Tur\u00EDsticos en Fronteras",
+  "CodigoIOE": "16028",
+  "Url": "https://ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C\u0026cid=1254736176996\u0026idp=1254735576863",
+  "Tablas": [
+    {
+      "IdTabla": 10821,
+      "CodigoOperacion": "FR",
+      "Tabla": "N\u00FAmero de visitantes seg\u00FAn tipolog\u00EDa",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Movimientos Tur\u00EDsticos en Fronteras",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Octubre",
+      "UltimaModificacion": "2025-10-02T07:00:00"
+    },
+    {
+      "IdTabla": 10822,
+      "CodigoOperacion": "FR",
+      "Tabla": "N\u00FAmero de turistas seg\u00FAn pa\u00EDs de residencia",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Movimientos Tur\u00EDsticos en Fronteras",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Octubre",
+      "UltimaModificacion": "2025-10-02T07:00:00"
+    },
+    {
+      "IdTabla": 10823,
+      "CodigoOperacion": "FR",
+      "Tabla": "N\u00FAmero de turistas seg\u00FAn comunidad aut\u00F3noma de destino principal",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Movimientos Tur\u00EDsticos en Fronteras",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Octubre",
+      "UltimaModificacion": "2025-10-02T07:00:00"
+    },
+    {
+      "IdTabla": 10826,
+      "CodigoOperacion": "FR",
+      "Tabla": "N\u00FAmero de turistas seg\u00FAn tipo de alojamiento principal",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Movimientos Tur\u00EDsticos en Fronteras",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Octubre",
+      "UltimaModificacion": "2025-10-02T07:00:00"
+    },
+    {
+      "IdTabla": 10835,
+      "CodigoOperacion": "FR",
+      "Tabla": "N\u00FAmero de turistas seg\u00FAn v\u00EDa de acceso",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Movimientos Tur\u00EDsticos en Fronteras",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Octubre",
+      "UltimaModificacion": "2025-10-02T07:00:00"
+    },
+    {
+      "IdTabla": 13864,
+      "CodigoOperacion": "FR",
+      "Tabla": "N\u00FAmero de turistas seg\u00FAn motivo principal del viaje",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Movimientos Tur\u00EDsticos en Fronteras",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Octubre",
+      "UltimaModificacion": "2025-10-02T07:00:00"
+    },
+    {
+      "IdTabla": 13865,
+      "CodigoOperacion": "FR",
+      "Tabla": "N\u00FAmero de turistas seg\u00FAn forma de organizaci\u00F3n del viaje",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Movimientos Tur\u00EDsticos en Fronteras",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Octubre",
+      "UltimaModificacion": "2025-10-02T07:00:00"
+    },
+    {
+      "IdTabla": 13884,
+      "CodigoOperacion": "FR",
+      "Tabla": "Resultados detallados mensuales",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Movimientos Tur\u00EDsticos en Fronteras",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Octubre",
+      "UltimaModificacion": "2025-10-02T07:00:00"
+    },
+    {
+      "IdTabla": 14290,
+      "CodigoOperacion": "FR",
+      "Tabla": "N\u00FAmero de visitantes seg\u00FAn duraci\u00F3n de la estancia",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Movimientos Tur\u00EDsticos en Fronteras",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Octubre",
+      "UltimaModificacion": "2025-10-02T07:00:00"
+    },
+    {
+      "IdTabla": 23981,
+      "CodigoOperacion": "FR",
+      "Tabla": "N\u00FAmero de visitantes seg\u00FAn tipolog\u00EDa",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Movimientos tur\u00EDsticos en fronteras",
+      "AnyoInicial": "2016",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-04T08:00:00"
+    },
+    {
+      "IdTabla": 23982,
+      "CodigoOperacion": "FR",
+      "Tabla": "N\u00FAmero de turistas seg\u00FAn v\u00EDa de acceso",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Movimientos tur\u00EDsticos en fronteras",
+      "AnyoInicial": "2016",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-04T08:00:00"
+    },
+    {
+      "IdTabla": 23983,
+      "CodigoOperacion": "FR",
+      "Tabla": "N\u00FAmero de turistas seg\u00FAn tipo de alojamiento principal",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Movimientos tur\u00EDsticos en fronteras",
+      "AnyoInicial": "2016",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-04T08:00:00"
+    },
+    {
+      "IdTabla": 23984,
+      "CodigoOperacion": "FR",
+      "Tabla": "N\u00FAmero de turistas seg\u00FAn pa\u00EDs de residencia",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Movimientos tur\u00EDsticos en fronteras",
+      "AnyoInicial": "2016",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-04T08:00:00"
+    },
+    {
+      "IdTabla": 23985,
+      "CodigoOperacion": "FR",
+      "Tabla": "N\u00FAmero de turistas seg\u00FAn motivo principal del viaje",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Movimientos tur\u00EDsticos en fronteras",
+      "AnyoInicial": "2016",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-04T08:00:00"
+    },
+    {
+      "IdTabla": 23986,
+      "CodigoOperacion": "FR",
+      "Tabla": "N\u00FAmero de turistas seg\u00FAn forma de organizaci\u00F3n del viaje",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Movimientos tur\u00EDsticos en fronteras",
+      "AnyoInicial": "2016",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-04T08:00:00"
+    },
+    {
+      "IdTabla": 23987,
+      "CodigoOperacion": "FR",
+      "Tabla": "N\u00FAmero de visitantes seg\u00FAn duraci\u00F3n de la estancia",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Movimientos tur\u00EDsticos en fronteras",
+      "AnyoInicial": "2016",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-04T08:00:00"
+    },
+    {
+      "IdTabla": 23988,
+      "CodigoOperacion": "FR",
+      "Tabla": "N\u00FAmero de turistas seg\u00FAn comunidad aut\u00F3noma de destino principal",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Movimientos tur\u00EDsticos en fronteras",
+      "AnyoInicial": "2016",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-04T08:00:00"
+    },
+    {
+      "IdTabla": 75719,
+      "CodigoOperacion": "FR",
+      "Tabla": "N\u00FAmero de turistas seg\u00FAn pa\u00EDs de residencia",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Movimientos Tur\u00EDsticos en Fronteras",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Octubre",
+      "UltimaModificacion": "2025-10-02T07:00:00"
+    },
+    {
+      "IdTabla": 75720,
+      "CodigoOperacion": "FR",
+      "Tabla": "N\u00FAmero de turistas seg\u00FAn comunidad aut\u00F3noma de destino principal",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Movimientos Tur\u00EDsticos en Fronteras",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Octubre",
+      "UltimaModificacion": "2025-10-02T07:00:00"
+    },
+    {
+      "IdTabla": 75721,
+      "CodigoOperacion": "FR",
+      "Tabla": "N\u00FAmero de turistas seg\u00FAn motivo principal del viaje",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Movimientos Tur\u00EDsticos en Fronteras",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Octubre",
+      "UltimaModificacion": "2025-10-02T07:00:00"
+    },
+    {
+      "IdTabla": 75722,
+      "CodigoOperacion": "FR",
+      "Tabla": "N\u00FAmero de visitantes seg\u00FAn tipolog\u00EDa",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Movimientos Tur\u00EDsticos en Fronteras",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Octubre",
+      "UltimaModificacion": "2025-10-02T07:00:00"
+    },
+    {
+      "IdTabla": 75723,
+      "CodigoOperacion": "FR",
+      "Tabla": "Resultados detallados mensuales",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Movimientos Tur\u00EDsticos en Fronteras",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Octubre",
+      "UltimaModificacion": "2025-10-02T07:00:00"
     }
-
-    body {
-      font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-      background-color: #2D72D9;
-      color: #fff;
-      -moz-font-smoothing: antialiased;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    .error-container {
-      text-align: center;
-      height: 100%;
-    }
-
-    @media (max-width: 480px) {
-      .error-container {
-        position: relative;
-        top: 50%;
-        height: initial;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    .error-container h1 {
-      margin: 0;
-      font-size: 130px;
-      font-weight: 300;
-    }
-
-    @media (min-width: 480px) {
-      .error-container h1 {
-        position: relative;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    @media (min-width: 768px) {
-      .error-container h1 {
-        font-size: 220px;
-      }
-    }
-
-    .return {
-      color: rgba(255, 255, 255, 0.6);
-      font-weight: 400;
-      letter-spacing: -0.04em;
-      margin: 0;
-    }
-
-    @media (min-width: 480px) {
-      .return {
-        position: absolute;
-        width: 100%;
-        bottom: 30px;
-      }
-    }
-
-    .return a {
-      padding-bottom: 1px;
-      color: #fff;
-      text-decoration: none;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.6);
-      -webkit-transition: border-color 0.1s ease-in;
-      transition: border-color 0.1s ease-in;
-    }
-
-    .return a:hover {
-      border-bottom-color: #fff;
-    }
-  </style>
-  </head>
-  <body>
-    <div class="error-container">
-      <h1>404</h1>
-      <p class="return">La pagina solicitada no existe. <a href="./">Ir a inicio</a></p>
-    </div>
-  </body>
-</html>
+  ]
+}

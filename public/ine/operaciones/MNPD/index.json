@@ -1,95 +1,609 @@
-﻿<!DOCTYPE html >
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>(404) The page you were looking for doesn't exist.</title>
-    <style type="text/css">
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
+﻿{
+  "CodigoOperacion": "MNPD",
+  "IdOperacion": 309,
+  "Operacion": "MNP Estad\u00EDstica de Defunciones",
+  "CodigoIOE": "30306",
+  "Url": "https://ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C\u0026cid=1254736177008\u0026idp=1254735573002",
+  "Tablas": [
+    {
+      "IdTabla": 6545,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Por lugar de residencia y sexo. Total nacional y provincias",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 6546,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Por lugar de residencia y sexo. Total nacional y comunidades aut\u00F3nomas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 6547,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Por lugar de residencia, sexo y edad. Total nacional y provincias",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 6548,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Por lugar de residencia, sexo y edad. Total nacional y comunidades aut\u00F3nomas.",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 6549,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Por lugar de residencia, sexo y grupos de edad. Total nacional y provincias",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 6550,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Por lugar de residencia, sexo y grupos de edad. Total nacional y comunidades aut\u00F3nomas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 6551,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Por lugar de residencia, sexo, menores de un a\u00F1o. Total nacional y provincias",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 6552,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Por lugar de residencia, sexo, menores de un a\u00F1o. Total nacional y comunidades aut\u00F3nomas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 6553,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Por lugar de inscripci\u00F3n y sexo. Total nacional y provincias. (Serie hist\u00F3rica 1930 -1974)",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "1930",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2014-06-24T09:00:00"
+    },
+    {
+      "IdTabla": 6554,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Por lugar de inscripci\u00F3n y sexo. Total nacional y comunidades aut\u00F3nomas. (Serie hist\u00F3rica 1960 -1974)",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "1960",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2014-06-24T09:00:00"
+    },
+    {
+      "IdTabla": 6555,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Por lugar de inscripci\u00F3n, sexo y edad. Total nacional y provincias. (Serie hist\u00F3rica 1960 -1974)",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "1960",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2014-06-24T09:00:00"
+    },
+    {
+      "IdTabla": 6556,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Por lugar de inscripci\u00F3n, sexo y edad. Total nacional y comunidades aut\u00F3nomas. (Serie hist\u00F3rica 1960 -1974)",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "1960",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2014-06-24T09:00:00"
+    },
+    {
+      "IdTabla": 6557,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Por lugar de inscripci\u00F3n, sexo y grupos de edad. Total nacional y provincias. (Serie hist\u00F3rica 1960 -1974)",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "1960",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2014-06-24T09:00:00"
+    },
+    {
+      "IdTabla": 6558,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Por lugar de inscripci\u00F3n, sexo y grupos de edad. Total nacional y comunidades aut\u00F3nomas. (Serie hist\u00F3rica 1960 -1974)",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "1960",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2014-06-24T09:00:00"
+    },
+    {
+      "IdTabla": 6559,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Por lugar de inscripci\u00F3n, durante las 24 primeras horas de vida y sexo. Total nacional y provincias. (Serie hist\u00F3rica 1941 -1974)",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "1941",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2014-06-24T09:00:00"
+    },
+    {
+      "IdTabla": 6560,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Por lugar de inscripci\u00F3n, durante las 24 primeras horas de vida y sexo. Total nacional y comunidades aut\u00F3nomas. (Serie hist\u00F3rica 1960 -1974)",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "1941",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2014-06-24T09:00:00"
+    },
+    {
+      "IdTabla": 6561,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Por lugar de residencia. (Serie desde 1975). Total nacional y provincias",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Movimiento Natural de la Poblaci\u00F3n",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 6562,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Por lugar de residencia. (Serie desde 1975). Total nacional y comunidades aut\u00F3nomas",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Movimiento Natural de la Poblaci\u00F3n",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 6563,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Por lugar de inscripci\u00F3n. (Serie hist\u00F3rica 1941-1974). Total nacional y provincias",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Movimiento Natural de la Poblaci\u00F3n",
+      "AnyoInicial": "1941",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2014-12-04T10:00:00"
+    },
+    {
+      "IdTabla": 6564,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Por lugar de inscripci\u00F3n. (Serie hist\u00F3rica 1941-1974). Total nacional y comunidades aut\u00F3nomas",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Movimiento Natural de la Poblaci\u00F3n",
+      "AnyoInicial": "1941",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2014-12-04T10:00:00"
+    },
+    {
+      "IdTabla": 6566,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Fen\u00F3menos demogr\u00E1ficos por tipo de fen\u00F3meno demogr\u00E1fico.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "1992",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 6567,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Fen\u00F3menos demogr\u00E1ficos por comunidades y ciudades aut\u00F3nomas y tipo de fen\u00F3meno demogr\u00E1fico",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "1992",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 6568,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Fen\u00F3menos demogr\u00E1ficos por tipo de fen\u00F3meno demogr\u00E1fico con residencia en el extranjero",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "2007",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 6580,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Fen\u00F3menos demogr\u00E1ficos por tipo de fen\u00F3meno demogr\u00E1fico",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "1992",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 6581,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Fen\u00F3menos demogr\u00E1ficos por tipo de fen\u00F3meno demogr\u00E1fico",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "1992",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 6582,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Fen\u00F3menos demogr\u00E1ficos por comunidades y ciudades aut\u00F3nomas y tipo de fen\u00F3meno demogr\u00E1fico",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "1992",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 6583,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Fen\u00F3menos demogr\u00E1ficos por comunidades y ciudades aut\u00F3nomas y tipo de fen\u00F3meno demogr\u00E1fico",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "1992",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 6584,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Fen\u00F3menos demogr\u00E1ficos por tipo de fen\u00F3meno demogr\u00E1fico con residencia en el extranjero",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "2007",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 6585,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Fen\u00F3menos demogr\u00E1ficos por tipo de fen\u00F3meno demogr\u00E1fico con residencia en el extranjero",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "2007",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 31868,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Defunciones por edad, sexo y mes de defunci\u00F3n",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-15T10:45:00"
+    },
+    {
+      "IdTabla": 31869,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Defunciones por edad, sexo y estado civil",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-15T10:45:00"
+    },
+    {
+      "IdTabla": 31870,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Defunciones por sexo y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-15T10:45:00"
+    },
+    {
+      "IdTabla": 31886,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Defunciones por edad, sexo y nivel educativo",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "2016",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-16T12:23:00"
+    },
+    {
+      "IdTabla": 31912,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Defunciones por edad, sexo y mes de defunci\u00F3n",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-15T10:45:00"
+    },
+    {
+      "IdTabla": 31913,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Defunciones por edad, sexo y estado civil",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-15T10:45:00"
+    },
+    {
+      "IdTabla": 31914,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Defunciones por sexo y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-15T10:45:00"
+    },
+    {
+      "IdTabla": 31915,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Defunciones por sexo y pa\u00EDs de nacimiento (Espa\u00F1a / extranjero)",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-11-06T10:32:00"
+    },
+    {
+      "IdTabla": 31916,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Defunciones por edad, sexo y nivel educativo",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "2016",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-16T12:23:00"
+    },
+    {
+      "IdTabla": 31917,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Defunciones por edad, sexo y mes de defunci\u00F3n",
+      "CodigoTabla": "PROV-MUN",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 31918,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Defunciones por edad, sexo y estado civil.",
+      "CodigoTabla": "PROV-MUN",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 31921,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Defunciones por edad, sexo y nivel educativo",
+      "CodigoTabla": "PROV-MUN",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "2016",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-11-06T10:32:00"
+    },
+    {
+      "IdTabla": 31926,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Defunciones de menores de un a\u00F1o por edad y sexo.",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-15T10:45:00"
+    },
+    {
+      "IdTabla": 31927,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Defunciones de menores de un a\u00F1o por edad y sexo.",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-15T10:45:00"
+    },
+    {
+      "IdTabla": 31928,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Defunciones de menores de un a\u00F1o por edad y sexo.",
+      "CodigoTabla": "PROV-MUN",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-15T10:45:00"
+    },
+    {
+      "IdTabla": 32455,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Defunciones por edad, sexo y relaci\u00F3n con la actividad",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "2016",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-11-06T10:32:00"
+    },
+    {
+      "IdTabla": 32456,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Defunciones por edad, sexo y ocupaci\u00F3n",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "2016",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-11-06T10:32:00"
+    },
+    {
+      "IdTabla": 32457,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Defunciones por edad, sexo y relaci\u00F3n con la actividad",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "2016",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-11-06T10:32:00"
+    },
+    {
+      "IdTabla": 32458,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Defunciones de ocupados por edad, sexo y ocupaci\u00F3n",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "2016",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-11-06T10:32:00"
+    },
+    {
+      "IdTabla": 32459,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Defunciones por edad, sexo y relaci\u00F3n con la actividad",
+      "CodigoTabla": "PROV-MUN",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "2016",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-11-06T10:32:00"
+    },
+    {
+      "IdTabla": 32460,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Defunciones de ocupados por edad, sexo y ocupaci\u00F3n",
+      "CodigoTabla": "PROV-MUN",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "2016",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-11-06T10:32:00"
+    },
+    {
+      "IdTabla": 48861,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Fen\u00F3menos demogr\u00E1ficos por tipo de fen\u00F3meno demogr\u00E1fico.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "1992",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 48862,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Fen\u00F3menos demogr\u00E1ficos por comunidades y ciudades aut\u00F3nomas y tipo de fen\u00F3meno demogr\u00E1fico",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "1992",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 48863,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Fen\u00F3menos demogr\u00E1ficos por tipo de fen\u00F3meno demogr\u00E1fico con residencia en el extranjero",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "2007",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 48870,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Por lugar de residencia y sexo. Total nacional y provincias",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 48871,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Por lugar de residencia, sexo y edad. Total nacional y comunidades aut\u00F3nomas.",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 58700,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Defunciones a nivel nacional por edad, sexo y nacionalidad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-15T10:45:00"
+    },
+    {
+      "IdTabla": 58701,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Defunciones a nivel nacional por nacionalidad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-15T10:45:00"
+    },
+    {
+      "IdTabla": 58702,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Defunciones a nivel nacional por edad, sexo y pa\u00EDs de nacimiento (extranjero/Espa\u00F1a)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-11-06T10:32:00"
+    },
+    {
+      "IdTabla": 70386,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Defunciones por sexo y pa\u00EDs de nacimiento (Espa\u00F1a/extranjero)",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2011-06-01T10:00:00"
+    },
+    {
+      "IdTabla": 70648,
+      "CodigoOperacion": "MNPD",
+      "Tabla": "Defunciones a nivel nacional por pa\u00EDs de nacimiento",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Movimiento Natural de Poblaci\u00F3n (Matrimonios, Nacimientos y Defunciones)",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2011-06-01T10:00:00"
     }
-
-    body {
-      font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-      background-color: #2D72D9;
-      color: #fff;
-      -moz-font-smoothing: antialiased;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    .error-container {
-      text-align: center;
-      height: 100%;
-    }
-
-    @media (max-width: 480px) {
-      .error-container {
-        position: relative;
-        top: 50%;
-        height: initial;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    .error-container h1 {
-      margin: 0;
-      font-size: 130px;
-      font-weight: 300;
-    }
-
-    @media (min-width: 480px) {
-      .error-container h1 {
-        position: relative;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    @media (min-width: 768px) {
-      .error-container h1 {
-        font-size: 220px;
-      }
-    }
-
-    .return {
-      color: rgba(255, 255, 255, 0.6);
-      font-weight: 400;
-      letter-spacing: -0.04em;
-      margin: 0;
-    }
-
-    @media (min-width: 480px) {
-      .return {
-        position: absolute;
-        width: 100%;
-        bottom: 30px;
-      }
-    }
-
-    .return a {
-      padding-bottom: 1px;
-      color: #fff;
-      text-decoration: none;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.6);
-      -webkit-transition: border-color 0.1s ease-in;
-      transition: border-color 0.1s ease-in;
-    }
-
-    .return a:hover {
-      border-bottom-color: #fff;
-    }
-  </style>
-  </head>
-  <body>
-    <div class="error-container">
-      <h1>404</h1>
-      <p class="return">La pagina solicitada no existe. <a href="./">Ir a inicio</a></p>
-    </div>
-  </body>
-</html>
+  ]
+}

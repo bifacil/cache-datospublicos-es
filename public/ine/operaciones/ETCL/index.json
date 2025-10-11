@@ -1,95 +1,549 @@
-﻿<!DOCTYPE html >
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>(404) The page you were looking for doesn't exist.</title>
-    <style type="text/css">
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
+﻿{
+  "CodigoOperacion": "ETCL",
+  "IdOperacion": 303,
+  "Operacion": "Encuesta Trimestral de Coste Laboral (ETCL)",
+  "CodigoIOE": "30187",
+  "Url": "https://ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C\u0026cid=1254736045053\u0026idp=1254735976596",
+  "Tablas": [
+    {
+      "IdTabla": 6030,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Coste laboral por trabajador por sectores de actividad",
+      "CodigoTabla": "2014_NAC",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-16T07:00:00"
+    },
+    {
+      "IdTabla": 6031,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Coste laboral por trabajador por tama\u00F1o del establecimiento, sectores de actividad",
+      "CodigoTabla": "2014_NAC",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-16T07:00:00"
+    },
+    {
+      "IdTabla": 6032,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Coste laboral por trabajador por secciones de la CNAE-09",
+      "CodigoTabla": "2014_NAC",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-16T07:00:00"
+    },
+    {
+      "IdTabla": 6033,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Coste laboral por trabajador por divisiones de la CNAE-09",
+      "CodigoTabla": "2014_NAC",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-16T07:00:00"
+    },
+    {
+      "IdTabla": 6034,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Coste laboral por hora efectiva por sectores de actividad",
+      "CodigoTabla": "2014_NAC",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-16T07:00:00"
+    },
+    {
+      "IdTabla": 6035,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Coste laboral por hora efectiva por tama\u00F1o del establecimiento, sectores de actividad",
+      "CodigoTabla": "2014_NAC",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-16T07:00:00"
+    },
+    {
+      "IdTabla": 6036,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Coste laboral por hora efectiva por secciones de la CNAE-09",
+      "CodigoTabla": "2014_NAC",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-16T07:00:00"
+    },
+    {
+      "IdTabla": 6037,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Coste laboral por hora efectiva por divisiones de la CNAE-09",
+      "CodigoTabla": "2014_NAC",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-16T07:00:00"
+    },
+    {
+      "IdTabla": 6038,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Coste salarial por trabajador, tipo de jornada, sectores de actividad",
+      "CodigoTabla": "2014_NAC",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-16T07:00:00"
+    },
+    {
+      "IdTabla": 6039,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Coste salarial por trabajador, tipo de jornada, secciones de la CNAE-09",
+      "CodigoTabla": "2014_NAC",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-16T07:00:00"
+    },
+    {
+      "IdTabla": 6040,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Coste salarial por hora efectiva, tipo de jornada, sectores de actividad",
+      "CodigoTabla": "2014_NAC",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-16T07:00:00"
+    },
+    {
+      "IdTabla": 6041,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Coste salarial por hora efectiva, tipo de jornada, secciones de la CNAE-09",
+      "CodigoTabla": "2014_NAC",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-16T07:00:00"
+    },
+    {
+      "IdTabla": 6042,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Tiempo de trabajo por trabajador y mes, tipo de jornada, sectores de actividad",
+      "CodigoTabla": "2014_NAC",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-16T07:00:00"
+    },
+    {
+      "IdTabla": 6043,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Tiempo de trabajo por trabajador y mes, tipo de jornada, secciones de la CNAE-09",
+      "CodigoTabla": "2014_NAC",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-16T07:00:00"
+    },
+    {
+      "IdTabla": 6044,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Tiempo de trabajo por trabajador y mes, sectores de actividad",
+      "CodigoTabla": "2014_NAC",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-16T07:00:00"
+    },
+    {
+      "IdTabla": 6045,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Tiempo de trabajo por trabajador y mes por secciones de la CNAE-09",
+      "CodigoTabla": "2014_NAC",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-16T07:00:00"
+    },
+    {
+      "IdTabla": 6046,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Tiempo de trabajo por trabajador y mes por divisiones de la CNAE-09",
+      "CodigoTabla": "2014_NAC",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-16T07:00:00"
+    },
+    {
+      "IdTabla": 6047,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "N\u00FAmero de vacantes por sectores de actividad ",
+      "CodigoTabla": "2014_NAC",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "Trimestre 3",
+      "UltimaModificacion": "2025-09-16T07:00:00"
+    },
+    {
+      "IdTabla": 6048,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "N\u00FAmero de vacantes por secciones de actividad",
+      "CodigoTabla": "2014_NAC",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "Trimestre 3",
+      "UltimaModificacion": "2025-09-16T07:00:00"
+    },
+    {
+      "IdTabla": 6049,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "N\u00FAmero de vacantes por tama\u00F1o del establecimiento",
+      "CodigoTabla": "2014_NAC",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "Trimestre 3",
+      "UltimaModificacion": "2025-09-16T07:00:00"
+    },
+    {
+      "IdTabla": 6053,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Motivos por los que no existen vacantes por sectores de activdad",
+      "CodigoTabla": "2014_NAC",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "Trimestre 3",
+      "UltimaModificacion": "2025-09-16T07:00:00"
+    },
+    {
+      "IdTabla": 6054,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Motivos por los que no existen vacantes por secciones de actividad",
+      "CodigoTabla": "2014_NAC",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "Trimestre 3",
+      "UltimaModificacion": "2025-09-16T07:00:00"
+    },
+    {
+      "IdTabla": 6055,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Motivos por los que no existen vacantes por tama\u00F1o del establecimiento",
+      "CodigoTabla": "2014_NAC",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "Trimestre 3",
+      "UltimaModificacion": "2025-09-16T07:00:00"
+    },
+    {
+      "IdTabla": 6056,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Percepciones por d\u00EDa de IT, coste indemnizaci\u00F3n por trabajador despedido por actividad econ\u00F3mica ",
+      "CodigoTabla": "2014_NAC",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-16T07:00:00"
+    },
+    {
+      "IdTabla": 6057,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Coste por hora extraordinaria, actividad econ\u00F3mica ",
+      "CodigoTabla": "2014_NAC",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-16T07:00:00"
+    },
+    {
+      "IdTabla": 6058,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Coste por hora extraordinaria por comunidad aut\u00F3noma",
+      "CodigoTabla": "2014_CCAA",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-16T07:00:00"
+    },
+    {
+      "IdTabla": 6060,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Errores de muestreo por comunidad aut\u00F3noma",
+      "CodigoTabla": "2014_NAC-CCAA",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-16T07:00:00"
+    },
+    {
+      "IdTabla": 6061,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Coste laboral por trabajador, comunidad aut\u00F3noma, sectores de actividad",
+      "CodigoTabla": "2014_CCAA",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-16T07:00:00"
+    },
+    {
+      "IdTabla": 6062,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Coste laboral por hora efectiva, comunidad aut\u00F3noma, sectores de actividad",
+      "CodigoTabla": "2014_CCAA",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-16T07:00:00"
+    },
+    {
+      "IdTabla": 6063,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Tiempo de trabajo por trabajador y mes por comunidad aut\u00F3noma, tipo de jornada, sectores de actividad",
+      "CodigoTabla": "2014_CCAA",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-16T07:00:00"
+    },
+    {
+      "IdTabla": 6064,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "N\u00FAmero de vacantes comunidad aut\u00F3noma",
+      "CodigoTabla": "2014_CCAA",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "Trimestre 3",
+      "UltimaModificacion": "2025-09-16T07:00:00"
+    },
+    {
+      "IdTabla": 6066,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Motivos por los que no existen vacantes por comunidad aut\u00F3noma",
+      "CodigoTabla": "2014_CCAA",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "Trimestre 3",
+      "UltimaModificacion": "2025-09-16T07:00:00"
+    },
+    {
+      "IdTabla": 6067,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Coste laboral total por trabajador",
+      "CodigoTabla": "2008_CCAA",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2014-06-17T07:00:00"
+    },
+    {
+      "IdTabla": 6068,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Coste laboral total por hora efectiva",
+      "CodigoTabla": "2008_CCAA",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2014-06-17T07:00:00"
+    },
+    {
+      "IdTabla": 6070,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Coste laboral por trabajador y sectores de actividad",
+      "CodigoTabla": "2008_NAC",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2014-06-17T07:00:00"
+    },
+    {
+      "IdTabla": 6071,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Coste laboral por trabajador por tama\u00F1o del establecimiento y sectores de actividad",
+      "CodigoTabla": "2008_NAC",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2014-06-17T07:00:00"
+    },
+    {
+      "IdTabla": 6072,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Coste laboral por hora efectiva por secciones de la CNAE-09",
+      "CodigoTabla": "2008_NAC",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2014-06-17T07:00:00"
+    },
+    {
+      "IdTabla": 6073,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Coste laboral por hora efectiva por sectores de actividad",
+      "CodigoTabla": "2008_NAC",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2014-06-17T07:00:00"
+    },
+    {
+      "IdTabla": 6074,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Coste laboral por hora efectiva por tama\u00F1o del establecimiento y sectores de actividad",
+      "CodigoTabla": "2008_NAC",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2014-06-17T07:00:00"
+    },
+    {
+      "IdTabla": 6075,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Coste laboral por trabajador por secciones de la CNAE-09",
+      "CodigoTabla": "2008_NAC",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2014-06-17T07:00:00"
+    },
+    {
+      "IdTabla": 6076,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Coste salarial por trabajador , tipo de jornada, sectores de actividad",
+      "CodigoTabla": "2008_NAC",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2014-06-17T07:00:00"
+    },
+    {
+      "IdTabla": 6077,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Coste salarial por trabajador , tipo de jornada, secciones de la CNAE-09",
+      "CodigoTabla": "2008_NAC",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2014-06-17T07:00:00"
+    },
+    {
+      "IdTabla": 6078,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Coste salarial por hora efectiva , tipo de jornada, sectores de actividad",
+      "CodigoTabla": "2008_NAC",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2014-06-17T07:00:00"
+    },
+    {
+      "IdTabla": 6079,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Coste salarial por hora efectiva , tipo de jornada, secciones de la CNAE-09",
+      "CodigoTabla": "2008_NAC",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2014-06-17T07:00:00"
+    },
+    {
+      "IdTabla": 6080,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Tiempo de trabajo por trabajador y mes, por sectores de actividad",
+      "CodigoTabla": "2008_NAC",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2014-06-17T07:00:00"
+    },
+    {
+      "IdTabla": 6081,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Tiempo de trabajo por trabajador y mes por secciones de la CNAE-09",
+      "CodigoTabla": "2008_NAC",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2014-06-17T07:00:00"
+    },
+    {
+      "IdTabla": 6082,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Tiempo de trabajo por trabajador y mes, tipo de jornada, sectores de actividad",
+      "CodigoTabla": "2008_NAC",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2014-06-17T07:00:00"
+    },
+    {
+      "IdTabla": 6083,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Tiempo de trabajo por trabajador y mes, tipo de jornada, secciones de la CNAE-09",
+      "CodigoTabla": "2008_NAC",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2014-06-17T07:00:00"
+    },
+    {
+      "IdTabla": 6091,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Tiempo de trabajo por trabajador, mes y tipo de jornada",
+      "CodigoTabla": "2008_CCAA",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2014-06-17T07:00:00"
+    },
+    {
+      "IdTabla": 11221,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Costes laborales por trabajador",
+      "CodigoTabla": "2014_NAC_CEEC-CEC",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-16T07:00:00"
+    },
+    {
+      "IdTabla": 11222,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Costes laborales por hora efectiva de trabajo",
+      "CodigoTabla": "2014_NAC_CEEC-CEC",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-16T07:00:00"
+    },
+    {
+      "IdTabla": 59391,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Series por sectores de actividad y componentes del coste",
+      "CodigoTabla": "2020_NAC",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-16T07:00:00"
+    },
+    {
+      "IdTabla": 59392,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Series por comunidad aut\u00F3noma y componentes del coste",
+      "CodigoTabla": "2020_NAC-CCAA",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-16T07:00:00"
+    },
+    {
+      "IdTabla": 60300,
+      "CodigoOperacion": "ETCL",
+      "Tabla": "Errores de muestreo por divisiones de la CNAE-09",
+      "CodigoTabla": "2014_NAC",
+      "Publicacion": "Encuesta Trimestral de Coste Laboral",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-16T07:00:00"
     }
-
-    body {
-      font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-      background-color: #2D72D9;
-      color: #fff;
-      -moz-font-smoothing: antialiased;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    .error-container {
-      text-align: center;
-      height: 100%;
-    }
-
-    @media (max-width: 480px) {
-      .error-container {
-        position: relative;
-        top: 50%;
-        height: initial;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    .error-container h1 {
-      margin: 0;
-      font-size: 130px;
-      font-weight: 300;
-    }
-
-    @media (min-width: 480px) {
-      .error-container h1 {
-        position: relative;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    @media (min-width: 768px) {
-      .error-container h1 {
-        font-size: 220px;
-      }
-    }
-
-    .return {
-      color: rgba(255, 255, 255, 0.6);
-      font-weight: 400;
-      letter-spacing: -0.04em;
-      margin: 0;
-    }
-
-    @media (min-width: 480px) {
-      .return {
-        position: absolute;
-        width: 100%;
-        bottom: 30px;
-      }
-    }
-
-    .return a {
-      padding-bottom: 1px;
-      color: #fff;
-      text-decoration: none;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.6);
-      -webkit-transition: border-color 0.1s ease-in;
-      transition: border-color 0.1s ease-in;
-    }
-
-    .return a:hover {
-      border-bottom-color: #fff;
-    }
-  </style>
-  </head>
-  <body>
-    <div class="error-container">
-      <h1>404</h1>
-      <p class="return">La pagina solicitada no existe. <a href="./">Ir a inicio</a></p>
-    </div>
-  </body>
-</html>
+  ]
+}

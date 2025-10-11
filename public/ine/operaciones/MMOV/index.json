@@ -1,95 +1,159 @@
-﻿<!DOCTYPE html >
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>(404) The page you were looking for doesn't exist.</title>
-    <style type="text/css">
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
+﻿{
+  "CodigoOperacion": "MMOV",
+  "IdOperacion": 402,
+  "Operacion": "Movilidad COVID19",
+  "CodigoIOE": "",
+  "Url": "https://www.ine.es/experimental/movilidad/experimental_em.htm",
+  "Tablas": [
+    {
+      "IdTabla": 34961,
+      "CodigoOperacion": "MMOV",
+      "Tabla": "Movimiento de personas por \u00E1reas de movilidad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Experimental: movilidad COVID19",
+      "AnyoInicial": "2019",
+      "PeriodoInicial": "Diario",
+      "UltimaModificacion": "2020-11-18T10:00:00"
+    },
+    {
+      "IdTabla": 35167,
+      "CodigoOperacion": "MMOV",
+      "Tabla": "Movimiento de personas por comunidades aut\u00F3nomas y provincias",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Experimental: movilidad COVID19",
+      "AnyoInicial": "2019",
+      "PeriodoInicial": "Diario",
+      "UltimaModificacion": "2020-11-18T10:00:00"
+    },
+    {
+      "IdTabla": 36191,
+      "CodigoOperacion": "MMOV",
+      "Tabla": "Poblaci\u00F3n por comunidades aut\u00F3nomas y provincias",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Experimental: movilidad COVID19",
+      "AnyoInicial": "2019",
+      "PeriodoInicial": "Diario",
+      "UltimaModificacion": "2021-06-03T08:00:00"
+    },
+    {
+      "IdTabla": 36192,
+      "CodigoOperacion": "MMOV",
+      "Tabla": "Poblaci\u00F3n por \u00E1reas de movilidad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Experimental: movilidad COVID19",
+      "AnyoInicial": "2019",
+      "PeriodoInicial": "Diario",
+      "UltimaModificacion": "2021-06-03T08:00:00"
+    },
+    {
+      "IdTabla": 36193,
+      "CodigoOperacion": "MMOV",
+      "Tabla": "Mapa: Movimiento de personas y personas por CCCAA, provincias y \u00E1reas de movilidad",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Experimental: movilidad COVID19",
+      "AnyoInicial": "2019",
+      "PeriodoInicial": "Diario",
+      "UltimaModificacion": "2020-11-18T10:00:00"
+    },
+    {
+      "IdTabla": 37809,
+      "CodigoOperacion": "MMOV",
+      "Tabla": "Movimiento de personas por \u00E1reas de movilidad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Experimental: movilidad COVID19",
+      "AnyoInicial": "2019",
+      "PeriodoInicial": "18/11",
+      "UltimaModificacion": "2021-03-25T09:00:00"
+    },
+    {
+      "IdTabla": 37810,
+      "CodigoOperacion": "MMOV",
+      "Tabla": "Poblaci\u00F3n por \u00E1reas de movilidad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Experimental: movilidad COVID19",
+      "AnyoInicial": "2019",
+      "PeriodoInicial": "Diario",
+      "UltimaModificacion": "2021-06-03T08:00:00"
+    },
+    {
+      "IdTabla": 37811,
+      "CodigoOperacion": "MMOV",
+      "Tabla": "Movimiento de personas por comunidades aut\u00F3nomas y provincias",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Experimental: movilidad COVID19",
+      "AnyoInicial": "2019",
+      "PeriodoInicial": "18/11",
+      "UltimaModificacion": "2021-03-25T09:00:00"
+    },
+    {
+      "IdTabla": 37812,
+      "CodigoOperacion": "MMOV",
+      "Tabla": "Poblaci\u00F3n por comunidades aut\u00F3nomas y provincias",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Experimental: movilidad COVID19",
+      "AnyoInicial": "2019",
+      "PeriodoInicial": "Diario",
+      "UltimaModificacion": "2021-06-03T08:00:00"
+    },
+    {
+      "IdTabla": 37813,
+      "CodigoOperacion": "MMOV",
+      "Tabla": "Mapa: Movimiento de personas y personas por CCCAA, provincias y \u00E1reas de movilidad",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Experimental: movilidad COVID19",
+      "AnyoInicial": "2019",
+      "PeriodoInicial": "18/11",
+      "UltimaModificacion": "2021-03-25T09:00:00"
+    },
+    {
+      "IdTabla": 48191,
+      "CodigoOperacion": "MMOV",
+      "Tabla": "Mapa: Movimiento de personas y personas por CCCAA, provincias y \u00E1reas de movilidad",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Experimental: movilidad COVID19",
+      "AnyoInicial": "2019",
+      "PeriodoInicial": "18/11",
+      "UltimaModificacion": "2022-02-25T09:00:00"
+    },
+    {
+      "IdTabla": 48251,
+      "CodigoOperacion": "MMOV",
+      "Tabla": "Movimiento de personas por \u00E1reas de movilidad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Experimental: movilidad COVID19",
+      "AnyoInicial": "2019",
+      "PeriodoInicial": "18/11",
+      "UltimaModificacion": "2022-02-25T09:00:00"
+    },
+    {
+      "IdTabla": 48252,
+      "CodigoOperacion": "MMOV",
+      "Tabla": "Movimiento de personas por comunidades aut\u00F3nomas y provincias",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Experimental: movilidad COVID19",
+      "AnyoInicial": "2019",
+      "PeriodoInicial": "18/11",
+      "UltimaModificacion": "2022-02-25T09:00:00"
+    },
+    {
+      "IdTabla": 48253,
+      "CodigoOperacion": "MMOV",
+      "Tabla": "Poblaci\u00F3n por \u00E1reas de movilidad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Experimental: movilidad COVID19",
+      "AnyoInicial": "2019",
+      "PeriodoInicial": "Diario",
+      "UltimaModificacion": "2021-06-03T08:00:00"
+    },
+    {
+      "IdTabla": 48254,
+      "CodigoOperacion": "MMOV",
+      "Tabla": "Poblaci\u00F3n por comunidades aut\u00F3nomas y provincias",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Experimental: movilidad COVID19",
+      "AnyoInicial": "2019",
+      "PeriodoInicial": "Diario",
+      "UltimaModificacion": "2021-06-03T08:00:00"
     }
-
-    body {
-      font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-      background-color: #2D72D9;
-      color: #fff;
-      -moz-font-smoothing: antialiased;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    .error-container {
-      text-align: center;
-      height: 100%;
-    }
-
-    @media (max-width: 480px) {
-      .error-container {
-        position: relative;
-        top: 50%;
-        height: initial;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    .error-container h1 {
-      margin: 0;
-      font-size: 130px;
-      font-weight: 300;
-    }
-
-    @media (min-width: 480px) {
-      .error-container h1 {
-        position: relative;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    @media (min-width: 768px) {
-      .error-container h1 {
-        font-size: 220px;
-      }
-    }
-
-    .return {
-      color: rgba(255, 255, 255, 0.6);
-      font-weight: 400;
-      letter-spacing: -0.04em;
-      margin: 0;
-    }
-
-    @media (min-width: 480px) {
-      .return {
-        position: absolute;
-        width: 100%;
-        bottom: 30px;
-      }
-    }
-
-    .return a {
-      padding-bottom: 1px;
-      color: #fff;
-      text-decoration: none;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.6);
-      -webkit-transition: border-color 0.1s ease-in;
-      transition: border-color 0.1s ease-in;
-    }
-
-    .return a:hover {
-      border-bottom-color: #fff;
-    }
-  </style>
-  </head>
-  <body>
-    <div class="error-container">
-      <h1>404</h1>
-      <p class="return">La pagina solicitada no existe. <a href="./">Ir a inicio</a></p>
-    </div>
-  </body>
-</html>
+  ]
+}

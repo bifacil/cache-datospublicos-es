@@ -1,95 +1,309 @@
-﻿<!DOCTYPE html >
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>(404) The page you were looking for doesn't exist.</title>
-    <style type="text/css">
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
+﻿{
+  "CodigoOperacion": "DIR",
+  "IdOperacion": 43,
+  "Operacion": "Explotaci\u00F3n Estad\u00EDstica del Directorio Central de Empresas",
+  "CodigoIOE": "30203",
+  "Url": "https://ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C\u0026cid=1254736160707\u0026idp=1254735576550",
+  "Tablas": [
+    {
+      "IdTabla": 287,
+      "CodigoOperacion": "DIR",
+      "Tabla": "Bajas por condici\u00F3n jur\u00EDdica, actividad principal (divisiones CNAE-93) y estrato de asalariados.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Explotaci\u00F3n Estad\u00EDstica del Directorio Central de Empresas",
+      "AnyoInicial": "1998",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2017-07-31T09:00:00"
+    },
+    {
+      "IdTabla": 288,
+      "CodigoOperacion": "DIR",
+      "Tabla": "Permanencias por condici\u00F3n jur\u00EDdica, actividad principal (divisiones CNAE-93) y estrato de asalariados.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Explotaci\u00F3n Estad\u00EDstica del Directorio Central de Empresas",
+      "AnyoInicial": "1998",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2017-07-31T09:00:00"
+    },
+    {
+      "IdTabla": 289,
+      "CodigoOperacion": "DIR",
+      "Tabla": "Altas por condici\u00F3n jur\u00EDdica, actividad principal (divisiones CNAE-2009) y estrato de asalariados.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Explotaci\u00F3n Estad\u00EDstica del Directorio Central de Empresas",
+      "AnyoInicial": "2007",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-13T10:00:00"
+    },
+    {
+      "IdTabla": 290,
+      "CodigoOperacion": "DIR",
+      "Tabla": "Bajas por condici\u00F3n jur\u00EDdica, actividad principal (divisiones CNAE-2009) y estrato de asalariados.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Explotaci\u00F3n Estad\u00EDstica del Directorio Central de Empresas",
+      "AnyoInicial": "2007",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-13T10:00:00"
+    },
+    {
+      "IdTabla": 291,
+      "CodigoOperacion": "DIR",
+      "Tabla": "Permanencias por condici\u00F3n jur\u00EDdica, actividad principal (divisiones CNAE-2009) y estrato de asalariados.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Explotaci\u00F3n Estad\u00EDstica del Directorio Central de Empresas",
+      "AnyoInicial": "2007",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-13T10:00:00"
+    },
+    {
+      "IdTabla": 292,
+      "CodigoOperacion": "DIR",
+      "Tabla": "Altas por condici\u00F3n jur\u00EDdica, actividad principal (divisiones CNAE-93) y estrato de asalariados.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Explotaci\u00F3n Estad\u00EDstica del Directorio Central de Empresas",
+      "AnyoInicial": "1998",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2017-07-31T09:00:00"
+    },
+    {
+      "IdTabla": 294,
+      "CodigoOperacion": "DIR",
+      "Tabla": "Locales por CCAA, actividad principal (grupos CNAE 2009) y estrato de asalariados.",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Explotaci\u00F3n Estad\u00EDstica del Directorio Central de Empresas",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-13T10:00:00"
+    },
+    {
+      "IdTabla": 295,
+      "CodigoOperacion": "DIR",
+      "Tabla": "Locales por estrato de asalariados y condici\u00F3n jur\u00EDdica",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Explotaci\u00F3n Estad\u00EDstica del Directorio Central de Empresas",
+      "AnyoInicial": "1999",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-13T10:00:00"
+    },
+    {
+      "IdTabla": 301,
+      "CodigoOperacion": "DIR",
+      "Tabla": "Locales por provincia, actividad principal (divisiones CNAE 2009) y estrato de asalariados.",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Explotaci\u00F3n Estad\u00EDstica del Directorio Central de Empresas",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-13T10:00:00"
+    },
+    {
+      "IdTabla": 302,
+      "CodigoOperacion": "DIR",
+      "Tabla": "Empresas por provincia y condici\u00F3n jur\u00EDdica.",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Explotaci\u00F3n Estad\u00EDstica del Directorio Central de Empresas",
+      "AnyoInicial": "1999",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-13T10:00:00"
+    },
+    {
+      "IdTabla": 303,
+      "CodigoOperacion": "DIR",
+      "Tabla": "Locales por provincia y condici\u00F3n jur\u00EDdica",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Explotaci\u00F3n Estad\u00EDstica del Directorio Central de Empresas",
+      "AnyoInicial": "1999",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-13T10:00:00"
+    },
+    {
+      "IdTabla": 304,
+      "CodigoOperacion": "DIR",
+      "Tabla": "Locales por provincia, actividad principal (divisiones CNAE93) y estrato de asalariados.",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Explotaci\u00F3n Estad\u00EDstica del Directorio Central de Empresas",
+      "AnyoInicial": "1999",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2012-08-07T09:20:00"
+    },
+    {
+      "IdTabla": 306,
+      "CodigoOperacion": "DIR",
+      "Tabla": "Locales por provincias y estrato de asalariados.",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Explotaci\u00F3n Estad\u00EDstica del Directorio Central de Empresas",
+      "AnyoInicial": "1999",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-13T10:00:00"
+    },
+    {
+      "IdTabla": 3953,
+      "CodigoOperacion": "DIR",
+      "Tabla": "Empresas por edad y estrato de asalariados",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Explotaci\u00F3n Estad\u00EDstica del Directorio Central de Empresas",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-13T10:00:00"
+    },
+    {
+      "IdTabla": 3954,
+      "CodigoOperacion": "DIR",
+      "Tabla": "Empresas por actividad principal (divisiones CNAE 2009)  y edad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Explotaci\u00F3n Estad\u00EDstica del Directorio Central de Empresas",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-13T10:00:00"
+    },
+    {
+      "IdTabla": 4721,
+      "CodigoOperacion": "DIR",
+      "Tabla": "Empresas por municipio y actividad principal",
+      "CodigoTabla": "NAC-PROV-MUN",
+      "Publicacion": "Explotaci\u00F3n Estad\u00EDstica del Directorio Central de Empresas",
+      "AnyoInicial": "2012",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-13T10:00:00"
+    },
+    {
+      "IdTabla": 30156,
+      "CodigoOperacion": "DIR",
+      "Tabla": "Empresas con soporte legal de persona f\u00EDsica, por sexo y estrato de asalariados",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Explotaci\u00F3n Estad\u00EDstica del Directorio Central de Empresas",
+      "AnyoInicial": "2019",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-13T10:00:00"
+    },
+    {
+      "IdTabla": 30157,
+      "CodigoOperacion": "DIR",
+      "Tabla": "Empresas con soporte legal de persona f\u00EDsica, por sexo, actividad principal (grupos CNAE 2009) y estrato de asalariados",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Explotaci\u00F3n Estad\u00EDstica del Directorio Central de Empresas",
+      "AnyoInicial": "2019",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-13T10:00:00"
+    },
+    {
+      "IdTabla": 32955,
+      "CodigoOperacion": "DIR",
+      "Tabla": "Empresas por condici\u00F3n jur\u00EDdica, actividad principal (grupos CNAE 2009) y estrato de asalariados (antigua estratificaci\u00F3n).",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Explotaci\u00F3n Estad\u00EDstica del Directorio Central de Empresas",
+      "AnyoInicial": "2019",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2019-12-20T10:00:00"
+    },
+    {
+      "IdTabla": 32956,
+      "CodigoOperacion": "DIR",
+      "Tabla": "Empresas por CCAA, actividad principal (grupos CNAE 2009) y estrato de asalariados (antigua estratificaci\u00F3n).",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Explotaci\u00F3n Estad\u00EDstica del Directorio Central de Empresas",
+      "AnyoInicial": "2019",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2019-12-20T10:00:00"
+    },
+    {
+      "IdTabla": 39371,
+      "CodigoOperacion": "DIR",
+      "Tabla": "Empresas por condici\u00F3n jur\u00EDdica, actividad principal (grupos CNAE 2009) y estrato de asalariados.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Explotaci\u00F3n Estad\u00EDstica del Directorio Central de Empresas",
+      "AnyoInicial": "2020",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-13T10:00:00"
+    },
+    {
+      "IdTabla": 39372,
+      "CodigoOperacion": "DIR",
+      "Tabla": "Empresas por CCAA, actividad principal (grupos CNAE 2009) y estrato de asalariados.",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Explotaci\u00F3n Estad\u00EDstica del Directorio Central de Empresas",
+      "AnyoInicial": "2020",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-13T10:00:00"
+    },
+    {
+      "IdTabla": 39374,
+      "CodigoOperacion": "DIR",
+      "Tabla": "Empresas por provincia y estrato de asalariados.",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Explotaci\u00F3n Estad\u00EDstica del Directorio Central de Empresas",
+      "AnyoInicial": "2020",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-13T10:00:00"
+    },
+    {
+      "IdTabla": 39375,
+      "CodigoOperacion": "DIR",
+      "Tabla": "Empresas por estrato de asalariados y condici\u00F3n jur\u00EDdica.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Explotaci\u00F3n Estad\u00EDstica del Directorio Central de Empresas",
+      "AnyoInicial": "2020",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-13T10:00:00"
+    },
+    {
+      "IdTabla": 73018,
+      "CodigoOperacion": "DIR",
+      "Tabla": "Empresas por estrato de asalariados y condici\u00F3n jur\u00EDdica.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Explotaci\u00F3n Estad\u00EDstica del Directorio Central de Empresas",
+      "AnyoInicial": "2020",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2011-05-12T10:57:00"
+    },
+    {
+      "IdTabla": 73019,
+      "CodigoOperacion": "DIR",
+      "Tabla": "Empresas por condici\u00F3n jur\u00EDdica, actividad principal (grupos CNAE 2009) y estrato de asalariados.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Explotaci\u00F3n Estad\u00EDstica del Directorio Central de Empresas",
+      "AnyoInicial": "2020",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2011-05-12T10:57:00"
+    },
+    {
+      "IdTabla": 73020,
+      "CodigoOperacion": "DIR",
+      "Tabla": "Empresas por CCAA, actividad principal (grupos CNAE 2009) y estrato de asalariados.",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Explotaci\u00F3n Estad\u00EDstica del Directorio Central de Empresas",
+      "AnyoInicial": "2020",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2011-05-12T10:57:00"
+    },
+    {
+      "IdTabla": 73021,
+      "CodigoOperacion": "DIR",
+      "Tabla": "Empresas por provincia y condici\u00F3n jur\u00EDdica.",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Explotaci\u00F3n Estad\u00EDstica del Directorio Central de Empresas",
+      "AnyoInicial": "1999",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2011-05-12T10:57:00"
+    },
+    {
+      "IdTabla": 73022,
+      "CodigoOperacion": "DIR",
+      "Tabla": "Empresas por provincia y estrato de asalariados.",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Explotaci\u00F3n Estad\u00EDstica del Directorio Central de Empresas",
+      "AnyoInicial": "2020",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2011-05-12T10:57:00"
+    },
+    {
+      "IdTabla": 73023,
+      "CodigoOperacion": "DIR",
+      "Tabla": "Locales por estrato de asalariados y condici\u00F3n jur\u00EDdica",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Explotaci\u00F3n Estad\u00EDstica del Directorio Central de Empresas",
+      "AnyoInicial": "1999",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2011-05-12T10:57:00"
     }
-
-    body {
-      font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-      background-color: #2D72D9;
-      color: #fff;
-      -moz-font-smoothing: antialiased;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    .error-container {
-      text-align: center;
-      height: 100%;
-    }
-
-    @media (max-width: 480px) {
-      .error-container {
-        position: relative;
-        top: 50%;
-        height: initial;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    .error-container h1 {
-      margin: 0;
-      font-size: 130px;
-      font-weight: 300;
-    }
-
-    @media (min-width: 480px) {
-      .error-container h1 {
-        position: relative;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    @media (min-width: 768px) {
-      .error-container h1 {
-        font-size: 220px;
-      }
-    }
-
-    .return {
-      color: rgba(255, 255, 255, 0.6);
-      font-weight: 400;
-      letter-spacing: -0.04em;
-      margin: 0;
-    }
-
-    @media (min-width: 480px) {
-      .return {
-        position: absolute;
-        width: 100%;
-        bottom: 30px;
-      }
-    }
-
-    .return a {
-      padding-bottom: 1px;
-      color: #fff;
-      text-decoration: none;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.6);
-      -webkit-transition: border-color 0.1s ease-in;
-      transition: border-color 0.1s ease-in;
-    }
-
-    .return a:hover {
-      border-bottom-color: #fff;
-    }
-  </style>
-  </head>
-  <body>
-    <div class="error-container">
-      <h1>404</h1>
-      <p class="return">La pagina solicitada no existe. <a href="./">Ir a inicio</a></p>
-    </div>
-  </body>
-</html>
+  ]
+}

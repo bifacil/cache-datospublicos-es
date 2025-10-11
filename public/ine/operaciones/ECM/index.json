@@ -1,95 +1,129 @@
-﻿<!DOCTYPE html >
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>(404) The page you were looking for doesn't exist.</title>
-    <style type="text/css">
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
+﻿{
+  "CodigoOperacion": "ECM",
+  "IdOperacion": 23,
+  "Operacion": "Estad\u00EDstica de Defunciones seg\u00FAn la Causa de Muerte",
+  "CodigoIOE": "30417",
+  "Url": "https://ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C\u0026cid=1254736176780\u0026idp=1254735573175",
+  "Tablas": [
+    {
+      "IdTabla": 6609,
+      "CodigoOperacion": "ECM",
+      "Tabla": "Defunciones por causas (cap\u00EDtulos) por sexo y grupos de edad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de defunciones seg\u00FAn la causa de muerte",
+      "AnyoInicial": "1980",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-23T09:00:00"
+    },
+    {
+      "IdTabla": 7036,
+      "CodigoOperacion": "ECM",
+      "Tabla": "Defunciones por causas (cap\u00EDtulos) por sexo y grupos de edad",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de defunciones seg\u00FAn la causa de muerte",
+      "AnyoInicial": "1980",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-23T09:00:00"
+    },
+    {
+      "IdTabla": 7947,
+      "CodigoOperacion": "ECM",
+      "Tabla": "Defunciones por causas (lista reducida) por sexo y grupos de edad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de defunciones seg\u00FAn la causa de muerte",
+      "AnyoInicial": "1980",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-23T09:00:00"
+    },
+    {
+      "IdTabla": 9935,
+      "CodigoOperacion": "ECM",
+      "Tabla": "Defunciones por causas (cap\u00EDtulos) por sexo",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estad\u00EDstica de defunciones seg\u00FAn la causa de muerte",
+      "AnyoInicial": "1980",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-23T09:00:00"
+    },
+    {
+      "IdTabla": 9936,
+      "CodigoOperacion": "ECM",
+      "Tabla": "Defunciones por causas (lista reducida) por sexo",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estad\u00EDstica de defunciones seg\u00FAn la causa de muerte",
+      "AnyoInicial": "1980",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-23T09:00:00"
+    },
+    {
+      "IdTabla": 10803,
+      "CodigoOperacion": "ECM",
+      "Tabla": "Defunciones por causas (lista reducida) por sexo y grupos de edad",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de defunciones seg\u00FAn la causa de muerte",
+      "AnyoInicial": "1980",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-23T09:00:00"
+    },
+    {
+      "IdTabla": 14511,
+      "CodigoOperacion": "ECM",
+      "Tabla": "Defunciones por causas (cap\u00EDtulos) por sexo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de defunciones seg\u00FAn la causa de muerte",
+      "AnyoInicial": "1980",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2024-12-17T10:00:00"
+    },
+    {
+      "IdTabla": 14819,
+      "CodigoOperacion": "ECM",
+      "Tabla": "Defunciones por causas (lista reducida) por sexo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de defunciones seg\u00FAn la causa de muerte",
+      "AnyoInicial": "1980",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2024-12-17T10:00:00"
+    },
+    {
+      "IdTabla": 49075,
+      "CodigoOperacion": "ECM",
+      "Tabla": "Defunciones por causas (cap\u00EDtulos), sexo y grupos de edad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de defunciones seg\u00FAn la causa de muerte",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-23T09:00:00"
+    },
+    {
+      "IdTabla": 73035,
+      "CodigoOperacion": "ECM",
+      "Tabla": "Defunciones por causas (cap\u00EDtulos) por sexo y provincia",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estad\u00EDstica de defunciones seg\u00FAn la causa de muerte",
+      "AnyoInicial": "1980",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-23T09:00:00"
+    },
+    {
+      "IdTabla": 73036,
+      "CodigoOperacion": "ECM",
+      "Tabla": "Defunciones por causas (cap\u00EDtulos) por sexo y grupos de edad y Comunidad Aut\u00F3noma",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de defunciones seg\u00FAn la causa de muerte",
+      "AnyoInicial": "1980",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-23T09:00:00"
+    },
+    {
+      "IdTabla": 73037,
+      "CodigoOperacion": "ECM",
+      "Tabla": "Defunciones mensuales por causas (cap\u00EDtulos) por sexo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de defunciones seg\u00FAn la causa de muerte",
+      "AnyoInicial": "1980",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2016-05-31T09:00:00"
     }
-
-    body {
-      font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-      background-color: #2D72D9;
-      color: #fff;
-      -moz-font-smoothing: antialiased;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    .error-container {
-      text-align: center;
-      height: 100%;
-    }
-
-    @media (max-width: 480px) {
-      .error-container {
-        position: relative;
-        top: 50%;
-        height: initial;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    .error-container h1 {
-      margin: 0;
-      font-size: 130px;
-      font-weight: 300;
-    }
-
-    @media (min-width: 480px) {
-      .error-container h1 {
-        position: relative;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    @media (min-width: 768px) {
-      .error-container h1 {
-        font-size: 220px;
-      }
-    }
-
-    .return {
-      color: rgba(255, 255, 255, 0.6);
-      font-weight: 400;
-      letter-spacing: -0.04em;
-      margin: 0;
-    }
-
-    @media (min-width: 480px) {
-      .return {
-        position: absolute;
-        width: 100%;
-        bottom: 30px;
-      }
-    }
-
-    .return a {
-      padding-bottom: 1px;
-      color: #fff;
-      text-decoration: none;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.6);
-      -webkit-transition: border-color 0.1s ease-in;
-      transition: border-color 0.1s ease-in;
-    }
-
-    .return a:hover {
-      border-bottom-color: #fff;
-    }
-  </style>
-  </head>
-  <body>
-    <div class="error-container">
-      <h1>404</h1>
-      <p class="return">La pagina solicitada no existe. <a href="./">Ir a inicio</a></p>
-    </div>
-  </body>
-</html>
+  ]
+}

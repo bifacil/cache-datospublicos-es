@@ -1,95 +1,429 @@
-﻿<!DOCTYPE html >
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>(404) The page you were looking for doesn't exist.</title>
-    <style type="text/css">
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
+﻿{
+  "CodigoOperacion": "UA",
+  "IdOperacion": 10,
+  "Operacion": "Indicadores Urbanos",
+  "CodigoIOE": "30256",
+  "Url": "https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C\u0026cid=1254736176957\u0026idp=1254735976608",
+  "Tablas": [
+    {
+      "IdTabla": 69301,
+      "CodigoOperacion": "UA",
+      "Tabla": "Demograf\u00EDa",
+      "CodigoTabla": "NAC-MUN",
+      "Publicacion": "Indicadores Urbanos",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-31T10:00:00"
+    },
+    {
+      "IdTabla": 69302,
+      "CodigoOperacion": "UA",
+      "Tabla": "Aspectos sociales",
+      "CodigoTabla": "NAC-MUN",
+      "Publicacion": "Indicadores Urbanos",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-31T10:00:00"
+    },
+    {
+      "IdTabla": 69303,
+      "CodigoOperacion": "UA",
+      "Tabla": "Aspectos econ\u00F3micos",
+      "CodigoTabla": "NAC-MUN",
+      "Publicacion": "Indicadores Urbanos",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-31T10:00:00"
+    },
+    {
+      "IdTabla": 69304,
+      "CodigoOperacion": "UA",
+      "Tabla": "Formaci\u00F3n y educaci\u00F3n",
+      "CodigoTabla": "NAC-MUN",
+      "Publicacion": "Indicadores Urbanos",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-31T10:00:00"
+    },
+    {
+      "IdTabla": 69305,
+      "CodigoOperacion": "UA",
+      "Tabla": "Superficie y uso del suelo",
+      "CodigoTabla": "NAC-MUN",
+      "Publicacion": "Indicadores Urbanos",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-31T10:00:00"
+    },
+    {
+      "IdTabla": 69306,
+      "CodigoOperacion": "UA",
+      "Tabla": "Desplazamientos al trabajo",
+      "CodigoTabla": "NAC-MUN",
+      "Publicacion": "Indicadores Urbanos",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-31T10:00:00"
+    },
+    {
+      "IdTabla": 69307,
+      "CodigoOperacion": "UA",
+      "Tabla": "Turismo",
+      "CodigoTabla": "NAC-MUN",
+      "Publicacion": "Indicadores Urbanos",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-31T10:00:00"
+    },
+    {
+      "IdTabla": 69308,
+      "CodigoOperacion": "UA",
+      "Tabla": "Demograf\u00EDa",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Urbanos",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-31T10:00:00"
+    },
+    {
+      "IdTabla": 69309,
+      "CodigoOperacion": "UA",
+      "Tabla": "Aspectos sociales",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Urbanos",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-31T10:00:00"
+    },
+    {
+      "IdTabla": 69310,
+      "CodigoOperacion": "UA",
+      "Tabla": "Aspectos econ\u00F3micos",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Urbanos",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-31T10:00:00"
+    },
+    {
+      "IdTabla": 69311,
+      "CodigoOperacion": "UA",
+      "Tabla": "Formaci\u00F3n y educaci\u00F3n",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Urbanos",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-31T10:00:00"
+    },
+    {
+      "IdTabla": 69312,
+      "CodigoOperacion": "UA",
+      "Tabla": "Superficie y uso del suelo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Urbanos",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-31T10:00:00"
+    },
+    {
+      "IdTabla": 69313,
+      "CodigoOperacion": "UA",
+      "Tabla": "Desplazamientos al trabajo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Urbanos",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-31T10:00:00"
+    },
+    {
+      "IdTabla": 69314,
+      "CodigoOperacion": "UA",
+      "Tabla": "Turismo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Urbanos",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-31T10:00:00"
+    },
+    {
+      "IdTabla": 69315,
+      "CodigoOperacion": "UA",
+      "Tabla": "Demograf\u00EDa",
+      "CodigoTabla": "NAC-KERNEL",
+      "Publicacion": "Indicadores Urbanos",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-31T10:00:00"
+    },
+    {
+      "IdTabla": 69316,
+      "CodigoOperacion": "UA",
+      "Tabla": "Aspectos sociales",
+      "CodigoTabla": "NAC-KERNEL",
+      "Publicacion": "Indicadores Urbanos",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-31T10:00:00"
+    },
+    {
+      "IdTabla": 69317,
+      "CodigoOperacion": "UA",
+      "Tabla": "Aspectos econ\u00F3micos",
+      "CodigoTabla": "NAC-KERNEL",
+      "Publicacion": "Indicadores Urbanos",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-31T10:00:00"
+    },
+    {
+      "IdTabla": 69318,
+      "CodigoOperacion": "UA",
+      "Tabla": "Formaci\u00F3n y educaci\u00F3n",
+      "CodigoTabla": "NAC-KERNEL",
+      "Publicacion": "Indicadores Urbanos",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-31T10:00:00"
+    },
+    {
+      "IdTabla": 69319,
+      "CodigoOperacion": "UA",
+      "Tabla": "Superficie y uso del suelo",
+      "CodigoTabla": "NAC-KERNEL",
+      "Publicacion": "Indicadores Urbanos",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-31T10:00:00"
+    },
+    {
+      "IdTabla": 69320,
+      "CodigoOperacion": "UA",
+      "Tabla": "Desplazamientos al trabajo",
+      "CodigoTabla": "NAC-KERNEL",
+      "Publicacion": "Indicadores Urbanos",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2014-06-01T09:00:00"
+    },
+    {
+      "IdTabla": 69321,
+      "CodigoOperacion": "UA",
+      "Tabla": "Turismo",
+      "CodigoTabla": "NAC-KERNEL",
+      "Publicacion": "Indicadores Urbanos",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-31T10:00:00"
+    },
+    {
+      "IdTabla": 69322,
+      "CodigoOperacion": "UA",
+      "Tabla": "Demograf\u00EDa",
+      "CodigoTabla": "NAC-FUA",
+      "Publicacion": "Indicadores Urbanos",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-31T10:00:00"
+    },
+    {
+      "IdTabla": 69323,
+      "CodigoOperacion": "UA",
+      "Tabla": "Aspectos sociales",
+      "CodigoTabla": "NAC-FUA",
+      "Publicacion": "Indicadores Urbanos",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-31T10:00:00"
+    },
+    {
+      "IdTabla": 69324,
+      "CodigoOperacion": "UA",
+      "Tabla": "Aspectos econ\u00F3micos",
+      "CodigoTabla": "NAC-FUA",
+      "Publicacion": "Indicadores Urbanos",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-31T10:00:00"
+    },
+    {
+      "IdTabla": 69325,
+      "CodigoOperacion": "UA",
+      "Tabla": "Formaci\u00F3n y educaci\u00F3n",
+      "CodigoTabla": "NAC-FUA",
+      "Publicacion": "Indicadores Urbanos",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-31T10:00:00"
+    },
+    {
+      "IdTabla": 69326,
+      "CodigoOperacion": "UA",
+      "Tabla": "Superficie y uso del suelo",
+      "CodigoTabla": "NAC-FUA",
+      "Publicacion": "Indicadores Urbanos",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-31T10:00:00"
+    },
+    {
+      "IdTabla": 69327,
+      "CodigoOperacion": "UA",
+      "Tabla": "Desplazamientos al trabajo",
+      "CodigoTabla": "NAC-FUA",
+      "Publicacion": "Indicadores Urbanos",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-31T10:00:00"
+    },
+    {
+      "IdTabla": 69328,
+      "CodigoOperacion": "UA",
+      "Tabla": "Turismo",
+      "CodigoTabla": "NAC-FUA",
+      "Publicacion": "Indicadores Urbanos",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-31T10:00:00"
+    },
+    {
+      "IdTabla": 69329,
+      "CodigoOperacion": "UA",
+      "Tabla": "Demograf\u00EDa",
+      "CodigoTabla": "NAC-MUN",
+      "Publicacion": "Indicadores Urbanos",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-31T10:00:00"
+    },
+    {
+      "IdTabla": 69330,
+      "CodigoOperacion": "UA",
+      "Tabla": "Aspectos sociales",
+      "CodigoTabla": "NAC-MUN",
+      "Publicacion": "Indicadores Urbanos",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-31T10:00:00"
+    },
+    {
+      "IdTabla": 69331,
+      "CodigoOperacion": "UA",
+      "Tabla": "Aspectos econ\u00F3micos",
+      "CodigoTabla": "NAC-MUN",
+      "Publicacion": "Indicadores Urbanos",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-31T10:00:00"
+    },
+    {
+      "IdTabla": 69332,
+      "CodigoOperacion": "UA",
+      "Tabla": "Formaci\u00F3n y educaci\u00F3n",
+      "CodigoTabla": "NAC-MUN",
+      "Publicacion": "Indicadores Urbanos",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-31T10:00:00"
+    },
+    {
+      "IdTabla": 69333,
+      "CodigoOperacion": "UA",
+      "Tabla": "Superficie y uso del suelo",
+      "CodigoTabla": "NAC-MUN",
+      "Publicacion": "Indicadores Urbanos",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-31T10:00:00"
+    },
+    {
+      "IdTabla": 69334,
+      "CodigoOperacion": "UA",
+      "Tabla": "Desplazamientos al trabajo",
+      "CodigoTabla": "NAC-MUN",
+      "Publicacion": "Indicadores Urbanos",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-31T10:00:00"
+    },
+    {
+      "IdTabla": 69335,
+      "CodigoOperacion": "UA",
+      "Tabla": "Turismo",
+      "CodigoTabla": "NAC-MUN",
+      "Publicacion": "Indicadores Urbanos",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-31T10:00:00"
+    },
+    {
+      "IdTabla": 69336,
+      "CodigoOperacion": "UA",
+      "Tabla": "Demograf\u00EDa",
+      "CodigoTabla": "NAC-SUBCITY-MUN",
+      "Publicacion": "Indicadores Urbanos",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-31T10:00:00"
+    },
+    {
+      "IdTabla": 69337,
+      "CodigoOperacion": "UA",
+      "Tabla": "Aspectos sociales",
+      "CodigoTabla": "NAC-SUBCITY-MUN",
+      "Publicacion": "Indicadores Urbanos",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-31T10:00:00"
+    },
+    {
+      "IdTabla": 69338,
+      "CodigoOperacion": "UA",
+      "Tabla": "Aspectos econ\u00F3micos",
+      "CodigoTabla": "NAC-SUBCITY-MUN",
+      "Publicacion": "Indicadores Urbanos",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-31T10:00:00"
+    },
+    {
+      "IdTabla": 69339,
+      "CodigoOperacion": "UA",
+      "Tabla": "Formaci\u00F3n y educaci\u00F3n",
+      "CodigoTabla": "NAC-SUBCITY-MUN",
+      "Publicacion": "Indicadores Urbanos",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-31T10:00:00"
+    },
+    {
+      "IdTabla": 69340,
+      "CodigoOperacion": "UA",
+      "Tabla": "Superficie y uso del suelo",
+      "CodigoTabla": "NAC-SUBCITY-MUN",
+      "Publicacion": "Indicadores Urbanos",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-31T10:00:00"
+    },
+    {
+      "IdTabla": 69341,
+      "CodigoOperacion": "UA",
+      "Tabla": "Desplazamientos al trabajo",
+      "CodigoTabla": "NAC-SUBCITY-MUN",
+      "Publicacion": "Indicadores Urbanos",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-31T10:00:00"
+    },
+    {
+      "IdTabla": 69342,
+      "CodigoOperacion": "UA",
+      "Tabla": "Turismo",
+      "CodigoTabla": "NAC-SUBCITY-MUN",
+      "Publicacion": "Indicadores Urbanos",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-10-31T10:00:00"
     }
-
-    body {
-      font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-      background-color: #2D72D9;
-      color: #fff;
-      -moz-font-smoothing: antialiased;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    .error-container {
-      text-align: center;
-      height: 100%;
-    }
-
-    @media (max-width: 480px) {
-      .error-container {
-        position: relative;
-        top: 50%;
-        height: initial;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    .error-container h1 {
-      margin: 0;
-      font-size: 130px;
-      font-weight: 300;
-    }
-
-    @media (min-width: 480px) {
-      .error-container h1 {
-        position: relative;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    @media (min-width: 768px) {
-      .error-container h1 {
-        font-size: 220px;
-      }
-    }
-
-    .return {
-      color: rgba(255, 255, 255, 0.6);
-      font-weight: 400;
-      letter-spacing: -0.04em;
-      margin: 0;
-    }
-
-    @media (min-width: 480px) {
-      .return {
-        position: absolute;
-        width: 100%;
-        bottom: 30px;
-      }
-    }
-
-    .return a {
-      padding-bottom: 1px;
-      color: #fff;
-      text-decoration: none;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.6);
-      -webkit-transition: border-color 0.1s ease-in;
-      transition: border-color 0.1s ease-in;
-    }
-
-    .return a:hover {
-      border-bottom-color: #fff;
-    }
-  </style>
-  </head>
-  <body>
-    <div class="error-container">
-      <h1>404</h1>
-      <p class="return">La pagina solicitada no existe. <a href="./">Ir a inicio</a></p>
-    </div>
-  </body>
-</html>
+  ]
+}

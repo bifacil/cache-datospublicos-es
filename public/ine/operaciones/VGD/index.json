@@ -1,95 +1,959 @@
-﻿<!DOCTYPE html >
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>(404) The page you were looking for doesn't exist.</title>
-    <style type="text/css">
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
+﻿{
+  "CodigoOperacion": "VGD",
+  "IdOperacion": 215,
+  "Operacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+  "CodigoIOE": "30468",
+  "Url": "https://ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C\u0026cid=1254736176866\u0026idp=1254735573206",
+  "Tablas": [
+    {
+      "IdTabla": 28194,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Sentencias firmes. Infracciones Penales, Penas y Medidas",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28195,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Asuntos incoados. V\u00EDctimas y Personas Denunciadas",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28196,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Sentencias firmes. Personas Condenadas y Personas Absueltas",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28198,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Asuntos incoados. Infracciones Penales y Medidas Cautelares",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28199,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Sentencias firmes. Infracciones Penales, Penas y Medidas",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28217,
+      "CodigoOperacion": "VGD",
+      "Tabla": "V\u00EDctimas (con orden de protecci\u00F3n o medidas cautelares) seg\u00FAn edad y lugar de nacimiento",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28227,
+      "CodigoOperacion": "VGD",
+      "Tabla": "V\u00EDctimas (con orden de protecci\u00F3n o medidas cautelares) seg\u00FAn edad y tipo de relaci\u00F3n con el denunciado",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28228,
+      "CodigoOperacion": "VGD",
+      "Tabla": "V\u00EDctimas (con orden de protecci\u00F3n o medidas cautelares) seg\u00FAn lugar de nacimiento y tipo de relaci\u00F3n con el denunciado",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28229,
+      "CodigoOperacion": "VGD",
+      "Tabla": "V\u00EDctimas (con orden de protecci\u00F3n o medidas cautelares) seg\u00FAn grupo de edad, lugar de nacimiento y tipo de relaci\u00F3n con el denunciado",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28231,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Distribuci\u00F3n porcentual del par v\u00EDctima/denunciado seg\u00FAn edades de ambos",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28232,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Distribuci\u00F3n porcentual del par v\u00EDctima/denunciado seg\u00FAn lugares de nacimiento de ambos ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28289,
+      "CodigoOperacion": "VGD",
+      "Tabla": "V\u00EDctimas (con orden de protecci\u00F3n o medidas cautelares) seg\u00FAn grupo de edad",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28290,
+      "CodigoOperacion": "VGD",
+      "Tabla": "V\u00EDctimas (con orden de protecci\u00F3n o medidas cautelares) seg\u00FAn lugar de nacimiento",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28291,
+      "CodigoOperacion": "VGD",
+      "Tabla": "V\u00EDctimas (con orden de protecci\u00F3n o medidas cautelares) seg\u00FAn tipo de relaci\u00F3n con el denunciado",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28292,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Denunciados (con adopci\u00F3n de orden de protecci\u00F3n o medidas cautelares) seg\u00FAn grupo de edad",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28293,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Denunciados (con adopci\u00F3n de orden de protecci\u00F3n o medidas cautelares) seg\u00FAn lugar de nacimiento",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28294,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Infracciones penales imputadas al denunciado seg\u00FAn tipo de infracci\u00F3n",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28295,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Medidas cautelares dictadas sobre el denunciado seg\u00FAn tipo de medida",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28296,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Personas en asuntos con sentencia firme seg\u00FAn duraci\u00F3n del asunto",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28297,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Condenados en asuntos con sentencia firme seg\u00FAn edad y lugar de nacimiento",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28298,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Absueltos en asuntos con sentencia firme seg\u00FAn edad y lugar de nacimiento ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2022-05-10T09:00:00"
+    },
+    {
+      "IdTabla": 28299,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Infracciones penales imputadas al condenado en asuntos con sentencia firme seg\u00FAn tipo y grupo de edad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28301,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Penas y medidas dictadas sobre el condenado en asuntos con sentencia firme seg\u00FAn tipo y grupo de edad ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28302,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Penas y medidas dictadas sobre el condenado en asuntos con sentencia firme seg\u00FAn tipo y lugar de nacimiento",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28303,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Infracciones penales imputadas al condenado en asuntos con sentencia firme seg\u00FAn tipo y lugar de nacimiento",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28305,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Condenados en asuntos con sentencia firme seg\u00FAn lugar de nacimiento",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28306,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Condenados en asuntos con sentencia firme seg\u00FAn grupo de edad",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28307,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Absueltos en asuntos con sentencia firme seg\u00FAn grupo de edad ",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2022-05-10T09:00:00"
+    },
+    {
+      "IdTabla": 28308,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Absueltos en asuntos con sentencia firme seg\u00FAn lugar de nacimiento ",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2022-05-10T09:00:00"
+    },
+    {
+      "IdTabla": 28309,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Infracciones penales imputadas al condenado en asuntos con sentencia firme seg\u00FAn tipo de infracci\u00F3n",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28310,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Penas y medidas dictadas sobre el condenado en asuntos con sentencia firme seg\u00FAn tipo ",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28311,
+      "CodigoOperacion": "VGD",
+      "Tabla": "V\u00EDctimas (con orden de protecci\u00F3n o medidas cautelares) seg\u00FAn sexo y edad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28316,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Relaciones de las v\u00EDctimas con las personas denunciadas seg\u00FAn sexo y grupo de edad de la v\u00EDctima",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28317,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Distribuci\u00F3n porcentual del par v\u00EDctima/denunciado seg\u00FAn lugares de nacimiento de ambos ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28322,
+      "CodigoOperacion": "VGD",
+      "Tabla": "V\u00EDctimas (con orden de protecci\u00F3n o medidas cautelares) seg\u00FAn sexo y grupo de edad ",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28323,
+      "CodigoOperacion": "VGD",
+      "Tabla": "V\u00EDctimas (con orden de protecci\u00F3n o medidas cautelares) seg\u00FAn lugar de nacimiento",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28327,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Infracciones penales imputadas al denunciado seg\u00FAn tipo de infracci\u00F3n",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28328,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Medidas cautelares dictadas sobre el denunciado seg\u00FAn tipo de medida",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28329,
+      "CodigoOperacion": "VGD",
+      "Tabla": "V\u00EDctimas (con orden de protecci\u00F3n o medidas cautelares) seg\u00FAn sexo, grupo de edad y lugar de nacimiento ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28332,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Relaciones de las v\u00EDctimas con las personas denunciadas seg\u00FAn grupo de edad y lugar de nacimiento de la v\u00EDctima ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28333,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Relaciones de las v\u00EDctimas con las personas denunciadas seg\u00FAn sexo y lugar de nacimiento de la v\u00EDctima ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28334,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Distribuci\u00F3n porcentual del par v\u00EDctima/denunciado seg\u00FAn edades de ambos",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28335,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Infracciones penales imputadas a la persona denunciada seg\u00FAn tipo de infracci\u00F3n y sexo ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28336,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Medidas cautelares dictadas sobre la persona denunciada seg\u00FAn tipo de medida y sexo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28338,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Personas denunciadas (con adopci\u00F3n de orden de protecci\u00F3n o medidas cautelares) seg\u00FAn sexo y grupo de edad",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28339,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Personas denunciadas (con adopci\u00F3n de orden de protecci\u00F3n o medidas cautelares) seg\u00FAn sexo y lugar de nacimiento",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28340,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Personas denunciadas y v\u00EDctimas a la vez (con orden de protecci\u00F3n o medidas cautelares)",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28341,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Relaciones v\u00EDctima/persona denunciada seg\u00FAn sexo de la v\u00EDctima ",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28391,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Personas en asuntos con sentencia firme seg\u00FAn duraci\u00F3n del asunto",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28392,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Personas condenadas en asuntos con sentencia firme seg\u00FAn sexo y edad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28393,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Personas absueltas en asuntos con sentencia firme seg\u00FAn sexo, grupo de edad y lugar de nacimiento",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2022-05-10T09:00:00"
+    },
+    {
+      "IdTabla": 28394,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Infracciones penales imputadas a la persona condenada en asuntos con sentencia firme seg\u00FAn tipo y grupo de edad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28395,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Infracciones penales imputadas a la persona condenada en asuntos con sentencia firme seg\u00FAn tipo y lugar de nacimiento",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28396,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Penas y medidas dictadas sobre el condenado en asuntos con sentencia firme seg\u00FAn tipo y grupo de edad ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28397,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Penas y medidas dictadas sobre el condenado en asuntos con sentencia firme seg\u00FAn tipo y lugar de nacimiento",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28398,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Personas condenadas en asuntos con sentencia firme seg\u00FAn sexo, grupo de edad y lugar de nacimiento",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28399,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Infracciones penales imputadas a la persona condenada en asuntos con sentencia firme seg\u00FAn tipo y sexo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28400,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Penas y medidas dictadas sobre la persona condenada en asuntos con sentencia firme seg\u00FAn tipo y sexo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28401,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Personas condenadas en asuntos con sentencia firme seg\u00FAn sexo y grupo de edad",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28402,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Personas condenadas en asuntos con sentencia firme seg\u00FAn sexo y lugar de nacimiento",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28403,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Personas absueltas en asuntos con sentencia firme seg\u00FAn sexo",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2022-05-10T09:00:00"
+    },
+    {
+      "IdTabla": 28404,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Infracciones penales imputadas a la persona condenada en asuntos con sentencia firme seg\u00FAn tipo de infracci\u00F3n",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 28405,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Penas y medidas dictadas sobre la persona condenada en asuntos con sentencia firme seg\u00FAn tipo",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 34967,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Asuntos incoados. V\u00EDctimas, Personas Denunciadas",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 34968,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Asuntos incoados. Infracciones Penales y Medidas Cautelares",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 34969,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Sentencias firmes. Personas Condenadas y Personas Absueltas",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 34970,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Infracciones penales imputadas al denunciado seg\u00FAn tipo de infracci\u00F3n y grupo de edad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 34971,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Infracciones penales imputadas al denunciado seg\u00FAn tipo de infracci\u00F3n y lugar de nacimiento",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 34972,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Medidas cautelares dictadas sobre el denunciado seg\u00FAn tipo de medida y grupo de edad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 34973,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Medidas cautelares dictadas sobre el denunciado seg\u00FAn tipo de medida y lugar de nacimiento",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 34978,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Infracciones penales imputadas al denunciado seg\u00FAn tipo de infracci\u00F3n y grupo de edad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 34979,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Infracciones penales imputadas al denunciado seg\u00FAn tipo de infracci\u00F3n y lugar de nacimiento",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 34980,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Medidas cautelares dictadas sobre el denunciado seg\u00FAn tipo de medida y grupo de edad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 34981,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Medidas cautelares dictadas sobre el denunciado seg\u00FAn tipo de medida y lugar de nacimiento",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 34983,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Personas denunciadas (con adopci\u00F3n de orden de protecci\u00F3n o medidas cautelares) seg\u00FAn sexo y edad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 34984,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Personas denunciadas (con adopci\u00F3n de orden de protecci\u00F3n o medidas cautelares) seg\u00FAn sexo, grupo de edad y lugar de nacimiento ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 34985,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Personas denunciadas y v\u00EDctimas a la vez (con orden de protecci\u00F3n o medidas cautelares) seg\u00FAn sexo, grupo de edad y lugar de nacimiento",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 36151,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Denunciados (con adopci\u00F3n de orden de protecci\u00F3n o medidas cautelares) seg\u00FAn edad y lugar de nacimiento",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 49105,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Sentencias firmes. Personas Condenadas y Personas Absueltas",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 49117,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Personas en asuntos con sentencia firme seg\u00FAn duraci\u00F3n del asunto",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 49118,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Condenados en asuntos con sentencia firme seg\u00FAn edad y lugar de nacimiento",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 49120,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Asuntos incoados. V\u00EDctimas y Personas Denunciadas",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 59068,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Menores v\u00EDctimas (con orden de protecci\u00F3n o medidas cautelares) seg\u00FAn sexo y edad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2022",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 59069,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Menores v\u00EDctimas (con orden de protecci\u00F3n o medidas cautelares) seg\u00FAn sexo y lugar de nacimiento",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2022",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 59070,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Menores v\u00EDctimas (con orden de protecci\u00F3n o medidas cautelares) seg\u00FAn edad y lugar de nacimiento",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2022",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 59073,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Menores v\u00EDctimas (con orden de protecci\u00F3n o medidas cautelares) seg\u00FAn tipo de relaci\u00F3n con el denunciado y sexo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2022",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 59147,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Menores v\u00EDctimas (con orden de protecci\u00F3n o medidas cautelares) seg\u00FAn sexo",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2022",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-07T09:00:00"
+    },
+    {
+      "IdTabla": 75265,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Asuntos incoados. V\u00EDctimas, Personas Denunciadas",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2013-05-27T09:00:00"
+    },
+    {
+      "IdTabla": 76214,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Menores v\u00EDctimas (con orden de protecci\u00F3n o medidas cautelares) seg\u00FAn sexo y lugar de nacimiento",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2022",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2013-05-27T09:00:00"
+    },
+    {
+      "IdTabla": 76215,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Infracciones penales imputadas al denunciado seg\u00FAn tipo de infracci\u00F3n",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2013-05-27T09:00:00"
+    },
+    {
+      "IdTabla": 76216,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Relaciones v\u00EDctima/persona denunciada seg\u00FAn sexo de la v\u00EDctima ",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2013-05-27T09:00:00"
+    },
+    {
+      "IdTabla": 76217,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Penas y medidas dictadas sobre la persona condenada en asuntos con sentencia firme seg\u00FAn tipo y sexo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2013-05-27T09:00:00"
+    },
+    {
+      "IdTabla": 76218,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Sentencias firmes. Personas Condenadas y Personas Absueltas",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2013-05-27T09:00:00"
+    },
+    {
+      "IdTabla": 76219,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Personas denunciadas y v\u00EDctimas a la vez (con orden de protecci\u00F3n o medidas cautelares)",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2013-05-27T09:00:00"
+    },
+    {
+      "IdTabla": 76220,
+      "CodigoOperacion": "VGD",
+      "Tabla": "Infracciones penales imputadas al denunciado seg\u00FAn tipo de infracci\u00F3n",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Violencia Dom\u00E9stica y Violencia de G\u00E9nero",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2013-05-27T09:00:00"
     }
-
-    body {
-      font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-      background-color: #2D72D9;
-      color: #fff;
-      -moz-font-smoothing: antialiased;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    .error-container {
-      text-align: center;
-      height: 100%;
-    }
-
-    @media (max-width: 480px) {
-      .error-container {
-        position: relative;
-        top: 50%;
-        height: initial;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    .error-container h1 {
-      margin: 0;
-      font-size: 130px;
-      font-weight: 300;
-    }
-
-    @media (min-width: 480px) {
-      .error-container h1 {
-        position: relative;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    @media (min-width: 768px) {
-      .error-container h1 {
-        font-size: 220px;
-      }
-    }
-
-    .return {
-      color: rgba(255, 255, 255, 0.6);
-      font-weight: 400;
-      letter-spacing: -0.04em;
-      margin: 0;
-    }
-
-    @media (min-width: 480px) {
-      .return {
-        position: absolute;
-        width: 100%;
-        bottom: 30px;
-      }
-    }
-
-    .return a {
-      padding-bottom: 1px;
-      color: #fff;
-      text-decoration: none;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.6);
-      -webkit-transition: border-color 0.1s ease-in;
-      transition: border-color 0.1s ease-in;
-    }
-
-    .return a:hover {
-      border-bottom-color: #fff;
-    }
-  </style>
-  </head>
-  <body>
-    <div class="error-container">
-      <h1>404</h1>
-      <p class="return">La pagina solicitada no existe. <a href="./">Ir a inicio</a></p>
-    </div>
-  </body>
-</html>
+  ]
+}

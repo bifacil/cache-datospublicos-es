@@ -1,95 +1,319 @@
-﻿<!DOCTYPE html >
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>(404) The page you were looking for doesn't exist.</title>
-    <style type="text/css">
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
+﻿{
+  "CodigoOperacion": "EOA",
+  "IdOperacion": 328,
+  "Operacion": "Encuesta de Ocupaci\u00F3n en Albergues",
+  "CodigoIOE": "30239",
+  "Url": "https://ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C\u0026cid=1254736176964\u0026idp=1254735576863",
+  "Tablas": [
+    {
+      "IdTabla": 2024,
+      "CodigoOperacion": "EOA",
+      "Tabla": "Estancia media, por tipo de alojamiento por comunidad y ciudades aut\u00F3nomas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de ocupaci\u00F3n en alojamientos tur\u00EDsticos extrahoteleros",
+      "AnyoInicial": "2001",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-01T07:00:00"
+    },
+    {
+      "IdTabla": 2025,
+      "CodigoOperacion": "EOA",
+      "Tabla": "Establecimientos estimados, plazas estimadas y personal empleado por tipo de alojamiento y por comunidadesy ciudades aut\u00F3nomas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de ocupaci\u00F3n en alojamientos tur\u00EDsticos extrahoteleros",
+      "AnyoInicial": "2001",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-01T07:00:00"
+    },
+    {
+      "IdTabla": 2044,
+      "CodigoOperacion": "EOA",
+      "Tabla": "Viajeros, pernoctaciones por tipo de alojamiento por comunidades y ciudades aut\u00F3nomas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de ocupaci\u00F3n en alojamientos tur\u00EDsticos extrahoteleros",
+      "AnyoInicial": "2001",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-01T07:00:00"
+    },
+    {
+      "IdTabla": 2940,
+      "CodigoOperacion": "EOA",
+      "Tabla": "Estancia media, por tipo de alojamiento por comunidad y ciudades aut\u00F3nomas.",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de ocupaci\u00F3n en alojamientos tur\u00EDsticos extrahoteleros",
+      "AnyoInicial": "2001",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-01T07:00:00"
+    },
+    {
+      "IdTabla": 2941,
+      "CodigoOperacion": "EOA",
+      "Tabla": "Viajeros, pernoctaciones por tipo de alojamiento por comunidades y ciudades aut\u00F3nomas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de ocupaci\u00F3n en alojamientos tur\u00EDsticos extrahoteleros",
+      "AnyoInicial": "2001",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-01T07:00:00"
+    },
+    {
+      "IdTabla": 2942,
+      "CodigoOperacion": "EOA",
+      "Tabla": "Establecimientos estimados, plazas estimadas y personal empleado por tipo de alojamiento y por comunidades y ciudades aut\u00F3nomas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de ocupaci\u00F3n en alojamientos tur\u00EDsticos extrahoteleros",
+      "AnyoInicial": "2001",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-01T07:00:00"
+    },
+    {
+      "IdTabla": 3149,
+      "CodigoOperacion": "EOA",
+      "Tabla": "Viajeros, pernoctaciones por tipo de alojamiento por comunidades y ciudades aut\u00F3nomas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de ocupaci\u00F3n en alojamientos tur\u00EDsticos extrahoteleros",
+      "AnyoInicial": "2001",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-01T07:00:00"
+    },
+    {
+      "IdTabla": 3150,
+      "CodigoOperacion": "EOA",
+      "Tabla": "Estancia media, por tipo de alojamiento por comunidad y ciudades aut\u00F3nomas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de ocupaci\u00F3n en alojamientos tur\u00EDsticos extrahoteleros",
+      "AnyoInicial": "2001",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-01T07:00:00"
+    },
+    {
+      "IdTabla": 3151,
+      "CodigoOperacion": "EOA",
+      "Tabla": "Establecimientos estimados, plazas estimadas y personal empleado por tipo de alojamiento y por comunidades y ciudades aut\u00F3nomas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de ocupaci\u00F3n en alojamientos tur\u00EDsticos extrahoteleros",
+      "AnyoInicial": "2001",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-01T07:00:00"
+    },
+    {
+      "IdTabla": 3152,
+      "CodigoOperacion": "EOA",
+      "Tabla": "Viajeros, pernoctaciones por tipo de alojamiento por comunidades y ciudades aut\u00F3nomas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de ocupaci\u00F3n en alojamientos tur\u00EDsticos extrahoteleros",
+      "AnyoInicial": "2001",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-01T07:00:00"
+    },
+    {
+      "IdTabla": 3153,
+      "CodigoOperacion": "EOA",
+      "Tabla": "Estancia media, por tipo de alojamiento por comunidad y ciudades aut\u00F3nomas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de ocupaci\u00F3n en alojamientos tur\u00EDsticos extrahoteleros",
+      "AnyoInicial": "2001",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-01T07:00:00"
+    },
+    {
+      "IdTabla": 3154,
+      "CodigoOperacion": "EOA",
+      "Tabla": "Establecimientos estimados, plazas estimadas y personal empleado por tipo de alojamiento y por comunidades y ciudades aut\u00F3nomas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de ocupaci\u00F3n en alojamientos tur\u00EDsticos extrahoteleros",
+      "AnyoInicial": "2001",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-01T07:00:00"
+    },
+    {
+      "IdTabla": 9664,
+      "CodigoOperacion": "EOA",
+      "Tabla": "Viajeros y pernoctaciones por comunidades aut\u00F3nomas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de ocupaci\u00F3n en alojamientos tur\u00EDsticos extrahoteleros",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-01T07:00:00"
+    },
+    {
+      "IdTabla": 9665,
+      "CodigoOperacion": "EOA",
+      "Tabla": "Viajeros y pernoctaciones seg\u00FAn pa\u00EDs de residencia",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de ocupaci\u00F3n en alojamientos tur\u00EDsticos extrahoteleros",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-01T07:00:00"
+    },
+    {
+      "IdTabla": 9666,
+      "CodigoOperacion": "EOA",
+      "Tabla": "Estancia media por comunidades aut\u00F3nomas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de ocupaci\u00F3n en alojamientos tur\u00EDsticos extrahoteleros",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-01T07:00:00"
+    },
+    {
+      "IdTabla": 9667,
+      "CodigoOperacion": "EOA",
+      "Tabla": "Establecimientos, plazas, grados de ocupaci\u00F3n y personal empleado por comunidades aut\u00F3nomas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de ocupaci\u00F3n en alojamientos tur\u00EDsticos extrahoteleros",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-01T07:00:00"
+    },
+    {
+      "IdTabla": 9668,
+      "CodigoOperacion": "EOA",
+      "Tabla": "Tasa de variaci\u00F3n interanual de viajeros y pernoctaciones",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de ocupaci\u00F3n en alojamientos tur\u00EDsticos extrahoteleros",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-01T07:00:00"
+    },
+    {
+      "IdTabla": 9669,
+      "CodigoOperacion": "EOA",
+      "Tabla": "Tasa de variaci\u00F3n interanual de establecimientos, plazas, grados de ocupaci\u00F3n y personal empleado",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de ocupaci\u00F3n en alojamientos tur\u00EDsticos extrahoteleros",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-01T07:00:00"
+    },
+    {
+      "IdTabla": 9670,
+      "CodigoOperacion": "EOA",
+      "Tabla": "Coeficientes de variaci\u00F3n de viajeros y pernoctaciones",
+      "CodigoTabla": "NAC_CV",
+      "Publicacion": "Encuesta de ocupaci\u00F3n en alojamientos tur\u00EDsticos extrahoteleros",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-01T07:00:00"
+    },
+    {
+      "IdTabla": 9671,
+      "CodigoOperacion": "EOA",
+      "Tabla": "Distribuci\u00F3n porcentual de los viajeros y pernoctaciones seg\u00FAn comunidad aut\u00F3noma de procedencia",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de ocupaci\u00F3n en alojamientos tur\u00EDsticos extrahoteleros",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-01T07:00:00"
+    },
+    {
+      "IdTabla": 9672,
+      "CodigoOperacion": "EOA",
+      "Tabla": "Tasa de variaci\u00F3n interanual de la estancia media",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de ocupaci\u00F3n en alojamientos tur\u00EDsticos extrahoteleros",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-01T07:00:00"
+    },
+    {
+      "IdTabla": 46663,
+      "CodigoOperacion": "EOA",
+      "Tabla": "Viajeros y pernoctaciones seg\u00FAn tipo de establecimiento",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de ocupaci\u00F3n en alojamientos tur\u00EDsticos extrahoteleros",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-01T07:00:00"
+    },
+    {
+      "IdTabla": 46664,
+      "CodigoOperacion": "EOA",
+      "Tabla": "Estancia media seg\u00FAn tipo de establecimiento",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de ocupaci\u00F3n en alojamientos tur\u00EDsticos extrahoteleros",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-01T07:00:00"
+    },
+    {
+      "IdTabla": 46665,
+      "CodigoOperacion": "EOA",
+      "Tabla": "Establecimientos, plazas, grados de ocupaci\u00F3n y personal empleado seg\u00FAn tipo de establecimiento",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de ocupaci\u00F3n en alojamientos tur\u00EDsticos extrahoteleros",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-01T07:00:00"
+    },
+    {
+      "IdTabla": 49381,
+      "CodigoOperacion": "EOA",
+      "Tabla": "Viajeros y pernoctaciones seg\u00FAn pa\u00EDs de residencia",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de ocupaci\u00F3n en alojamientos tur\u00EDsticos extrahoteleros",
+      "AnyoInicial": "2025",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-01T07:00:00"
+    },
+    {
+      "IdTabla": 49382,
+      "CodigoOperacion": "EOA",
+      "Tabla": "Viajeros y pernoctaciones por comunidades y ciudades aut\u00F3nomas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de ocupaci\u00F3n en alojamientos tur\u00EDsticos extrahoteleros",
+      "AnyoInicial": "2025",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-01T07:00:00"
+    },
+    {
+      "IdTabla": 49383,
+      "CodigoOperacion": "EOA",
+      "Tabla": "Estancia media por comunidades y ciudades aut\u00F3nomas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de ocupaci\u00F3n en alojamientos tur\u00EDsticos extrahoteleros",
+      "AnyoInicial": "2025",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-01T07:00:00"
+    },
+    {
+      "IdTabla": 61766,
+      "CodigoOperacion": "EOA",
+      "Tabla": "Viajeros y pernoctaciones por comunidades aut\u00F3nomas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de ocupaci\u00F3n en alojamientos tur\u00EDsticos extrahoteleros",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-01T07:00:00"
+    },
+    {
+      "IdTabla": 61767,
+      "CodigoOperacion": "EOA",
+      "Tabla": "Estancia media por comunidades aut\u00F3nomas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de ocupaci\u00F3n en alojamientos tur\u00EDsticos extrahoteleros",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-01T07:00:00"
+    },
+    {
+      "IdTabla": 61768,
+      "CodigoOperacion": "EOA",
+      "Tabla": "Establecimientos estimados, plazas estimadas y personal empleado por tipo de alojamiento y por comunidades y ciudades aut\u00F3nomas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de ocupaci\u00F3n en alojamientos tur\u00EDsticos extrahoteleros",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-01T07:00:00"
+    },
+    {
+      "IdTabla": 67194,
+      "CodigoOperacion": "EOA",
+      "Tabla": "Viajeros y pernoctaciones por comunidades aut\u00F3nomas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de ocupaci\u00F3n en alojamientos tur\u00EDsticos extrahoteleros",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-01T07:00:00"
     }
-
-    body {
-      font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-      background-color: #2D72D9;
-      color: #fff;
-      -moz-font-smoothing: antialiased;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    .error-container {
-      text-align: center;
-      height: 100%;
-    }
-
-    @media (max-width: 480px) {
-      .error-container {
-        position: relative;
-        top: 50%;
-        height: initial;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    .error-container h1 {
-      margin: 0;
-      font-size: 130px;
-      font-weight: 300;
-    }
-
-    @media (min-width: 480px) {
-      .error-container h1 {
-        position: relative;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    @media (min-width: 768px) {
-      .error-container h1 {
-        font-size: 220px;
-      }
-    }
-
-    .return {
-      color: rgba(255, 255, 255, 0.6);
-      font-weight: 400;
-      letter-spacing: -0.04em;
-      margin: 0;
-    }
-
-    @media (min-width: 480px) {
-      .return {
-        position: absolute;
-        width: 100%;
-        bottom: 30px;
-      }
-    }
-
-    .return a {
-      padding-bottom: 1px;
-      color: #fff;
-      text-decoration: none;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.6);
-      -webkit-transition: border-color 0.1s ease-in;
-      transition: border-color 0.1s ease-in;
-    }
-
-    .return a:hover {
-      border-bottom-color: #fff;
-    }
-  </style>
-  </head>
-  <body>
-    <div class="error-container">
-      <h1>404</h1>
-      <p class="return">La pagina solicitada no existe. <a href="./">Ir a inicio</a></p>
-    </div>
-  </body>
-</html>
+  ]
+}

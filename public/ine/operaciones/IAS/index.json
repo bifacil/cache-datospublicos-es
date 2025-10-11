@@ -1,95 +1,129 @@
-﻿<!DOCTYPE html >
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>(404) The page you were looking for doesn't exist.</title>
-    <style type="text/css">
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
+﻿{
+  "CodigoOperacion": "IAS",
+  "IdOperacion": 31,
+  "Operacion": "Indicadores de Actividad del Sector Servicios",
+  "CodigoIOE": "30183",
+  "Url": "https://ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C\u0026cid=1254736176863\u0026idp=1254735576778",
+  "Tablas": [
+    {
+      "IdTabla": 60288,
+      "CodigoOperacion": "IAS",
+      "Tabla": "Serie original. \u00CDndice general, por sectores y por ramas de actividad",
+      "CodigoTabla": "2021_NAC_PCORR",
+      "Publicacion": "Indicadores de actividad del sector servicios",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-19T07:00:00"
+    },
+    {
+      "IdTabla": 60289,
+      "CodigoOperacion": "IAS",
+      "Tabla": "Serie corregida de efectos de calendario. \u00CDndice general, por sectores y por ramas de actividad",
+      "CodigoTabla": "2021_NAC_PCORR-CEC",
+      "Publicacion": "Indicadores de actividad del sector servicios",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-19T07:00:00"
+    },
+    {
+      "IdTabla": 60290,
+      "CodigoOperacion": "IAS",
+      "Tabla": "Serie corregida de efectos estacionales y de calendario \u00CDndice general, por sectores y por ramas de actividad ",
+      "CodigoTabla": "2021_NAC_CEEC-PCORR",
+      "Publicacion": "Indicadores de actividad del sector servicios",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-19T07:00:00"
+    },
+    {
+      "IdTabla": 60291,
+      "CodigoOperacion": "IAS",
+      "Tabla": "Coeficiente de variaci\u00F3n de la tasa anual del \u00EDndice general, por sectores y por ramas de actividad",
+      "CodigoTabla": "2021_NAC_PCORR-CV",
+      "Publicacion": "Indicadores de actividad del sector servicios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-19T07:00:00"
+    },
+    {
+      "IdTabla": 60292,
+      "CodigoOperacion": "IAS",
+      "Tabla": "\u00CDndice general, por sectores y por ramas de actividad",
+      "CodigoTabla": "2021_NAC",
+      "Publicacion": "Indicadores de actividad del sector servicios",
+      "AnyoInicial": "2002",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-19T07:00:00"
+    },
+    {
+      "IdTabla": 60293,
+      "CodigoOperacion": "IAS",
+      "Tabla": "Coeficiente de variaci\u00F3n de la tasa anual del \u00EDndice general, por sectores y por ramas de actividad",
+      "CodigoTabla": "2021_NAC_CV",
+      "Publicacion": "Indicadores de actividad del sector servicios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-19T07:00:00"
+    },
+    {
+      "IdTabla": 60294,
+      "CodigoOperacion": "IAS",
+      "Tabla": "Serie original. \u00CDndice general",
+      "CodigoTabla": "2021_NAC-CCAA_PCORR",
+      "Publicacion": "Indicadores de actividad del sector servicios",
+      "AnyoInicial": "2005",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-19T07:00:00"
+    },
+    {
+      "IdTabla": 60295,
+      "CodigoOperacion": "IAS",
+      "Tabla": "Coeficiente de variaci\u00F3n de la tasa anual del \u00EDndice general ",
+      "CodigoTabla": "2021_NAC-CCAA_PCORR-CV",
+      "Publicacion": "Indicadores de actividad del sector servicios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-19T07:00:00"
+    },
+    {
+      "IdTabla": 60296,
+      "CodigoOperacion": "IAS",
+      "Tabla": "\u00CDndice general",
+      "CodigoTabla": "2021_NAC-CCAA",
+      "Publicacion": "Indicadores de actividad del sector servicios",
+      "AnyoInicial": "2005",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-19T07:00:00"
+    },
+    {
+      "IdTabla": 60297,
+      "CodigoOperacion": "IAS",
+      "Tabla": "Coeficiente de variaci\u00F3n de la tasa anual del \u00EDndice general",
+      "CodigoTabla": "2021_NAC-CCAA_CV",
+      "Publicacion": "Indicadores de actividad del sector servicios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-19T07:00:00"
+    },
+    {
+      "IdTabla": 60298,
+      "CodigoOperacion": "IAS",
+      "Tabla": "Ponderaciones nacionales de cifra de negocios por sectores, actividades y periodo.",
+      "CodigoTabla": "2021_NAC_PCORR-P",
+      "Publicacion": "Indicadores de actividad del sector servicios. Ponderaciones",
+      "AnyoInicial": "2022",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-20T07:00:00"
+    },
+    {
+      "IdTabla": 60299,
+      "CodigoOperacion": "IAS",
+      "Tabla": "Ponderaciones nacionales de ocupaci\u00F3n por sectores, actividades y periodo",
+      "CodigoTabla": "2021_NAC_P",
+      "Publicacion": "Indicadores de actividad del sector servicios. Ponderaciones",
+      "AnyoInicial": "2022",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-20T07:00:00"
     }
-
-    body {
-      font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-      background-color: #2D72D9;
-      color: #fff;
-      -moz-font-smoothing: antialiased;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    .error-container {
-      text-align: center;
-      height: 100%;
-    }
-
-    @media (max-width: 480px) {
-      .error-container {
-        position: relative;
-        top: 50%;
-        height: initial;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    .error-container h1 {
-      margin: 0;
-      font-size: 130px;
-      font-weight: 300;
-    }
-
-    @media (min-width: 480px) {
-      .error-container h1 {
-        position: relative;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    @media (min-width: 768px) {
-      .error-container h1 {
-        font-size: 220px;
-      }
-    }
-
-    .return {
-      color: rgba(255, 255, 255, 0.6);
-      font-weight: 400;
-      letter-spacing: -0.04em;
-      margin: 0;
-    }
-
-    @media (min-width: 480px) {
-      .return {
-        position: absolute;
-        width: 100%;
-        bottom: 30px;
-      }
-    }
-
-    .return a {
-      padding-bottom: 1px;
-      color: #fff;
-      text-decoration: none;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.6);
-      -webkit-transition: border-color 0.1s ease-in;
-      transition: border-color 0.1s ease-in;
-    }
-
-    .return a:hover {
-      border-bottom-color: #fff;
-    }
-  </style>
-  </head>
-  <body>
-    <div class="error-container">
-      <h1>404</h1>
-      <p class="return">La pagina solicitada no existe. <a href="./">Ir a inicio</a></p>
-    </div>
-  </body>
-</html>
+  ]
+}

@@ -1,95 +1,1039 @@
-﻿<!DOCTYPE html >
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>(404) The page you were looking for doesn't exist.</title>
-    <style type="text/css">
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
+﻿{
+  "CodigoOperacion": "ETR",
+  "IdOperacion": 334,
+  "Operacion": "Encuesta de turismo de residentes",
+  "CodigoIOE": "16023",
+  "Url": "https://ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C\u0026cid=1254736176990\u0026idp=1254735576863",
+  "Tablas": [
+    {
+      "IdTabla": 14297,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Resultados detallados mensuales",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de  turismo de residentes. Mensual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Febrero",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 12420,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones, duraci\u00F3n media y gasto por alojamiento principal",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de  turismo de residentes. Mensual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Febrero",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 12421,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones, duraci\u00F3n media y gasto por motivo principal del viaje             ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de  turismo de residentes. Mensual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Febrero",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 12422,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones, duraci\u00F3n media y gasto por tipo de destino principal",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de  turismo de residentes. Mensual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Febrero",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 12423,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones, duraci\u00F3n media y gasto por tipo de viaje",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de  turismo de residentes. Mensual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Febrero",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 12424,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Excursiones y gasto por motivo principal de la excursi\u00F3n",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de  turismo de residentes. Mensual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Febrero",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 12494,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones, duraci\u00F3n media y gasto por alojamiento principal",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de  turismo de residentes. Mensual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Febrero",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 12495,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones, duraci\u00F3n media y gasto por motivo principal del viaje",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de  turismo de residentes. Mensual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Febrero",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 12496,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones, duraci\u00F3n media y gasto por tipo de viaje",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de  turismo de residentes. Mensual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Febrero",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 12497,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones, duraci\u00F3n media y gasto por tipo de destino principal",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de  turismo de residentes. Mensual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Febrero",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 13230,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, viajes por persona e \u00EDndice sobre la media por comunidad aut\u00F3noma de residencia de los viajeros",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de turismo de residentes",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 13231,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes con destino principal interno, viajes por persona e \u00EDndice sobre la media seg\u00FAn comunidad aut\u00F3noma de destino principal",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de turismo de residentes",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 13232,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Excursiones y gasto por destino principal (extranjero y comunidades aut\u00F3nomas)                                                                                                    ",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Encuesta de turismo de residentes",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 13233,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Excursiones con destino principal interno, excursiones por persona e \u00EDndice sobre la media por  comunidad aut\u00F3noma de destino principal ",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de turismo de residentes",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 13234,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Excursiones, excursiones por persona e \u00EDndice sobre la media por comunidad aut\u00F3noma de residencia de los excursionistas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de turismo de residentes",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 14295,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Gasto de los viajes por partidas de gasto, seg\u00FAn forma de organizaci\u00F3n y tipo de destino principal",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de turismo de residentes",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 61299,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones y duraci\u00F3n media por sexo y edad de los viajeros",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de turismo de residentes",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 12427,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones, duraci\u00F3n media y gasto por tipo de destino principal",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de turismo de residentes",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 12428,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones, duraci\u00F3n media y gasto por alojamiento principal, seg\u00FAn tipo de destino principal",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de turismo de residentes",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 12429,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones, duraci\u00F3n media y gasto por motivo principal del viaje, seg\u00FAn tipo de destino principal",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de turismo de residentes",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 12430,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones, duraci\u00F3n media y gasto por duraci\u00F3n del viaje, seg\u00FAn tipo de destino principal",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de turismo de residentes",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 12431,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones, duraci\u00F3n media y gasto por principal medio de transporte, seg\u00FAn tipo de destino principal",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de turismo de residentes",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 12432,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones, duraci\u00F3n media y gasto por forma de organizaci\u00F3n del viaje, seg\u00FAn tipo de destino principal ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de turismo de residentes",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 12433,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones, duraci\u00F3n media y gasto por tipo de viaje                                                                                                  ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de turismo de residentes",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 12434,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones, duraci\u00F3n media y gasto por destino principal (extranjero y comunidades aut\u00F3nomas) ",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Encuesta de turismo de residentes",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 12435,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones, duraci\u00F3n media y gasto por alojamiento principal, seg\u00FAn destino principal (extranjero y comunidades aut\u00F3nomas) ",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Encuesta de turismo de residentes",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 12436,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes con destino principal interno, pernoctaciones, duraci\u00F3n media y gasto por tipo de origen, seg\u00FAn comunidad aut\u00F3noma de destino principal ",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de turismo de residentes",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 12437,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Etapas, pernoctaciones y duraci\u00F3n media de la etapa por destino (extranjero y comunidades aut\u00F3nomas) de la etapa                                                    ",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Encuesta de turismo de residentes",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 12439,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Etapas con destino interno, pernoctaciones y duraci\u00F3n media de la etapa por alojamiento, seg\u00FAn comunidad aut\u00F3noma de destino de la etapa ",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de turismo de residentes",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 12440,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Etapas con destino interno, pernoctaciones y duraci\u00F3n media de la etapa por tipo de origen del viaje, seg\u00FAn comunidad aut\u00F3noma de destino de la etapa ",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de turismo de residentes",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 12442,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones y duraci\u00F3n media por nacionalidad de los viajeros",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de turismo de residentes",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 12444,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones y duraci\u00F3n media por nivel de formaci\u00F3n alcanzado de los viajeros",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de turismo de residentes",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 12445,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones y duraci\u00F3n media por relaci\u00F3n con la actividad de los viajeros",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de turismo de residentes",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 12446,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Excursiones y gasto por motivo principal de la excursi\u00F3n                                                                                                            ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de turismo de residentes",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 12447,
+      "CodigoOperacion": "ETR",
+      "Tabla": " Excursiones y gasto por tipo de destino principal                                                                                                   ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de turismo de residentes",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 12448,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones, duraci\u00F3n media y gasto por comunidad aut\u00F3noma de residencia de los viajeros                                                               ",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de turismo de residentes",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 12449,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones, duraci\u00F3n media y gasto por tipo de alojamiento principal, seg\u00FAn comunidad aut\u00F3noma de residencia de los viajeros                          ",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de turismo de residentes",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 12450,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes con destino principal interno, pernoctaciones, duraci\u00F3n media y gasto por tipo de destino principal, seg\u00FAn comunidad aut\u00F3noma de residencia de los viajeros",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de turismo de residentes",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 14298,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Excursiones y gasto por comunidad aut\u00F3noma de residencia de los excursionistas ",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de turismo de residentes",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-24T07:00:00"
+    },
+    {
+      "IdTabla": 76187,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones, duraci\u00F3n media y gasto por comunidad aut\u00F3noma de residencia de los viajeros",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de turismo de residentes",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2015-07-28T07:00:00"
+    },
+    {
+      "IdTabla": 76188,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones, duraci\u00F3n media y gasto por destino principal (extranjero y comunidades aut\u00F3nomas) ",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2016-07-27T09:00:00"
+    },
+    {
+      "IdTabla": 76189,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones, duraci\u00F3n media y gasto por tipo de destino principal",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2016-07-27T09:00:00"
+    },
+    {
+      "IdTabla": 76190,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones y duraci\u00F3n media por principales caracter\u00EDsticas de los viajes",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2016-07-27T09:00:00"
+    },
+    {
+      "IdTabla": 76186,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Personas viajeras por edad, seg\u00FAn destino y duraci\u00F3n del viaje.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2016-07-27T09:00:00"
+    },
+    {
+      "IdTabla": 15796,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Gasto total y gastos medios por principales caracter\u00EDsticas de los viajes",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-26T08:00:00"
+    },
+    {
+      "IdTabla": 15797,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones y duraci\u00F3n media por principales caracter\u00EDsticas de los viajes",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-26T08:00:00"
+    },
+    {
+      "IdTabla": 24919,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones, duraci\u00F3n media y gasto por tipo de destino principal                                                                                           ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-03-26T08:00:00"
+    },
+    {
+      "IdTabla": 24920,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones, duraci\u00F3n media y gasto por alojamiento principal, seg\u00FAn tipo de destino principal",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-26T08:00:00"
+    },
+    {
+      "IdTabla": 24921,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones, duraci\u00F3n media y gasto por motivo principal del viaje, seg\u00FAn tipo de destino principal",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-03-26T08:00:00"
+    },
+    {
+      "IdTabla": 24922,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones, duraci\u00F3n media y gasto por duraci\u00F3n del viaje, seg\u00FAn tipo de destino principal",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-03-26T08:00:00"
+    },
+    {
+      "IdTabla": 24923,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones, duraci\u00F3n media y gasto por principal medio de transporte, seg\u00FAn tipo de destino principal",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-03-26T08:00:00"
+    },
+    {
+      "IdTabla": 24924,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones, duraci\u00F3n media y gasto por forma de organizaci\u00F3n del viaje, seg\u00FAn tipo de destino principal ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-03-26T08:00:00"
+    },
+    {
+      "IdTabla": 24925,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones, duraci\u00F3n media y gasto por tipo de viaje ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-03-26T08:00:00"
+    },
+    {
+      "IdTabla": 24926,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Gasto de los viajes por partidas de gasto, seg\u00FAn forma de organizaci\u00F3n y tipo de destino principal",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-03-26T08:00:00"
+    },
+    {
+      "IdTabla": 24927,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones, duraci\u00F3n media y gasto por destino principal (extranjero y comunidades aut\u00F3nomas) ",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-03-26T08:00:00"
+    },
+    {
+      "IdTabla": 24928,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones, duraci\u00F3n media y gasto por alojamiento principal, seg\u00FAn destino principal (extranjero y comunidades aut\u00F3nomas) ",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-03-26T08:00:00"
+    },
+    {
+      "IdTabla": 24929,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes con destino principal interno, pernoctaciones, duraci\u00F3n media y gasto por tipo de origen, seg\u00FAn comunidad aut\u00F3noma de destino principal ",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-03-26T08:00:00"
+    },
+    {
+      "IdTabla": 24930,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes con destino principal interno, viajes por persona e \u00EDndice sobre la media seg\u00FAn comunidad aut\u00F3noma de destino principal",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-03-26T08:00:00"
+    },
+    {
+      "IdTabla": 24931,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Etapas, pernoctaciones y duraci\u00F3n media de la etapa por destino (extranjero y comunidades aut\u00F3nomas) de la etapa",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-03-26T08:00:00"
+    },
+    {
+      "IdTabla": 24932,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Etapas con destino interno, pernoctaciones y duraci\u00F3n media de la etapa por alojamiento, seg\u00FAn comunidad aut\u00F3noma de destino de la etapa ",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-03-26T08:00:00"
+    },
+    {
+      "IdTabla": 24933,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Etapas con destino interno, pernoctaciones y duraci\u00F3n media de la etapa por tipo de origen del viaje, seg\u00FAn comunidad aut\u00F3noma de destino de la etapa ",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-03-26T08:00:00"
+    },
+    {
+      "IdTabla": 24935,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones y duraci\u00F3n media por nacionalidad de los viajeros",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-03-26T08:00:00"
+    },
+    {
+      "IdTabla": 24936,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones y duraci\u00F3n media por nivel de formaci\u00F3n alcanzado de los viajeros",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-03-26T08:00:00"
+    },
+    {
+      "IdTabla": 24937,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones y duraci\u00F3n media por relaci\u00F3n con la actividad de los viajeros                                                                               ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-03-26T08:00:00"
+    },
+    {
+      "IdTabla": 24938,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Excursiones y gasto por motivo principal de la excursi\u00F3n                                                                                                            ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-03-26T08:00:00"
+    },
+    {
+      "IdTabla": 24939,
+      "CodigoOperacion": "ETR",
+      "Tabla": " Excursiones y gasto por tipo de destino principal                                                                                                   ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-03-26T08:00:00"
+    },
+    {
+      "IdTabla": 24940,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Excursiones y gasto por destino principal (extranjero y comunidades aut\u00F3nomas)                                                                                                    ",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-03-26T08:00:00"
+    },
+    {
+      "IdTabla": 24941,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Excursiones con destino principal interno, excursiones por persona e \u00EDndice sobre la media por  comunidad aut\u00F3noma de destino principal ",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-03-26T08:00:00"
+    },
+    {
+      "IdTabla": 24942,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones, duraci\u00F3n media y gasto por comunidad aut\u00F3noma de residencia de los viajeros                                                               ",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-03-26T08:00:00"
+    },
+    {
+      "IdTabla": 24943,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones, duraci\u00F3n media y gasto por tipo de alojamiento principal, seg\u00FAn comunidad aut\u00F3noma de residencia de los viajeros                          ",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-03-26T08:00:00"
+    },
+    {
+      "IdTabla": 24944,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes con destino principal interno, pernoctaciones, duraci\u00F3n media y gasto por tipo de destino principal, seg\u00FAn comunidad aut\u00F3noma de residencia de los viajeros",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-03-26T08:00:00"
+    },
+    {
+      "IdTabla": 24945,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, viajes por persona e \u00EDndice sobre la media por comunidad aut\u00F3noma de residencia de los viajeros",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-03-26T08:00:00"
+    },
+    {
+      "IdTabla": 24946,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Excursiones, excursiones por persona e \u00EDndice sobre la media por comunidad aut\u00F3noma de residencia de los excursionistas                                             ",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-03-26T08:00:00"
+    },
+    {
+      "IdTabla": 24947,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Excursiones y gasto por comunidad aut\u00F3noma de residencia de los excursionistas ",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-03-26T08:00:00"
+    },
+    {
+      "IdTabla": 25754,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Personas no viajeras por sexo, seg\u00FAn motivos para no viajar                                                                                       ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-06-30T07:00:00"
+    },
+    {
+      "IdTabla": 25755,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Personas viajeras por sexo, seg\u00FAn destino y duraci\u00F3n del viaje.                                                                                ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-30T07:00:00"
+    },
+    {
+      "IdTabla": 25756,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Personas viajeras por edad, seg\u00FAn destino y duraci\u00F3n del viaje.                                                                          ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-30T07:00:00"
+    },
+    {
+      "IdTabla": 25758,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Personas viajeras por nivel de formaci\u00F3n alcanzado, seg\u00FAn destino y duraci\u00F3n del viaje.                                                         ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-30T07:00:00"
+    },
+    {
+      "IdTabla": 25759,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Personas viajeras por relaci\u00F3n con la actividad, seg\u00FAn destino y duraci\u00F3n del viaje.                                            ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-30T07:00:00"
+    },
+    {
+      "IdTabla": 25760,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Personas viajeras por nacionalidad, seg\u00FAn destino y duraci\u00F3n del viaje.                                        ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-06-30T07:00:00"
+    },
+    {
+      "IdTabla": 25761,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Personas viajeras por tipo de hogar, seg\u00FAn destino y duraci\u00F3n del viaje.                                     ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-06-30T07:00:00"
+    },
+    {
+      "IdTabla": 25814,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Personas viajeras por disponibilidad de vivienda secundaria, seg\u00FAn destino y duraci\u00F3n del viaje.                                ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-06-30T07:00:00"
+    },
+    {
+      "IdTabla": 25815,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Personas viajeras por ingresos del hogar, seg\u00FAn destino y duraci\u00F3n del viaje.                           ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-06-30T07:00:00"
+    },
+    {
+      "IdTabla": 25867,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Personas no viajeras por edad, seg\u00FAn motivos para no viajar.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-06-30T07:00:00"
+    },
+    {
+      "IdTabla": 25868,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Personas no viajeras por nivel de formaci\u00F3n alcanzado, seg\u00FAn motivos para no viajar",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-06-30T07:00:00"
+    },
+    {
+      "IdTabla": 25869,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Personas no viajeras por relaci\u00F3n con la actividad, seg\u00FAn motivos para no viajar",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-06-30T07:00:00"
+    },
+    {
+      "IdTabla": 25870,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Personas no viajeras por tipo de hogar, seg\u00FAn motivos para no viajar",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-06-30T07:00:00"
+    },
+    {
+      "IdTabla": 25871,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Personas no viajeras por disponibilidad de vivienda secundaria, seg\u00FAn motivos para no viajar.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-06-30T07:00:00"
+    },
+    {
+      "IdTabla": 25872,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Personas no viajeras por ingresos del hogar, seg\u00FAn motivos para no viajar",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-06-30T07:00:00"
+    },
+    {
+      "IdTabla": 25873,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Personas viajeras por comunidad aut\u00F3noma de residencia, seg\u00FAn destino y duraci\u00F3n del viaje",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-30T07:00:00"
+    },
+    {
+      "IdTabla": 25882,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Personas no viajeras por comunidad aut\u00F3noma de residencia, seg\u00FAn motivos para no viajar",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-30T07:00:00"
+    },
+    {
+      "IdTabla": 61300,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones y duraci\u00F3n media por sexo y edad de los viajeros",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-03-26T08:00:00"
+    },
+    {
+      "IdTabla": 67186,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Personas viajeras por sexo, seg\u00FAn destino y duraci\u00F3n del viaje.                                                                                ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de turismo de residentes anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-30T07:00:00"
+    },
+    {
+      "IdTabla": 68554,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones y gasto total por forma de reserva del alojamiento",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Turismo de Residentes. HVD. Periodicidad Trienal",
+      "AnyoInicial": "2017",
+      "PeriodoInicial": "Trienio",
+      "UltimaModificacion": "2025-01-29T07:25:00"
+    },
+    {
+      "IdTabla": 68555,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones y gasto total por uso de internet en la reserva del alojamiento",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Turismo de Residentes. HVD. Periodicidad Trienal",
+      "AnyoInicial": "2017",
+      "PeriodoInicial": "Trienio",
+      "UltimaModificacion": "2025-01-29T07:25:00"
+    },
+    {
+      "IdTabla": 68556,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones y gasto total por forma de reserva del transporte",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Turismo de Residentes. HVD. Periodicidad Trienal",
+      "AnyoInicial": "2017",
+      "PeriodoInicial": "Trienio",
+      "UltimaModificacion": "2025-01-29T07:25:00"
+    },
+    {
+      "IdTabla": 68557,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones y gasto total por uso de internet en la reserva del transporte",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Turismo de Residentes. HVD. Periodicidad Trienal",
+      "AnyoInicial": "2017",
+      "PeriodoInicial": "Trienio",
+      "UltimaModificacion": "2025-01-29T07:25:00"
+    },
+    {
+      "IdTabla": 68558,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones y gasto total por forma de organizaci\u00F3n",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Turismo de Residentes. HVD. Periodicidad Trienal",
+      "AnyoInicial": "2017",
+      "PeriodoInicial": "Trienio",
+      "UltimaModificacion": "2025-01-29T07:25:00"
+    },
+    {
+      "IdTabla": 68559,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones y gasto total por uso de internet en la forma de organizaci\u00F3n",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Turismo de Residentes. HVD. Periodicidad Trienal",
+      "AnyoInicial": "2017",
+      "PeriodoInicial": "Trienio",
+      "UltimaModificacion": "2025-01-29T07:25:00"
+    },
+    {
+      "IdTabla": 68550,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones y gasto total por duraci\u00F3n del viaje",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Turismo de Residentes. HVD. Periodicidad Anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-01-29T07:25:00"
+    },
+    {
+      "IdTabla": 68551,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones y gasto total por tipo de destino principal",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Turismo de Residentes. HVD. Periodicidad Anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-01-29T07:25:00"
+    },
+    {
+      "IdTabla": 68552,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones y gasto total por principal medio de transporte",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Turismo de Residentes. HVD. Periodicidad Anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-01-29T07:25:00"
+    },
+    {
+      "IdTabla": 68553,
+      "CodigoOperacion": "ETR",
+      "Tabla": "Viajes, pernoctaciones y gasto total por alojamiento principal",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Encuesta de Turismo de Residentes. HVD. Periodicidad Anual",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-01-29T07:25:00"
     }
-
-    body {
-      font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-      background-color: #2D72D9;
-      color: #fff;
-      -moz-font-smoothing: antialiased;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    .error-container {
-      text-align: center;
-      height: 100%;
-    }
-
-    @media (max-width: 480px) {
-      .error-container {
-        position: relative;
-        top: 50%;
-        height: initial;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    .error-container h1 {
-      margin: 0;
-      font-size: 130px;
-      font-weight: 300;
-    }
-
-    @media (min-width: 480px) {
-      .error-container h1 {
-        position: relative;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    @media (min-width: 768px) {
-      .error-container h1 {
-        font-size: 220px;
-      }
-    }
-
-    .return {
-      color: rgba(255, 255, 255, 0.6);
-      font-weight: 400;
-      letter-spacing: -0.04em;
-      margin: 0;
-    }
-
-    @media (min-width: 480px) {
-      .return {
-        position: absolute;
-        width: 100%;
-        bottom: 30px;
-      }
-    }
-
-    .return a {
-      padding-bottom: 1px;
-      color: #fff;
-      text-decoration: none;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.6);
-      -webkit-transition: border-color 0.1s ease-in;
-      transition: border-color 0.1s ease-in;
-    }
-
-    .return a:hover {
-      border-bottom-color: #fff;
-    }
-  </style>
-  </head>
-  <body>
-    <div class="error-container">
-      <h1>404</h1>
-      <p class="return">La pagina solicitada no existe. <a href="./">Ir a inicio</a></p>
-    </div>
-  </body>
-</html>
+  ]
+}

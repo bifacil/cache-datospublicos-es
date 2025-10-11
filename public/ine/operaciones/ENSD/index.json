@@ -1,95 +1,1279 @@
-﻿<!DOCTYPE html >
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>(404) The page you were looking for doesn't exist.</title>
-    <style type="text/css">
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
+﻿{
+  "CodigoOperacion": "ENSD",
+  "IdOperacion": 66,
+  "Operacion": "Estad\u00EDstica de Nulidades, Separaciones y Divorcios",
+  "CodigoIOE": "30463",
+  "Url": "https://ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C\u0026cid=1254736176798\u0026idp=1254735573206",
+  "Tablas": [
+    {
+      "IdTabla": 20170,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Nulidades, separaciones y divorcios. Serie desde 2005",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2005",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20171,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Nulidades, separaciones y divorcios por comunidades aut\u00F3nomas. Serie desde 2005",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2005",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20172,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Nulidades, separaciones y divorcios por comunidades aut\u00F3nomas.Tasas por 1.000 habitantes. Serie desde 2006",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2006",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20173,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Nulidades, separaciones y divorcios por provincias. Serie desde 2013",
+      "CodigoTabla": "CCAA-PROV",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20252,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Nulidades, separaciones y divorcios por tipo de resoluci\u00F3n. Serie desde 2015",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20254,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Nulidades seg\u00FAn sexo de los c\u00F3nyuges",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20255,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Nulidades seg\u00FAn edad de los c\u00F3nyuges",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20257,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Nulidades seg\u00FAn nacionalidad de los c\u00F3nyuges",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20264,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Nulidades seg\u00FAn estado civil de los c\u00F3nyuges al contraer el matrimonio",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20271,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Nulidades seg\u00FAn duraci\u00F3n del matrimonio",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20272,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Nulidades seg\u00FAn duraci\u00F3n del procedimiento",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20273,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Nulidades entre c\u00F3nyuges de diferente sexo seg\u00FAn nacionalidad y edad del esposo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20274,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Nulidades entre c\u00F3nyuges de diferente sexo seg\u00FAn nacionalidad y edad del esposa",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20275,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Nulidades entre c\u00F3nyuges de diferente sexo seg\u00FAn duraci\u00F3n del matrimonio y edad del esposo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20276,
+      "CodigoOperacion": "ENSD",
+      "Tabla": " Nulidades entre c\u00F3nyuges de diferente sexo seg\u00FAn duraci\u00F3n del matrimonio y edad de la esposa",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20277,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Nulidades entre c\u00F3nyuges de diferente sexo seg\u00FAn duraci\u00F3n del matrimonio y nacionalidad del esposo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20278,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Nulidades entre c\u00F3nyuges de diferente sexo seg\u00FAn duraci\u00F3n del matrimonio y nacionalidad de la esposa",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20478,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones seg\u00FAn tipo de separaci\u00F3n y sexo de los c\u00F3nyuges",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20479,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones seg\u00FAn edad de los c\u00F3nyuges",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20480,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones seg\u00FAn nacionalidad de los c\u00F3nyuges",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20481,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones seg\u00FAn estado civil de los c\u00F3nyuges al contraer el matrimonio",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20482,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones seg\u00FAn duraci\u00F3n del matrimonio",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20483,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones seg\u00FAn duraci\u00F3n del procedimiento y tipo de separaci\u00F3n ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2018-09-24T09:00:00"
+    },
+    {
+      "IdTabla": 20484,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones seg\u00FAn duraci\u00F3n del procedimiento, tipo de separacion y tipo de resoluci\u00F3n ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20485,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones seg\u00FAn n\u00FAmero de hijos de los c\u00F3nyuges ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20493,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones entre c\u00F3nyuges de diferente sexo seg\u00FAn edad de los c\u00F3nyuges",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20494,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones entre c\u00F3nyuges de diferente sexo seg\u00FAn nacionalidad de los c\u00F3nyuges",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20495,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones entre c\u00F3nyuges de diferente sexo seg\u00FAn estado civil de los c\u00F3nyuges al contraer el matrimonio",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20496,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones entre c\u00F3nyuges de diferente sexo seg\u00FAn nacionalidad y edad del esposo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20497,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones entre c\u00F3nyuges de diferente sexo seg\u00FAn nacionalidad y edad de la esposa",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20498,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones entre c\u00F3nyuges de diferente sexo seg\u00FAn duraci\u00F3n del matrimonio y edad del esposo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20499,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones entre c\u00F3nyuges de diferente sexo seg\u00FAn duraci\u00F3n del matrimonio y edad de la esposa",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20500,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones entre c\u00F3nyuges de diferente sexo seg\u00FAn duraci\u00F3n del matrimonio y nacionalidad del esposo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20501,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones entre c\u00F3nyuges de diferente sexo seg\u00FAn duraci\u00F3n del matrimonio y nacionalidad de la esposa",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20502,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones entre c\u00F3nyuges de diferente sexo seg\u00FAn edad del esposo y su estado civil al contraer el matrimonio",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20503,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones entre c\u00F3nyuges de diferente sexo seg\u00FAn edad de la esposa y su estado civil al contraer el matrimonio",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20504,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones entre c\u00F3nyuges de diferente sexo seg\u00FAn tipo de separaci\u00F3n y c\u00F3nyuge que presenta la demanda",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20505,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones entre c\u00F3nyuges de diferente sexo seg\u00FAn tipo de separaci\u00F3n y c\u00F3nyuge que debe pagar la pensi\u00F3n compensatoria",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20506,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones entre c\u00F3nyuges de diferente sexo seg\u00FAn tipo de separaci\u00F3n y c\u00F3nyuge que debe pagar la pensi\u00F3n alimenticia",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20507,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones entre c\u00F3nyuges de diferente sexo seg\u00FAn tipo de separaci\u00F3n y c\u00F3nyuge que debe ejercer la custodia",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20508,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones seg\u00FAn tipo de separaci\u00F3n",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20509,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones seg\u00FAn duraci\u00F3n del matrimonio",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20510,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones seg\u00FAn n\u00FAmero de hijos de los c\u00F3nyuges ",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20511,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones entre c\u00F3nyuges de diferente sexo seg\u00FAn edad del esposo",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20512,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones entre c\u00F3nyuges de diferente sexo seg\u00FAn edad de la esposa",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20513,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones entre c\u00F3nyuges de diferente sexo seg\u00FAn nacionalidad del esposo",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20514,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones entre c\u00F3nyuges de diferente sexo seg\u00FAn nacionalidad de la esposa",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20515,
+      "CodigoOperacion": "ENSD",
+      "Tabla": " Separaciones entre c\u00F3nyuges de diferente sexo seg\u00FAn estado civil del esposo al contraer matrimonio",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20516,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones entre c\u00F3nyuges de diferente sexo seg\u00FAn estado civil de la esposa al contraer matrimonio",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20517,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones entre c\u00F3nyuges de diferente sexo seg\u00FAn c\u00F3nyuge que presenta la demanda",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20518,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones entre c\u00F3nyuges de diferente sexo seg\u00FAn c\u00F3nyuge que debe pagar la pensi\u00F3n compensatoria",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20519,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones entre c\u00F3nyuges de diferente sexo seg\u00FAn c\u00F3nyuge que debe pagar la pensi\u00F3n alimenticia",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20520,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones entre c\u00F3nyuges de diferente sexo seg\u00FAn c\u00F3nyuge que debe ejercer la custodia",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20521,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones seg\u00FAn tipo de separaci\u00F3n",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20522,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones seg\u00FAn duraci\u00F3n del matrimonio",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20523,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones seg\u00FAn n\u00FAmero de hijos de los c\u00F3nyuges ",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20530,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones entre c\u00F3nyuges de diferente sexo seg\u00FAn c\u00F3nyuge que presenta la demanda",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20531,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones entre c\u00F3nyuges de diferente sexo seg\u00FAn c\u00F3nyuge que debe pagar la pensi\u00F3n compensatoria",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20532,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones entre c\u00F3nyuges de diferente sexo seg\u00FAn c\u00F3nyuge que debe pagar la pensi\u00F3n alimenticia",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20533,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones entre c\u00F3nyuges de diferente sexo seg\u00FAn c\u00F3nyuge que debe ejercer la custodia",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20534,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios seg\u00FAn tipo de divorcio y sexo de los c\u00F3nyuges",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20536,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios seg\u00FAn edad de los c\u00F3nyuges",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20537,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios seg\u00FAn nacionalidad de los c\u00F3nyuges",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20538,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones entre c\u00F3nyuges de diferente sexo seg\u00FAn edad del esposo",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20539,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones entre c\u00F3nyuges de diferente sexo seg\u00FAn edad de la esposa",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20540,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones entre c\u00F3nyuges de diferente sexo seg\u00FAn nacionalidad del esposo",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20541,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones entre c\u00F3nyuges de diferente sexo seg\u00FAn nacionalidad de la esposa",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20542,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones entre c\u00F3nyuges de diferente sexo seg\u00FAn estado civil del esposo al contraer matrimonio",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20543,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Separaciones entre c\u00F3nyuges de diferente sexo seg\u00FAn estado civil de la esposa al contraer matrimonio",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20673,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios seg\u00FAn estado civil de los c\u00F3nyuges al contraer el matrimonio",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20674,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios seg\u00FAn duraci\u00F3n del matrimonio",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20675,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios seg\u00FAn duraci\u00F3n del procedimiento y tipo de divorcio",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2017-09-25T09:00:00"
+    },
+    {
+      "IdTabla": 20676,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios seg\u00FAn duraci\u00F3n del procedimiento, tipo de divorcio y tipo de resoluci\u00F3n",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2015",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20677,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios seg\u00FAn n\u00FAmero de hijos de los c\u00F3nyuges",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20678,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios entre c\u00F3nyuges de diferente sexo seg\u00FAn edad de los c\u00F3nyuges",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20679,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios entre c\u00F3nyuges de diferente sexo seg\u00FAn nacionalidad de los c\u00F3nyuges",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20680,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios entre c\u00F3nyuges de diferente sexo seg\u00FAn estado civil de los c\u00F3nyuges al contraer el matrimonio",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20681,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios entre c\u00F3nyuges de diferente sexo seg\u00FAn nacionalidad y edad del esposo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20682,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios entre c\u00F3nyuges de diferente sexo seg\u00FAn nacionalidad y edad de la esposa",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20683,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios entre c\u00F3nyuges de diferente sexo seg\u00FAn duraci\u00F3n del matrimonio y edad del esposo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20684,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios entre c\u00F3nyuges de diferente sexo seg\u00FAn duraci\u00F3n del matrimonio y edad de la esposa",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20685,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios entre c\u00F3nyuges de diferente sexo seg\u00FAn duraci\u00F3n del matrimonio y nacionalidad del esposo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20686,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios entre c\u00F3nyuges de diferente sexo seg\u00FAn duraci\u00F3n del matrimonio y nacionalidad de la esposa",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20687,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios entre c\u00F3nyuges de diferente sexo seg\u00FAn edad del esposo y su estado civil al contraer el matrimonio",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20688,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios entre c\u00F3nyuges de diferente sexo seg\u00FAn edad de la esposa y su estado civil al contraer el matrimonio",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20689,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios entre c\u00F3nyuges de diferente sexo seg\u00FAn tipo de divorcio y c\u00F3nyuge que presenta la demanda",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20690,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios entre c\u00F3nyuges de diferente sexo seg\u00FAn tipo de divorcio y c\u00F3nyuge que debe pagar la pensi\u00F3n compensatoria",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20691,
+      "CodigoOperacion": "ENSD",
+      "Tabla": " Divorcios entre c\u00F3nyuges de diferente sexo seg\u00FAn tipo de divorcio y c\u00F3nyuge que debe pagar la pensi\u00F3n alimenticia",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20692,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios entre c\u00F3nyuges de diferente sexo seg\u00FAn tipo de divorcio y c\u00F3nyuge que debe ejercer la custodia",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20693,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios entre c\u00F3nyuges del mismo sexo seg\u00FAn tipo de divorcio y sexo de los c\u00F3nyuges",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20753,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios entre c\u00F3nyuges del mismo sexo seg\u00FAn edad y sexo de los c\u00F3nyuges",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20754,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios entre c\u00F3nyuges del mismo sexo seg\u00FAn nacionalidad y sexo de los c\u00F3nyuges",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 20755,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios entre c\u00F3nyuges del mismo sexo seg\u00FAn duraci\u00F3n del matrimonio y sexo de los c\u00F3nyuges",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 21475,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios seg\u00FAn tipo de divorcio",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 21477,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios seg\u00FAn duraci\u00F3n del matrimonio",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 21478,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios seg\u00FAn n\u00FAmero de hijos de los c\u00F3nyuges",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 21479,
+      "CodigoOperacion": "ENSD",
+      "Tabla": " Divorcios seg\u00FAn exista o no separaci\u00F3n previa",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 21540,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios entre c\u00F3nyuges de diferente sexo seg\u00FAn edad del esposo",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 21541,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios entre c\u00F3nyuges de diferente sexo seg\u00FAn edad de la esposa",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 21542,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios entre c\u00F3nyuges de diferente sexo seg\u00FAn nacionalidad del esposo",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 21543,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios entre c\u00F3nyuges de diferente sexo seg\u00FAn nacionalidad de la esposa",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 21544,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios entre c\u00F3nyuges de diferente sexo seg\u00FAn estado civil del esposo al contraer matrimonio",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 21545,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios entre c\u00F3nyuges de diferente sexo seg\u00FAn estado civil de la esposa al contraer matrimonio",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 21546,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios entre c\u00F3nyuges de diferente sexo seg\u00FAn c\u00F3nyuge que presenta la demanda",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 21547,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios entre c\u00F3nyuges de diferente sexo seg\u00FAn c\u00F3nyuge que debe pagar la pensi\u00F3n compensatoria",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 21548,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios entre c\u00F3nyuges de diferente sexo seg\u00FAn c\u00F3nyuge que debe pagar la pensi\u00F3n alimenticia",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 21549,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios entre c\u00F3nyuges de diferente sexo seg\u00FAn c\u00F3nyuge que debe ejercer la custodia",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 21550,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios seg\u00FAn tipo de divorcio",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 21551,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios seg\u00FAn duraci\u00F3n del matrimonio",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 21552,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios seg\u00FAn n\u00FAmero de hijos de los c\u00F3nyuges",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 21553,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios seg\u00FAn exista o no separaci\u00F3n previa",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 21554,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios entre c\u00F3nyuges de diferente sexo seg\u00FAn edad del esposo",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 21555,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios entre c\u00F3nyuges de diferente sexo seg\u00FAn edad de la esposa",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 21556,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios entre c\u00F3nyuges de diferente sexo seg\u00FAn nacionalidad del esposo",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 21557,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios entre c\u00F3nyuges de diferente sexo seg\u00FAn nacionalidad de la esposa",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 21558,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios entre c\u00F3nyuges de diferente sexo seg\u00FAn estado civil del esposo al contraer matrimonio",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 21559,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios entre c\u00F3nyuges de diferente sexo seg\u00FAn estado civil de la esposa al contraer matrimonio",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 21560,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios entre c\u00F3nyuges de diferente sexo seg\u00FAn c\u00F3nyuge que presenta la demanda",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 21561,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios entre c\u00F3nyuges de diferente sexo seg\u00FAn c\u00F3nyuge que debe pagar la pensi\u00F3n compensatoria",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 21562,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios entre c\u00F3nyuges de diferente sexo seg\u00FAn c\u00F3nyuge que debe pagar la pensi\u00F3n alimenticia",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 21563,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios entre c\u00F3nyuges de diferente sexo seg\u00FAn c\u00F3nyuge que debe ejercer la custodia",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 24257,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Nulidades, separaciones y divorcios entre conyuges de diferente sexo por provincias. Serie 2005-2012",
+      "CodigoTabla": "CCAA-PROV",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2005",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2017-09-25T09:00:00"
+    },
+    {
+      "IdTabla": 49097,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Nulidades, separaciones y divorcios. Serie desde 2005",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2005",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 49100,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios seg\u00FAn tipo de divorcio y sexo de los c\u00F3nyuges",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 49101,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios entre c\u00F3nyuges de diferente sexo seg\u00FAn tipo de divorcio y c\u00F3nyuge que debe ejercer la custodia",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 49102,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios seg\u00FAn tipo de divorcio por comunidades y ciudades aut\u00F3nomas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-18T09:00:00"
+    },
+    {
+      "IdTabla": 75708,
+      "CodigoOperacion": "ENSD",
+      "Tabla": "Divorcios entre c\u00F3nyuges del mismo sexo seg\u00FAn duraci\u00F3n del matrimonio y sexo de los c\u00F3nyuges",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de nulidades, separaciones y divorcios",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2012-09-13T09:00:00"
     }
-
-    body {
-      font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-      background-color: #2D72D9;
-      color: #fff;
-      -moz-font-smoothing: antialiased;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    .error-container {
-      text-align: center;
-      height: 100%;
-    }
-
-    @media (max-width: 480px) {
-      .error-container {
-        position: relative;
-        top: 50%;
-        height: initial;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    .error-container h1 {
-      margin: 0;
-      font-size: 130px;
-      font-weight: 300;
-    }
-
-    @media (min-width: 480px) {
-      .error-container h1 {
-        position: relative;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    @media (min-width: 768px) {
-      .error-container h1 {
-        font-size: 220px;
-      }
-    }
-
-    .return {
-      color: rgba(255, 255, 255, 0.6);
-      font-weight: 400;
-      letter-spacing: -0.04em;
-      margin: 0;
-    }
-
-    @media (min-width: 480px) {
-      .return {
-        position: absolute;
-        width: 100%;
-        bottom: 30px;
-      }
-    }
-
-    .return a {
-      padding-bottom: 1px;
-      color: #fff;
-      text-decoration: none;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.6);
-      -webkit-transition: border-color 0.1s ease-in;
-      transition: border-color 0.1s ease-in;
-    }
-
-    .return a:hover {
-      border-bottom-color: #fff;
-    }
-  </style>
-  </head>
-  <body>
-    <div class="error-container">
-      <h1>404</h1>
-      <p class="return">La pagina solicitada no existe. <a href="./">Ir a inicio</a></p>
-    </div>
-  </body>
-</html>
+  ]
+}

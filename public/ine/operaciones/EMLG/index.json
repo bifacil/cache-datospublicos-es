@@ -1,95 +1,489 @@
-﻿<!DOCTYPE html >
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>(404) The page you were looking for doesn't exist.</title>
-    <style type="text/css">
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
+﻿{
+  "CodigoOperacion": "EMLG",
+  "IdOperacion": 234,
+  "Operacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+  "CodigoIOE": "30209",
+  "Url": "https://ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C\u0026cid=1254736176909\u0026idp=1254735976597",
+  "Tablas": [
+    {
+      "IdTabla": 13534,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Ocupados por sexo, grupo de edad y seg\u00FAn el tiempo de residencia en el municipio",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-09-22T09:00:00"
+    },
+    {
+      "IdTabla": 13536,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Tasas de actividad por sexo, grupo de edad y seg\u00FAn el tiempo de residencia en el municipio",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-09-22T09:00:00"
+    },
+    {
+      "IdTabla": 13537,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Ocupados por comunidad aut\u00F3noma, sexo y seg\u00FAn el tiempo de residencia en el municipio",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-09-22T09:00:00"
+    },
+    {
+      "IdTabla": 13538,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Parados por comunidad aut\u00F3noma, ubicaci\u00F3n del municipio de residencia anterior y seg\u00FAn el tiempo de residencia en el municipio",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-09-22T09:00:00"
+    },
+    {
+      "IdTabla": 13539,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Tasas de actividad por comunidad aut\u00F3noma, sexo y seg\u00FAn el tiempo de residencia en el municipio",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-09-22T09:00:00"
+    },
+    {
+      "IdTabla": 13540,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Ocupados por nacionalidad, sexo y seg\u00FAn el tiempo de residencia en el municipio",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-09-22T09:00:00"
+    },
+    {
+      "IdTabla": 13541,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Ocupados por lugar de nacimiento, sexo y seg\u00FAn el tiempo de residencia en el municipio",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-09-22T09:00:00"
+    },
+    {
+      "IdTabla": 13542,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Ocupados por nivel de formaci\u00F3n alcanzado (CNED-2000), sexo y seg\u00FAn el tiempo de residencia en el municipio. Hasta 2013",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2016-11-30T10:00:00"
+    },
+    {
+      "IdTabla": 13543,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Ocupados por nivel de formaci\u00F3n alcanzado (CNED-2014), sexo y seg\u00FAn el tiempo de residencia en el municipio. Desde 2014",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-09-22T09:00:00"
+    },
+    {
+      "IdTabla": 13544,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Ocupados seg\u00FAn cursen o no estudios, por sexo y seg\u00FAn el tiempo de residencia en el municipio",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-09-22T09:00:00"
+    },
+    {
+      "IdTabla": 13545,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Ocupados por situaci\u00F3n profesional, sexo y seg\u00FAn el tiempo de residencia en el municipio",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-09-22T09:00:00"
+    },
+    {
+      "IdTabla": 13546,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Ocupados por grandes grupos de ocupaci\u00F3n (CNO-94)  y seg\u00FAn el tiempo de residencia en el municipio. Hasta 2010",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2016-11-30T10:00:00"
+    },
+    {
+      "IdTabla": 13547,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Ocupados por grandes grupos de ocupaci\u00F3n ( CNO-11)  y seg\u00FAn el tiempo de residencia en el municipio.Desde 2011",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-09-22T09:00:00"
+    },
+    {
+      "IdTabla": 13548,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Ocupados por sectores de actividad y seg\u00FAn el tiempo de residencia en el municipio",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-09-22T09:00:00"
+    },
+    {
+      "IdTabla": 13549,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Ocupados por lugar de trabajo, residencia y seg\u00FAn el tiempo de residencia en el municipio",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-09-22T09:00:00"
+    },
+    {
+      "IdTabla": 13550,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Ocupados por tiempo que llevan trabajando en el empleo actual y seg\u00FAn el tiempo de residencia en el municipio",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-09-22T09:00:00"
+    },
+    {
+      "IdTabla": 13551,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Ocupados por ubicaci\u00F3n del municipio de residencia anterior y seg\u00FAn el tiempo de residencia en el municipio",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-09-22T09:00:00"
+    },
+    {
+      "IdTabla": 13552,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Ocupados por tipo de h\u00E1bitat anterior y seg\u00FAn el tiempo de residencia en el municipio",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-09-22T09:00:00"
+    },
+    {
+      "IdTabla": 13553,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Ocupados por ubicaci\u00F3n del municipio de nacimiento y seg\u00FAn el tiempo de residencia en el municipio",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-09-22T09:00:00"
+    },
+    {
+      "IdTabla": 13554,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Asalariados por tipo de contrato y seg\u00FAn el tiempo de residencia en el municipio",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-09-22T09:00:00"
+    },
+    {
+      "IdTabla": 13555,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Asalariados por tipo de jornada laboral y seg\u00FAn el tiempo de residencia en el municipio",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-09-22T09:00:00"
+    },
+    {
+      "IdTabla": 13556,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Parados por sexo, grupo de edad y seg\u00FAn el tiempo de residencia en el municipio",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-09-22T09:00:00"
+    },
+    {
+      "IdTabla": 13557,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Parados por nacionalidad, sexo y seg\u00FAn el tiempo de residencia en el municipio",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-09-22T09:00:00"
+    },
+    {
+      "IdTabla": 13558,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Parados por lugar de nacimiento, sexo y seg\u00FAn el tiempo de residencia en el municipio",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-09-22T09:00:00"
+    },
+    {
+      "IdTabla": 13559,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Parados por sexo, nivel de formaci\u00F3n alcanzado (CNED-2000) y seg\u00FAn el tiempo de residencia en el municipio. Hasta 2013",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2016-11-30T10:00:00"
+    },
+    {
+      "IdTabla": 13560,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Parados por nivel de formaci\u00F3n alcanzado (CNED-2014), sexo y seg\u00FAn el tiempo de residencia en el municipio. Desde 2014",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-09-22T09:00:00"
+    },
+    {
+      "IdTabla": 13561,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Parados seg\u00FAn cursen o no estudios, por sexo y seg\u00FAn el tiempo de residencia en el municipio",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-09-22T09:00:00"
+    },
+    {
+      "IdTabla": 13562,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Parados por tiempo de b\u00FAsqueda de empleo y seg\u00FAn el tiempo de residencia en el municipio",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-09-22T09:00:00"
+    },
+    {
+      "IdTabla": 13563,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Parados por ubicaci\u00F3n del municipio de residencia anterior y seg\u00FAn el tiempo de residencia en el municipio",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-09-22T09:00:00"
+    },
+    {
+      "IdTabla": 13564,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Parados por tipo de h\u00E1bitat anterior y seg\u00FAn el tiempo de residencia en el municipio",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-09-22T09:00:00"
+    },
+    {
+      "IdTabla": 13565,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Parados por ubicaci\u00F3n del municipio de nacimiento y seg\u00FAn el tiempo de residencia en el municipio",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-09-22T09:00:00"
+    },
+    {
+      "IdTabla": 13566,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Parados que han trabajado anteriormente, por tiempo desde que dejaron el \u00FAltimo empleo y seg\u00FAn el tiempo de residencia en el municipio",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-09-22T09:00:00"
+    },
+    {
+      "IdTabla": 13567,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Tasa de actividad por sexo, nacionalidad y seg\u00FAn el tiempo de residencia en el municipio",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-09-22T09:00:00"
+    },
+    {
+      "IdTabla": 13568,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Tasa de actividad por sexo, nivel de formaci\u00F3n alcanzado (CNED-2000) y seg\u00FAn el tiempo de residencia en el municipio. Hasta 2013",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2016-11-30T10:00:00"
+    },
+    {
+      "IdTabla": 13569,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Tasa de actividad por ubicaci\u00F3n del municipio de residencia anterior y seg\u00FAn el tiempo de residencia en el municipio",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-09-22T09:00:00"
+    },
+    {
+      "IdTabla": 13570,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Tasa de actividad por nivel de formaci\u00F3n alcanzado (CNED-2014), sexo y seg\u00FAn el tiempo de residencia en el municipio. Desde 2014",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-09-22T09:00:00"
+    },
+    {
+      "IdTabla": 13571,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Tasa de actividad por tipo de h\u00E1bitat anterior y seg\u00FAn el tiempo de residencia en el municipio",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-09-22T09:00:00"
+    },
+    {
+      "IdTabla": 13572,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Tasa de actividad por ubicaci\u00F3n del municipio de nacimiento y seg\u00FAn el tiempo de residencia en el municipio",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-09-22T09:00:00"
+    },
+    {
+      "IdTabla": 13573,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Tasas de paro por sexo, grupo de edad y seg\u00FAn el tiempo de residencia en el municipio",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-09-22T09:00:00"
+    },
+    {
+      "IdTabla": 13574,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Tasa de paro por sexo, nacionalidad y seg\u00FAn el tiempo de residencia en el municipio",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-09-22T09:00:00"
+    },
+    {
+      "IdTabla": 13575,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Tasa de paro por sexo, nivel de formaci\u00F3n alcanzado (CNED-2000) y seg\u00FAn el tiempo de residencia en el municipio. Hasta 2013",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2016-11-30T10:00:00"
+    },
+    {
+      "IdTabla": 13576,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Tasa de paro por nivel de formaci\u00F3n alcanzado (CNED-2014), sexo y seg\u00FAn el tiempo de residencia en el municipio. Desde 2014",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-09-22T09:00:00"
+    },
+    {
+      "IdTabla": 13577,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Tasa de paro por ubicaci\u00F3n del municipio de residencia anterior y seg\u00FAn el tiempo de residencia en el municipio",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-09-22T09:00:00"
+    },
+    {
+      "IdTabla": 13578,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Tasa de paro por tipo de h\u00E1bitat anterior y seg\u00FAn el tiempo de residencia en el municipio",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-09-22T09:00:00"
+    },
+    {
+      "IdTabla": 13579,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Tasa de paro por ubicaci\u00F3n del municipio de nacimiento y seg\u00FAn el tiempo de residencia en el municipio",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-09-22T09:00:00"
+    },
+    {
+      "IdTabla": 13580,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Ocupados por comunidad aut\u00F3noma, ubicaci\u00F3n del municipio de residencia anterior y seg\u00FAn el tiempo de residencia en el municipio",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-09-22T09:00:00"
+    },
+    {
+      "IdTabla": 13581,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Parados por comunidad aut\u00F3noma, sexo y seg\u00FAn el tiempo de residencia en el municipio",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-09-22T09:00:00"
+    },
+    {
+      "IdTabla": 13582,
+      "CodigoOperacion": "EMLG",
+      "Tabla": "Tasas de paro por comunidad aut\u00F3noma, sexo y seg\u00FAn el tiempo de residencia en el municipio",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Estad\u00EDstica de Movilidad Laboral y Geogr\u00E1fica",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-09-22T09:00:00"
     }
-
-    body {
-      font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-      background-color: #2D72D9;
-      color: #fff;
-      -moz-font-smoothing: antialiased;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    .error-container {
-      text-align: center;
-      height: 100%;
-    }
-
-    @media (max-width: 480px) {
-      .error-container {
-        position: relative;
-        top: 50%;
-        height: initial;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    .error-container h1 {
-      margin: 0;
-      font-size: 130px;
-      font-weight: 300;
-    }
-
-    @media (min-width: 480px) {
-      .error-container h1 {
-        position: relative;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    @media (min-width: 768px) {
-      .error-container h1 {
-        font-size: 220px;
-      }
-    }
-
-    .return {
-      color: rgba(255, 255, 255, 0.6);
-      font-weight: 400;
-      letter-spacing: -0.04em;
-      margin: 0;
-    }
-
-    @media (min-width: 480px) {
-      .return {
-        position: absolute;
-        width: 100%;
-        bottom: 30px;
-      }
-    }
-
-    .return a {
-      padding-bottom: 1px;
-      color: #fff;
-      text-decoration: none;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.6);
-      -webkit-transition: border-color 0.1s ease-in;
-      transition: border-color 0.1s ease-in;
-    }
-
-    .return a:hover {
-      border-bottom-color: #fff;
-    }
-  </style>
-  </head>
-  <body>
-    <div class="error-container">
-      <h1>404</h1>
-      <p class="return">La pagina solicitada no existe. <a href="./">Ir a inicio</a></p>
-    </div>
-  </body>
-</html>
+  ]
+}

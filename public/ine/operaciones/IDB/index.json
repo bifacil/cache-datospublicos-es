@@ -1,95 +1,3419 @@
-﻿<!DOCTYPE html >
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>(404) The page you were looking for doesn't exist.</title>
-    <style type="text/css">
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
+﻿{
+  "CodigoOperacion": "IDB",
+  "IdOperacion": 33,
+  "Operacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+  "CodigoIOE": "30264",
+  "Url": "https://ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C\u0026cid=1254736177003\u0026idp=1254735573002",
+  "Tablas": [
+    {
+      "IdTabla": 1374,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Nupcialidad seg\u00FAn sexo, edad y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1976",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1375,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Indicador Coyuntural de Nupcialidad seg\u00FAn sexo y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1976",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1376,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Edad Media al Matrimonio seg\u00FAn sexo y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1976",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1377,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Primo-Nupcialidad seg\u00FAn sexo y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1976",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1378,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Primo-Nupcialidad seg\u00FAn sexo, edad y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1976",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1379,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Indicador Coyuntural de Primo-Nupcialidad seg\u00FAn sexo y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1976",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1380,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Edad Media al Primer Matrimonio seg\u00FAn sexo y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1976",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1381,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa Bruta de Natalidad.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1382,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Natalidad seg\u00FAn nacionalidad (espa\u00F1ola/extranjera) de la madre",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2002",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1406,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Fecundidad seg\u00FAn orden del nacimiento y nacionalidad (espa\u00F1ola/extranjera) y edad de la madre",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1407,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Indicador Coyuntural de Fecundidad seg\u00FAn orden del nacimiento y nacionalidad (espa\u00F1ola/extranjera) de la madre",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1409,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa Global de Fecundidad seg\u00FAn nacionalidad (espa\u00F1ola/extranjera) de la madre",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1410,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Proporci\u00F3n de nacidos de madre no casada seg\u00FAn nacionalidad (espa\u00F1ola/extranjera) de la madre",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1411,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa Bruta de Mortalidad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1413,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Mortalidad Infantil seg\u00FAn sexo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1414,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Esperanza de Vida al Nacimiento seg\u00FAn sexo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1415,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Esperanza de Vida a los 65 a\u00F1os, seg\u00FAn sexo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1422,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa Bruta de Nupcialidad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1976",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1423,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Nupcialidad seg\u00FAn sexo y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1976",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1424,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Nupcialidad por comunidad aut\u00F3noma, seg\u00FAn sexo, edad y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1976",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1425,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Nupcialidad por comunidad aut\u00F3noma, seg\u00FAn sexo y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1976",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1426,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Edad Media al Matrimonio por comunidad aut\u00F3noma, seg\u00FAn sexo y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1976",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1427,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Primo-Nupcialidad por comunidad aut\u00F3noma, seg\u00FAn sexo y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1976",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1428,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Primo-Nupcialidad por comunidad aut\u00F3noma, seg\u00FAn sexo, edad y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1976",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1429,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Indicador Coyuntural de Primo-Nupcialidad por comunidad aut\u00F3noma, seg\u00FAn sexo y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1976",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1430,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Edad Media al Primer Matrimonio por comunidad aut\u00F3noma, seg\u00FAn sexo y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1976",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1431,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Mortalidad por comunidad aut\u00F3noma, seg\u00FAn sexo y grupo de edad hasta 95 a\u00F1os y m\u00E1s (desde 1991)",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1991",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1432,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa Bruta de Natalidad por comunidad aut\u00F3noma",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1433,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Natalidad por comunidad aut\u00F3noma, seg\u00FAn nacionalidad (espa\u00F1ola/extranjera) de la madre",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2002",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1440,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Fecundidad por comunidad aut\u00F3noma, seg\u00FAn orden del nacimiento y nacionalidad (espa\u00F1ola/extranjera) y edad de la madre",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1441,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Indicador Coyuntural de Fecundidad por comunidad aut\u00F3noma, seg\u00FAn orden del nacimiento y nacionalidad (espa\u00F1ola/extranjera) de la madre",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1443,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa Global de Fecundidad por comunidad aut\u00F3noma, seg\u00FAn nacionalidad (espa\u00F1ola/extranjera) de la madre",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1444,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Proporci\u00F3n de nacidos de madre no casada por comunidad aut\u00F3noma, seg\u00FAn nacionalidad (espa\u00F1ola/extranjera) de la madre",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1445,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa Bruta de Mortalidad por comunidad aut\u00F3noma",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1447,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Mortalidad Infantil por comunidad aut\u00F3noma, seg\u00FAn sexo",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1448,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Esperanza de Vida al Nacimiento por comunidad aut\u00F3noma, seg\u00FAn sexo",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1449,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Esperanza de Vida a los 65 a\u00F1os por comunidad aut\u00F3noma, seg\u00FAn sexo",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1493,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa Bruta de Nupcialidad por provincia",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1976",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1494,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Indicador Coyuntural de Nupcialidad por provincia, seg\u00FAn sexo",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1976",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1495,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Porcentaje de nacidos por orden del nacimiento seg\u00FAn nacionalidad (espa\u00F1ola/extranjera) de la madre",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1496,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Porcentaje de nacidos por orden del nacimiento por comunidad aut\u00F3noma, seg\u00FAn nacionalidad (espa\u00F1ola/extranjera) de la madre",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1497,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Porcentaje de nacidos por provincia, seg\u00FAn orden del nacimiento",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1499,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Ratio de masculinidad al nacimiento.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1501,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Ratio de masculinidad al nacimiento por comunidad aut\u00F3noma.",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1522,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Ratio de masculinidad al nacimiento por provincia",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1579,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Edad Media a la Maternidad por orden del nacimiento seg\u00FAn nacionalidad (espa\u00F1ola/extranjera) de la madre",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1580,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Edad Media a la Maternidad por orden del nacimiento por comunidad aut\u00F3noma, seg\u00FAn nacionalidad (espa\u00F1ola/extranjera) de la madre",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1581,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Edad Media a la Maternidad por provincia, seg\u00FAn orden del nacimiento",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1678,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Mortalidad Infantil Neonatal seg\u00FAn sexo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1679,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Mortalidad Infantil Neonatal por comunidad aut\u00F3noma, seg\u00FAn sexo",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1680,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Mortalidad Infantil Neonatal por provincia, seg\u00FAn sexo",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1681,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Ratio de masculinidad a la defunci\u00F3n",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1682,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Ratio de masculinidad a la defunci\u00F3n por comunidad aut\u00F3noma",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1683,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Ratio de masculinidad a la defunci\u00F3n por provincia",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1686,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Mortalidad Infantil Neonatal temprana seg\u00FAn sexo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1687,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Mortalidad Infantil Neonatal temprana por comunidad aut\u00F3noma, seg\u00FAn sexo",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1688,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Mortalidad Infantil Neonatal temprana por provincia, seg\u00FAn sexo",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1689,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Mortalidad Infantil Neonatal tard\u00EDa seg\u00FAn sexo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1690,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Mortalidad Infantil Neonatal tard\u00EDa por comunidad aut\u00F3noma, seg\u00FAn sexo",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1691,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Mortalidad Infantil Postneonatal por provincia, seg\u00FAn sexo",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1692,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Mortalidad Infantil Postneonatal por comunidad aut\u00F3noma, seg\u00FAn sexo",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1693,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Mortalidad Infantil Postneonatal seg\u00FAn sexo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1694,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Mortalidad Infantil Neonatal tard\u00EDa por provincia, seg\u00FAn sexo",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1695,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Mortalidad Fetal tard\u00EDa seg\u00FAn sexo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1696,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Mortalidad Fetal tard\u00EDa por comunidad aut\u00F3noma, seg\u00FAn sexo",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1697,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Mortalidad Fetal tard\u00EDa por provincia, seg\u00FAn sexo",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1698,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Mortalidad Perinatal seg\u00FAn sexo.",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1699,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Mortalidad Perinatal por comunidad aut\u00F3noma seg\u00FAn sexo",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1700,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Mortalidad Perinatal seg\u00FAn provincia por sexo",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1701,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Porcentaje de fallecidos menores de 1 a\u00F1o respecto a las defunciones totales por sexo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1702,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Porcentaje de fallecidos menores de 1 a\u00F1o respecto a las defunciones totales por comunidad aut\u00F3noma por sexo",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1703,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Porcentaje de fallecidos menores de 1 a\u00F1o respecto a las defunciones totales por provincia por sexo",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 2776,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Porcentaje de nacidos por nacionalidad (espa\u00F1ola/extranjera) de la madre seg\u00FAn orden del nacimiento",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2002",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 2777,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Porcentaje de nacidos por nacionalidad (espa\u00F1ola/extranjera) de la madre y comunidad aut\u00F3noma, seg\u00FAn orden del nacimiento",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2002",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 6587,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Porcentaje de fallecidos menores de 28 d\u00EDas respecto a las defunciones totales por sexo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 6588,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Porcentaje de fallecidos menores de 7 d\u00EDas respecto a las defunciones totales por sexo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 6589,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Porcentaje de fallecidos menores de 28 d\u00EDas respecto a las defunciones de menores de 1 a\u00F1o por sexo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 6590,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Porcentaje de fallecidos menores de 7 d\u00EDas respecto a las defunciones de menores de 1 a\u00F1o por sexo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 6591,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Porcentaje de fallecidos menores de 7 d\u00EDas respecto a las defunciones de menores de 28 d\u00EDas por sexo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 6592,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Porcentaje de fallecidos menores de 7 d\u00EDas respecto a las defunciones totales por comunidad aut\u00F3noma por sexo",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 6593,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Porcentaje de fallecidos menores de 28 d\u00EDas respecto a las defunciones de menores de 1 a\u00F1o por comunidad aut\u00F3noma por sexo",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 6594,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Porcentaje de fallecidos menores de 7 d\u00EDas respecto a las defunciones de menores de 1 a\u00F1o por comunidad aut\u00F3noma por sexo",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 6595,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Porcentaje de fallecidos menores de 7 d\u00EDas respecto a las defunciones de menores de 28 d\u00EDas por comunidad aut\u00F3noma por sexo",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 6596,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Porcentaje de fallecidos menores de 28 d\u00EDas respecto a las defunciones totales por comunidad aut\u00F3noma por sexo",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 6597,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Porcentaje de fallecidos menores de 28 d\u00EDas respecto a las defunciones totales por provincia por sexo",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 6598,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Porcentaje de fallecidos menores de 7 d\u00EDas respecto a las defunciones totales por provincia por sexo",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 6599,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Porcentaje de fallecidos menores de 28 d\u00EDas respecto a las defunciones de menores de 1 a\u00F1o por provincia por sexo",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 6600,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Porcentaje de fallecidos menores de 7 d\u00EDas respecto a las defunciones de menores de 1 a\u00F1o por provincia por sexo",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 6601,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Porcentaje de fallecidos menores de 7 d\u00EDas respecto a las defunciones de menores de 28 d\u00EDas por provincia por sexo",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 14816,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Mortalidad seg\u00FAn sexo y edad hasta 100 a\u00F1os y m\u00E1s (desde 1991)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1991",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 14817,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Mortalidad seg\u00FAn sexo y edad hasta 90 a\u00F1os y m\u00E1s (de 1975 a 1990)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2016-06-06T08:00:00"
+    },
+    {
+      "IdTabla": 24719,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa Bruta de Divorcios",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2005",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 24723,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Indicador Coyuntural de Divorcialidad seg\u00FAn sexo y nacionalidad (espa\u00F1ola/extranjera) ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2005",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 24724,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Edad Media al Divorcio seg\u00FAn sexo y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2005",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 25192,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Proporci\u00F3n de Divorcios por grupo de duraci\u00F3n del matrimonio (de 2005-2010)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2005",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2017-10-02T07:00:00"
+    },
+    {
+      "IdTabla": 25196,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Divorcialidad seg\u00FAn sexo y grupo de edad (de 2005 a 2010)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2005",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2017-10-02T07:00:00"
+    },
+    {
+      "IdTabla": 25197,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Divorcialidad seg\u00FAn sexo y nacionalidad (espa\u00F1ola/extranjera) ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2005",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 25202,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Proporci\u00F3n de Divorcios por grupo de duraci\u00F3n del matrimonio (desde 2011)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 25203,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Divorcialidad seg\u00FAn sexo, grupo de edad y nacionalidad (espa\u00F1ola/extranjera) (desde 2011)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 25204,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa Bruta de Divorcios por comunidad aut\u00F3noma",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2005",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 25205,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Proporci\u00F3n de Divorcios por comunidad aut\u00F3noma, seg\u00FAn grupo de duraci\u00F3n del matrimonio (de 2005-2010)",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2005",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2017-10-02T07:00:00"
+    },
+    {
+      "IdTabla": 25206,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Proporci\u00F3n de Divorcios por comunidad aut\u00F3noma, seg\u00FAn grupo de duraci\u00F3n del matrimonio (desde 2011)",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 25207,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Divorcialidad por comunidad aut\u00F3noma, seg\u00FAn sexo y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2005",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 25208,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Divorcialidad por comunidad aut\u00F3noma, seg\u00FAn sexo y grupo de edad (de 2005 a 2010)",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2005",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2017-10-02T07:00:00"
+    },
+    {
+      "IdTabla": 25209,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Divorcialidad por comunidad aut\u00F3noma, seg\u00FAn sexo, grupo de edad y nacionalidad (espa\u00F1ola/extranjera) (desde 2011)",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 25210,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Indicador Coyuntural de Divorcialidad por comunidad aut\u00F3noma, seg\u00FAn sexo y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2005",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 25211,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Edad Media al Divorcio por comunidad aut\u00F3noma, seg\u00FAn sexo y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2005",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 25212,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa Bruta de Divorcios por provincia",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2005",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 25213,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Proporci\u00F3n de Divorcios por provincia, seg\u00FAn grupo de duraci\u00F3n del matrimonio (de 2005-2010)",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2005",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2017-10-02T07:00:00"
+    },
+    {
+      "IdTabla": 25214,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Proporci\u00F3n de Divorcios por provincia, seg\u00FAn grupo de duraci\u00F3n del matrimonio (desde 2011)",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 25215,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Divorcialidad por provincia, seg\u00FAn sexo",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2005",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 25216,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Divorcialidad por provincia, seg\u00FAn sexo y grupo de edad (de 2005 a 2010)",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2005",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2017-10-02T07:00:00"
+    },
+    {
+      "IdTabla": 25217,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Divorcialidad por provincia, seg\u00FAn sexo, grupo de edad (desde 2011)",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 25218,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Indicador Coyuntural de Divorcialidad por provincia, seg\u00FAn sexo",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2005",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 25219,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Edad Media al Divorcio por provincia, seg\u00FAn sexo",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2005",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 29474,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Mortalidad de los menores de 5 a\u00F1os seg\u00FAn sexo",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 29475,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Mortalidad de los menores de 5 a\u00F1os seg\u00FAn sexo",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 30664,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa Bruta de Natalidad por municipio",
+      "CodigoTabla": "MUN",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 30665,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa Global de Fecundidad por municipio",
+      "CodigoTabla": "MUN",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 30666,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Fecundidad por municipio, seg\u00FAn grupo de edad de la madre",
+      "CodigoTabla": "MUN",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 30667,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Indicador Coyuntural de Fecundidad por municipio",
+      "CodigoTabla": "MUN",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 30668,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Edad Media a la Maternidad por municipio",
+      "CodigoTabla": "MUN",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 30673,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Edad Media a la Maternidad al primer hijo por municipio",
+      "CodigoTabla": "MUN",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 30674,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Fecundidad al primer hijo por municipio, seg\u00FAn grupo de edad de la madre",
+      "CodigoTabla": "MUN",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 30675,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Porcentaje de nacidos por municipio, seg\u00FAn orden del nacimiento",
+      "CodigoTabla": "MUN",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 30676,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Proporci\u00F3n de nacidos de madre no casada por municipio",
+      "CodigoTabla": "MUN",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 30685,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa Bruta de Mortalidad por municipio",
+      "CodigoTabla": "MUN",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-06T10:30:00"
+    },
+    {
+      "IdTabla": 30686,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Mortalidad por municipio, seg\u00FAn sexo y grupo de edad hasta 90 a\u00F1os y m\u00E1s ",
+      "CodigoTabla": "MUN",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-06T10:30:00"
+    },
+    {
+      "IdTabla": 30687,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Esperanza de Vida al Nacimiento por municipio, seg\u00FAn sexo",
+      "CodigoTabla": "MUN",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 30688,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Esperanza de Vida a los 65 a\u00F1os por municipio, seg\u00FAn sexo",
+      "CodigoTabla": "MUN",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 30689,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa Bruta de Nupcialidad por municipio",
+      "CodigoTabla": "MUN",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 30690,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Nupcialidad por municipio, seg\u00FAn sexo",
+      "CodigoTabla": "MUN",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 30691,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Nupcialidad por municipio, seg\u00FAn sexo y grupo de edad",
+      "CodigoTabla": "MUN",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 30692,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Edad Media al Matrimonio por municipio, seg\u00FAn sexo",
+      "CodigoTabla": "MUN",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 30693,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Primo-Nupcialidad por municipio, seg\u00FAn sexo y grupo de edad",
+      "CodigoTabla": "MUN",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 30694,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Edad Media al Primer Matrimonio por municipio, seg\u00FAn sexo",
+      "CodigoTabla": "MUN",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1456,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa Bruta de Nupcialidad por comunidad aut\u00F3noma",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1976",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1457,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Indicador Coyuntural de Nupcialidad por comunidad aut\u00F3noma, seg\u00FAn sexo y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1976",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1459,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Nupcialidad por provincia, seg\u00FAn sexo",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1976",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1460,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Edad Media al Matrimonio por provincia, seg\u00FAn sexo",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1976",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1461,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Primo-Nupcialidad por provincia, seg\u00FAn sexo",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1976",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1463,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Indicador Coyuntural de primo-Nupcialidad por provincia, seg\u00FAn sexo",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1976",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1464,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Edad Media al Primer Matrimonio por provincia, seg\u00FAn sexo",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1976",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1466,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Fecundidad por provincia, seg\u00FAn orden del nacimiento y edad de la madre",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1467,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Mortalidad por provincia, seg\u00FAn sexo y grupo de edad hasta 95 a\u00F1os y m\u00E1s (desde 1991)",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1991",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1468,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Nupcialidad por provincia, seg\u00FAn sexo y edad",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1976",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1469,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Primo-Nupcialidad por provincia, seg\u00FAn sexo y edad",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1976",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1470,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa Bruta de Natalidad por provincia",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1478,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Indicador Coyuntural de Fecundidad por provincia, seg\u00FAn orden del nacimiento",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1480,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa Global de Fecundidad por provincia",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1481,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Proporci\u00F3n de nacidos de madre no casada por provincia",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1482,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa Bruta de Mortalidad por provincia",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1484,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Mortalidad Infantil por provincia, seg\u00FAn sexo",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1485,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Esperanza de Vida al Nacimiento por provincia, seg\u00FAn sexo",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 1486,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Esperanza de Vida a los 65 a\u00F1os por provincia, seg\u00FAn sexo",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 37660,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Mortalidad seg\u00FAn sexo, nivel educativo y edad hasta 100 a\u00F1os y m\u00E1s",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2016",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-07-24T09:00:00"
+    },
+    {
+      "IdTabla": 37661,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Mortalidad por comunidad aut\u00F3noma, seg\u00FAn sexo, nivel educativo y grupo de edad hasta 95 a\u00F1os y m\u00E1s ",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2016",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-07-24T09:00:00"
+    },
+    {
+      "IdTabla": 37662,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Mortalidad por provincia, seg\u00FAn sexo, nivel educativo y grupo de edad hasta 95 a\u00F1os y m\u00E1s",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2016",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-07-24T09:00:00"
+    },
+    {
+      "IdTabla": 37663,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Esperanza de Vida seg\u00FAn sexo, edad y nivel educativo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2016",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-07-24T09:00:00"
+    },
+    {
+      "IdTabla": 37664,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Esperanza de Vida por comunidad aut\u00F3noma, seg\u00FAn sexo, edad y nivel educativo",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2016",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-07-24T09:00:00"
+    },
+    {
+      "IdTabla": 37665,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Esperanza de Vida por provincia, seg\u00FAn sexo, edad y nivel educativo",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2016",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-07-24T09:00:00"
+    },
+    {
+      "IdTabla": 46553,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Mortalidad de los menores de 5 a\u00F1os seg\u00FAn sexo",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 48876,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa Bruta de Natalidad por provincia",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 48878,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Indicador Coyuntural de Fecundidad seg\u00FAn orden del nacimiento y nacionalidad (espa\u00F1ola/extranjera) de la madre",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 48879,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Edad Media a la Maternidad por orden del nacimiento seg\u00FAn nacionalidad (espa\u00F1ola/extranjera) de la madre",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 48880,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa Bruta de Mortalidad por provincia",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 48881,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Mortalidad Infantil por provincia, seg\u00FAn sexo",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 48882,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Esperanza de Vida al Nacimiento seg\u00FAn sexo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 48883,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Esperanza de Vida a los 65 a\u00F1os, seg\u00FAn sexo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 48884,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa Bruta de Nupcialidad por provincia",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1976",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 48885,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Edad Media al Matrimonio por provincia, seg\u00FAn sexo",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1976",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 49429,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Natalidad por comunidad aut\u00F3noma, seg\u00FAn nacionalidad (espa\u00F1ola/extranjera) de la madre",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "2002",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 50252,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa Bruta de Mortalidad por comunidad aut\u00F3noma",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 66268,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Fecundidad por CCAA, seg\u00FAn nacionalidad (espa\u00F1ola/extranjera) y grupo de edad de la madre",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 66269,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Fecundidad por provincia, seg\u00FAn grupo de edad de la madre",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 67222,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa Bruta de Natalidad por comunidad aut\u00F3noma",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 67223,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa Bruta de Natalidad por provincia",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 67224,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Fecundidad por comunidad aut\u00F3noma, seg\u00FAn orden del nacimiento y nacionalidad (espa\u00F1ola/extranjera) y edad de la madre",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 67225,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Fecundidad por provincia, seg\u00FAn orden del nacimiento y edad de la madre",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 67226,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Indicador Coyuntural de Fecundidad por comunidad aut\u00F3noma, seg\u00FAn orden del nacimiento y nacionalidad (espa\u00F1ola/extranjera) de la madre",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 67227,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Indicador Coyuntural de Fecundidad por provincia, seg\u00FAn orden del nacimiento",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 67228,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa Bruta de Mortalidad por comunidad aut\u00F3noma",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 67229,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa Bruta de Mortalidad por provincia",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 67230,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Mortalidad Infantil seg\u00FAn sexo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 67231,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Mortalidad Infantil por comunidad aut\u00F3noma, seg\u00FAn sexo",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 67232,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Mortalidad Infantil por provincia, seg\u00FAn sexo",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 29286,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Mortalidad Infantil Neonatal por comunidad aut\u00F3noma, seg\u00FAn sexo",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 29292,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Mortalidad de los menores de 5 a\u00F1os seg\u00FAn sexo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 29293,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Fecundidad seg\u00FAn nacionalidad (espa\u00F1ola/extranjera) y grupo de edad de la madre",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 29294,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Fecundidad seg\u00FAn nacionalidad (espa\u00F1ola/extranjera) y grupo de edad de la madre",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 29295,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Fecundidad por provincia, seg\u00FAn grupo de edad de la madre",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores Demogr\u00E1ficos B\u00E1sicos",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-11-20T10:00:00"
+    },
+    {
+      "IdTabla": 61769,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Saldo Migratorio por mil habitantes (desde 2021)",
+      "CodigoTabla": "IDBMig21_NAC",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 61770,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Saldo Migratorio por mil habitantes por comunidad aut\u00F3noma (desde 2021)",
+      "CodigoTabla": "IDBMig21_NAC-CCAA",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 61771,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Saldo Migratorio por mil habitantes por provincia (desde 2021)",
+      "CodigoTabla": "IDBMig21_NAC-PROV",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 34982,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Proporci\u00F3n de personas seg\u00FAn lugar de nacimiento por municipio",
+      "CodigoTabla": "MUN",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 67304,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Edad Mediana de la Poblaci\u00F3n por provincia, seg\u00FAn sexo",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 67305,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Dependencia de la poblaci\u00F3n mayor de 64 a\u00F1os, por provincia",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 73017,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Saldo Vegetativo por mil habitantes",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2011-06-02T07:42:00"
+    },
+    {
+      "IdTabla": 48887,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Proporci\u00F3n de personas mayores de cierta edad por provincia",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 48888,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Dependencia de la poblaci\u00F3n mayor de 64 a\u00F1os, por comunidad aut\u00F3noma",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 1487,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Saldo Vegetativo por mil habitantes por provincia",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 1488,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Proporci\u00F3n de personas mayores de cierta edad por provincia",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 1489,
+      "CodigoOperacion": "IDB",
+      "Tabla": "\u00CDndice de Envejecimiento por provincia",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 1490,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Dependencia por provincia",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 1491,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Dependencia de la poblaci\u00F3n menor de 16 a\u00F1os, por provincia",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 1492,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Dependencia de la poblaci\u00F3n mayor de 64 a\u00F1os, por provincia",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 30695,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Crecimiento de la Poblaci\u00F3n por cada mil habitantes por municipio",
+      "CodigoTabla": "MUN",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 30696,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Saldo Vegetativo por mil habitantes por municipio",
+      "CodigoTabla": "MUN",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 30697,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Nacidos por cada mil defunciones por municipio",
+      "CodigoTabla": "MUN",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 30698,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Ratio de masculinidad de la poblaci\u00F3n por municipio",
+      "CodigoTabla": "MUN",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 30699,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Edad Media de la Poblaci\u00F3n por municipo, seg\u00FAn sexo",
+      "CodigoTabla": "MUN",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 30700,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Edad Mediana de la Poblaci\u00F3n por municipio, seg\u00FAn sexo",
+      "CodigoTabla": "MUN",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 30701,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Proporci\u00F3n de personas mayores de cierta edad por municipio",
+      "CodigoTabla": "MUN",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 30702,
+      "CodigoOperacion": "IDB",
+      "Tabla": "\u00CDndice de Envejecimiento por municipio",
+      "CodigoTabla": "MUN",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 30735,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Dependencia por municipio",
+      "CodigoTabla": "MUN",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 30736,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Dependencia de la poblaci\u00F3n menor de 16 a\u00F1os, por municipio",
+      "CodigoTabla": "MUN",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 30737,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Dependencia de la poblaci\u00F3n mayor de 64 a\u00F1os, por municipio",
+      "CodigoTabla": "MUN",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "2014",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 3197,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Edad Media de la Poblaci\u00F3n seg\u00FAn sexo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 3198,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Edad Media de la Poblaci\u00F3n por comunidad aut\u00F3noma, seg\u00FAn sexo",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 3199,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Edad Media de la Poblaci\u00F3n por provincia, seg\u00FAn sexo",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 5224,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Crecimiento de la Poblaci\u00F3n por cada mil habitantes",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 5225,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Crecimiento de la Poblaci\u00F3n por cada mil habitantes por comunidad aut\u00F3noma",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 5226,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Crecimiento de la Poblaci\u00F3n por cada mil habitantes por provincia",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 5227,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Saldo Migratorio por mil habitantes (desde 2008 a 2020)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-12-13T10:00:00"
+    },
+    {
+      "IdTabla": 5228,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Saldo Migratorio por mil habitantes por comunidad aut\u00F3noma (desde 2008 a 2020)",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-12-13T10:00:00"
+    },
+    {
+      "IdTabla": 5229,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Saldo Migratorio por mil habitantes por provincia (desde 2008 a 2020)",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-12-13T10:00:00"
+    },
+    {
+      "IdTabla": 5230,
+      "CodigoOperacion": "IDB",
+      "Tabla": " Proporci\u00F3n de poblaci\u00F3n nacida en el extranjero seg\u00FAn sexo, edad y nacionalidad (desde 2002)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "2002",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 5231,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Proporci\u00F3n de poblaci\u00F3n nacida en el extranjero por comunidad aut\u00F3noma, seg\u00FAn sexo, edad y nacionalidad (desde 2002)",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "2002",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 5233,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Proporci\u00F3n de poblaci\u00F3n extranjera seg\u00FAn sexo y edad (desde 2002)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "2002",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 5234,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Proporci\u00F3n de poblaci\u00F3n extranjera por comunidad aut\u00F3noma, seg\u00FAn sexo y edad (desde 2002)",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "2002",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 1721,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Nacidos por cada mil defunciones",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 1722,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Ratio de masculinidad de la poblaci\u00F3n",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 1723,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Ratio de masculinidad de la poblaci\u00F3n por comunidad aut\u00F3noma",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 1724,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Ratio de masculinidad de la poblaci\u00F3n por provincia",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 1725,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Edad Mediana de la Poblaci\u00F3n seg\u00FAn sexo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 1726,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Edad Mediana de la Poblaci\u00F3n por comunidad aut\u00F3noma seg\u00FAn sexo",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 1727,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Edad Mediana de la Poblaci\u00F3n por provincia, seg\u00FAn sexo",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 1728,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Nacidos por cada mil defunciones por comunidad aut\u00F3noma",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 1729,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Nacidos por cada mil defunciones por provincia",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 1450,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Saldo Vegetativo por mil habitantes por comunidad aut\u00F3noma",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 1451,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Proporci\u00F3n de personas mayores de cierta edad por comunidad aut\u00F3noma",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 1452,
+      "CodigoOperacion": "IDB",
+      "Tabla": "\u00CDndice de Envejecimiento por comunidad aut\u00F3noma",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 1453,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Dependencia por comunidad aut\u00F3noma",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 1454,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Dependencia de la poblaci\u00F3n menor de 16 a\u00F1os, por comunidad aut\u00F3noma",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 1455,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Dependencia de la poblaci\u00F3n mayor de 64 a\u00F1os, por comunidad aut\u00F3noma",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 1416,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Saldo Vegetativo por mil habitantes",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 1417,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Proporci\u00F3n de personas mayores de cierta edad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 1418,
+      "CodigoOperacion": "IDB",
+      "Tabla": "\u00CDndice de Envejecimiento",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 1419,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Dependencia",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 1420,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Dependencia de la poblaci\u00F3n menor de 16 a\u00F1os",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 1421,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Dependencia de la poblaci\u00F3n mayor de 64 a\u00F1os",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores de Crecimiento y Estructura",
+      "AnyoInicial": "1975",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-19T10:00:00"
+    },
+    {
+      "IdTabla": 5841,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa Bruta de Inmigraci\u00F3n procedente del extranjero",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-12-20T10:00:00"
+    },
+    {
+      "IdTabla": 5842,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa Bruta de Inmigraci\u00F3n procedente del extranjero por comunidad aut\u00F3noma ",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-12-20T10:00:00"
+    },
+    {
+      "IdTabla": 5843,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa Bruta de Inmigraci\u00F3n procedente del extranjero por provincia",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-12-20T10:00:00"
+    },
+    {
+      "IdTabla": 5845,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Inmigraci\u00F3n procedente del extranjero seg\u00FAn sexo, edad y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-12-20T10:00:00"
+    },
+    {
+      "IdTabla": 5848,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa Bruta de Emigraci\u00F3n con destino al extranjero",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-12-20T10:00:00"
+    },
+    {
+      "IdTabla": 5849,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa Bruta de Emigraci\u00F3n con destino al extranjero por comunidad aut\u00F3noma",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-12-20T10:00:00"
+    },
+    {
+      "IdTabla": 5850,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa Bruta de Emigraci\u00F3n con destino al extranjero por provincia",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-12-20T10:00:00"
+    },
+    {
+      "IdTabla": 5851,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Emigraci\u00F3n con destino al extranjero seg\u00FAn sexo, edad y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-12-20T10:00:00"
+    },
+    {
+      "IdTabla": 5854,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Indicador Coyuntural de Emigraci\u00F3n con destino al extranjero seg\u00FAn sexo y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-12-20T10:00:00"
+    },
+    {
+      "IdTabla": 5855,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Indicador Coyuntural de Emigraci\u00F3n con destino al extranjero por comunidad aut\u00F3noma, seg\u00FAn sexo y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-12-20T10:00:00"
+    },
+    {
+      "IdTabla": 5856,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Indicador Coyuntural de Emigraci\u00F3n con destino al extranjero por provincia, seg\u00FAn sexo",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-12-20T10:00:00"
+    },
+    {
+      "IdTabla": 5857,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Migraci\u00F3n Bruta con el extranjero",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-12-20T10:00:00"
+    },
+    {
+      "IdTabla": 5858,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Migraci\u00F3n Bruta con el extranjero por comunidad aut\u00F3noma",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-12-20T10:00:00"
+    },
+    {
+      "IdTabla": 5859,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Migraci\u00F3n Bruta con el extranjero por provincia",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-12-20T10:00:00"
+    },
+    {
+      "IdTabla": 5860,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Migraci\u00F3n Neta con el extranjero",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-12-20T10:00:00"
+    },
+    {
+      "IdTabla": 5861,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Migraci\u00F3n Neta con el extranjero por comunidad aut\u00F3noma",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-12-20T10:00:00"
+    },
+    {
+      "IdTabla": 5862,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Migraci\u00F3n Neta con el extranjero por provincia",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-12-20T10:00:00"
+    },
+    {
+      "IdTabla": 5942,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Migraci\u00F3n Interauton\u00F3mica por sexo, edad y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-12-20T10:00:00"
+    },
+    {
+      "IdTabla": 5943,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Migraci\u00F3n Interprovincial por sexo y edad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-12-20T10:00:00"
+    },
+    {
+      "IdTabla": 5944,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Indicador Coyuntural de Migraci\u00F3n Interauton\u00F3mica por sexo y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-12-20T10:00:00"
+    },
+    {
+      "IdTabla": 5945,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Indicador Coyuntural de Migraci\u00F3n Interprovincial por sexo",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-12-20T10:00:00"
+    },
+    {
+      "IdTabla": 5946,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Migraci\u00F3n Interauton\u00F3mica Bruta por comunidad aut\u00F3noma",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-12-20T10:00:00"
+    },
+    {
+      "IdTabla": 5948,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Migraci\u00F3n Interauton\u00F3mica Neta por comunidad aut\u00F3noma",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-12-20T10:00:00"
+    },
+    {
+      "IdTabla": 5949,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Migraci\u00F3n Interprovincial Bruta por provincia",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-12-20T10:00:00"
+    },
+    {
+      "IdTabla": 5950,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Migraci\u00F3n Interprovincial Neta por provincia",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-12-20T10:00:00"
+    },
+    {
+      "IdTabla": 5951,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa Bruta de Inmigraci\u00F3n Interauton\u00F3mica por comunidad aut\u00F3noma",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-12-20T10:00:00"
+    },
+    {
+      "IdTabla": 5952,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa Bruta de Inmigraci\u00F3n Interprovincial por provincia",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-12-20T10:00:00"
+    },
+    {
+      "IdTabla": 5955,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa Bruta de Emigraci\u00F3n Interauton\u00F3mica por comunidad aut\u00F3noma",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-12-20T10:00:00"
+    },
+    {
+      "IdTabla": 5956,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa Bruta de Emigraci\u00F3n Interprovincial por provincia",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-12-20T10:00:00"
+    },
+    {
+      "IdTabla": 5959,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Indicador Coyuntural de Emigraci\u00F3n Interauton\u00F3mica por comunidad aut\u00F3noma, seg\u00FAn sexo y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-12-20T10:00:00"
+    },
+    {
+      "IdTabla": 5960,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Indicador Coyuntural de Emigraci\u00F3n Interprovincial por provincia, seg\u00FAn sexo",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-12-20T10:00:00"
+    },
+    {
+      "IdTabla": 29278,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Edad Media a la Emigraci\u00F3n con destino al extranjero seg\u00FAn sexo y nacionalidad (espa\u00F1ola/extranjero) ",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-12-20T10:00:00"
+    },
+    {
+      "IdTabla": 29280,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Edad Media de los Inmigrantes procedentes del extranjero seg\u00FAn sexo y nacionalidad (espa\u00F1ola/extranjero) .",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2022-11-18T10:00:00"
+    },
+    {
+      "IdTabla": 31307,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Inmigraci\u00F3n Interauton\u00F3mica por comunidad aut\u00F3noma, seg\u00FAn sexo, grupos de edad y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-12-20T10:00:00"
+    },
+    {
+      "IdTabla": 31308,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas Emigraci\u00F3n Interauton\u00F3mica por comunidad aut\u00F3noma, seg\u00FAn sexo, grupos de edad y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-12-20T10:00:00"
+    },
+    {
+      "IdTabla": 31309,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Inmigraci\u00F3n Interprovincial por provincia, seg\u00FAn sexo y grupos de edad",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-12-20T10:00:00"
+    },
+    {
+      "IdTabla": 31310,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Emigraci\u00F3n Interprovincial por provincia, seg\u00FAn sexo y grupos de edad",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-12-20T10:00:00"
+    },
+    {
+      "IdTabla": 31312,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Emigraci\u00F3n con destino al extranjero por comunidad aut\u00F3noma, seg\u00FAn sexo, grupos de edad y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-12-20T10:00:00"
+    },
+    {
+      "IdTabla": 31313,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Inmigraci\u00F3n procedente del extranjero por comunidad aut\u00F3noma, seg\u00FAn sexo, grupos de edad y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-12-20T10:00:00"
+    },
+    {
+      "IdTabla": 31314,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Inmigraci\u00F3n procedente del extranjero por provincia, seg\u00FAn sexo y grupos de edad",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-12-20T10:00:00"
+    },
+    {
+      "IdTabla": 31315,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Emigraci\u00F3n con destino al extranjero por provincia, seg\u00FAn sexo y grupos de edad",
+      "CodigoTabla": "PROV",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-12-20T10:00:00"
+    },
+    {
+      "IdTabla": 29418,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Edad Media a la Emigraci\u00F3n con destino al extranjero por comunidad aut\u00F3noma seg\u00FAn sexo y nacionalidad (espa\u00F1ola/extranjero)",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-12-20T10:00:00"
+    },
+    {
+      "IdTabla": 29419,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Edad Media a la Emigraci\u00F3n con destino al extranjero por provincia seg\u00FAn sexo",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2023-12-20T10:00:00"
+    },
+    {
+      "IdTabla": 29420,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Edad Media de los Inmigrantes procedentes del extranjero por comunidad aut\u00F3noma seg\u00FAn sexo y nacionalidad (espa\u00F1ola/extranjero)",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2022-11-18T10:00:00"
+    },
+    {
+      "IdTabla": 29421,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Edad Media de los Inmigrantes procedentes del extranjero por provincia seg\u00FAn sexo",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2022-11-18T10:00:00"
+    },
+    {
+      "IdTabla": 61536,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa Bruta de Inmigraci\u00F3n procedente del extranjero",
+      "CodigoTabla": "IDBMig21_NAC",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-12T10:00:00"
+    },
+    {
+      "IdTabla": 61537,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Inmigraci\u00F3n procedente del extranjero seg\u00FAn sexo, edad y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "IDBMig21_NAC",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-12T10:00:00"
+    },
+    {
+      "IdTabla": 61538,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Edad Media de los Inmigrantes procedentes del extranjero seg\u00FAn sexo y nacionalidad (espa\u00F1ola/extranjero) .",
+      "CodigoTabla": "IDBMig21_NAC",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-12T10:00:00"
+    },
+    {
+      "IdTabla": 61540,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa Bruta de Emigraci\u00F3n con destino al extranjero",
+      "CodigoTabla": "IDBMig21_NAC",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-12T10:00:00"
+    },
+    {
+      "IdTabla": 61541,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Emigraci\u00F3n con destino al extranjero seg\u00FAn sexo, edad y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "IDBMig21_NAC",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-12T10:00:00"
+    },
+    {
+      "IdTabla": 61543,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Indicador Coyuntural de Emigraci\u00F3n con destino al extranjero seg\u00FAn sexo y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "IDBMig21_NAC",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-12T10:00:00"
+    },
+    {
+      "IdTabla": 61544,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Edad Media a la Emigraci\u00F3n con destino al extranjero seg\u00FAn sexo y nacionalidad (espa\u00F1ola/extranjero) ",
+      "CodigoTabla": "IDBMig21_NAC",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-12T10:00:00"
+    },
+    {
+      "IdTabla": 61545,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Migraci\u00F3n Bruta con el extranjero",
+      "CodigoTabla": "IDBMig21_NAC",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-12T10:00:00"
+    },
+    {
+      "IdTabla": 61546,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Migraci\u00F3n Neta con el extranjero",
+      "CodigoTabla": "IDBMig21_NAC",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-12T10:00:00"
+    },
+    {
+      "IdTabla": 61547,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa Bruta de Inmigraci\u00F3n procedente del extranjero por comunidad aut\u00F3noma ",
+      "CodigoTabla": "IDBMig21_NAC-CCAA",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-12T10:00:00"
+    },
+    {
+      "IdTabla": 61550,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Inmigraci\u00F3n procedente del extranjero por comunidad aut\u00F3noma, seg\u00FAn sexo, grupos de edad y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "IDBMig21_CCAA",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-12T10:00:00"
+    },
+    {
+      "IdTabla": 61551,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Edad Media de los Inmigrantes procedentes del extranjero por comunidad aut\u00F3noma seg\u00FAn sexo y nacionalidad (espa\u00F1ola/extranjero)",
+      "CodigoTabla": "IDBMig21_NAC-CCAA",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-12T10:00:00"
+    },
+    {
+      "IdTabla": 61552,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa Bruta de Emigraci\u00F3n con destino al extranjero por comunidad aut\u00F3noma",
+      "CodigoTabla": "IDBMig21_NAC-CCAA",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-12T10:00:00"
+    },
+    {
+      "IdTabla": 61554,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Emigraci\u00F3n con destino al extranjero por comunidad aut\u00F3noma, seg\u00FAn sexo, grupos de edad y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "IDBMig21_CCAA",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-12T10:00:00"
+    },
+    {
+      "IdTabla": 61556,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Indicador Coyuntural de Emigraci\u00F3n con destino al extranjero por comunidad aut\u00F3noma, seg\u00FAn sexo y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "IDBMig21_NAC-CCAA",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-12T10:00:00"
+    },
+    {
+      "IdTabla": 61557,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Edad Media a la Emigraci\u00F3n con destino al extranjero por comunidad aut\u00F3noma seg\u00FAn sexo y nacionalidad (espa\u00F1ola/extranjero)",
+      "CodigoTabla": "IDBMig21_NAC-CCAA",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-12T10:00:00"
+    },
+    {
+      "IdTabla": 61558,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Migraci\u00F3n Bruta con el extranjero por comunidad aut\u00F3noma",
+      "CodigoTabla": "IDBMig21_NAC-CCAA",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-12T10:00:00"
+    },
+    {
+      "IdTabla": 61559,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Migraci\u00F3n Neta con el extranjero por comunidad aut\u00F3noma",
+      "CodigoTabla": "IDBMig21_NAC-CCAA",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-12T10:00:00"
+    },
+    {
+      "IdTabla": 61560,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa Bruta de Inmigraci\u00F3n procedente del extranjero por provincia",
+      "CodigoTabla": "IDBMig21_NAC-PROV",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-12T10:00:00"
+    },
+    {
+      "IdTabla": 61562,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Inmigraci\u00F3n procedente del extranjero por provincia, seg\u00FAn sexo y grupos de edad",
+      "CodigoTabla": "IDBMig21_PROV",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-12T10:00:00"
+    },
+    {
+      "IdTabla": 61563,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Edad Media de los Inmigrantes procedentes del extranjero por provincia seg\u00FAn sexo",
+      "CodigoTabla": "IDBMig21_NAC-PROV",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-12T10:00:00"
+    },
+    {
+      "IdTabla": 61565,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa Bruta de Emigraci\u00F3n con destino al extranjero por provincia",
+      "CodigoTabla": "IDBMig21_NAC-PROV",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-12T10:00:00"
+    },
+    {
+      "IdTabla": 61567,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Emigraci\u00F3n con destino al extranjero por provincia, seg\u00FAn sexo y grupos de edad",
+      "CodigoTabla": "IDBMig21_PROV",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-12T10:00:00"
+    },
+    {
+      "IdTabla": 61569,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Indicador Coyuntural de Emigraci\u00F3n con destino al extranjero por provincia, seg\u00FAn sexo",
+      "CodigoTabla": "IDBMig21_NAC-PROV",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-12T10:00:00"
+    },
+    {
+      "IdTabla": 61570,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Edad Media a la Emigraci\u00F3n con destino al extranjero por provincia seg\u00FAn sexo",
+      "CodigoTabla": "IDBMig21_NAC-PROV",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-12T10:00:00"
+    },
+    {
+      "IdTabla": 61571,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Migraci\u00F3n Bruta con el extranjero por provincia",
+      "CodigoTabla": "IDBMig21_NAC-PROV",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-12T10:00:00"
+    },
+    {
+      "IdTabla": 61572,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Migraci\u00F3n Neta con el extranjero por provincia",
+      "CodigoTabla": "IDBMig21_NAC-PROV",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-12T10:00:00"
+    },
+    {
+      "IdTabla": 61573,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Migraci\u00F3n Interauton\u00F3mica por sexo, edad y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "IDBMig21_NAC",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-12T10:00:00"
+    },
+    {
+      "IdTabla": 61574,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Migraci\u00F3n Interprovincial por sexo y edad",
+      "CodigoTabla": "IDBMig21_NAC",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-12T10:00:00"
+    },
+    {
+      "IdTabla": 61575,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Indicador Coyuntural de Migraci\u00F3n Interauton\u00F3mica por sexo y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "IDBMig21_NAC",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-12T10:00:00"
+    },
+    {
+      "IdTabla": 61576,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Indicador Coyuntural de Migraci\u00F3n Interprovincial por sexo",
+      "CodigoTabla": "IDBMig21_NAC",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-12T10:00:00"
+    },
+    {
+      "IdTabla": 61577,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa Bruta de Inmigraci\u00F3n Interauton\u00F3mica por comunidad aut\u00F3noma",
+      "CodigoTabla": "IDBMig21_CCAA",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-12T10:00:00"
+    },
+    {
+      "IdTabla": 61578,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Inmigraci\u00F3n Interauton\u00F3mica por comunidad aut\u00F3noma, seg\u00FAn sexo, grupos de edad y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "IDBMig21_CCAA",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-12T10:00:00"
+    },
+    {
+      "IdTabla": 61581,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa Bruta de Emigraci\u00F3n Interauton\u00F3mica por comunidad aut\u00F3noma",
+      "CodigoTabla": "IDBMig21_CCAA",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-12T10:00:00"
+    },
+    {
+      "IdTabla": 61583,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas Emigraci\u00F3n Interauton\u00F3mica por comunidad aut\u00F3noma, seg\u00FAn sexo, grupos de edad y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "IDBMig21_CCAA",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-12T10:00:00"
+    },
+    {
+      "IdTabla": 61585,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Indicador Coyuntural de Emigraci\u00F3n Interauton\u00F3mica por comunidad aut\u00F3noma, seg\u00FAn sexo y nacionalidad (espa\u00F1ola/extranjera)",
+      "CodigoTabla": "IDBMig21_CCAA",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-12T10:00:00"
+    },
+    {
+      "IdTabla": 61586,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Migraci\u00F3n Interauton\u00F3mica Bruta por comunidad aut\u00F3noma",
+      "CodigoTabla": "IDBMig21_CCAA",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-12T10:00:00"
+    },
+    {
+      "IdTabla": 61587,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Migraci\u00F3n Interauton\u00F3mica Neta por comunidad aut\u00F3noma",
+      "CodigoTabla": "IDBMig21_CCAA",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-12T10:00:00"
+    },
+    {
+      "IdTabla": 61588,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa Bruta de Inmigraci\u00F3n Interprovincial por provincia",
+      "CodigoTabla": "IDBMig21_PROV",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-12T10:00:00"
+    },
+    {
+      "IdTabla": 61590,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Inmigraci\u00F3n Interprovincial por provincia, seg\u00FAn sexo y grupos de edad",
+      "CodigoTabla": "IDBMig21_PROV",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-12T10:00:00"
+    },
+    {
+      "IdTabla": 61592,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa Bruta de Emigraci\u00F3n Interprovincial por provincia",
+      "CodigoTabla": "IDBMig21_PROV",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-12T10:00:00"
+    },
+    {
+      "IdTabla": 61594,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasas de Emigraci\u00F3n Interprovincial por provincia, seg\u00FAn sexo y grupos de edad",
+      "CodigoTabla": "IDBMig21_PROV",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-12T10:00:00"
+    },
+    {
+      "IdTabla": 61596,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Indicador Coyuntural de Emigraci\u00F3n Interprovincial por provincia, seg\u00FAn sexo",
+      "CodigoTabla": "IDBMig21_PROV",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-12T10:00:00"
+    },
+    {
+      "IdTabla": 61597,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Migraci\u00F3n Interprovincial Bruta por provincia",
+      "CodigoTabla": "IDBMig21_PROV",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-12T10:00:00"
+    },
+    {
+      "IdTabla": 61598,
+      "CodigoOperacion": "IDB",
+      "Tabla": "Tasa de Migraci\u00F3n Interprovincial Neta por provincia",
+      "CodigoTabla": "IDBMig21_PROV",
+      "Publicacion": "Indicadores de Migraciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-12-12T10:00:00"
     }
-
-    body {
-      font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-      background-color: #2D72D9;
-      color: #fff;
-      -moz-font-smoothing: antialiased;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    .error-container {
-      text-align: center;
-      height: 100%;
-    }
-
-    @media (max-width: 480px) {
-      .error-container {
-        position: relative;
-        top: 50%;
-        height: initial;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    .error-container h1 {
-      margin: 0;
-      font-size: 130px;
-      font-weight: 300;
-    }
-
-    @media (min-width: 480px) {
-      .error-container h1 {
-        position: relative;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    @media (min-width: 768px) {
-      .error-container h1 {
-        font-size: 220px;
-      }
-    }
-
-    .return {
-      color: rgba(255, 255, 255, 0.6);
-      font-weight: 400;
-      letter-spacing: -0.04em;
-      margin: 0;
-    }
-
-    @media (min-width: 480px) {
-      .return {
-        position: absolute;
-        width: 100%;
-        bottom: 30px;
-      }
-    }
-
-    .return a {
-      padding-bottom: 1px;
-      color: #fff;
-      text-decoration: none;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.6);
-      -webkit-transition: border-color 0.1s ease-in;
-      transition: border-color 0.1s ease-in;
-    }
-
-    .return a:hover {
-      border-bottom-color: #fff;
-    }
-  </style>
-  </head>
-  <body>
-    <div class="error-container">
-      <h1>404</h1>
-      <p class="return">La pagina solicitada no existe. <a href="./">Ir a inicio</a></p>
-    </div>
-  </body>
-</html>
+  ]
+}

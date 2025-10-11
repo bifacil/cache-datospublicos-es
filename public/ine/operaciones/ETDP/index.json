@@ -1,95 +1,179 @@
-﻿<!DOCTYPE html >
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>(404) The page you were looking for doesn't exist.</title>
-    <style type="text/css">
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
+﻿{
+  "CodigoOperacion": "ETDP",
+  "IdOperacion": 7,
+  "Operacion": "Estad\u00EDstica de Transmisi\u00F3n de Derechos de la Propiedad",
+  "CodigoIOE": "30168",
+  "Url": "https://ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C\u0026cid=1254736171438\u0026idp=1254735576606",
+  "Tablas": [
+    {
+      "IdTabla": 6146,
+      "CodigoOperacion": "ETDP",
+      "Tabla": "Total fincas transmitidas seg\u00FAn naturaleza de la finca",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Estad\u00EDstica de Transmisiones de Derechos de la Propiedad",
+      "AnyoInicial": "2007",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-25T07:00:00"
+    },
+    {
+      "IdTabla": 6147,
+      "CodigoOperacion": "ETDP",
+      "Tabla": "Total fincas r\u00FAsticas transmitidas seg\u00FAn t\u00EDtulo de adquisici\u00F3n",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Estad\u00EDstica de Transmisiones de Derechos de la Propiedad",
+      "AnyoInicial": "2007",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-25T07:00:00"
+    },
+    {
+      "IdTabla": 6148,
+      "CodigoOperacion": "ETDP",
+      "Tabla": "Total fincas urbanas transmitidas seg\u00FAn t\u00EDtulo de adquisici\u00F3n",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Estad\u00EDstica de Transmisiones de Derechos de la Propiedad",
+      "AnyoInicial": "2007",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-25T07:00:00"
+    },
+    {
+      "IdTabla": 6149,
+      "CodigoOperacion": "ETDP",
+      "Tabla": "Viviendas transmitidas seg\u00FAn t\u00EDtulo de adquisici\u00F3n",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Estad\u00EDstica de Transmisiones de Derechos de la Propiedad",
+      "AnyoInicial": "2007",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-25T07:00:00"
+    },
+    {
+      "IdTabla": 6150,
+      "CodigoOperacion": "ETDP",
+      "Tabla": "Compraventa de viviendas seg\u00FAn r\u00E9gimen y estado",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Estad\u00EDstica de Transmisiones de Derechos de la Propiedad",
+      "AnyoInicial": "2007",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-25T07:00:00"
+    },
+    {
+      "IdTabla": 6151,
+      "CodigoOperacion": "ETDP",
+      "Tabla": "Total fincas transmitidas seg\u00FAn naturaleza de la finca",
+      "CodigoTabla": "CCAA-PROV",
+      "Publicacion": "Estad\u00EDstica de Transmisiones de Derechos de la Propiedad. Resultados anuales",
+      "AnyoInicial": "2007",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-25T07:00:00"
+    },
+    {
+      "IdTabla": 6152,
+      "CodigoOperacion": "ETDP",
+      "Tabla": "Total fincas r\u00FAsticas transmitidas seg\u00FAn t\u00EDtulo de adquisici\u00F3n",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Estad\u00EDstica de Transmisiones de Derechos de la Propiedad. Resultados anuales",
+      "AnyoInicial": "2007",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-25T07:00:00"
+    },
+    {
+      "IdTabla": 6153,
+      "CodigoOperacion": "ETDP",
+      "Tabla": "Total fincas urbanas transmitidas seg\u00FAn t\u00EDtulo de adquisici\u00F3n",
+      "CodigoTabla": "CCAA-PROV",
+      "Publicacion": "Estad\u00EDstica de Transmisiones de Derechos de la Propiedad. Resultados anuales",
+      "AnyoInicial": "2007",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-25T07:00:00"
+    },
+    {
+      "IdTabla": 6154,
+      "CodigoOperacion": "ETDP",
+      "Tabla": "Viviendas transmitidas seg\u00FAn t\u00EDtulo de adquisici\u00F3n",
+      "CodigoTabla": "CCAA-PROV",
+      "Publicacion": "Estad\u00EDstica de Transmisiones de Derechos de la Propiedad. Resultados anuales",
+      "AnyoInicial": "2007",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-25T07:00:00"
+    },
+    {
+      "IdTabla": 6155,
+      "CodigoOperacion": "ETDP",
+      "Tabla": "Compraventa de viviendas seg\u00FAn r\u00E9gimen y estado",
+      "CodigoTabla": "CCAA-PROV",
+      "Publicacion": "Estad\u00EDstica de Transmisiones de Derechos de la Propiedad. Resultados anuales",
+      "AnyoInicial": "2007",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-25T07:00:00"
+    },
+    {
+      "IdTabla": 49276,
+      "CodigoOperacion": "ETDP",
+      "Tabla": "Total fincas transmitidas seg\u00FAn naturaleza de la finca",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Estad\u00EDstica de Transmisiones de Derechos de la Propiedad. Resultados anuales",
+      "AnyoInicial": "2007",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-25T07:00:00"
+    },
+    {
+      "IdTabla": 49277,
+      "CodigoOperacion": "ETDP",
+      "Tabla": "Total fincas r\u00FAsticas transmitidas seg\u00FAn t\u00EDtulo de adquisici\u00F3n",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Estad\u00EDstica de Transmisiones de Derechos de la Propiedad. Resultados anuales",
+      "AnyoInicial": "2007",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-25T07:00:00"
+    },
+    {
+      "IdTabla": 49278,
+      "CodigoOperacion": "ETDP",
+      "Tabla": "Total fincas urbanas transmitidas seg\u00FAn t\u00EDtulo de adquisici\u00F3n",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Estad\u00EDstica de Transmisiones de Derechos de la Propiedad. Resultados anuales",
+      "AnyoInicial": "2007",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-25T07:00:00"
+    },
+    {
+      "IdTabla": 49279,
+      "CodigoOperacion": "ETDP",
+      "Tabla": "Viviendas transmitidas seg\u00FAn t\u00EDtulo de adquisici\u00F3n",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Estad\u00EDstica de Transmisiones de Derechos de la Propiedad. Resultados anuales",
+      "AnyoInicial": "2007",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-25T07:00:00"
+    },
+    {
+      "IdTabla": 49280,
+      "CodigoOperacion": "ETDP",
+      "Tabla": "Compraventa de viviendas seg\u00FAn r\u00E9gimen y estado",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Estad\u00EDstica de Transmisiones de Derechos de la Propiedad. Resultados anuales",
+      "AnyoInicial": "2007",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-25T07:00:00"
+    },
+    {
+      "IdTabla": 50256,
+      "CodigoOperacion": "ETDP",
+      "Tabla": "Porcentaje de compraventa de viviendas seg\u00FAn transmitente y titular",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Transmisiones de Derechos de la Propiedad",
+      "AnyoInicial": "2007",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-25T07:00:00"
+    },
+    {
+      "IdTabla": 50272,
+      "CodigoOperacion": "ETDP",
+      "Tabla": "Porcentaje de compraventa de viviendas seg\u00FAn transmitente y titular",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Transmisiones de Derechos de la Propiedad. Resultados anuales",
+      "AnyoInicial": "2007",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-25T07:00:00"
     }
-
-    body {
-      font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-      background-color: #2D72D9;
-      color: #fff;
-      -moz-font-smoothing: antialiased;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    .error-container {
-      text-align: center;
-      height: 100%;
-    }
-
-    @media (max-width: 480px) {
-      .error-container {
-        position: relative;
-        top: 50%;
-        height: initial;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    .error-container h1 {
-      margin: 0;
-      font-size: 130px;
-      font-weight: 300;
-    }
-
-    @media (min-width: 480px) {
-      .error-container h1 {
-        position: relative;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    @media (min-width: 768px) {
-      .error-container h1 {
-        font-size: 220px;
-      }
-    }
-
-    .return {
-      color: rgba(255, 255, 255, 0.6);
-      font-weight: 400;
-      letter-spacing: -0.04em;
-      margin: 0;
-    }
-
-    @media (min-width: 480px) {
-      .return {
-        position: absolute;
-        width: 100%;
-        bottom: 30px;
-      }
-    }
-
-    .return a {
-      padding-bottom: 1px;
-      color: #fff;
-      text-decoration: none;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.6);
-      -webkit-transition: border-color 0.1s ease-in;
-      transition: border-color 0.1s ease-in;
-    }
-
-    .return a:hover {
-      border-bottom-color: #fff;
-    }
-  </style>
-  </head>
-  <body>
-    <div class="error-container">
-      <h1>404</h1>
-      <p class="return">La pagina solicitada no existe. <a href="./">Ir a inicio</a></p>
-    </div>
-  </body>
-</html>
+  ]
+}

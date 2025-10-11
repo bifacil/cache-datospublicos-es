@@ -1,95 +1,499 @@
-﻿<!DOCTYPE html >
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>(404) The page you were looking for doesn't exist.</title>
-    <style type="text/css">
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
+﻿{
+  "CodigoOperacion": "SM",
+  "IdOperacion": 125,
+  "Operacion": "Estad\u00EDstica de Sociedades Mercantiles",
+  "CodigoIOE": "30151",
+  "Url": "https://ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C\u0026cid=1254736177026\u0026idp=1254735576550",
+  "Tablas": [
+    {
+      "IdTabla": 6292,
+      "CodigoOperacion": "SM",
+      "Tabla": "Sociedades clasificadas por Comunidades, Ciudades Aut\u00F3nomas y Provincias, estados sociedades, n\u00FAmero y capital",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Sociedades Mercantiles Mensual",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-11T07:00:00"
+    },
+    {
+      "IdTabla": 6293,
+      "CodigoOperacion": "SM",
+      "Tabla": "Sociedades clasificadas por Comunidades, Ciudades Aut\u00F3nomas y Provincias, tipo de sociedad, n\u00FAmero y capital",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Sociedades Mercantiles Mensual",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-11T07:00:00"
+    },
+    {
+      "IdTabla": 6294,
+      "CodigoOperacion": "SM",
+      "Tabla": "Sociedades clasificadas seg\u00FAn desembolso de dividendos pasivos por periodo, Comunidades, Ciudades Aut\u00F3nomas y Provincias, tipo de sociedad, n\u00FAmero y capital",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Sociedades Mercantiles Mensual",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-11T07:00:00"
+    },
+    {
+      "IdTabla": 6295,
+      "CodigoOperacion": "SM",
+      "Tabla": "Sociedades constituidas, clasificadas por Comunidades, Ciudades Aut\u00F3nomas y Provincias, forma jur\u00EDdica n\u00FAmero y capital",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Sociedades Mercantiles Mensual",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-11T07:00:00"
+    },
+    {
+      "IdTabla": 6297,
+      "CodigoOperacion": "SM",
+      "Tabla": "Sociedades que ampl\u00EDan capital, clasificadas por periodo, Comunidades, Ciudades Aut\u00F3nomas y Provincias, forma jur\u00EDdica, n\u00FAmero y capital",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Sociedades Mercantiles Mensual",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-11T07:00:00"
+    },
+    {
+      "IdTabla": 6299,
+      "CodigoOperacion": "SM",
+      "Tabla": "Sociedades que emiten obligaciones, clasificadas por periodo, Comunidades, Ciudades Aut\u00F3nomas y Provincias, forma jur\u00EDdica, n\u00FAmero y capital",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Sociedades Mercantiles Mensual",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-11T07:00:00"
+    },
+    {
+      "IdTabla": 6302,
+      "CodigoOperacion": "SM",
+      "Tabla": "Sociedades que han reducido capital, clasificadas por periodo, Comunidades, Ciudades Aut\u00F3nomas y Provincias, forma jur\u00EDdica, n\u00FAmero y capital",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Sociedades Mercantiles Mensual",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-11T07:00:00"
+    },
+    {
+      "IdTabla": 6305,
+      "CodigoOperacion": "SM",
+      "Tabla": "Sociedades disueltas, clasificadas por periodo, Comunidades, Ciudades Aut\u00F3nomas y Provincias y forma jur\u00EDdica",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Sociedades Mercantiles Mensual",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-11T07:00:00"
+    },
+    {
+      "IdTabla": 6306,
+      "CodigoOperacion": "SM",
+      "Tabla": "Sociedades disueltas, clasificadas por periodo, Comunidades, Ciudades Aut\u00F3nomas y Provincias y clase de disoluci\u00F3n",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Sociedades Mercantiles Mensual",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-11T07:00:00"
+    },
+    {
+      "IdTabla": 6307,
+      "CodigoOperacion": "SM",
+      "Tabla": "S.A. constitu\u00EDdas, clasificadas por periodo, Comunidades, Ciudades Aut\u00F3nomas y Provincias, tramos de capital de S.A, n\u00FAmero y capital",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Sociedades Mercantiles Mensual",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-11T07:00:00"
+    },
+    {
+      "IdTabla": 6308,
+      "CodigoOperacion": "SM",
+      "Tabla": "S.L. constitu\u00EDdas, clasificadas por periodo, Comunidades, Ciudades Aut\u00F3nomas y Provincias, tramos de capital de S.L, n\u00FAmero y capital",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Sociedades Mercantiles Mensual",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-11T07:00:00"
+    },
+    {
+      "IdTabla": 6309,
+      "CodigoOperacion": "SM",
+      "Tabla": "S.A. que ampl\u00EDan capital, clasificadas por periodo, Comunidades, Ciudades Aut\u00F3nomas y Provincias, tramos de capital de S.A, n\u00FAmero y capital",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Sociedades Mercantiles Mensual",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-11T07:00:00"
+    },
+    {
+      "IdTabla": 6310,
+      "CodigoOperacion": "SM",
+      "Tabla": "S.L. que ampl\u00EDan capital, clasificadas por periodo, Comunidades, Ciudades Aut\u00F3nomas y Provincias, tramos de capital de S.L, n\u00FAmero y capital",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Sociedades Mercantiles Mensual",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-11T07:00:00"
+    },
+    {
+      "IdTabla": 6312,
+      "CodigoOperacion": "SM",
+      "Tabla": "Sociedades especiales constitu\u00EDdas, clasificadas por tipo de sociedad, Comunidades y Ciudades Aut\u00F3nomas, n\u00FAmero y capital",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Sociedades Mercantiles Mensual",
+      "AnyoInicial": "2008",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-11T07:00:00"
+    },
+    {
+      "IdTabla": 6315,
+      "CodigoOperacion": "SM",
+      "Tabla": "Sociedades especiales y otras entidades disueltas, clasificadas por Comunidades y Ciudades Aut\u00F3nomas y clase de sociedad",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Sociedades Mercantiles Mensual",
+      "AnyoInicial": "2009",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-11T07:00:00"
+    },
+    {
+      "IdTabla": 6451,
+      "CodigoOperacion": "SM",
+      "Tabla": "Sociedades clasificadas por Comunidades, Ciudades Aut\u00F3nomas y Provincias, estados sociedades, n\u00FAmero y capital",
+      "CodigoTabla": "CCAA-PROV",
+      "Publicacion": "Sociedades Mercantiles Anual",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-11T07:00:00"
+    },
+    {
+      "IdTabla": 6452,
+      "CodigoOperacion": "SM",
+      "Tabla": "Sociedades clasificadas por Comunidades, Ciudades Aut\u00F3nomas y Provincias, tipo de sociedad, n\u00FAmero y capital",
+      "CodigoTabla": "CCAA-PROV",
+      "Publicacion": "Sociedades Mercantiles Anual",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-11T07:00:00"
+    },
+    {
+      "IdTabla": 6453,
+      "CodigoOperacion": "SM",
+      "Tabla": "Sociedades clasificadas seg\u00FAn desembolso de dividendos pasivos por periodo, Comunidades, Ciudades Aut\u00F3nomas y Provincias, tipo de sociedad, n\u00FAmero y capital",
+      "CodigoTabla": "CCAA-PROV",
+      "Publicacion": "Sociedades Mercantiles Anual",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-11T07:00:00"
+    },
+    {
+      "IdTabla": 6454,
+      "CodigoOperacion": "SM",
+      "Tabla": "Sociedades constituidas, clasificadas por Comunidades, Ciudades Aut\u00F3nomas y Provincias, forma jur\u00EDdica, n\u00FAmero y capital",
+      "CodigoTabla": "CCAA-PROV",
+      "Publicacion": "Sociedades Mercantiles Anual",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-11T07:00:00"
+    },
+    {
+      "IdTabla": 6456,
+      "CodigoOperacion": "SM",
+      "Tabla": "Sociedades que ampl\u00EDan capital, clasificadas por periodo, Comunidades, Ciudades Aut\u00F3nomas y Provincias, forma jur\u00EDdica, n\u00FAmero y capital",
+      "CodigoTabla": "CCAA-PROV",
+      "Publicacion": "Sociedades Mercantiles Anual",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-11T07:00:00"
+    },
+    {
+      "IdTabla": 6458,
+      "CodigoOperacion": "SM",
+      "Tabla": "Sociedades que emiten obligaciones, clasificadas por periodo, Comunidades, Ciudades Aut\u00F3nomas y Provincias, forma jur\u00EDdica, n\u00FAmero y capital",
+      "CodigoTabla": "CCAA-PROV",
+      "Publicacion": "Sociedades Mercantiles Anual",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-11T07:00:00"
+    },
+    {
+      "IdTabla": 6461,
+      "CodigoOperacion": "SM",
+      "Tabla": "Sociedades que han reducido capital, clasificadas por periodo, Comunidades, Ciudades Aut\u00F3nomas y Provincias, forma jur\u00EDdica, n\u00FAmero y capital",
+      "CodigoTabla": "CCAA-PROV",
+      "Publicacion": "Sociedades Mercantiles Anual",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-11T07:00:00"
+    },
+    {
+      "IdTabla": 6464,
+      "CodigoOperacion": "SM",
+      "Tabla": "Sociedades disueltas, clasificadas por periodo, Comunidades, Ciudades Aut\u00F3nomas y Provincias y forma jur\u00EDdica",
+      "CodigoTabla": "CCAA-PROV",
+      "Publicacion": "Sociedades Mercantiles Anual",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-11T07:00:00"
+    },
+    {
+      "IdTabla": 6465,
+      "CodigoOperacion": "SM",
+      "Tabla": "Sociedades disueltas, clasificadas por periodo, Comunidades, Ciudades Aut\u00F3nomas y Provincias y clase de disoluci\u00F3n",
+      "CodigoTabla": "CCAA-PROV",
+      "Publicacion": "Sociedades Mercantiles Anual",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-11T07:00:00"
+    },
+    {
+      "IdTabla": 6466,
+      "CodigoOperacion": "SM",
+      "Tabla": "S.A. constitu\u00EDdas, clasificadas por periodo, Comunidades, Ciudades Aut\u00F3nomas y Provincias, tramos de capital de S.A, n\u00FAmero y capital",
+      "CodigoTabla": "CCAA-PROV",
+      "Publicacion": "Sociedades Mercantiles Anual",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-11T07:00:00"
+    },
+    {
+      "IdTabla": 6467,
+      "CodigoOperacion": "SM",
+      "Tabla": "S.L. constitu\u00EDdas, clasificadas por periodo, Comunidades, Ciudades Aut\u00F3nomas y Provincias, tramos de capital de S.L, n\u00FAmero y capital",
+      "CodigoTabla": "CCAA-PROV",
+      "Publicacion": "Sociedades Mercantiles Anual",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-11T07:00:00"
+    },
+    {
+      "IdTabla": 6468,
+      "CodigoOperacion": "SM",
+      "Tabla": "S.A. que ampl\u00EDan capital, clasificadas por periodo, Comunidades, Ciudades Aut\u00F3nomas y Provincias, tramos de capital de S.A, n\u00FAmero y capital",
+      "CodigoTabla": "CCAA-PROV",
+      "Publicacion": "Sociedades Mercantiles Anual",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-11T07:00:00"
+    },
+    {
+      "IdTabla": 6469,
+      "CodigoOperacion": "SM",
+      "Tabla": "S.L. que ampl\u00EDan capital, clasificadas por periodo, Comunidades, Ciudades Aut\u00F3nomas y Provincias, tramos de capital de S.L, n\u00FAmero y capital",
+      "CodigoTabla": "CCAA-PROV",
+      "Publicacion": "Sociedades Mercantiles Anual",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-11T07:00:00"
+    },
+    {
+      "IdTabla": 6471,
+      "CodigoOperacion": "SM",
+      "Tabla": "Sociedades especiales constitu\u00EDdas, clasificadas por tipo de sociedad, Comunidades y Ciudades Aut\u00F3nomas, n\u00FAmero y capital",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Sociedades Mercantiles Anual",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-11T07:00:00"
+    },
+    {
+      "IdTabla": 6474,
+      "CodigoOperacion": "SM",
+      "Tabla": "Sociedades especiales y otras entidades disueltas, clasificadas por Comunidades y Ciudades Aut\u00F3nomas y clase de sociedad",
+      "CodigoTabla": "CCAA",
+      "Publicacion": "Sociedades Mercantiles Anual",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-11T07:00:00"
+    },
+    {
+      "IdTabla": 13912,
+      "CodigoOperacion": "SM",
+      "Tabla": "Resumen de sociedades mercantiles",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Sociedades Mercantiles Mensual",
+      "AnyoInicial": "1995",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-10T07:00:00"
+    },
+    {
+      "IdTabla": 13913,
+      "CodigoOperacion": "SM",
+      "Tabla": "Sociedades mercantiles constitu\u00EDdas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Sociedades Mercantiles Mensual",
+      "AnyoInicial": "1995",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-10T07:00:00"
+    },
+    {
+      "IdTabla": 13914,
+      "CodigoOperacion": "SM",
+      "Tabla": "Sociedades mercantiles que aumentan capital",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Sociedades Mercantiles Mensual",
+      "AnyoInicial": "1995",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-10T07:00:00"
+    },
+    {
+      "IdTabla": 13915,
+      "CodigoOperacion": "SM",
+      "Tabla": "Sociedades mercantiles disueltas",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Sociedades Mercantiles Mensual",
+      "AnyoInicial": "1995",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-10T07:00:00"
+    },
+    {
+      "IdTabla": 13916,
+      "CodigoOperacion": "SM",
+      "Tabla": "Resumen de sociedades mercantiles",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Sociedades Mercantiles Mensual",
+      "AnyoInicial": "1995",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-10T07:00:00"
+    },
+    {
+      "IdTabla": 13917,
+      "CodigoOperacion": "SM",
+      "Tabla": "Sociedades mercantiles constitu\u00EDdas",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Sociedades Mercantiles Mensual",
+      "AnyoInicial": "1995",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-10T07:00:00"
+    },
+    {
+      "IdTabla": 13922,
+      "CodigoOperacion": "SM",
+      "Tabla": "Sociedades mercantiles que aumentan capital",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Sociedades Mercantiles Mensual",
+      "AnyoInicial": "1995",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-10T07:00:00"
+    },
+    {
+      "IdTabla": 13923,
+      "CodigoOperacion": "SM",
+      "Tabla": "Sociedades mercantiles disueltas",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Sociedades Mercantiles Mensual",
+      "AnyoInicial": "1995",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-10T07:00:00"
+    },
+    {
+      "IdTabla": 24462,
+      "CodigoOperacion": "SM",
+      "Tabla": "Porcentaje de sociedades mercantiles seg\u00FAn su actividad econ\u00F3mica principal",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Sociedades Mercantiles Mensual",
+      "AnyoInicial": "2012",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-10T09:30:00"
+    },
+    {
+      "IdTabla": 24463,
+      "CodigoOperacion": "SM",
+      "Tabla": "Saldo neto de sociedades mercantiles creadas seg\u00FAn su actividad econ\u00F3mica principal",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Sociedades Mercantiles Mensual",
+      "AnyoInicial": "2012",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-10T09:30:00"
+    },
+    {
+      "IdTabla": 24464,
+      "CodigoOperacion": "SM",
+      "Tabla": "Capital suscrito de sociedades mercantiles creadas seg\u00FAn su actividad econ\u00F3mica principal (miles de euros)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Sociedades Mercantiles Mensual",
+      "AnyoInicial": "2012",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-10-10T09:30:00"
+    },
+    {
+      "IdTabla": 24465,
+      "CodigoOperacion": "SM",
+      "Tabla": "Porcentaje de sociedades mercantiles seg\u00FAn su actividad econ\u00F3mica principal",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Sociedades Mercantiles Anual",
+      "AnyoInicial": "2012",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2017-04-07T07:00:00"
+    },
+    {
+      "IdTabla": 24466,
+      "CodigoOperacion": "SM",
+      "Tabla": "Saldo neto de sociedades mercantiles creadas seg\u00FAn su actividad econ\u00F3mica principal",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Sociedades Mercantiles Anual",
+      "AnyoInicial": "2012",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2017-04-07T07:00:00"
+    },
+    {
+      "IdTabla": 24467,
+      "CodigoOperacion": "SM",
+      "Tabla": "Capital suscrito de sociedades mercantiles creadas seg\u00FAn su actividad econ\u00F3mica principal (miles de euros)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Sociedades Mercantiles Anual",
+      "AnyoInicial": "2012",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2017-04-07T07:00:00"
+    },
+    {
+      "IdTabla": 49259,
+      "CodigoOperacion": "SM",
+      "Tabla": "Sociedades constituidas, clasificadas por Comunidades, Ciudades Aut\u00F3nomas y Provincias, forma jur\u00EDdica, n\u00FAmero y capital",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Sociedades Mercantiles Anual",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-11T07:00:00"
+    },
+    {
+      "IdTabla": 49260,
+      "CodigoOperacion": "SM",
+      "Tabla": "Sociedades que ampl\u00EDan capital, clasificadas por periodo, Comunidades, Ciudades Aut\u00F3nomas y Provincias, forma jur\u00EDdica, n\u00FAmero y capital",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Sociedades Mercantiles Anual",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-09-11T07:00:00"
+    },
+    {
+      "IdTabla": 76416,
+      "CodigoOperacion": "SM",
+      "Tabla": "Porcentaje de sociedades mercantiles seg\u00FAn su actividad econ\u00F3mica principal",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Sociedades Mercantiles Anual",
+      "AnyoInicial": "2012",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2013-02-18T10:00:00"
+    },
+    {
+      "IdTabla": 76417,
+      "CodigoOperacion": "SM",
+      "Tabla": "Sociedades clasificadas por Comunidades, Ciudades Aut\u00F3nomas y Provincias, tipo de sociedad, n\u00FAmero y capital",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Sociedades Mercantiles Anual",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2013-02-18T10:00:00"
+    },
+    {
+      "IdTabla": 76418,
+      "CodigoOperacion": "SM",
+      "Tabla": "Sociedades que emiten obligaciones, clasificadas por periodo, Comunidades, Ciudades Aut\u00F3nomas y Provincias, forma jur\u00EDdica, n\u00FAmero y capital",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Sociedades Mercantiles Anual",
+      "AnyoInicial": "2000",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2013-02-18T10:00:00"
     }
-
-    body {
-      font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-      background-color: #2D72D9;
-      color: #fff;
-      -moz-font-smoothing: antialiased;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    .error-container {
-      text-align: center;
-      height: 100%;
-    }
-
-    @media (max-width: 480px) {
-      .error-container {
-        position: relative;
-        top: 50%;
-        height: initial;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    .error-container h1 {
-      margin: 0;
-      font-size: 130px;
-      font-weight: 300;
-    }
-
-    @media (min-width: 480px) {
-      .error-container h1 {
-        position: relative;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    @media (min-width: 768px) {
-      .error-container h1 {
-        font-size: 220px;
-      }
-    }
-
-    .return {
-      color: rgba(255, 255, 255, 0.6);
-      font-weight: 400;
-      letter-spacing: -0.04em;
-      margin: 0;
-    }
-
-    @media (min-width: 480px) {
-      .return {
-        position: absolute;
-        width: 100%;
-        bottom: 30px;
-      }
-    }
-
-    .return a {
-      padding-bottom: 1px;
-      color: #fff;
-      text-decoration: none;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.6);
-      -webkit-transition: border-color 0.1s ease-in;
-      transition: border-color 0.1s ease-in;
-    }
-
-    .return a:hover {
-      border-bottom-color: #fff;
-    }
-  </style>
-  </head>
-  <body>
-    <div class="error-container">
-      <h1>404</h1>
-      <p class="return">La pagina solicitada no existe. <a href="./">Ir a inicio</a></p>
-    </div>
-  </body>
-</html>
+  ]
+}

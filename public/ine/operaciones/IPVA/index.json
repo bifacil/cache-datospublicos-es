@@ -1,95 +1,209 @@
-﻿<!DOCTYPE html >
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>(404) The page you were looking for doesn't exist.</title>
-    <style type="text/css">
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
+﻿{
+  "CodigoOperacion": "IPVA",
+  "IdOperacion": 432,
+  "Operacion": "\u00CDndice de Precios de Vivienda en Alquiler",
+  "CodigoIOE": "",
+  "Url": null,
+  "Tablas": [
+    {
+      "IdTabla": 50015,
+      "CodigoOperacion": "IPVA",
+      "Tabla": "Ponderaciones nacionales por comunidad aut\u00F3noma",
+      "CodigoTabla": "2015_NAC-CCAA_P",
+      "Publicacion": "\u00CDndice de Precios de Vivienda en Alquiler",
+      "AnyoInicial": "2012",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T08:00:00"
+    },
+    {
+      "IdTabla": 50016,
+      "CodigoOperacion": "IPVA",
+      "Tabla": "Ponderaciones nacionales por provincia",
+      "CodigoTabla": "2015_NAC-PROV_P",
+      "Publicacion": "\u00CDndice de Precios de Vivienda en Alquiler",
+      "AnyoInicial": "2012",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T08:00:00"
+    },
+    {
+      "IdTabla": 50083,
+      "CodigoOperacion": "IPVA",
+      "Tabla": "Ponderaciones nacionales por municipio",
+      "CodigoTabla": "2015_NAC-MUN_P",
+      "Publicacion": "\u00CDndice de Precios de Vivienda en Alquiler",
+      "AnyoInicial": "2012",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T08:00:00"
+    },
+    {
+      "IdTabla": 59004,
+      "CodigoOperacion": "IPVA",
+      "Tabla": "\u00CDndices nacionales y por comunidades aut\u00F3nomas: general y por antig\u00FCedad de contrato",
+      "CodigoTabla": "2015_NAC-CCAA",
+      "Publicacion": "\u00CDndice de Precios de Vivienda en Alquiler",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T08:00:00"
+    },
+    {
+      "IdTabla": 59005,
+      "CodigoOperacion": "IPVA",
+      "Tabla": "\u00CDndices provinciales: general y por antig\u00FCedad de contrato",
+      "CodigoTabla": "2015_NAC-PROV",
+      "Publicacion": "\u00CDndice de Precios de Vivienda en Alquiler",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T08:00:00"
+    },
+    {
+      "IdTabla": 59008,
+      "CodigoOperacion": "IPVA",
+      "Tabla": "Ponderaciones nacionales por antig\u00FCedad de contrato",
+      "CodigoTabla": "2015_NAC_P",
+      "Publicacion": "\u00CDndice de Precios de Vivienda en Alquiler",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T08:00:00"
+    },
+    {
+      "IdTabla": 59009,
+      "CodigoOperacion": "IPVA",
+      "Tabla": "Ponderaciones en cada comunidad aut\u00F3noma por antig\u00FCedad de contrato",
+      "CodigoTabla": "NAC-CCAA_P",
+      "Publicacion": "\u00CDndice de Precios de Vivienda en Alquiler",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T08:00:00"
+    },
+    {
+      "IdTabla": 59010,
+      "CodigoOperacion": "IPVA",
+      "Tabla": "Ponderaciones provinciales por antig\u00FCedad de contrato",
+      "CodigoTabla": "2015_NAC-PROV_P",
+      "Publicacion": "\u00CDndice de Precios de Vivienda en Alquiler",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T08:00:00"
+    },
+    {
+      "IdTabla": 59056,
+      "CodigoOperacion": "IPVA",
+      "Tabla": "\u00CDndices nacionales y por comunidades aut\u00F3nomas: general y por tipo de edificaci\u00F3n",
+      "CodigoTabla": "2015_NAC-CCAA",
+      "Publicacion": "\u00CDndice de Precios de Vivienda en Alquiler",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T08:00:00"
+    },
+    {
+      "IdTabla": 59057,
+      "CodigoOperacion": "IPVA",
+      "Tabla": "\u00CDndices nacionales y por comunidades aut\u00F3nomas: general y por tama\u00F1o de la vivienda",
+      "CodigoTabla": "2015_NAC-CCAA",
+      "Publicacion": "\u00CDndice de Precios de Vivienda en Alquiler",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T08:00:00"
+    },
+    {
+      "IdTabla": 59058,
+      "CodigoOperacion": "IPVA",
+      "Tabla": "\u00CDndices provinciales: general y por tipo de edificaci\u00F3n",
+      "CodigoTabla": "2015_NAC-PROV",
+      "Publicacion": "\u00CDndice de Precios de Vivienda en Alquiler",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T08:00:00"
+    },
+    {
+      "IdTabla": 59059,
+      "CodigoOperacion": "IPVA",
+      "Tabla": "\u00CDndices provinciales: general y por tama\u00F1o de la vivienda",
+      "CodigoTabla": "2015_NAC-PROV",
+      "Publicacion": "\u00CDndice de Precios de Vivienda en Alquiler",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T08:00:00"
+    },
+    {
+      "IdTabla": 59060,
+      "CodigoOperacion": "IPVA",
+      "Tabla": "\u00CDndices por municipio (municipios mayores de 10.000 habitantes)",
+      "CodigoTabla": "2015_NAC-MUN",
+      "Publicacion": "\u00CDndice de Precios de Vivienda en Alquiler",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T08:00:00"
+    },
+    {
+      "IdTabla": 59061,
+      "CodigoOperacion": "IPVA",
+      "Tabla": "\u00CDndices por distritos de municipios capitales de provincia",
+      "CodigoTabla": "2015_NAC-DIST",
+      "Publicacion": "\u00CDndice de Precios de Vivienda en Alquiler",
+      "AnyoInicial": "2011",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T08:00:00"
+    },
+    {
+      "IdTabla": 59062,
+      "CodigoOperacion": "IPVA",
+      "Tabla": "Ponderaciones nacionales por tipo de edificaci\u00F3n",
+      "CodigoTabla": "2015_NAC_P",
+      "Publicacion": "\u00CDndice de Precios de Vivienda en Alquiler",
+      "AnyoInicial": "2012",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T08:00:00"
+    },
+    {
+      "IdTabla": 59063,
+      "CodigoOperacion": "IPVA",
+      "Tabla": "Ponderaciones nacionales por tama\u00F1o de la vivienda",
+      "CodigoTabla": "2015_NAC_P",
+      "Publicacion": "\u00CDndice de Precios de Vivienda en Alquiler",
+      "AnyoInicial": "2012",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T08:00:00"
+    },
+    {
+      "IdTabla": 59064,
+      "CodigoOperacion": "IPVA",
+      "Tabla": "Ponderaciones en cada comunidad aut\u00F3noma por tipo de edificaci\u00F3n",
+      "CodigoTabla": "NAC-CCAA_P",
+      "Publicacion": "\u00CDndice de Precios de Vivienda en Alquiler",
+      "AnyoInicial": "2012",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T08:00:00"
+    },
+    {
+      "IdTabla": 59065,
+      "CodigoOperacion": "IPVA",
+      "Tabla": "Ponderaciones en cada comunidad aut\u00F3noma por tama\u00F1o de la vivienda",
+      "CodigoTabla": "2015_NAC-CCAA_P",
+      "Publicacion": "\u00CDndice de Precios de Vivienda en Alquiler",
+      "AnyoInicial": "2012",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T08:00:00"
+    },
+    {
+      "IdTabla": 59066,
+      "CodigoOperacion": "IPVA",
+      "Tabla": "Ponderaciones provinciales por tipo de edificaci\u00F3n",
+      "CodigoTabla": "NAC-PROV_P",
+      "Publicacion": "\u00CDndice de Precios de Vivienda en Alquiler",
+      "AnyoInicial": "2012",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T08:00:00"
+    },
+    {
+      "IdTabla": 59067,
+      "CodigoOperacion": "IPVA",
+      "Tabla": "Ponderaciones provinciales por tama\u00F1o de la vivienda",
+      "CodigoTabla": "NAC-PROV_P",
+      "Publicacion": "\u00CDndice de Precios de Vivienda en Alquiler",
+      "AnyoInicial": "2012",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-05-13T08:00:00"
     }
-
-    body {
-      font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-      background-color: #2D72D9;
-      color: #fff;
-      -moz-font-smoothing: antialiased;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    .error-container {
-      text-align: center;
-      height: 100%;
-    }
-
-    @media (max-width: 480px) {
-      .error-container {
-        position: relative;
-        top: 50%;
-        height: initial;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    .error-container h1 {
-      margin: 0;
-      font-size: 130px;
-      font-weight: 300;
-    }
-
-    @media (min-width: 480px) {
-      .error-container h1 {
-        position: relative;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    @media (min-width: 768px) {
-      .error-container h1 {
-        font-size: 220px;
-      }
-    }
-
-    .return {
-      color: rgba(255, 255, 255, 0.6);
-      font-weight: 400;
-      letter-spacing: -0.04em;
-      margin: 0;
-    }
-
-    @media (min-width: 480px) {
-      .return {
-        position: absolute;
-        width: 100%;
-        bottom: 30px;
-      }
-    }
-
-    .return a {
-      padding-bottom: 1px;
-      color: #fff;
-      text-decoration: none;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.6);
-      -webkit-transition: border-color 0.1s ease-in;
-      transition: border-color 0.1s ease-in;
-    }
-
-    .return a:hover {
-      border-bottom-color: #fff;
-    }
-  </style>
-  </head>
-  <body>
-    <div class="error-container">
-      <h1>404</h1>
-      <p class="return">La pagina solicitada no existe. <a href="./">Ir a inicio</a></p>
-    </div>
-  </body>
-</html>
+  ]
+}

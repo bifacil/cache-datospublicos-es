@@ -1,95 +1,289 @@
-﻿<!DOCTYPE html >
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>(404) The page you were looking for doesn't exist.</title>
-    <style type="text/css">
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
+﻿{
+  "CodigoOperacion": "ANES",
+  "IdOperacion": 336,
+  "Operacion": "Estad\u00EDstica de Adquisiciones de Nacionalidad Espa\u00F1ola de Residentes",
+  "CodigoIOE": "30279",
+  "Url": "https://ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C\u0026cid=1254736177001\u0026idp=1254735573002",
+  "Tablas": [
+    {
+      "IdTabla": 15021,
+      "CodigoOperacion": "ANES",
+      "Tabla": "Adquisiciones de nacionalidad por sexo y edad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Adquisiciones de Nacionalidad Espa\u00F1ola de Residentes",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-05T09:00:00"
+    },
+    {
+      "IdTabla": 15070,
+      "CodigoOperacion": "ANES",
+      "Tabla": "Adquisiciones de nacionalidad por sexo, grupo de edad y modo de adquisici\u00F3n",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Adquisiciones de Nacionalidad Espa\u00F1ola de Residentes",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-05T09:00:00"
+    },
+    {
+      "IdTabla": 15071,
+      "CodigoOperacion": "ANES",
+      "Tabla": "Adquisiciones de nacionalidad por sexo y nacionalidad previa",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Adquisiciones de Nacionalidad Espa\u00F1ola de Residentes",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-05T09:00:00"
+    },
+    {
+      "IdTabla": 15072,
+      "CodigoOperacion": "ANES",
+      "Tabla": "Adquisiciones de nacionalidad por sexo y pa\u00EDs de nacimiento\t",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Adquisiciones de Nacionalidad Espa\u00F1ola de Residentes",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-05T09:00:00"
+    },
+    {
+      "IdTabla": 15073,
+      "CodigoOperacion": "ANES",
+      "Tabla": "Adquisiciones de nacionalidad por nacionalidad en relaci\u00F3n al pa\u00EDs de nacimiento\t",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Adquisiciones de Nacionalidad Espa\u00F1ola de Residentes",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-05T09:00:00"
+    },
+    {
+      "IdTabla": 15082,
+      "CodigoOperacion": "ANES",
+      "Tabla": "Adquisiciones de nacionalidad por sexo y grupo de edad",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Adquisiciones de Nacionalidad Espa\u00F1ola de Residentes",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-05T09:00:00"
+    },
+    {
+      "IdTabla": 15083,
+      "CodigoOperacion": "ANES",
+      "Tabla": "Adquisiciones de nacionalidad por sexo y modo de adquisici\u00F3n (residencia/otros)",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Adquisiciones de Nacionalidad Espa\u00F1ola de Residentes",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-05T09:00:00"
+    },
+    {
+      "IdTabla": 15798,
+      "CodigoOperacion": "ANES",
+      "Tabla": "Adquisiciones de nacionalidad por sexo y nacionalidad previa",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Adquisiciones de Nacionalidad Espa\u00F1ola de Residentes",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-05T09:00:00"
+    },
+    {
+      "IdTabla": 15799,
+      "CodigoOperacion": "ANES",
+      "Tabla": "Adquisiciones de nacionalidad por sexo y pa\u00EDs de nacimiento\t",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Adquisiciones de Nacionalidad Espa\u00F1ola de Residentes",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-05T09:00:00"
+    },
+    {
+      "IdTabla": 15800,
+      "CodigoOperacion": "ANES",
+      "Tabla": "Adquisiciones de nacionalidad por nacionalidad en relaci\u00F3n al pa\u00EDs de nacimiento\t",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Adquisiciones de Nacionalidad Espa\u00F1ola de Residentes",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-05T09:00:00"
+    },
+    {
+      "IdTabla": 17557,
+      "CodigoOperacion": "ANES",
+      "Tabla": "Adquisiciones de nacionalidad por sexo y grupo de edad",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estad\u00EDstica de Adquisiciones de Nacionalidad Espa\u00F1ola de Residentes",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-05T09:00:00"
+    },
+    {
+      "IdTabla": 17558,
+      "CodigoOperacion": "ANES",
+      "Tabla": "Adquisiciones de nacionalidad por sexo y modo de adquisici\u00F3n (residencia/otros)",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estad\u00EDstica de Adquisiciones de Nacionalidad Espa\u00F1ola de Residentes",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-05T09:00:00"
+    },
+    {
+      "IdTabla": 17559,
+      "CodigoOperacion": "ANES",
+      "Tabla": "Adquisiciones de nacionalidad por sexo y nacionalidad previa",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estad\u00EDstica de Adquisiciones de Nacionalidad Espa\u00F1ola de Residentes",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-05T09:00:00"
+    },
+    {
+      "IdTabla": 17560,
+      "CodigoOperacion": "ANES",
+      "Tabla": "Adquisiciones de nacionalidad por sexo y pa\u00EDs de nacimiento\t",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estad\u00EDstica de Adquisiciones de Nacionalidad Espa\u00F1ola de Residentes",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-05T09:00:00"
+    },
+    {
+      "IdTabla": 17561,
+      "CodigoOperacion": "ANES",
+      "Tabla": "Adquisiciones de nacionalidad por nacionalidad en relaci\u00F3n al pa\u00EDs de nacimiento\t",
+      "CodigoTabla": "NAC-PROV",
+      "Publicacion": "Estad\u00EDstica de Adquisiciones de Nacionalidad Espa\u00F1ola de Residentes",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-05T09:00:00"
+    },
+    {
+      "IdTabla": 52060,
+      "CodigoOperacion": "ANES",
+      "Tabla": "Adquisiciones de nacionalidad por a\u00F1o de llegada a Espa\u00F1a",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Adquisiciones de Nacionalidad Espa\u00F1ola de Residentes",
+      "AnyoInicial": "2019",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-05T09:00:00"
+    },
+    {
+      "IdTabla": 52061,
+      "CodigoOperacion": "ANES",
+      "Tabla": "Adquisiciones de nacionalidad de personas de 25 y m\u00E1s a\u00F1os, por sexo y nivel de estudios",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Adquisiciones de Nacionalidad Espa\u00F1ola de Residentes",
+      "AnyoInicial": "2019",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-05T09:00:00"
+    },
+    {
+      "IdTabla": 52062,
+      "CodigoOperacion": "ANES",
+      "Tabla": "Adquisiciones de nacionalidad de personas de 25 y m\u00E1s a\u00F1os, por sexo, edad y nivel de estudios (agrupaci\u00F3n de niveles)",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Adquisiciones de Nacionalidad Espa\u00F1ola de Residentes",
+      "AnyoInicial": "2019",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-05T09:00:00"
+    },
+    {
+      "IdTabla": 52063,
+      "CodigoOperacion": "ANES",
+      "Tabla": "Adquisiciones de nacionalidad de personas de 16 y m\u00E1s a\u00F1os, por sexo, y relaci\u00F3n con la actividad econ\u00F3mica",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Adquisiciones de Nacionalidad Espa\u00F1ola de Residentes",
+      "AnyoInicial": "2019",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-05T09:00:00"
+    },
+    {
+      "IdTabla": 52064,
+      "CodigoOperacion": "ANES",
+      "Tabla": "Adquisiciones de nacionalidad de personas de 16 y m\u00E1s a\u00F1os, por sexo y ocupaci\u00F3n",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Adquisiciones de Nacionalidad Espa\u00F1ola de Residentes",
+      "AnyoInicial": "2019",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-05T09:00:00"
+    },
+    {
+      "IdTabla": 59429,
+      "CodigoOperacion": "ANES",
+      "Tabla": "Adquisiciones de nacionalidad por sexo y nacionalidad previa",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Estad\u00EDstica de Adquisiciones de Nacionalidad Espa\u00F1ola de Residentes",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-05T09:00:00"
+    },
+    {
+      "IdTabla": 59430,
+      "CodigoOperacion": "ANES",
+      "Tabla": "Adquisiciones de nacionalidad por sexo y pa\u00EDs de nacimiento\t",
+      "CodigoTabla": "NAC-CCAA-PROV",
+      "Publicacion": "Estad\u00EDstica de Adquisiciones de Nacionalidad Espa\u00F1ola de Residentes",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-05T09:00:00"
+    },
+    {
+      "IdTabla": 70007,
+      "CodigoOperacion": "ANES",
+      "Tabla": "Adquisiciones de nacionalidad por sexo y edad",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Adquisiciones de Nacionalidad Espa\u00F1ola de Residentes",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-05T09:00:00"
+    },
+    {
+      "IdTabla": 70008,
+      "CodigoOperacion": "ANES",
+      "Tabla": "Adquisiciones de nacionalidad por sexo y nacionalidad previa",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Adquisiciones de Nacionalidad Espa\u00F1ola de Residentes",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-05T09:00:00"
+    },
+    {
+      "IdTabla": 70009,
+      "CodigoOperacion": "ANES",
+      "Tabla": "Adquisiciones de nacionalidad por nacionalidad en relaci\u00F3n al pa\u00EDs de nacimiento\t",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica de Adquisiciones de Nacionalidad Espa\u00F1ola de Residentes",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-05T09:00:00"
+    },
+    {
+      "IdTabla": 70010,
+      "CodigoOperacion": "ANES",
+      "Tabla": "Adquisiciones de nacionalidad por sexo, grupo de edad y comunidad aut\u00F3noma",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Adquisiciones de Nacionalidad Espa\u00F1ola de Residentes",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-05T09:00:00"
+    },
+    {
+      "IdTabla": 70011,
+      "CodigoOperacion": "ANES",
+      "Tabla": "Adquisiciones de nacionalidad por sexo, modo de adquisici\u00F3n (residencia/otros) y comunidad aut\u00F3noma",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Adquisiciones de Nacionalidad Espa\u00F1ola de Residentes",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-05T09:00:00"
+    },
+    {
+      "IdTabla": 70012,
+      "CodigoOperacion": "ANES",
+      "Tabla": "Adquisiciones de nacionalidad por sexo, nacionalidad previa y comunidad aut\u00F3noma",
+      "CodigoTabla": "NAC-CCAA",
+      "Publicacion": "Estad\u00EDstica de Adquisiciones de Nacionalidad Espa\u00F1ola de Residentes",
+      "AnyoInicial": "2013",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-06-05T09:00:00"
     }
-
-    body {
-      font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-      background-color: #2D72D9;
-      color: #fff;
-      -moz-font-smoothing: antialiased;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    .error-container {
-      text-align: center;
-      height: 100%;
-    }
-
-    @media (max-width: 480px) {
-      .error-container {
-        position: relative;
-        top: 50%;
-        height: initial;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    .error-container h1 {
-      margin: 0;
-      font-size: 130px;
-      font-weight: 300;
-    }
-
-    @media (min-width: 480px) {
-      .error-container h1 {
-        position: relative;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    @media (min-width: 768px) {
-      .error-container h1 {
-        font-size: 220px;
-      }
-    }
-
-    .return {
-      color: rgba(255, 255, 255, 0.6);
-      font-weight: 400;
-      letter-spacing: -0.04em;
-      margin: 0;
-    }
-
-    @media (min-width: 480px) {
-      .return {
-        position: absolute;
-        width: 100%;
-        bottom: 30px;
-      }
-    }
-
-    .return a {
-      padding-bottom: 1px;
-      color: #fff;
-      text-decoration: none;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.6);
-      -webkit-transition: border-color 0.1s ease-in;
-      transition: border-color 0.1s ease-in;
-    }
-
-    .return a:hover {
-      border-bottom-color: #fff;
-    }
-  </style>
-  </head>
-  <body>
-    <div class="error-container">
-      <h1>404</h1>
-      <p class="return">La pagina solicitada no existe. <a href="./">Ir a inicio</a></p>
-    </div>
-  </body>
-</html>
+  ]
+}

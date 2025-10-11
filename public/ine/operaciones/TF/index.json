@@ -1,95 +1,199 @@
-﻿<!DOCTYPE html >
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>(404) The page you were looking for doesn't exist.</title>
-    <style type="text/css">
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
+﻿{
+  "CodigoOperacion": "TF",
+  "IdOperacion": 171,
+  "Operacion": "Estad\u00EDstica sobre Transporte Ferroviario",
+  "CodigoIOE": "30221",
+  "Url": "https://ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C\u0026cid=1254736177040\u0026idp=1254735576820",
+  "Tablas": [
+    {
+      "IdTabla": 24315,
+      "CodigoOperacion": "TF",
+      "Tabla": "Mercanc\u00EDas transportadas",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica sobre Transporte Ferroviario",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-04T07:00:00"
+    },
+    {
+      "IdTabla": 24355,
+      "CodigoOperacion": "TF",
+      "Tabla": "Viajeros transportados",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica sobre Transporte Ferroviario",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2025-09-04T07:00:00"
+    },
+    {
+      "IdTabla": 24356,
+      "CodigoOperacion": "TF",
+      "Tabla": "Mercanc\u00EDas transportadas por destino",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica sobre Transporte Ferroviario. Anuales",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-07T09:00:00"
+    },
+    {
+      "IdTabla": 24357,
+      "CodigoOperacion": "TF",
+      "Tabla": "Mercanc\u00EDas internacionales transportadas por pa\u00EDs de carga y descarga",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica sobre Transporte Ferroviario. Anuales",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-07T09:00:00"
+    },
+    {
+      "IdTabla": 24359,
+      "CodigoOperacion": "TF",
+      "Tabla": "Mercanc\u00EDas transportadas por tipo de mercanc\u00EDa",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica sobre Transporte Ferroviario. Anuales",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-07T09:00:00"
+    },
+    {
+      "IdTabla": 24360,
+      "CodigoOperacion": "TF",
+      "Tabla": "Mercanc\u00EDas peligrosas transportadas",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica sobre Transporte Ferroviario. Anuales",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-07T09:00:00"
+    },
+    {
+      "IdTabla": 24361,
+      "CodigoOperacion": "TF",
+      "Tabla": "Mercanc\u00EDas transportadas en unidades de transporte intermodal por destino y por tipo de unidad de transporte",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica sobre Transporte Ferroviario. Anuales",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-07T09:00:00"
+    },
+    {
+      "IdTabla": 24362,
+      "CodigoOperacion": "TF",
+      "Tabla": "N\u00FAmero de unidades de transporte intermodal fletadas por estado de carga, por destino y por tipo de unidad de transporte",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica sobre Transporte Ferroviario. Anuales",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-07T09:00:00"
+    },
+    {
+      "IdTabla": 24363,
+      "CodigoOperacion": "TF",
+      "Tabla": "Viajeros transportados por destino",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica sobre Transporte Ferroviario. Anuales",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-07T09:00:00"
+    },
+    {
+      "IdTabla": 24364,
+      "CodigoOperacion": "TF",
+      "Tabla": "Viajeros internacionales transportados por pa\u00EDs de carga y descarga",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica sobre Transporte Ferroviario. Anuales",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-07T09:00:00"
+    },
+    {
+      "IdTabla": 24365,
+      "CodigoOperacion": "TF",
+      "Tabla": "Movimiento de trenes",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica sobre Transporte Ferroviario. Anuales",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-07T09:00:00"
+    },
+    {
+      "IdTabla": 24366,
+      "CodigoOperacion": "TF",
+      "Tabla": "Accidentes significativos y con heridos graves por tipo de accidente",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica sobre Transporte Ferroviario. Anuales",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-07T09:00:00"
+    },
+    {
+      "IdTabla": 24367,
+      "CodigoOperacion": "TF",
+      "Tabla": "Accidentes que afectan al transporte de mercanc\u00EDas peligrosas",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica sobre Transporte Ferroviario. Anuales",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-07T09:00:00"
+    },
+    {
+      "IdTabla": 24368,
+      "CodigoOperacion": "TF",
+      "Tabla": "Muertos y heridos graves en accidentes por tipo de accidente y por categor\u00EDa de persona",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica sobre Transporte Ferroviario. Anuales",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-07T09:00:00"
+    },
+    {
+      "IdTabla": 49356,
+      "CodigoOperacion": "TF",
+      "Tabla": "Viajeros transportados por destino",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica sobre Transporte Ferroviario. Anuales",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-07T09:00:00"
+    },
+    {
+      "IdTabla": 49357,
+      "CodigoOperacion": "TF",
+      "Tabla": "Movimiento de trenes",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica sobre Transporte Ferroviario. Anuales",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-07T09:00:00"
+    },
+    {
+      "IdTabla": 49358,
+      "CodigoOperacion": "TF",
+      "Tabla": "Muertos y heridos graves en accidentes por tipo de accidente y por categor\u00EDa de persona",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica sobre Transporte Ferroviario. Anuales",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2025-07-07T09:00:00"
+    },
+    {
+      "IdTabla": 75697,
+      "CodigoOperacion": "TF",
+      "Tabla": "Mercanc\u00EDas transportadas",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica sobre Transporte Ferroviario",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2017-01-01T10:00:00"
+    },
+    {
+      "IdTabla": 75698,
+      "CodigoOperacion": "TF",
+      "Tabla": "Viajeros transportados",
+      "CodigoTabla": "NAC",
+      "Publicacion": "Estad\u00EDstica sobre Transporte Ferroviario",
+      "AnyoInicial": "2010",
+      "PeriodoInicial": "Trimestre 1",
+      "UltimaModificacion": "2017-01-01T10:00:00"
     }
-
-    body {
-      font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-      background-color: #2D72D9;
-      color: #fff;
-      -moz-font-smoothing: antialiased;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    .error-container {
-      text-align: center;
-      height: 100%;
-    }
-
-    @media (max-width: 480px) {
-      .error-container {
-        position: relative;
-        top: 50%;
-        height: initial;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    .error-container h1 {
-      margin: 0;
-      font-size: 130px;
-      font-weight: 300;
-    }
-
-    @media (min-width: 480px) {
-      .error-container h1 {
-        position: relative;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    @media (min-width: 768px) {
-      .error-container h1 {
-        font-size: 220px;
-      }
-    }
-
-    .return {
-      color: rgba(255, 255, 255, 0.6);
-      font-weight: 400;
-      letter-spacing: -0.04em;
-      margin: 0;
-    }
-
-    @media (min-width: 480px) {
-      .return {
-        position: absolute;
-        width: 100%;
-        bottom: 30px;
-      }
-    }
-
-    .return a {
-      padding-bottom: 1px;
-      color: #fff;
-      text-decoration: none;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.6);
-      -webkit-transition: border-color 0.1s ease-in;
-      transition: border-color 0.1s ease-in;
-    }
-
-    .return a:hover {
-      border-bottom-color: #fff;
-    }
-  </style>
-  </head>
-  <body>
-    <div class="error-container">
-      <h1>404</h1>
-      <p class="return">La pagina solicitada no existe. <a href="./">Ir a inicio</a></p>
-    </div>
-  </body>
-</html>
+  ]
+}

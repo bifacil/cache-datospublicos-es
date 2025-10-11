@@ -1,95 +1,189 @@
-﻿<!DOCTYPE html >
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>(404) The page you were looking for doesn't exist.</title>
-    <style type="text/css">
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
+﻿{
+  "CodigoOperacion": "ICN",
+  "IdOperacion": 42,
+  "Operacion": "\u00CDndices de Cifras de Negocios en la Industria",
+  "CodigoIOE": "30052",
+  "Url": "https://ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C\u0026cid=1254736148782\u0026idp=1254735576715",
+  "Tablas": [
+    {
+      "IdTabla": 61701,
+      "CodigoOperacion": "ICN",
+      "Tabla": "\u00CDndices nacionales: general y por destino econ\u00F3mico de los bienes.",
+      "CodigoTabla": "2021_NAC",
+      "Publicacion": "\u00CDndice de Cifras de Negocios en la Industria",
+      "AnyoInicial": "2002",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-19T07:00:00"
+    },
+    {
+      "IdTabla": 61702,
+      "CodigoOperacion": "ICN",
+      "Tabla": "\u00CDndices nacionales por secciones",
+      "CodigoTabla": "2021_NAC",
+      "Publicacion": "\u00CDndice de Cifras de Negocios en la Industria",
+      "AnyoInicial": "2002",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-19T07:00:00"
+    },
+    {
+      "IdTabla": 61703,
+      "CodigoOperacion": "ICN",
+      "Tabla": "\u00CDndices nacionales por divisiones",
+      "CodigoTabla": "2021_NAC",
+      "Publicacion": "\u00CDndice de Cifras de Negocios en la Industria",
+      "AnyoInicial": "2002",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-19T07:00:00"
+    },
+    {
+      "IdTabla": 61704,
+      "CodigoOperacion": "ICN",
+      "Tabla": "\u00CDndices por comunidades aut\u00F3noma",
+      "CodigoTabla": "2021_NAC-CCAA",
+      "Publicacion": "\u00CDndice de Cifras de Negocios en la Industria",
+      "AnyoInicial": "2002",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-19T07:00:00"
+    },
+    {
+      "IdTabla": 61705,
+      "CodigoOperacion": "ICN",
+      "Tabla": "\u00CDndices por mercados",
+      "CodigoTabla": "2021_NAC_MDOINT-MDOEXT",
+      "Publicacion": "\u00CDndice de Cifras de Negocios en la Industria",
+      "AnyoInicial": "2002",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-19T07:00:00"
+    },
+    {
+      "IdTabla": 61706,
+      "CodigoOperacion": "ICN",
+      "Tabla": "\u00CDndices nacionales: general y por destino econ\u00F3mico de los bienes",
+      "CodigoTabla": "2021_NAC_CEC",
+      "Publicacion": "\u00CDndice de Cifras de Negocios en la Industria",
+      "AnyoInicial": "2002",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-19T07:00:00"
+    },
+    {
+      "IdTabla": 61707,
+      "CodigoOperacion": "ICN",
+      "Tabla": "\u00CDndices nacionales por secciones",
+      "CodigoTabla": "2021_NAC_CEC",
+      "Publicacion": "\u00CDndice de Cifras de Negocios en la Industria",
+      "AnyoInicial": "2002",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-19T07:00:00"
+    },
+    {
+      "IdTabla": 61708,
+      "CodigoOperacion": "ICN",
+      "Tabla": "\u00CDndices nacionales por divisiones",
+      "CodigoTabla": "2021_NAC_CEC",
+      "Publicacion": "\u00CDndice de Cifras de Negocios en la Industria",
+      "AnyoInicial": "2002",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-19T07:00:00"
+    },
+    {
+      "IdTabla": 61709,
+      "CodigoOperacion": "ICN",
+      "Tabla": "\u00CDndices nacionales: general y por destino econ\u00F3mico de los bienes",
+      "CodigoTabla": "2021_NAC_CEEC",
+      "Publicacion": "\u00CDndice de Cifras de Negocios en la Industria",
+      "AnyoInicial": "2002",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-19T07:00:00"
+    },
+    {
+      "IdTabla": 61710,
+      "CodigoOperacion": "ICN",
+      "Tabla": "\u00CDndices nacionales por secciones",
+      "CodigoTabla": "2021_NAC_CEEC",
+      "Publicacion": "\u00CDndice de Cifras de Negocios en la Industria",
+      "AnyoInicial": "2002",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-19T07:00:00"
+    },
+    {
+      "IdTabla": 61711,
+      "CodigoOperacion": "ICN",
+      "Tabla": "\u00CDndices nacionales por divisiones",
+      "CodigoTabla": "2021_NAC_CEEC",
+      "Publicacion": "\u00CDndice de Cifras de Negocios en la Industria",
+      "AnyoInicial": "2002",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-19T07:00:00"
+    },
+    {
+      "IdTabla": 61712,
+      "CodigoOperacion": "ICN",
+      "Tabla": "\u00CDndice general y por destino econ\u00F3mico de los bienes. Nacional",
+      "CodigoTabla": "2021_NAC_P",
+      "Publicacion": "\u00CDndice de Cifras de Negocios en la Industria. Ponderaciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-03-22T08:00:00"
+    },
+    {
+      "IdTabla": 61713,
+      "CodigoOperacion": "ICN",
+      "Tabla": "Secciones. Nacional",
+      "CodigoTabla": "2021_NAC_P",
+      "Publicacion": "\u00CDndice de Cifras de Negocios en la Industria. Ponderaciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-03-22T08:00:00"
+    },
+    {
+      "IdTabla": 61714,
+      "CodigoOperacion": "ICN",
+      "Tabla": "Divisiones. Nacional",
+      "CodigoTabla": "2021_NAC_P",
+      "Publicacion": "\u00CDndice de Cifras de Negocios en la Industria. Ponderaciones",
+      "AnyoInicial": "2021",
+      "PeriodoInicial": "A\u00F1o",
+      "UltimaModificacion": "2024-03-22T08:00:00"
+    },
+    {
+      "IdTabla": 70181,
+      "CodigoOperacion": "ICN",
+      "Tabla": "\u00CDndices nacionales: general y por destino econ\u00F3mico de los bienes",
+      "CodigoTabla": "2021_NAC",
+      "Publicacion": "\u00CDndice de Cifras de Negocios en la Industria",
+      "AnyoInicial": "2002",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-19T07:00:00"
+    },
+    {
+      "IdTabla": 70182,
+      "CodigoOperacion": "ICN",
+      "Tabla": "\u00CDndices nacionales por secciones",
+      "CodigoTabla": "2021_NAC",
+      "Publicacion": "\u00CDndice de Cifras de Negocios en la Industria",
+      "AnyoInicial": "2002",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2025-09-19T07:00:00"
+    },
+    {
+      "IdTabla": 75728,
+      "CodigoOperacion": "ICN",
+      "Tabla": "\u00CDndices nacionales: general y por destino econ\u00F3mico de los bienes",
+      "CodigoTabla": "2021_NAC_CEEC",
+      "Publicacion": "\u00CDndice de Cifras de Negocios en la Industria",
+      "AnyoInicial": "2002",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2010-12-17T08:00:00"
+    },
+    {
+      "IdTabla": 75729,
+      "CodigoOperacion": "ICN",
+      "Tabla": "\u00CDndices nacionales por divisiones",
+      "CodigoTabla": "2021_NAC",
+      "Publicacion": "\u00CDndice de Cifras de Negocios en la Industria",
+      "AnyoInicial": "2002",
+      "PeriodoInicial": "Enero",
+      "UltimaModificacion": "2010-12-17T08:00:00"
     }
-
-    body {
-      font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-      background-color: #2D72D9;
-      color: #fff;
-      -moz-font-smoothing: antialiased;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    .error-container {
-      text-align: center;
-      height: 100%;
-    }
-
-    @media (max-width: 480px) {
-      .error-container {
-        position: relative;
-        top: 50%;
-        height: initial;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    .error-container h1 {
-      margin: 0;
-      font-size: 130px;
-      font-weight: 300;
-    }
-
-    @media (min-width: 480px) {
-      .error-container h1 {
-        position: relative;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-      }
-    }
-
-    @media (min-width: 768px) {
-      .error-container h1 {
-        font-size: 220px;
-      }
-    }
-
-    .return {
-      color: rgba(255, 255, 255, 0.6);
-      font-weight: 400;
-      letter-spacing: -0.04em;
-      margin: 0;
-    }
-
-    @media (min-width: 480px) {
-      .return {
-        position: absolute;
-        width: 100%;
-        bottom: 30px;
-      }
-    }
-
-    .return a {
-      padding-bottom: 1px;
-      color: #fff;
-      text-decoration: none;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.6);
-      -webkit-transition: border-color 0.1s ease-in;
-      transition: border-color 0.1s ease-in;
-    }
-
-    .return a:hover {
-      border-bottom-color: #fff;
-    }
-  </style>
-  </head>
-  <body>
-    <div class="error-container">
-      <h1>404</h1>
-      <p class="return">La pagina solicitada no existe. <a href="./">Ir a inicio</a></p>
-    </div>
-  </body>
-</html>
+  ]
+}
