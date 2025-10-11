@@ -1,0 +1,45 @@
+name: Deploy to R2 + Worker
+
+on:
+  push:
+    branches: [ master ]   # ajusta la rama si usas otra
+
+env:
+  R2_ENDPOINT: ${{ secrets.R2_ENDPOINT }}
+  R2_BUCKET: ${{ secrets.R2_BUCKET }}
+
+jobs:
+  sync-to-r2:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Configura credenciales S3 para R2 vía variables de entorno
+      - name: Set AWS creds for R2
+        run: |
+          echo "AWS_ACCESS_KEY_ID=${{ secrets.R2_ACCESS_KEY_ID }}" >> $GITHUB_ENV
+          echo "AWS_SECRET_ACCESS_KEY=${{ secrets.R2_SECRET_ACCESS_KEY }}" >> $GITHUB_ENV
+          echo "AWS_DEFAULT_REGION=auto" >> $GITHUB_ENV
+
+      - name: Install AWS CLI
+        uses: aws-actions/setup-cli@v2
+
+      - name: Sync static files to R2
+        run: |
+          src_dir="public"   # <-- AJUSTA si tu carpeta difiere
+          aws s3 sync "$src_dir" "s3://$R2_BUCKET" \
+            --endpoint-url="https://$R2_ENDPOINT" \
+            --delete
+
+  deploy-worker:
+    needs: sync-to-r2
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Publish Worker
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: deploy
