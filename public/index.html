@@ -1,4 +1,3 @@
-
 <!DOCTYPE html >
 <html lang="es">
   <head>
@@ -7,51 +6,52 @@
     <title>Datos Públicos</title>
     <link rel="stylesheet" href="https://unpkg.com/swagger-ui-dist@5/swagger-ui.css" />
     <style>
-        body {
-            margin: 0;
-            background: #fafafa
-        }
-
-        #swagger-ui {
-            max-width: 1200px;
-            margin: 0 auto
-        }
-
-        /* Oculta el campo client_secret en el modal de Authorize */
-        /* Requiere navegadores con :has() */
-        .swagger-ui .auth-container .wrapper:has(#client_secret_authorizationCode) {
-            display: none !important;
-        }
+      body { margin: 0; background: #fafafa }
+      #swagger-ui { max-width: 1200px; margin: 0 auto }
+      /* Oculta el campo client_secret en el modal de Authorize */
+      .swagger-ui .auth-container .wrapper:has(#client_secret_authorizationCode) { display: none !important; }
     </style>
   </head>
   <body>
     <div id="swagger-ui"></div>
+
     <script src="https://unpkg.com/swagger-ui-dist@5/swagger-ui-bundle.js"></script>
     <script src="https://unpkg.com/swagger-ui-dist@5/swagger-ui-standalone-preset.js"></script>
     <script>
+      const BASE = new URL('./', window.location.href).href;
+      const OPENAPI_URL = new URL('openapi.json', BASE).href;
+      const clientId = document.querySelector('meta[name="ClientId"]')?.content ?? null;
 
-        const BASE = new URL('./', window.location.href).href;
-        const OPENAPI_URL = new URL('openapi.json', BASE).href;
-        const clientId = document.querySelector('meta[name="ClientId"]')?.content ?? null;
+      // 1) Cargar el openapi.json
+      fetch(OPENAPI_URL)
+        .then(r => r.json())
+        .then(spec => {
+          // 2) Inyectar "servers" si no existe (o forzarlo si quieres)
+          const defaultServer = window.location.origin; // mismo origen que sirve la página
+          spec.servers = spec.servers?.length ? spec.servers : [{ url: defaultServer }];
 
-
-        const ui = SwaggerUIBundle({
-            url: OPENAPI_URL,
+          // 3) Inicializar Swagger UI con "spec" en lugar de "url"
+          const ui = SwaggerUIBundle({
+            spec,
             dom_id: "#swagger-ui",
             deepLinking: true,
             presets: [SwaggerUIBundle.presets.apis, SwaggerUIStandalonePreset],
             layout: "BaseLayout"
-        });
+          });
 
-        
-        ui.initOAuth({
+          // 4) OAuth (después de crear ui)
+          ui.initOAuth({
             clientId: clientId,
             clientSecret: null,
             scopes: ["openid"],
             usePkceWithAuthorizationCodeGrant: true
+          });
+        })
+        .catch(err => {
+          console.error("No se pudo cargar el openapi.json:", err);
+          document.getElementById('swagger-ui').innerText =
+            "Error cargando la especificación OpenAPI.";
         });
-
-
     </script>
   </body>
 </html>
