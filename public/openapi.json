@@ -1,0 +1,218 @@
+﻿{
+  "openapi": "3.0.0",
+  "info": {
+    "title": null,
+    "version": "0.0.1"
+  },
+  "paths": {
+    "/ipc/series/{ipcSerie}": {
+      "get": {
+        "summary": "Optiene todos los datos de una serie del IPC",
+        "tags": [
+          "ipc"
+        ],
+        "parameters": [
+          {
+            "name": "ipcSerie",
+            "in": "path",
+            "required": true,
+            "allowEmptyValue": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Valid response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "CodigoSerie": {
+                      "type": "string"
+                    },
+                    "IdTabla": {
+                      "type": "integer",
+                      "format": "int32"
+                    },
+                    "Tabla": {
+                      "type": "integer",
+                      "format": "int32"
+                    },
+                    "Base": {
+                      "type": "string"
+                    },
+                    "TipoDato": {
+                      "type": "string"
+                    },
+                    "Unidad": {
+                      "type": "string"
+                    },
+                    "Territorialidad": {
+                      "type": "string"
+                    },
+                    "Territorio": {
+                      "type": "string"
+                    },
+                    "ECOICOP": {
+                      "type": "string"
+                    },
+                    "DetalleECOICOP": {
+                      "type": "string"
+                    },
+                    "Serie": {
+                      "type": "string"
+                    },
+                    "Escala": {
+                      "type": "string"
+                    },
+                    "Datos": {
+                      "type": "integer",
+                      "format": "int32"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Unexpected error"
+          }
+        }
+      }
+    },
+    "/ipc/series": {
+      "get": {
+        "summary": "Array con las series del IPC",
+        "tags": [
+          "ipc"
+        ],
+        "responses": {
+          "200": {
+            "description": "Valid response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "CodigoSerie": {
+                        "type": "string"
+                      },
+                      "IdTabla": {
+                        "type": "integer",
+                        "format": "int32"
+                      },
+                      "CodigoOperacion": {
+                        "type": "string"
+                      },
+                      "Base": {
+                        "type": "string"
+                      },
+                      "TipoDato": {
+                        "type": "string"
+                      },
+                      "Unidad": {
+                        "type": "string"
+                      },
+                      "Territorialidad": {
+                        "type": "string"
+                      },
+                      "Territorio": {
+                        "type": "string"
+                      },
+                      "ECOICOP": {
+                        "type": "string"
+                      },
+                      "DetalleECOICOP": {
+                        "type": "string"
+                      },
+                      "Serie": {
+                        "type": "string"
+                      },
+                      "Escala": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Unexpected error"
+          }
+        }
+      }
+    },
+    "/ipc/tablas": {
+      "get": {
+        "summary": "Array con todas las tablas del indice IPC",
+        "tags": [
+          "ipc"
+        ],
+        "responses": {
+          "200": {
+            "description": "Valid response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "CodigoOperacion": {
+                        "type": "string"
+                      },
+                      "IdTabla": {
+                        "type": "integer",
+                        "format": "int32"
+                      },
+                      "Tabla": {
+                        "type": "string"
+                      },
+                      "CodigoTabla": {
+                        "type": "string"
+                      },
+                      "Dim0": {
+                        "type": "string"
+                      },
+                      "Dim1": {
+                        "type": "string"
+                      },
+                      "Dim2": {
+                        "type": "string"
+                      },
+                      "Valor2": {
+                        "type": "string"
+                      },
+                      "Escala": {
+                        "type": "string"
+                      },
+                      "Unidad": {
+                        "type": "string"
+                      },
+                      "Clasificacion": {
+                        "type": "string"
+                      },
+                      "NumSeries": {
+                        "type": "integer",
+                        "format": "int32"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Unexpected error"
+          }
+        }
+      }
+    }
+  }
+}
