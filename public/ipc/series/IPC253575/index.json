@@ -1,0 +1,757 @@
+﻿{
+  "CodigoSerie": "IPC253575",
+  "IdTabla": 50905,
+  "Tabla": {
+    "CodigoOperacion": "IPC",
+    "IdTabla": 50905,
+    "Tabla": "\u00CDndices nacionales de subclases",
+    "CodigoTabla": "2021_NAC",
+    "Dim0": "Totales Territoriales",
+    "Dim1": "Subclases ECOICOP",
+    "Dim2": "Tipo de dato",
+    "Valor2": "\u00CDndice",
+    "Escala": "-",
+    "Unidad": "\u00CDndice",
+    "Clasificacion": "Base 2021 (IPC)",
+    "NumSeries": 199
+  },
+  "Base": "Base 2021 (IPC)",
+  "TipoDato": "\u00CDndice",
+  "Unidad": "\u00CDndice",
+  "Territorialidad": "Totales Territoriales",
+  "Territorio": "Total Nacional",
+  "ECOICOP": "Subclases ECOICOP",
+  "DetalleECOICOP": "Servicios de comida r\u00E1pida y para llevar",
+  "Serie": "Total Nacional. Servicios de comida r\u00E1pida y para llevar. \u00CDndice. ",
+  "Escala": "-",
+  "Datos": [
+    {
+      "CodigoPeriodo": "201701",
+      "TipoDato": "Definitivo",
+      "Indice": 92.2060000000,
+      "VariacionMensual": null,
+      "VariacionAnual": null
+    },
+    {
+      "CodigoPeriodo": "201702",
+      "TipoDato": "Definitivo",
+      "Indice": 92.3600000000,
+      "VariacionMensual": 0.00167,
+      "VariacionAnual": null
+    },
+    {
+      "CodigoPeriodo": "201703",
+      "TipoDato": "Definitivo",
+      "Indice": 92.5250000000,
+      "VariacionMensual": 0.00179,
+      "VariacionAnual": null
+    },
+    {
+      "CodigoPeriodo": "201704",
+      "TipoDato": "Definitivo",
+      "Indice": 92.6860000000,
+      "VariacionMensual": 0.00174,
+      "VariacionAnual": null
+    },
+    {
+      "CodigoPeriodo": "201705",
+      "TipoDato": "Definitivo",
+      "Indice": 92.9380000000,
+      "VariacionMensual": 0.00272,
+      "VariacionAnual": null
+    },
+    {
+      "CodigoPeriodo": "201706",
+      "TipoDato": "Definitivo",
+      "Indice": 93.1750000000,
+      "VariacionMensual": 0.00255,
+      "VariacionAnual": null
+    },
+    {
+      "CodigoPeriodo": "201707",
+      "TipoDato": "Definitivo",
+      "Indice": 93.2910000000,
+      "VariacionMensual": 0.00124,
+      "VariacionAnual": null
+    },
+    {
+      "CodigoPeriodo": "201708",
+      "TipoDato": "Definitivo",
+      "Indice": 93.4080000000,
+      "VariacionMensual": 0.00125,
+      "VariacionAnual": null
+    },
+    {
+      "CodigoPeriodo": "201709",
+      "TipoDato": "Definitivo",
+      "Indice": 93.4510000000,
+      "VariacionMensual": 0.00046,
+      "VariacionAnual": null
+    },
+    {
+      "CodigoPeriodo": "201710",
+      "TipoDato": "Definitivo",
+      "Indice": 93.4570000000,
+      "VariacionMensual": 0.00006,
+      "VariacionAnual": null
+    },
+    {
+      "CodigoPeriodo": "201711",
+      "TipoDato": "Definitivo",
+      "Indice": 93.5770000000,
+      "VariacionMensual": 0.00128,
+      "VariacionAnual": null
+    },
+    {
+      "CodigoPeriodo": "201712",
+      "TipoDato": "Definitivo",
+      "Indice": 93.8340000000,
+      "VariacionMensual": 0.00275,
+      "VariacionAnual": null
+    },
+    {
+      "CodigoPeriodo": "201801",
+      "TipoDato": "Definitivo",
+      "Indice": 94.0580000000,
+      "VariacionMensual": 0.00239,
+      "VariacionAnual": 0.02009
+    },
+    {
+      "CodigoPeriodo": "201802",
+      "TipoDato": "Definitivo",
+      "Indice": 94.2530000000,
+      "VariacionMensual": 0.00207,
+      "VariacionAnual": 0.02050
+    },
+    {
+      "CodigoPeriodo": "201803",
+      "TipoDato": "Definitivo",
+      "Indice": 94.5090000000,
+      "VariacionMensual": 0.00272,
+      "VariacionAnual": 0.02144
+    },
+    {
+      "CodigoPeriodo": "201804",
+      "TipoDato": "Definitivo",
+      "Indice": 94.6880000000,
+      "VariacionMensual": 0.00189,
+      "VariacionAnual": 0.02160
+    },
+    {
+      "CodigoPeriodo": "201805",
+      "TipoDato": "Definitivo",
+      "Indice": 94.7930000000,
+      "VariacionMensual": 0.00111,
+      "VariacionAnual": 0.01996
+    },
+    {
+      "CodigoPeriodo": "201806",
+      "TipoDato": "Definitivo",
+      "Indice": 94.8330000000,
+      "VariacionMensual": 0.00042,
+      "VariacionAnual": 0.01779
+    },
+    {
+      "CodigoPeriodo": "201807",
+      "TipoDato": "Definitivo",
+      "Indice": 95.0030000000,
+      "VariacionMensual": 0.00179,
+      "VariacionAnual": 0.01835
+    },
+    {
+      "CodigoPeriodo": "201808",
+      "TipoDato": "Definitivo",
+      "Indice": 95.0820000000,
+      "VariacionMensual": 0.00083,
+      "VariacionAnual": 0.01792
+    },
+    {
+      "CodigoPeriodo": "201809",
+      "TipoDato": "Definitivo",
+      "Indice": 95.1840000000,
+      "VariacionMensual": 0.00107,
+      "VariacionAnual": 0.01854
+    },
+    {
+      "CodigoPeriodo": "201810",
+      "TipoDato": "Definitivo",
+      "Indice": 95.0780000000,
+      "VariacionMensual": -0.00111,
+      "VariacionAnual": 0.01734
+    },
+    {
+      "CodigoPeriodo": "201811",
+      "TipoDato": "Definitivo",
+      "Indice": 95.2570000000,
+      "VariacionMensual": 0.00188,
+      "VariacionAnual": 0.01795
+    },
+    {
+      "CodigoPeriodo": "201812",
+      "TipoDato": "Definitivo",
+      "Indice": 95.4060000000,
+      "VariacionMensual": 0.00156,
+      "VariacionAnual": 0.01675
+    },
+    {
+      "CodigoPeriodo": "201901",
+      "TipoDato": "Definitivo",
+      "Indice": 95.6390000000,
+      "VariacionMensual": 0.00244,
+      "VariacionAnual": 0.01681
+    },
+    {
+      "CodigoPeriodo": "201902",
+      "TipoDato": "Definitivo",
+      "Indice": 95.8030000000,
+      "VariacionMensual": 0.00171,
+      "VariacionAnual": 0.01645
+    },
+    {
+      "CodigoPeriodo": "201903",
+      "TipoDato": "Definitivo",
+      "Indice": 96.0140000000,
+      "VariacionMensual": 0.00220,
+      "VariacionAnual": 0.01592
+    },
+    {
+      "CodigoPeriodo": "201904",
+      "TipoDato": "Definitivo",
+      "Indice": 96.1640000000,
+      "VariacionMensual": 0.00156,
+      "VariacionAnual": 0.01559
+    },
+    {
+      "CodigoPeriodo": "201905",
+      "TipoDato": "Definitivo",
+      "Indice": 96.4110000000,
+      "VariacionMensual": 0.00257,
+      "VariacionAnual": 0.01707
+    },
+    {
+      "CodigoPeriodo": "201906",
+      "TipoDato": "Definitivo",
+      "Indice": 96.5290000000,
+      "VariacionMensual": 0.00122,
+      "VariacionAnual": 0.01788
+    },
+    {
+      "CodigoPeriodo": "201907",
+      "TipoDato": "Definitivo",
+      "Indice": 96.7120000000,
+      "VariacionMensual": 0.00190,
+      "VariacionAnual": 0.01799
+    },
+    {
+      "CodigoPeriodo": "201908",
+      "TipoDato": "Definitivo",
+      "Indice": 96.6750000000,
+      "VariacionMensual": -0.00038,
+      "VariacionAnual": 0.01675
+    },
+    {
+      "CodigoPeriodo": "201909",
+      "TipoDato": "Definitivo",
+      "Indice": 96.7040000000,
+      "VariacionMensual": 0.00030,
+      "VariacionAnual": 0.01597
+    },
+    {
+      "CodigoPeriodo": "201910",
+      "TipoDato": "Definitivo",
+      "Indice": 96.8420000000,
+      "VariacionMensual": 0.00143,
+      "VariacionAnual": 0.01855
+    },
+    {
+      "CodigoPeriodo": "201911",
+      "TipoDato": "Definitivo",
+      "Indice": 97.0670000000,
+      "VariacionMensual": 0.00232,
+      "VariacionAnual": 0.01900
+    },
+    {
+      "CodigoPeriodo": "201912",
+      "TipoDato": "Definitivo",
+      "Indice": 97.3530000000,
+      "VariacionMensual": 0.00295,
+      "VariacionAnual": 0.02041
+    },
+    {
+      "CodigoPeriodo": "202001",
+      "TipoDato": "Definitivo",
+      "Indice": 97.5540000000,
+      "VariacionMensual": 0.00206,
+      "VariacionAnual": 0.02002
+    },
+    {
+      "CodigoPeriodo": "202002",
+      "TipoDato": "Definitivo",
+      "Indice": 97.6850000000,
+      "VariacionMensual": 0.00134,
+      "VariacionAnual": 0.01964
+    },
+    {
+      "CodigoPeriodo": "202003",
+      "TipoDato": "Definitivo",
+      "Indice": 97.7970000000,
+      "VariacionMensual": 0.00115,
+      "VariacionAnual": 0.01857
+    },
+    {
+      "CodigoPeriodo": "202004",
+      "TipoDato": "Definitivo",
+      "Indice": 97.8910000000,
+      "VariacionMensual": 0.00096,
+      "VariacionAnual": 0.01796
+    },
+    {
+      "CodigoPeriodo": "202005",
+      "TipoDato": "Definitivo",
+      "Indice": 98.2500000000,
+      "VariacionMensual": 0.00367,
+      "VariacionAnual": 0.01907
+    },
+    {
+      "CodigoPeriodo": "202006",
+      "TipoDato": "Definitivo",
+      "Indice": 98.4310000000,
+      "VariacionMensual": 0.00184,
+      "VariacionAnual": 0.01970
+    },
+    {
+      "CodigoPeriodo": "202007",
+      "TipoDato": "Definitivo",
+      "Indice": 98.5790000000,
+      "VariacionMensual": 0.00150,
+      "VariacionAnual": 0.01930
+    },
+    {
+      "CodigoPeriodo": "202008",
+      "TipoDato": "Definitivo",
+      "Indice": 98.5160000000,
+      "VariacionMensual": -0.00064,
+      "VariacionAnual": 0.01904
+    },
+    {
+      "CodigoPeriodo": "202009",
+      "TipoDato": "Definitivo",
+      "Indice": 98.6580000000,
+      "VariacionMensual": 0.00144,
+      "VariacionAnual": 0.02021
+    },
+    {
+      "CodigoPeriodo": "202010",
+      "TipoDato": "Definitivo",
+      "Indice": 98.7590000000,
+      "VariacionMensual": 0.00102,
+      "VariacionAnual": 0.01980
+    },
+    {
+      "CodigoPeriodo": "202011",
+      "TipoDato": "Definitivo",
+      "Indice": 98.8260000000,
+      "VariacionMensual": 0.00068,
+      "VariacionAnual": 0.01812
+    },
+    {
+      "CodigoPeriodo": "202012",
+      "TipoDato": "Definitivo",
+      "Indice": 98.9440000000,
+      "VariacionMensual": 0.00119,
+      "VariacionAnual": 0.01634
+    },
+    {
+      "CodigoPeriodo": "202101",
+      "TipoDato": "Definitivo",
+      "Indice": 99.0740000000,
+      "VariacionMensual": 0.00131,
+      "VariacionAnual": 0.01558
+    },
+    {
+      "CodigoPeriodo": "202102",
+      "TipoDato": "Definitivo",
+      "Indice": 99.1330000000,
+      "VariacionMensual": 0.00060,
+      "VariacionAnual": 0.01482
+    },
+    {
+      "CodigoPeriodo": "202103",
+      "TipoDato": "Definitivo",
+      "Indice": 99.2030000000,
+      "VariacionMensual": 0.00071,
+      "VariacionAnual": 0.01438
+    },
+    {
+      "CodigoPeriodo": "202104",
+      "TipoDato": "Definitivo",
+      "Indice": 99.4470000000,
+      "VariacionMensual": 0.00246,
+      "VariacionAnual": 0.01590
+    },
+    {
+      "CodigoPeriodo": "202105",
+      "TipoDato": "Definitivo",
+      "Indice": 99.6280000000,
+      "VariacionMensual": 0.00182,
+      "VariacionAnual": 0.01403
+    },
+    {
+      "CodigoPeriodo": "202106",
+      "TipoDato": "Definitivo",
+      "Indice": 99.8440000000,
+      "VariacionMensual": 0.00217,
+      "VariacionAnual": 0.01436
+    },
+    {
+      "CodigoPeriodo": "202107",
+      "TipoDato": "Definitivo",
+      "Indice": 99.9380000000,
+      "VariacionMensual": 0.00094,
+      "VariacionAnual": 0.01379
+    },
+    {
+      "CodigoPeriodo": "202108",
+      "TipoDato": "Definitivo",
+      "Indice": 100.0890000000,
+      "VariacionMensual": 0.00151,
+      "VariacionAnual": 0.01597
+    },
+    {
+      "CodigoPeriodo": "202109",
+      "TipoDato": "Definitivo",
+      "Indice": 100.2820000000,
+      "VariacionMensual": 0.00193,
+      "VariacionAnual": 0.01646
+    },
+    {
+      "CodigoPeriodo": "202110",
+      "TipoDato": "Definitivo",
+      "Indice": 100.6650000000,
+      "VariacionMensual": 0.00382,
+      "VariacionAnual": 0.01930
+    },
+    {
+      "CodigoPeriodo": "202111",
+      "TipoDato": "Definitivo",
+      "Indice": 101.1460000000,
+      "VariacionMensual": 0.00478,
+      "VariacionAnual": 0.02348
+    },
+    {
+      "CodigoPeriodo": "202112",
+      "TipoDato": "Definitivo",
+      "Indice": 101.5500000000,
+      "VariacionMensual": 0.00399,
+      "VariacionAnual": 0.02634
+    },
+    {
+      "CodigoPeriodo": "202201",
+      "TipoDato": "Definitivo",
+      "Indice": 102.0520000000,
+      "VariacionMensual": 0.00494,
+      "VariacionAnual": 0.03006
+    },
+    {
+      "CodigoPeriodo": "202202",
+      "TipoDato": "Definitivo",
+      "Indice": 102.8550000000,
+      "VariacionMensual": 0.00787,
+      "VariacionAnual": 0.03755
+    },
+    {
+      "CodigoPeriodo": "202203",
+      "TipoDato": "Definitivo",
+      "Indice": 103.6470000000,
+      "VariacionMensual": 0.00770,
+      "VariacionAnual": 0.04480
+    },
+    {
+      "CodigoPeriodo": "202204",
+      "TipoDato": "Definitivo",
+      "Indice": 104.8080000000,
+      "VariacionMensual": 0.01120,
+      "VariacionAnual": 0.05391
+    },
+    {
+      "CodigoPeriodo": "202205",
+      "TipoDato": "Definitivo",
+      "Indice": 105.8200000000,
+      "VariacionMensual": 0.00966,
+      "VariacionAnual": 0.06215
+    },
+    {
+      "CodigoPeriodo": "202206",
+      "TipoDato": "Definitivo",
+      "Indice": 106.7640000000,
+      "VariacionMensual": 0.00892,
+      "VariacionAnual": 0.06931
+    },
+    {
+      "CodigoPeriodo": "202207",
+      "TipoDato": "Definitivo",
+      "Indice": 107.6330000000,
+      "VariacionMensual": 0.00814,
+      "VariacionAnual": 0.07700
+    },
+    {
+      "CodigoPeriodo": "202208",
+      "TipoDato": "Definitivo",
+      "Indice": 108.1800000000,
+      "VariacionMensual": 0.00508,
+      "VariacionAnual": 0.08084
+    },
+    {
+      "CodigoPeriodo": "202209",
+      "TipoDato": "Definitivo",
+      "Indice": 108.9560000000,
+      "VariacionMensual": 0.00717,
+      "VariacionAnual": 0.08650
+    },
+    {
+      "CodigoPeriodo": "202210",
+      "TipoDato": "Definitivo",
+      "Indice": 109.6270000000,
+      "VariacionMensual": 0.00616,
+      "VariacionAnual": 0.08903
+    },
+    {
+      "CodigoPeriodo": "202211",
+      "TipoDato": "Definitivo",
+      "Indice": 110.4730000000,
+      "VariacionMensual": 0.00772,
+      "VariacionAnual": 0.09221
+    },
+    {
+      "CodigoPeriodo": "202212",
+      "TipoDato": "Definitivo",
+      "Indice": 111.3280000000,
+      "VariacionMensual": 0.00774,
+      "VariacionAnual": 0.09629
+    },
+    {
+      "CodigoPeriodo": "202301",
+      "TipoDato": "Definitivo",
+      "Indice": 112.0070000000,
+      "VariacionMensual": 0.00610,
+      "VariacionAnual": 0.09755
+    },
+    {
+      "CodigoPeriodo": "202302",
+      "TipoDato": "Definitivo",
+      "Indice": 112.7750000000,
+      "VariacionMensual": 0.00686,
+      "VariacionAnual": 0.09645
+    },
+    {
+      "CodigoPeriodo": "202303",
+      "TipoDato": "Definitivo",
+      "Indice": 113.3840000000,
+      "VariacionMensual": 0.00540,
+      "VariacionAnual": 0.09394
+    },
+    {
+      "CodigoPeriodo": "202304",
+      "TipoDato": "Definitivo",
+      "Indice": 113.9330000000,
+      "VariacionMensual": 0.00484,
+      "VariacionAnual": 0.08706
+    },
+    {
+      "CodigoPeriodo": "202305",
+      "TipoDato": "Definitivo",
+      "Indice": 114.5940000000,
+      "VariacionMensual": 0.00580,
+      "VariacionAnual": 0.08291
+    },
+    {
+      "CodigoPeriodo": "202306",
+      "TipoDato": "Definitivo",
+      "Indice": 115.5170000000,
+      "VariacionMensual": 0.00805,
+      "VariacionAnual": 0.08198
+    },
+    {
+      "CodigoPeriodo": "202307",
+      "TipoDato": "Definitivo",
+      "Indice": 115.9550000000,
+      "VariacionMensual": 0.00379,
+      "VariacionAnual": 0.07732
+    },
+    {
+      "CodigoPeriodo": "202308",
+      "TipoDato": "Definitivo",
+      "Indice": 116.3760000000,
+      "VariacionMensual": 0.00363,
+      "VariacionAnual": 0.07576
+    },
+    {
+      "CodigoPeriodo": "202309",
+      "TipoDato": "Definitivo",
+      "Indice": 116.5120000000,
+      "VariacionMensual": 0.00117,
+      "VariacionAnual": 0.06935
+    },
+    {
+      "CodigoPeriodo": "202310",
+      "TipoDato": "Definitivo",
+      "Indice": 117.4090000000,
+      "VariacionMensual": 0.00770,
+      "VariacionAnual": 0.07099
+    },
+    {
+      "CodigoPeriodo": "202311",
+      "TipoDato": "Definitivo",
+      "Indice": 118.0150000000,
+      "VariacionMensual": 0.00516,
+      "VariacionAnual": 0.06827
+    },
+    {
+      "CodigoPeriodo": "202312",
+      "TipoDato": "Definitivo",
+      "Indice": 118.2620000000,
+      "VariacionMensual": 0.00209,
+      "VariacionAnual": 0.06228
+    },
+    {
+      "CodigoPeriodo": "202401",
+      "TipoDato": "Definitivo",
+      "Indice": 118.8620000000,
+      "VariacionMensual": 0.00507,
+      "VariacionAnual": 0.06120
+    },
+    {
+      "CodigoPeriodo": "202402",
+      "TipoDato": "Definitivo",
+      "Indice": 119.4000000000,
+      "VariacionMensual": 0.00453,
+      "VariacionAnual": 0.05875
+    },
+    {
+      "CodigoPeriodo": "202403",
+      "TipoDato": "Definitivo",
+      "Indice": 119.9230000000,
+      "VariacionMensual": 0.00438,
+      "VariacionAnual": 0.05767
+    },
+    {
+      "CodigoPeriodo": "202404",
+      "TipoDato": "Definitivo",
+      "Indice": 120.2820000000,
+      "VariacionMensual": 0.00299,
+      "VariacionAnual": 0.05573
+    },
+    {
+      "CodigoPeriodo": "202405",
+      "TipoDato": "Definitivo",
+      "Indice": 120.6140000000,
+      "VariacionMensual": 0.00276,
+      "VariacionAnual": 0.05253
+    },
+    {
+      "CodigoPeriodo": "202406",
+      "TipoDato": "Definitivo",
+      "Indice": 120.9430000000,
+      "VariacionMensual": 0.00273,
+      "VariacionAnual": 0.04697
+    },
+    {
+      "CodigoPeriodo": "202407",
+      "TipoDato": "Definitivo",
+      "Indice": 121.3360000000,
+      "VariacionMensual": 0.00325,
+      "VariacionAnual": 0.04641
+    },
+    {
+      "CodigoPeriodo": "202408",
+      "TipoDato": "Definitivo",
+      "Indice": 121.5240000000,
+      "VariacionMensual": 0.00155,
+      "VariacionAnual": 0.04424
+    },
+    {
+      "CodigoPeriodo": "202409",
+      "TipoDato": "Definitivo",
+      "Indice": 121.7160000000,
+      "VariacionMensual": 0.00158,
+      "VariacionAnual": 0.04466
+    },
+    {
+      "CodigoPeriodo": "202410",
+      "TipoDato": "Definitivo",
+      "Indice": 121.9270000000,
+      "VariacionMensual": 0.00173,
+      "VariacionAnual": 0.03848
+    },
+    {
+      "CodigoPeriodo": "202411",
+      "TipoDato": "Definitivo",
+      "Indice": 122.2650000000,
+      "VariacionMensual": 0.00277,
+      "VariacionAnual": 0.03601
+    },
+    {
+      "CodigoPeriodo": "202412",
+      "TipoDato": "Definitivo",
+      "Indice": 122.6420000000,
+      "VariacionMensual": 0.00308,
+      "VariacionAnual": 0.03704
+    },
+    {
+      "CodigoPeriodo": "202501",
+      "TipoDato": "Definitivo",
+      "Indice": 123.4130000000,
+      "VariacionMensual": 0.00629,
+      "VariacionAnual": 0.03829
+    },
+    {
+      "CodigoPeriodo": "202502",
+      "TipoDato": "Definitivo",
+      "Indice": 123.7650000000,
+      "VariacionMensual": 0.00285,
+      "VariacionAnual": 0.03656
+    },
+    {
+      "CodigoPeriodo": "202503",
+      "TipoDato": "Definitivo",
+      "Indice": 124.2450000000,
+      "VariacionMensual": 0.00388,
+      "VariacionAnual": 0.03604
+    },
+    {
+      "CodigoPeriodo": "202504",
+      "TipoDato": "Definitivo",
+      "Indice": 124.5920000000,
+      "VariacionMensual": 0.00279,
+      "VariacionAnual": 0.03583
+    },
+    {
+      "CodigoPeriodo": "202505",
+      "TipoDato": "Definitivo",
+      "Indice": 125.2060000000,
+      "VariacionMensual": 0.00493,
+      "VariacionAnual": 0.03807
+    },
+    {
+      "CodigoPeriodo": "202506",
+      "TipoDato": "Definitivo",
+      "Indice": 125.5910000000,
+      "VariacionMensual": 0.00307,
+      "VariacionAnual": 0.03843
+    },
+    {
+      "CodigoPeriodo": "202507",
+      "TipoDato": "Definitivo",
+      "Indice": 125.9750000000,
+      "VariacionMensual": 0.00306,
+      "VariacionAnual": 0.03823
+    },
+    {
+      "CodigoPeriodo": "202508",
+      "TipoDato": "Definitivo",
+      "Indice": 126.3890000000,
+      "VariacionMensual": 0.00329,
+      "VariacionAnual": 0.04003
+    }
+  ]
+}
