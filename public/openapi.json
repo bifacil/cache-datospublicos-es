@@ -5,7 +5,7 @@
     "version": "0.0.1"
   },
   "paths": {
-    "/ipc/series/{ipcSerie}": {
+    "/ipc/series/{slugTerritorio}/{slugGrupo}": {
       "get": {
         "summary": "Optiene todos los datos de una serie del IPC",
         "tags": [
@@ -13,7 +13,16 @@
         ],
         "parameters": [
           {
-            "name": "ipcSerie",
+            "name": "slugTerritorio",
+            "in": "path",
+            "required": true,
+            "allowEmptyValue": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "slugGrupo",
             "in": "path",
             "required": true,
             "allowEmptyValue": false,
@@ -31,6 +40,9 @@
                   "type": "object",
                   "properties": {
                     "CodigoSerie": {
+                      "type": "string"
+                    },
+                    "Slug": {
                       "type": "string"
                     },
                     "IdTabla": {
@@ -102,6 +114,9 @@
                       "CodigoSerie": {
                         "type": "string"
                       },
+                      "Slug": {
+                        "type": "string"
+                      },
                       "IdTabla": {
                         "type": "integer",
                         "format": "int32"
@@ -134,6 +149,9 @@
                         "type": "string"
                       },
                       "Escala": {
+                        "type": "string"
+                      },
+                      "href": {
                         "type": "string"
                       }
                     }
