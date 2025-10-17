@@ -64,9 +64,9 @@ export default {
 
     if (isIndexJson && from && select && format) {
       try {
-
-        const input = await obj.json();
-  
+          console.log("HOLA")
+          console.log("select")
+        const input = await readJsonFromR2Robust(obj, headers);
         const transformed = selectData(input as any, from, select, format);
       
      
@@ -89,7 +89,7 @@ export default {
       }
     });
 
-    
+
       } catch (e) {
         console.error("JQL error:", e);
         return new Response(JSON.stringify({ error: String(e) }, null, 2), {
@@ -125,4 +125,35 @@ function guessContentType(key: string): string {
     case "xml":  return "application/xml; charset=utf-8";
     default:     return "application/octet-stream";
   }
+}
+
+
+
+async function readJsonFromR2Robust(obj: R2ObjectBody, headersFromObj: Headers): Promise<unknown> {
+  // 1) Intento directo
+  try {
+    return await obj.json();
+  } catch {}
+
+  // 2) Intento como texto “tal cual”
+  try {
+    const t1 = await new Response(obj.body as ReadableStream).text();
+    const cleaned = t1.replace(/^\uFEFF/, "");
+    return JSON.parse(cleaned);
+  } catch {}
+
+  // 3) Intento con descompresión según content-encoding
+  const enc = (headersFromObj.get("content-encoding") || "").split(",")[0].trim().toLowerCase();
+  if (enc === "gzip" || enc === "br" || enc === "deflate") {
+    try {
+      const algo = enc === "br" ? "brotli" : enc;
+      const ds = new DecompressionStream(algo);
+      const decompressed = (obj.body as ReadableStream).pipeThrough(ds);
+      const t2 = await new Response(decompressed).text();
+      const cleaned = t2.replace(/^\uFEFF/, "");
+      return JSON.parse(cleaned);
+    } catch {}
+  }
+
+  throw new Error("Unable to parse R2 object as JSON (raw, text, or decompressed).");
 }
