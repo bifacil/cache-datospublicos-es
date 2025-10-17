@@ -63,36 +63,39 @@ export default {
     const format = (qs.get("format") || "json").toLowerCase();
 
     if (isIndexJson && from && select && format) {
-      // 🔧 Tipamos explícitamente el JSON que le pasamos a selectData
-      const input = (await new Response(obj.body).json()) as unknown;
+      try {
 
-      const transformed = selectData(
-        input as any,    
-        from,
-        select,
-        format
-      );
+        const input = await obj.json();
+  
+        const transformed = selectData(input as any, from, select, format);
+      
+        let body: BodyInit;
+        let ct: string;
+        if (typeof transformed === "string") {
+          ct = format === "csv" ? "text/csv; charset=utf-8" : "application/json; charset=utf-8";
+          body = transformed;
+        } else {
+          ct = "application/json; charset=utf-8";
+          body = JSON.stringify(transformed);
+        }
 
-      let body: BodyInit;
-      let ct: string;
-      if (typeof transformed === "string") {
-        ct = format === "csv" ? "text/csv; charset=utf-8" : "application/json; charset=utf-8";
-        body = transformed;
-      } else {
-        ct = "application/json; charset=utf-8";
-        body = JSON.stringify(transformed);
+        const tHeaders = new Headers(headers);
+        tHeaders.set("content-type", ct);
+        tHeaders.delete("etag");
+
+        const res = new Response(body, { headers: tHeaders });
+        if (method === "GET" || method === "HEAD") {
+          const cache = (caches as unknown as { default: Cache }).default;
+          ctx.waitUntil(cache.put(request, res.clone()));
+        }
+        return res;
+      } catch (e) {
+        console.error("JQL error:", e);
+        return new Response(JSON.stringify({ error: String(e) }, null, 2), {
+          status: 500,
+          headers: { "content-type": "application/json; charset=utf-8" },
+        });
       }
-
-      const tHeaders = new Headers(headers);
-      tHeaders.set("content-type", ct);
-      tHeaders.delete("etag");
-
-      const res = new Response(body, { headers: tHeaders });
-      if (method === "GET" || method === "HEAD") {
-        const cache = (caches as unknown as { default: Cache }).default;
-        ctx.waitUntil(cache.put(request, res.clone()));
-      }
-      return res;
     }
 
     const res = new Response(obj.body, { headers });
