@@ -29,12 +29,7 @@ jobs:
           sudo ./aws/install --update
           aws --version
 
-      - name: Sync static files to R2
-        run: |
-          src_dir="public"
-          aws s3 sync "$src_dir" "s3://$R2_BUCKET" \
-            --endpoint-url="https://$R2_ENDPOINT" \
-            --delete
+
 
   deploy-worker:
     needs: sync-to-r2
@@ -65,3 +60,4 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
           npx wrangler deploy
+n
