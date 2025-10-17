@@ -69,26 +69,27 @@ export default {
   
         const transformed = selectData(input as any, from, select, format);
       
-        let body: BodyInit;
-        let ct: string;
-        if (typeof transformed === "string") {
-          ct = format === "csv" ? "text/csv; charset=utf-8" : "application/json; charset=utf-8";
-          body = transformed;
-        } else {
-          ct = "application/json; charset=utf-8";
-          body = JSON.stringify(transformed);
-        }
+     
+    // Devolver DIRECTAMENTE el resultado de selectData, sin cache ni ETag:
+    const isString = typeof transformed === "string";
+    const body = isString
+      ? transformed
+      : JSON.stringify(transformed, null, 2);
 
-        const tHeaders = new Headers(headers);
-        tHeaders.set("content-type", ct);
-        tHeaders.delete("etag");
+    const ct =
+      isString && format === "csv"
+        ? "text/csv; charset=utf-8"
+        : "text/plain; charset=utf-8"; // texto para ver exactamente lo que sale
 
-        const res = new Response(body, { headers: tHeaders });
-        if (method === "GET" || method === "HEAD") {
-          const cache = (caches as unknown as { default: Cache }).default;
-          ctx.waitUntil(cache.put(request, res.clone()));
-        }
-        return res;
+    return new Response(body, {
+      status: 200,
+      headers: {
+        "content-type": ct,
+        "cache-control": "no-store" // sin caché mientras depuramos
+      }
+    });
+
+    
       } catch (e) {
         console.error("JQL error:", e);
         return new Response(JSON.stringify({ error: String(e) }, null, 2), {
