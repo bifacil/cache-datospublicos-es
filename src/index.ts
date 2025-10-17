@@ -67,7 +67,7 @@ export default {
       const input = (await new Response(obj.body).json()) as unknown;
 
       const transformed = selectData(
-        input as any,       // tu jql.ts acepta JsonValue; si quieres, cambia 'any' por tu tipo JsonValue
+        input as any,    
         from,
         select,
         format

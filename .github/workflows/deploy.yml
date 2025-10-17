@@ -35,32 +35,33 @@ jobs:
           aws s3 sync "$src_dir" "s3://$R2_BUCKET" \
             --endpoint-url="https://$R2_ENDPOINT" \
             --delete
+
   deploy-worker:
     needs: sync-to-r2
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-  
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
-  
-      - name: Install Wrangler
-        run: npm i -g wrangler@3
-  
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
       - name: Wrangler info
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
-          wrangler --version
-          wrangler whoami || true
-  
+          npx wrangler --version
+          npx wrangler whoami || true
+
       - name: Deploy Worker
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
-          wrangler deploy   
- 
+          npx wrangler deploy
