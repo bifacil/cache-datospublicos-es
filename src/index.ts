@@ -63,8 +63,7 @@ export default {
     const format = (qs.get("format") || "json").toLowerCase();
 
     if (isIndexJson && from && select && format) {
-      const text = await new Response(obj.body).text();
-      const input = JSON.parse(text);
+      const input = await readJson(obj); 
       const transformed = selectData(input, from, select, format);
     
       let body: BodyInit;
@@ -117,3 +116,18 @@ function guessContentType(key: string): string {
   }
 }
 
+async function readJson(obj: R2ObjectBody): Promise<any> {
+  // 1) Texto “a lo bruto”
+  let text = await new Response(obj.body as ReadableStream).text();
+
+  // 2) Normalización del inicio
+  text = text.replace(/^\uFEFF/, ""); // BOM UTF-8
+  text = text.trimStart();
+
+  // 3) Si queda ruido antes de { o [, cortamos ahí
+  const firstJson = text.search(/[{\[]/);
+  if (firstJson > 0) text = text.slice(firstJson);
+
+  // 4) Parse
+  return JSON.parse(text);
+}
