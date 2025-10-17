@@ -66,7 +66,12 @@ export default {
       try {
           console.log("HOLA")
           console.log("select")
-        const input = await readJsonFromR2Robust(obj, headers);
+          console.log("R2 meta:", {
+  key: chosenKey,
+  contentType: headers.get("content-type"),
+  contentEncoding: headers.get("content-encoding"),
+});
+        const input = await readJsonFromR2(obj, headers);
         const transformed = selectData(input as any, from, select, format);
       
      
@@ -128,32 +133,49 @@ function guessContentType(key: string): string {
 }
 
 
+// Lee el objeto R2 a bytes una sola vez, descomprime por content-encoding y decodifica por charset/BOM.
+// Devuelve el JSON parseado.
+async function readJsonFromR2(obj: R2ObjectBody, headersFromObj: Headers): Promise<unknown> {
+  // 1) Obtener el stream
+  let stream: ReadableStream = obj.body as ReadableStream;
 
-async function readJsonFromR2Robust(obj: R2ObjectBody, headersFromObj: Headers): Promise<unknown> {
-  // 1) Intento directo
-  try {
-    return await obj.json();
-  } catch {}
-
-  // 2) Intento como texto “tal cual”
-  try {
-    const t1 = await new Response(obj.body as ReadableStream).text();
-    const cleaned = t1.replace(/^\uFEFF/, "");
-    return JSON.parse(cleaned);
-  } catch {}
-
-  // 3) Intento con descompresión según content-encoding
+  // 2) Descomprimir si viene con Content-Encoding
   const enc = (headersFromObj.get("content-encoding") || "").split(",")[0].trim().toLowerCase();
   if (enc === "gzip" || enc === "br" || enc === "deflate") {
-    try {
-      const algo = enc === "br" ? "brotli" : enc;
-      const ds = new DecompressionStream(algo);
-      const decompressed = (obj.body as ReadableStream).pipeThrough(ds);
-      const t2 = await new Response(decompressed).text();
-      const cleaned = t2.replace(/^\uFEFF/, "");
-      return JSON.parse(cleaned);
-    } catch {}
+    const algo = enc === "br" ? "brotli" : enc;
+    const ds = new DecompressionStream(algo);
+    stream = (obj.body as ReadableStream).pipeThrough(ds);
   }
 
-  throw new Error("Unable to parse R2 object as JSON (raw, text, or decompressed).");
+  // 3) Leer a ArrayBuffer (una sola vez)
+  const ab = await new Response(stream).arrayBuffer();
+  const bytes = new Uint8Array(ab);
+
+  // 4) Detectar charset por BOM o por content-type
+  function detectCharset(): string {
+    // BOM UTF-8
+    if (bytes.length >= 3 && bytes[0] === 0xEF && bytes[1] === 0xBB && bytes[2] === 0xBF) return "utf-8";
+    // BOM UTF-16 LE/BE
+    if (bytes.length >= 2 && bytes[0] === 0xFF && bytes[1] === 0xFE) return "utf-16le";
+    if (bytes.length >= 2 && bytes[0] === 0xFE && bytes[1] === 0xFF) return "utf-16be";
+    // charset del content-type, si lo hay
+    const ct = headersFromObj.get("content-type") || "";
+    const m = /charset=([^;]+)/i.exec(ct);
+    if (m) return m[1].trim().toLowerCase();
+    // por defecto
+    return "utf-8";
+  }
+
+  const charset = detectCharset();
+
+  // 5) Decodificar según charset
+  // Nota: TextDecoder soporta 'utf-8', 'utf-16le', 'utf-16be' en Workers.
+  const dec = new TextDecoder(charset as any, { fatal: false });
+  let text = dec.decode(bytes);
+
+  // Quitar BOM de ser necesario
+  text = text.replace(/^\uFEFF/, "");
+
+  // 6) Parsear JSON
+  return JSON.parse(text);
 }
