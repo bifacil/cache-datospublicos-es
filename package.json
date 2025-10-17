@@ -1,0 +1,16 @@
+{
+  "name": "cache-datospublicos-worker",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^3.80.0",
+    "@cloudflare/workers-types": "^4.20241022.0"
+  },
+  "dependencies": {
+    "jsonpath-plus": "^10.0.1"
+  }
+}

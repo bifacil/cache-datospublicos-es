@@ -1,6 +1,6 @@
 {
   "name": "cache-datospublicos-worker",
-  "main": "src/index.js",
+  "main": "src/index.ts",
   "compatibility_date": "2025-10-11",
   "r2_buckets": [
     { "binding": "MY_BUCKET", "bucket_name": "cache-datospublicos-es" }
