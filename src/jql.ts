@@ -1,102 +1,149 @@
+// jql.ts
 import { JSONPath } from "jsonpath-plus";
 
-type ColumnSpec = { name: string; selector: string };
-type ColumnValue = string | number | boolean | null;
+/* -------------------- Tipos base -------------------- */
+export type JsonPrimitive = string | number | boolean | null;
+export type JsonObject    = { [k: string]: JsonValue };
+export type JsonArray     = JsonValue[];
+export type JsonValue     = JsonPrimitive | JsonObject | JsonArray;
 
-/** Punto de entrada del mini-lenguaje */
+export type ColumnValue   = string | number | boolean | null;
+
+/* ----------------------------------------------------
+ * selectData: orquesta todo y DEBE devolver { body, contentType }
+ * ---------------------------------------------------- */
 export function selectData(
   input: JsonValue,
   rowsSelector: string,
   columnsSelector: string,
   format: string = "json"
-): JsonObject | JsonArray | string {
-  const rows = selectRows(input, rowsSelector);
-  const table = selectColumns(rows, columnsSelector); // Array<Record<string, ColumnValue>>
-  return formatData(table, format);
+): { body: string; contentType: string } {
+ 
+
+  const rows= rowsSelector ? selectRows(input, rowsSelector) : input
+
+  let json=rows
+   if(columnsSelector) {
+    if (!Array.isArray(rows)) {
+      throw new TypeError("La entrada debe ser un array");
+    }
+    json=selectColumns(rows, columnsSelector);
+  }
+  
+  return formatData(json, format);
 }
 
-function selectRows(input: JsonValue, path: string): JsonArray {
+/* ----------------------------------------------------
+ * selectRows: aplica JSONPath al documento y devuelve SIEMPRE un JsonArray
+ * ---------------------------------------------------- */
+export function selectRows(input: JsonValue, path: string): JsonArray {
   const matches = selectPath(input, path);
   const match = matches[0] ?? null;
 
-  if (matches.length != 1) {
+  // Si hay múltiples matches, devolvemos tal cual (array de matches)
+  if (matches.length !== 1) {
     return matches as unknown as JsonArray;
-  } else if (Array.isArray(match)) {
+  }
+
+  // Un solo match:
+  if (Array.isArray(match)) {
     return match as JsonArray;
-  } else if (typeof match === "object") {
+  } else if (match !== null && typeof match === "object") {
+    // objeto -> diccionario a pares {Key, Value}
     return Object.entries(match as JsonObject)
-      .map(([k, v]) => ({ Key: k, Value: v } as unknown as JsonValue)) as JsonArray;
+      .map(([k, v]) => ({ Key: k, Value: v })) as unknown as JsonArray;
   } else {
-      return [match] as JsonArray; 
+    // escalar -> array con un elemento
+    return [match] as JsonArray;
   }
 }
 
+/* ----------------------------------------------------
+ * selectColumns: proyecta columnas sobre cada row
+ * ---------------------------------------------------- */
+export function selectColumns(
+  rows: JsonArray,
+  columnsSelector: string
+): Array<Record<string, ColumnValue>> {
+  const columns = parseColumns(columnsSelector);
 
-function selectColumns(rows: JsonArray, spec: string): Array<Record<string, ColumnValue>> {
-  const cols = parseColumns(spec);
-  return rows.map((row) => {
-    const out: Record<string, ColumnValue> = {};
-    for (const c of cols) out[c.name] = evaluateCell(row, c.selector);
-    return out;
-  });
+  const out: Array<Record<string, ColumnValue>> = [];
+  for (const row of rows) {
+    const rec: Record<string, ColumnValue> = {};
+    for (const { name, selector } of columns) {
+      rec[name] = evaluateCell(row, selector);
+    }
+    out.push(rec);
+  }
+  return out;
 }
-
-
-function evaluateCell(row: JsonValue, selector: string): ColumnValue {
+/* ----------------------------------------------------
+ * evaluateCell: aplica JSONPath sobre una "row"
+ *  reglas:
+ *   - 0 matches   -> null
+ *   - 1 match     -> primitivo => tal cual; no-primitivo => JSON.stringify
+ *   - >1 matches  -> JSON.stringify(array)
+ * ---------------------------------------------------- */
+export function evaluateCell(row: JsonValue, selector: string): ColumnValue {
   const matches = selectPath(row, selector);
   if (matches.length === 0) return null;
+
   if (matches.length === 1) {
-    const v = matches[0];
-    const t = typeof v;
-    if (v === null) return null;
-    if (t === "string" || t === "number" || t === "boolean") return v as ColumnValue;
-    return JSON.stringify(v) as string;
+    const m = matches[0];
+    const t = typeof m;
+    if (t === "string" || t === "number" || t === "boolean" || m === null) {
+      return m as ColumnValue;
+    }
+    return JSON.stringify(m) as string;
   }
-  return JSON.stringify(matches);
+
+  // varios matches -> array como string
+  return JSON.stringify(matches) as string;
 }
 
-function parseColumns(spec: string): ColumnSpec[] {
-  return spec
+/* ----------------------------------------------------
+ * parseColumns: "A:$.x;B:$.y;Z" => [{name, selector}, ...]
+ *  - nombre opcional: si falta, toma la última propiedad del selector
+ *  - selector permite forma corta sin "$" -> se normaliza en selectPath
+ * ---------------------------------------------------- */
+export function parseColumns(spec: string): Array<{ name: string; selector: string }> {
+  const defs = spec
     .split(";")
-    .map((p) => p.trim())
-    .filter(Boolean)
-    .map((p, i) => {
-      const idx = p.indexOf(":");
-      if (idx >= 0) {
-        const name = p.slice(0, idx).trim();
-        const selector = p.slice(idx + 1).trim();
-        return { name, selector };
-      } else {
-        const selector = p;
-        const name = defaultColumnName(selector, i);
-        return { name, selector };
-      }
-    });
-}
+    .map((s) => s.trim())
+    .filter(Boolean);
 
-function defaultColumnName(selector: string, idx: number): string {
-  let s = selector.trim();
-  s = s.replace(/^\$\.?/, "").replace(/^@\.?/, "");        // quita $., $ o @.
-  const quoted = [...s.matchAll(/\['([^']+)'\]/g)];
-  if (quoted.length) return quoted[quoted.length - 1][1];   // última clave con ['...']
-  const parts = s.split(".").filter(Boolean);
-  let last = parts.length ? parts[parts.length - 1] : "";
-  last = last.replace(/\[.*\]$/, "");                       // quita índices [0], [*], filtros, etc.
-  return last || `col${idx + 1}`;
-}
+  const cols: Array<{ name: string; selector: string }> = [];
+  for (const d of defs) {
+    const idx = d.indexOf(":");
+    const hasName = idx >= 0;
+    const selector = hasName ? d.slice(idx + 1).trim() : d;
 
-
-function selectPath(input: JsonValue, path: string): JsonValue[] {
-  let p = path.trim();
-  if (p === "" || p === "$") p = "$";
-  else if (!(p.startsWith("$") || p.startsWith("@"))) {
-    if (p.startsWith("..") || p.startsWith("[")) p = "$" + p;
-    else p = "$." + p;
+    let name = hasName ? d.slice(0, idx).trim() : "";
+    if (!name) {
+      // última parte del selector (por puntos o brackets)
+      const m = selector.match(/([A-Za-z0-9_$]+)(?!.*[A-Za-z0-9_$])/);
+      name = m ? m[1] : selector || "col";
+    }
+    cols.push({ name, selector });
   }
+  return cols;
+}
+
+/* ----------------------------------------------------
+ * selectPath: JSONPath con normalización de selector
+ *  - si no empieza por "$" o "@", asumimos relativo: "$.<selector>"
+ *  - filtra null/undefined
+ * ---------------------------------------------------- */
+export function selectPath(input: JsonValue, path: string): JsonValue[] {
+  // normaliza: "Datos[0]" -> "$.Datos[0]"
+  const norm =
+    path.trim().startsWith("$") || path.trim().startsWith("@")
+      ? path.trim()
+      : `$.${path.trim()}`;
 
   try {
-    const result = JSONPath({ path: p, json: input });
-    const arr = Array.isArray(result) ? (result as JsonValue[]) : [result as JsonValue];
+    const res = JSONPath({ path: norm, json: input }) as JsonValue | JsonValue[];
+    const arr = Array.isArray(res) ? res : [res];
     return arr.filter((x) => x !== null && x !== undefined);
   } catch {
     return [];
@@ -104,42 +151,82 @@ function selectPath(input: JsonValue, path: string): JsonValue[] {
 }
 
 
-function formatData(
-  table: Array<Record<string, ColumnValue>>,
-  format: string
-): JsonArray | string {
-  const fmt = (format ?? "json").toLowerCase();
 
-  if (fmt === "csv") {
-    const headers = Object.keys(table[0] ?? {});
-    const lines = [headers.join(",")];
-    for (const r of table) {
-      const row = headers.map(h => csvEscape(r[h])).join(",");
-      lines.push(row);
+
+/* ----------------------------------------------------
+ * formatData: acepta cualquier JsonValue cuando format === "json"
+ * - "json"    -> serializa tal cual (cualquier JsonValue)
+ * - "tabular" -> si es tabla (array de objetos) usa cabecera por claves; si no, 1 col "value"
+ * - "csv"     -> igual que "tabular" pero en texto CSV
+ * ---------------------------------------------------- */
+export function formatData(
+  data: JsonValue | Array<Record<string, ColumnValue>>,
+  format: string = "json"
+): { body: string; contentType: string } {
+  const kind = (format || "json").toLowerCase();
+
+  // json: siempre válido para cualquier JsonValue
+  if (kind === "json") {
+    return {
+      body: JSON.stringify(data),
+      contentType: "application/json; charset=utf-8",
+    };
+  }
+
+  // A partir de aquí: csv/tabular -> trabajamos con una matriz (rowsMatrix) + headers
+  const isRecord = (v: unknown): v is Record<string, unknown> =>
+    !!v && typeof v === "object" && !Array.isArray(v);
+
+  const toPrimitive = (v: unknown): ColumnValue => {
+    if (v === null) return null;
+    const t = typeof v;
+    if (t === "string" || t === "number" || t === "boolean") return v as ColumnValue;
+    return JSON.stringify(v);
+  };
+
+  // Normalizamos a headers + rowsMatrix
+  let headers: string[] = [];
+  let rowsMatrix: ColumnValue[][] = [];
+
+  if (Array.isArray(data)) {
+    const first = (data as any[])[0];
+
+    if (isRecord(first)) {
+      // Tabla: array de objetos -> cabeceras = claves del primero
+      headers = Object.keys(first as Record<string, unknown>);
+      rowsMatrix = (data as Array<Record<string, unknown>>).map((row) =>
+        headers.map((h) => toPrimitive((row as any)[h]))
+      );
+    } else {
+      // No es tabla: una sola columna "value"
+      headers = ["value"];
+      rowsMatrix = (data as JsonArray).map((v) => [toPrimitive(v)]);
     }
-    return lines.join("\n");
+  } else {
+    // No es array: lo tratamos como una sola fila de una columna "value"
+    headers = ["value"];
+    rowsMatrix = [[toPrimitive(data)]];
   }
 
-  if (fmt === "tabular") {
-    const headers = Object.keys(table[0] ?? {});
-    const data = table.map(r => headers.map(h => r[h] ?? null));
-    return [headers, ...data] as unknown as JsonArray;
+  if (kind === "tabular") {
+    const tabular = [headers as ColumnValue[], ...rowsMatrix];
+    return {
+      body: JSON.stringify(tabular),
+      contentType: "application/json; charset=utf-8",
+    };
   }
 
-  // "json": devolvemos el array de objetos tal cual (como JsonArray)
-  return table as unknown as JsonArray;
+  // kind === "csv"
+  const esc = (v: ColumnValue) =>
+    v === null || v === undefined
+      ? ""
+      : typeof v === "number" || typeof v === "boolean"
+      ? String(v)
+      : JSON.stringify(v);
+
+  const lines = [headers.join(","), ...rowsMatrix.map((r) => r.map(esc).join(","))];
+  return {
+    body: lines.join("\n"),
+    contentType: "text/plain; charset=utf-8",
+  };
 }
-
-function csvEscape(value: unknown): string {
-  if (value == null) return "";
-  const s = String(value);
-  return /[",\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
-}
-
-
-/** Representa cualquier valor JSON válido. */
-export type JsonValue = string | number | boolean | null | JsonObject | JsonArray;
-
-export interface JsonObject { [key: string]: JsonValue }
-
-export interface JsonArray extends Array<JsonValue> {}
