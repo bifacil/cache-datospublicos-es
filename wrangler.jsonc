@@ -3,6 +3,6 @@
   "main": "src/index.ts",
   "compatibility_date": "2025-10-11",
   "r2_buckets": [
-    { "binding": "MY_BUCKET", "bucket_name": "cache-datospublicos-es" }
+    { "binding": "MY_BUCKET", "bucket_name": "cache-datospublicos-es", "preview_bucket_name": "cache-datospublicos-es"}
   ]
 }

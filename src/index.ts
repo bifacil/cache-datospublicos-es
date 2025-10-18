@@ -1,4 +1,4 @@
-import { selectData } from "./jql";
+import { selectData } from "./crono-json";
 
 interface Env {
   MY_BUCKET: R2Bucket;
@@ -9,7 +9,8 @@ export default {
     const url = new URL(request.url);
     const rawPath = url.pathname.replace(/\/{2,}/g, "/");
     const path = rawPath.replace(/^\/+|\/+$/g, "");
-
+    if (url.pathname === "/health") return new Response("ok");
+    
     const candidates: string[] = [];
     if (path) candidates.push(path);
     const last = path.split("/").pop() || "";
