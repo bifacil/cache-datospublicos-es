@@ -58,20 +58,35 @@ export default {
     // —— Transformación JQL solo si el objeto es index.json y hay QS completo ——
     const isIndexJson = !!chosenKey && chosenKey.endsWith("index.json");
     const qs = url.searchParams;
-    const from = qs.get("from")?.trim() || "";
-    const select = qs.get("select")?.trim() || "";
+    const from = qs.get("from");
+    const select = qs.get("select");
     const format = (qs.get("format") || "json").toLowerCase();
-      
-    if (isIndexJson && (from || select)) {
-      const text = await new Response(obj.body as ReadableStream).text();
-      const input = JSON.parse(text.replace(/^\uFEFF/, ""));
+
+    if (isIndexJson && from && select && format) {
+      const input = await readJson(obj); 
+      const transformed = selectData(input, from, select, format);
     
-      const { body, contentType } = selectData(input, from, select, format);
+      let body: BodyInit;
+      let ct: string;
+    
+      if (typeof transformed === "string") {
+        body = transformed;
+        ct = format === "csv"
+          ? "text/csv; charset=utf-8"
+          : "application/json; charset=utf-8";
+      } else {
+        body = JSON.stringify(transformed);
+        ct = "application/json; charset=utf-8";
+      }
     
       return new Response(body, {
-        headers: { "content-type": contentType, "cache-control": "no-store" }
+        headers: {
+          "content-type": ct,
+          "cache-control": "public, max-age=60"
+        }
       });
     }
+
 
     const res = new Response(obj.body, { headers });
     if (method === "GET" || method === "HEAD") {
@@ -114,4 +129,5 @@ async function readJson(obj: R2ObjectBody): Promise<any> {
   if (firstJson > 0) text = text.slice(firstJson);
 
   // 4) Parse
+  return JSON.parse(text);
 }
