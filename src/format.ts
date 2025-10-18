@@ -1,81 +1,119 @@
+import { ColumnValue, JsonValue } from "./types";
 
-import {ColumnValue,JsonValue,JsonArray} from "./types";
-
-/* ----------------------------------
- * formatData: acepta cualquier JsonValue cuando format === "json"
- * - "json"    -> serializa tal cual (cualquier JsonValue)
- * - "tabular" -> si es tabla (array de objetos) usa cabecera por claves; si no, 1 col "value"
- * - "csv"     -> igual que "tabular" pero en texto CSV
- * ---------------------------------------------------- */
-
+/**
+ * formatJson:
+ *  - "json"    -> cualquier JsonValue (JSON.stringify pretty)
+ *  - "tabular" -> array de objetos → matriz [headers, ...rows] (pretty)
+ *  - "csv"     -> igual que tabular, pero texto CSV (RFC-4180)
+ *  - "ndjson"  -> array de objetos → un objeto JSON por línea (text/plain)
+ *  - "sheets"  -> array de objetos → [[headers, ...rows]] (pretty)
+ *  - en cualquier otro caso lanza Error
+ */
 export function formatJson(
-  data: JsonValue | Array<Record<string, ColumnValue>>,
+  data: JsonValue,
   format: string = "json"
 ): { body: string; contentType: string } {
   const kind = (format || "json").toLowerCase();
 
-  // json: siempre válido para cualquier JsonValue
   if (kind === "json") {
     return {
-      body: JSON.stringify(data),
+      body: prettyJson(data),
       contentType: "application/json; charset=utf-8",
     };
   }
 
-  // A partir de aquí: csv/tabular -> trabajamos con una matriz (rowsMatrix) + headers
-  const isRecord = (v: unknown): v is Record<string, unknown> =>
-    !!v && typeof v === "object" && !Array.isArray(v);
+  // resto de formatos: solo array de objetos
+  if (!Array.isArray(data) || data.length === 0 || typeof data[0] !== "object" || Array.isArray(data[0])) {
+    throw new Error("transformación de formato no implementada");
+  }
+
+  const arrayData = data as Array<Record<string, unknown>>;
+
+  switch (kind) {
+    case "ndjson":
+      return {
+        body: ndjsonFormat(arrayData),
+        contentType: "text/plain; charset=utf-8",
+      };
+
+    case "tabular":
+      return {
+        body: tabularFormat(arrayData), 
+        contentType: "application/json; charset=utf-8",
+      };
+
+    case "csv":
+      return {
+        body: csvFormat(arrayData), 
+        contentType: "text/plain; charset=utf-8",
+      };
+
+    case "sheets":
+      return {
+        body: sheetsFormat(arrayData), 
+        contentType: "application/json; charset=utf-8",
+      };
+
+    default:
+      throw new Error("transformación de formato no implementada");
+  }
+}
+
+/* ============================
+   Helpers (devuelven string)
+   ============================ */
+
+function prettyJson(data: unknown, indent = 2): string {
+  return JSON.stringify(data, null, indent);
+}
+
+function ndjsonFormat(data: Array<Record<string, unknown>>): string {
+  return data.map((obj) => JSON.stringify(obj)).join("\n") + "\n";
+}
+
+function tabularFormat(data: Array<Record<string, unknown>>): string {
+  const { headers, rows } = extractTable(data);
+  const matrix: (string | number | boolean | null)[][] = [headers, ...rows];
+  return prettyJson(matrix);
+}
+
+function sheetsFormat(data: Array<Record<string, unknown>>): string {
+  const { headers, rows } = extractTable(data);
+  const sheet: (string | number | boolean | null)[][] = [headers, ...rows];
+  const payload = [sheet]; 
+  return prettyJson(payload);
+}
+
+function csvFormat(data: Array<Record<string, unknown>>): string {
+  const { headers, rows } = extractTable(data);
+  const esc = (v: ColumnValue) => {
+    if (v == null) return "";
+    if (typeof v === "number" || typeof v === "boolean") return String(v);
+    // CSV (RFC-4180): si contiene comillas, coma o salto, rodear con comillas y duplicar comillas internas
+    const s = String(v);
+    return /[",\r\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
+  };
+
+  const lines = [headers.map(esc).join(","), ...rows.map((r) => r.map(esc).join(","))];
+  return lines.join("\n");
+}
+
+/* ============================
+   Utilidades comunes
+   ============================ */
+
+function extractTable(data: Array<Record<string, unknown>>): {
+  headers: string[];
+  rows: ColumnValue[][];
+} {
+  const headers = Object.keys(data[0]);
 
   const toPrimitive = (v: unknown): ColumnValue => {
     if (v === null) return null;
-    const t = typeof v;
-    if (t === "string" || t === "number" || t === "boolean") return v as ColumnValue;
-    return JSON.stringify(v);
+    if (typeof v === "string" || typeof v === "number" || typeof v === "boolean") return v;
+    return JSON.stringify(v); // objetos/arrays anidados como string JSON
   };
 
-  // Normalizamos a headers + rowsMatrix
-  let headers: string[] = [];
-  let rowsMatrix: ColumnValue[][] = [];
-
-  if (Array.isArray(data)) {
-    const first = (data as any[])[0];
-
-    if (isRecord(first)) {
-      // Tabla: array de objetos -> cabeceras = claves del primero
-      headers = Object.keys(first as Record<string, unknown>);
-      rowsMatrix = (data as Array<Record<string, unknown>>).map((row) =>
-        headers.map((h) => toPrimitive((row as any)[h]))
-      );
-    } else {
-      // No es tabla: una sola columna "value"
-      headers = ["value"];
-      rowsMatrix = (data as JsonArray).map((v) => [toPrimitive(v)]);
-    }
-  } else {
-    // No es array: lo tratamos como una sola fila de una columna "value"
-    headers = ["value"];
-    rowsMatrix = [[toPrimitive(data)]];
-  }
-
-  if (kind === "tabular") {
-    const tabular = [headers as ColumnValue[], ...rowsMatrix];
-    return {
-      body: JSON.stringify(tabular),
-      contentType: "application/json; charset=utf-8",
-    };
-  }
-
-  // kind === "csv"
-  const esc = (v: ColumnValue) =>
-    v === null || v === undefined
-      ? ""
-      : typeof v === "number" || typeof v === "boolean"
-      ? String(v)
-      : JSON.stringify(v);
-
-  const lines = [headers.join(","), ...rowsMatrix.map((r) => r.map(esc).join(","))];
-  return {
-    body: lines.join("\n"),
-    contentType: "text/plain; charset=utf-8",
-  };
+  const rows = data.map((row) => headers.map((h) => toPrimitive((row as any)[h])));
+  return { headers, rows };
 }
