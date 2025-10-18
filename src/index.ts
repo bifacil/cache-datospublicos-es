@@ -11,6 +11,18 @@ export default {
     const path = rawPath.replace(/^\/+|\/+$/g, "");
     if (url.pathname === "/health") return new Response("ok");
     
+
+    if (request.method === "OPTIONS") {
+      return new Response(null, {
+        status: 204,
+        headers: {
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Allow-Methods": "GET, HEAD, OPTIONS",
+          "Access-Control-Allow-Headers": "Content-Type",
+        },
+      });
+    }
+
     const candidates: string[] = [];
     if (path) candidates.push(path);
     const last = path.split("/").pop() || "";
@@ -43,6 +55,9 @@ export default {
     headers.set("Vary", "Accept-Encoding");
     if (!headers.has("content-type")) headers.set("content-type", guessContentType(chosenKey!));
     headers.set("Cache-Control", "public, max-age=300, s-maxage=300, stale-while-revalidate=300");
+    headers.set("Access-Control-Allow-Origin", "*");
+    headers.set("Access-Control-Allow-Methods", "GET, HEAD, OPTIONS");
+    headers.set("Access-Control-Allow-Headers", "Content-Type");
 
     const inm = request.headers.get("If-None-Match");
     if (inm && inm === obj.httpEtag) {
@@ -70,7 +85,13 @@ export default {
       const { body, contentType } = selectData(input, from, select, format);
     
       return new Response(body, {
-        headers: { "content-type": contentType, "cache-control": "no-store" }
+        headers: { 
+          "content-type": contentType, 
+          "cache-control": "no-store",
+          "Access-Control-Allow-Origin": "*", /* DRY */
+          "Access-Control-Allow-Methods": "GET, HEAD, OPTIONS",
+          "Access-Control-Allow-Headers": "Content-Type",
+        }
       });
     }
 
