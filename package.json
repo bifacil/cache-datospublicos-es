@@ -1,10 +1,11 @@
 {
   "name": "cache-datospublicos-worker",
+  "version":"0.0.1",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "wrangler dev --remote",
-    "deploy": "wrangler deploy"
+    "deploy": "npm version patch && wrangler deploy"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20241022.0",

@@ -1,4 +1,6 @@
 import { selectData } from "@bifacil/crono-json";
+import workerPkg from "../package.json";
+import cronoPkg from "@bifacil/crono-json/package.json";
 
 interface Env {
   MY_BUCKET: R2Bucket;
@@ -9,7 +11,8 @@ export default {
     const url = new URL(request.url);
     const rawPath = url.pathname.replace(/\/{2,}/g, "/");
     const path = rawPath.replace(/^\/+|\/+$/g, "");
-    if (url.pathname === "/health") return new Response("ok");
+    
+    if (url.pathname === "/health") return healthResponse();
     
 
     if (request.method === "OPTIONS") {
@@ -122,3 +125,13 @@ function guessContentType(key: string): string {
     default:     return "application/octet-stream";
   }
 }
+
+function healthResponse(){
+  return new Response(
+    JSON.stringify({ status: "ok","version":workerPkg.version, "crono-json-version": cronoPkg.version }),
+    {
+      headers: { "Content-Type": "application/json" },
+    })
+  }
+
+
