@@ -1,4 +1,4 @@
-import { selectData } from "./crono-json";
+import { selectData } from "@bifacil/crono-json";
 
 interface Env {
   MY_BUCKET: R2Bucket;
