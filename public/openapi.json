@@ -83,6 +83,10 @@
                     "Datos": {
                       "type": "integer",
                       "format": "int32"
+                    },
+                    "Subseries": {
+                      "type": "integer",
+                      "format": "int32"
                     }
                   }
                 }
