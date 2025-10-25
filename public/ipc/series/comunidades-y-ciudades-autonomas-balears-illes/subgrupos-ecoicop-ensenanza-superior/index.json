@@ -16,6 +16,45 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 760
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Balears, Illes",
+      "CodigoSerie": "IPC256725",
+      "slug": "comunidades-y-ciudades-autonomas-balears-illes/subgrupos-ecoicop-ensenanza-superior"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC252043",
+      "slug": "totales-territoriales-total-nacional/subgrupos-ecoicop-ensenanza-superior"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC255840",
+      "slug": "comunidades-y-ciudades-autonomas-balears-illes/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Ense\u00F1anza",
+      "CodigoSerie": "IPC255882",
+      "slug": "comunidades-y-ciudades-autonomas-balears-illes/grupos-ecoicop-ensenanza"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 2,
+      "Valor": "Ense\u00F1anza Superior",
+      "CodigoSerie": "IPC256725",
+      "slug": "comunidades-y-ciudades-autonomas-balears-illes/subgrupos-ecoicop-ensenanza-superior"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

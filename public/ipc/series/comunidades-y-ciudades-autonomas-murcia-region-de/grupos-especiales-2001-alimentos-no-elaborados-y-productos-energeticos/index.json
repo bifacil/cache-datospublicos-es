@@ -16,6 +16,38 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 551
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Murcia, Regi\u00F3n de",
+      "CodigoSerie": "IPC265730",
+      "slug": "comunidades-y-ciudades-autonomas-murcia-region-de/grupos-especiales-2001-alimentos-no-elaborados-y-productos-energeticos"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC254048",
+      "slug": "totales-territoriales-total-nacional/grupos-especiales-2001-alimentos-no-elaborados-y-productos-energeticos"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Alimentos no elaborados y productos energ\u00E9ticos",
+      "CodigoSerie": "IPC265730",
+      "slug": "comunidades-y-ciudades-autonomas-murcia-region-de/grupos-especiales-2001-alimentos-no-elaborados-y-productos-energeticos"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC256379",
+      "slug": "comunidades-y-ciudades-autonomas-murcia-region-de/grupos-ecoicop-indice-general"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

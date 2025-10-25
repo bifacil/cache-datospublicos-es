@@ -16,6 +16,45 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 760
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Ceuta",
+      "CodigoSerie": "IPC258035",
+      "slug": "comunidades-y-ciudades-autonomas-ceuta/subgrupos-ecoicop-conservacion-y-reparacion-de-la-vivienda"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC251935",
+      "slug": "totales-territoriales-total-nacional/subgrupos-ecoicop-conservacion-y-reparacion-de-la-vivienda"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC255570",
+      "slug": "comunidades-y-ciudades-autonomas-ceuta/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Vivienda, agua, electricidad, gas y otros combustibles",
+      "CodigoSerie": "IPC255588",
+      "slug": "comunidades-y-ciudades-autonomas-ceuta/grupos-ecoicop-vivienda-agua-electricidad-gas-y-otros-combustibles"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 2,
+      "Valor": "Conservaci\u00F3n y reparaci\u00F3n de la vivienda",
+      "CodigoSerie": "IPC258035",
+      "slug": "comunidades-y-ciudades-autonomas-ceuta/subgrupos-ecoicop-conservacion-y-reparacion-de-la-vivienda"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

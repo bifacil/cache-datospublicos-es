@@ -16,6 +16,45 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 760
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Melilla",
+      "CodigoSerie": "IPC258580",
+      "slug": "comunidades-y-ciudades-autonomas-melilla/subgrupos-ecoicop-ensenanza-superior"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC252043",
+      "slug": "totales-territoriales-total-nacional/subgrupos-ecoicop-ensenanza-superior"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC255624",
+      "slug": "comunidades-y-ciudades-autonomas-melilla/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Ense\u00F1anza",
+      "CodigoSerie": "IPC255666",
+      "slug": "comunidades-y-ciudades-autonomas-melilla/grupos-ecoicop-ensenanza"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 2,
+      "Valor": "Ense\u00F1anza Superior",
+      "CodigoSerie": "IPC258580",
+      "slug": "comunidades-y-ciudades-autonomas-melilla/subgrupos-ecoicop-ensenanza-superior"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

@@ -16,6 +16,45 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 760
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Andaluc\u00EDa",
+      "CodigoSerie": "IPC259414",
+      "slug": "comunidades-y-ciudades-autonomas-andalucia/subgrupos-ecoicop-bebidas-alcoholicas"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC251915",
+      "slug": "totales-territoriales-total-nacional/subgrupos-ecoicop-bebidas-alcoholicas"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC255678",
+      "slug": "comunidades-y-ciudades-autonomas-andalucia/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Bebidas alcoh\u00F3licas y tabaco",
+      "CodigoSerie": "IPC255688",
+      "slug": "comunidades-y-ciudades-autonomas-andalucia/grupos-ecoicop-bebidas-alcoholicas-y-tabaco"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 2,
+      "Valor": "Bebidas alcoh\u00F3licas",
+      "CodigoSerie": "IPC259414",
+      "slug": "comunidades-y-ciudades-autonomas-andalucia/subgrupos-ecoicop-bebidas-alcoholicas"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

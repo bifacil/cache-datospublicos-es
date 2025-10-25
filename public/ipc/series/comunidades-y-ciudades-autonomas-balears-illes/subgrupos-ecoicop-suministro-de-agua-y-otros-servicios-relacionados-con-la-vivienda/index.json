@@ -16,6 +16,45 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 760
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Balears, Illes",
+      "CodigoSerie": "IPC256622",
+      "slug": "comunidades-y-ciudades-autonomas-balears-illes/subgrupos-ecoicop-suministro-de-agua-y-otros-servicios-relacionados-con-la-vivienda"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC251939",
+      "slug": "totales-territoriales-total-nacional/subgrupos-ecoicop-suministro-de-agua-y-otros-servicios-relacionados-con-la-vivienda"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC255840",
+      "slug": "comunidades-y-ciudades-autonomas-balears-illes/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Vivienda, agua, electricidad, gas y otros combustibles",
+      "CodigoSerie": "IPC255858",
+      "slug": "comunidades-y-ciudades-autonomas-balears-illes/grupos-ecoicop-vivienda-agua-electricidad-gas-y-otros-combustibles"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 2,
+      "Valor": "Suministro de agua y otros servicios relacionados con la vivienda",
+      "CodigoSerie": "IPC256622",
+      "slug": "comunidades-y-ciudades-autonomas-balears-illes/subgrupos-ecoicop-suministro-de-agua-y-otros-servicios-relacionados-con-la-vivienda"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

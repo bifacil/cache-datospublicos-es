@@ -16,6 +16,45 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 760
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Castilla y Le\u00F3n",
+      "CodigoSerie": "IPC257194",
+      "slug": "comunidades-y-ciudades-autonomas-castilla-y-leon/subgrupos-ecoicop-adquisicion-de-vehiculos"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC251983",
+      "slug": "totales-territoriales-total-nacional/subgrupos-ecoicop-adquisicion-de-vehiculos"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC256002",
+      "slug": "comunidades-y-ciudades-autonomas-castilla-y-leon/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Transporte",
+      "CodigoSerie": "IPC256032",
+      "slug": "comunidades-y-ciudades-autonomas-castilla-y-leon/grupos-ecoicop-transporte"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 2,
+      "Valor": "Adquisici\u00F3n de veh\u00EDculos",
+      "CodigoSerie": "IPC257194",
+      "slug": "comunidades-y-ciudades-autonomas-castilla-y-leon/subgrupos-ecoicop-adquisicion-de-vehiculos"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

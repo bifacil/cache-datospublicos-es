@@ -16,6 +16,45 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 624
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 2,
+      "Valor": "Navarra",
+      "CodigoSerie": "IPC268083",
+      "slug": "provincias-navarra/grupos-ecoicop-comunicaciones"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Navarra, Comunidad Foral de",
+      "CodigoSerie": "IPC255442",
+      "slug": "comunidades-y-ciudades-autonomas-navarra-comunidad-foral-de/grupos-ecoicop-comunicaciones"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC251894",
+      "slug": "totales-territoriales-total-nacional/grupos-ecoicop-comunicaciones"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC268049",
+      "slug": "provincias-navarra/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Comunicaciones",
+      "CodigoSerie": "IPC268083",
+      "slug": "provincias-navarra/grupos-ecoicop-comunicaciones"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

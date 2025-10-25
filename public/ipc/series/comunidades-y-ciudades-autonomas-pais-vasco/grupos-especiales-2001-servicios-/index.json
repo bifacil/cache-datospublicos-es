@@ -16,6 +16,38 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 551
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Pa\u00EDs Vasco",
+      "CodigoSerie": "IPC265953",
+      "slug": "comunidades-y-ciudades-autonomas-pais-vasco/grupos-especiales-2001-servicios-"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC254040",
+      "slug": "totales-territoriales-total-nacional/grupos-especiales-2001-servicios-"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Servicios ",
+      "CodigoSerie": "IPC265953",
+      "slug": "comunidades-y-ciudades-autonomas-pais-vasco/grupos-especiales-2001-servicios-"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC255462",
+      "slug": "comunidades-y-ciudades-autonomas-pais-vasco/grupos-ecoicop-indice-general"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

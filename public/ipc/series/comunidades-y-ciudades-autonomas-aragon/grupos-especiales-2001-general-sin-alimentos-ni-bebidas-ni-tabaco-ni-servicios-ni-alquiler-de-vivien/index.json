@@ -16,6 +16,38 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 551
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Arag\u00F3n",
+      "CodigoSerie": "IPC264387",
+      "slug": "comunidades-y-ciudades-autonomas-aragon/grupos-especiales-2001-general-sin-alimentos-ni-bebidas-ni-tabaco-ni-servicios-ni-alquiler-de-vivien"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC254016",
+      "slug": "totales-territoriales-total-nacional/grupos-especiales-2001-general-sin-alimentos-ni-bebidas-ni-tabaco-ni-servicios-ni-alquiler-de-vivien"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "General sin alimentos ni bebidas ni tabaco ni servicios ni alquiler de vivienda",
+      "CodigoSerie": "IPC264387",
+      "slug": "comunidades-y-ciudades-autonomas-aragon/grupos-especiales-2001-general-sin-alimentos-ni-bebidas-ni-tabaco-ni-servicios-ni-alquiler-de-vivien"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC255732",
+      "slug": "comunidades-y-ciudades-autonomas-aragon/grupos-ecoicop-indice-general"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

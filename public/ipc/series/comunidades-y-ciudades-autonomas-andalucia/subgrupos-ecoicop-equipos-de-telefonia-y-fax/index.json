@@ -16,6 +16,45 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 760
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Andaluc\u00EDa",
+      "CodigoSerie": "IPC259498",
+      "slug": "comunidades-y-ciudades-autonomas-andalucia/subgrupos-ecoicop-equipos-de-telefonia-y-fax"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC251999",
+      "slug": "totales-territoriales-total-nacional/subgrupos-ecoicop-equipos-de-telefonia-y-fax"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC255678",
+      "slug": "comunidades-y-ciudades-autonomas-andalucia/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Comunicaciones",
+      "CodigoSerie": "IPC255712",
+      "slug": "comunidades-y-ciudades-autonomas-andalucia/grupos-ecoicop-comunicaciones"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 2,
+      "Valor": "Equipos de telefon\u00EDa y fax",
+      "CodigoSerie": "IPC259498",
+      "slug": "comunidades-y-ciudades-autonomas-andalucia/subgrupos-ecoicop-equipos-de-telefonia-y-fax"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

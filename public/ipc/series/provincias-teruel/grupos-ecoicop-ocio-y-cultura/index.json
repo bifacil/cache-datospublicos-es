@@ -16,6 +16,45 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 624
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 2,
+      "Valor": "Teruel",
+      "CodigoSerie": "IPC268736",
+      "slug": "provincias-teruel/grupos-ecoicop-ocio-y-cultura"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Arag\u00F3n",
+      "CodigoSerie": "IPC255770",
+      "slug": "comunidades-y-ciudades-autonomas-aragon/grupos-ecoicop-ocio-y-cultura"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC251899",
+      "slug": "totales-territoriales-total-nacional/grupos-ecoicop-ocio-y-cultura"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC268698",
+      "slug": "provincias-teruel/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Ocio y cultura",
+      "CodigoSerie": "IPC268736",
+      "slug": "provincias-teruel/grupos-ecoicop-ocio-y-cultura"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

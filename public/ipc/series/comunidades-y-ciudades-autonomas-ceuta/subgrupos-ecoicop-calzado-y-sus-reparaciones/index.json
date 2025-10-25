@@ -16,6 +16,45 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 760
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Ceuta",
+      "CodigoSerie": "IPC258027",
+      "slug": "comunidades-y-ciudades-autonomas-ceuta/subgrupos-ecoicop-calzado-y-sus-reparaciones"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC251927",
+      "slug": "totales-territoriales-total-nacional/subgrupos-ecoicop-calzado-y-sus-reparaciones"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC255570",
+      "slug": "comunidades-y-ciudades-autonomas-ceuta/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Vestido y calzado",
+      "CodigoSerie": "IPC255584",
+      "slug": "comunidades-y-ciudades-autonomas-ceuta/grupos-ecoicop-vestido-y-calzado"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 2,
+      "Valor": "Calzado y sus reparaciones",
+      "CodigoSerie": "IPC258027",
+      "slug": "comunidades-y-ciudades-autonomas-ceuta/subgrupos-ecoicop-calzado-y-sus-reparaciones"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

@@ -16,6 +16,52 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 52
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 2,
+      "Valor": "Badajoz",
+      "CodigoSerie": "IPC272839",
+      "slug": "provincias-badajoz/subgrupos-ecoicop-alimentos"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Extremadura",
+      "CodigoSerie": "IPC258346",
+      "slug": "comunidades-y-ciudades-autonomas-extremadura/subgrupos-ecoicop-alimentos"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC251907",
+      "slug": "totales-territoriales-total-nacional/subgrupos-ecoicop-alimentos"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC267462",
+      "slug": "provincias-badajoz/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Alimentos y bebidas no alcoh\u00F3licas",
+      "CodigoSerie": "IPC267468",
+      "slug": "provincias-badajoz/grupos-ecoicop-alimentos-y-bebidas-no-alcoholicas"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 2,
+      "Valor": "Alimentos",
+      "CodigoSerie": "IPC272839",
+      "slug": "provincias-badajoz/subgrupos-ecoicop-alimentos"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

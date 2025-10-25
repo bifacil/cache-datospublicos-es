@@ -16,6 +16,45 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 760
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Murcia, Regi\u00F3n de",
+      "CodigoSerie": "IPC259345",
+      "slug": "comunidades-y-ciudades-autonomas-murcia-region-de/subgrupos-ecoicop-ensenanza-infantil-y-primaria"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC252031",
+      "slug": "totales-territoriales-total-nacional/subgrupos-ecoicop-ensenanza-infantil-y-primaria"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC256379",
+      "slug": "comunidades-y-ciudades-autonomas-murcia-region-de/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Ense\u00F1anza",
+      "CodigoSerie": "IPC256421",
+      "slug": "comunidades-y-ciudades-autonomas-murcia-region-de/grupos-ecoicop-ensenanza"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 2,
+      "Valor": "Ense\u00F1anza Infantil y Primaria",
+      "CodigoSerie": "IPC259345",
+      "slug": "comunidades-y-ciudades-autonomas-murcia-region-de/subgrupos-ecoicop-ensenanza-infantil-y-primaria"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

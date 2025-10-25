@@ -16,6 +16,45 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 19
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Comunitat Valenciana",
+      "CodigoSerie": "IPC257646",
+      "slug": "comunidades-y-ciudades-autonomas-comunitat-valenciana/subgrupos-ecoicop-alimentos"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC251907",
+      "slug": "totales-territoriales-total-nacional/subgrupos-ecoicop-alimentos"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC256164",
+      "slug": "comunidades-y-ciudades-autonomas-comunitat-valenciana/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Alimentos y bebidas no alcoh\u00F3licas",
+      "CodigoSerie": "IPC256441",
+      "slug": "comunidades-y-ciudades-autonomas-comunitat-valenciana/grupos-ecoicop-alimentos-y-bebidas-no-alcoholicas"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 2,
+      "Valor": "Alimentos",
+      "CodigoSerie": "IPC257646",
+      "slug": "comunidades-y-ciudades-autonomas-comunitat-valenciana/subgrupos-ecoicop-alimentos"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

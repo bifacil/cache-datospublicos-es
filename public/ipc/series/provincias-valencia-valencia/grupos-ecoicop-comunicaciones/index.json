@@ -16,6 +16,45 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 624
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 2,
+      "Valor": "Valencia/Val\u00E8ncia",
+      "CodigoSerie": "IPC268839",
+      "slug": "provincias-valencia-valencia/grupos-ecoicop-comunicaciones"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Comunitat Valenciana",
+      "CodigoSerie": "IPC256197",
+      "slug": "comunidades-y-ciudades-autonomas-comunitat-valenciana/grupos-ecoicop-comunicaciones"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC251894",
+      "slug": "totales-territoriales-total-nacional/grupos-ecoicop-comunicaciones"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC268806",
+      "slug": "provincias-valencia-valencia/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Comunicaciones",
+      "CodigoSerie": "IPC268839",
+      "slug": "provincias-valencia-valencia/grupos-ecoicop-comunicaciones"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

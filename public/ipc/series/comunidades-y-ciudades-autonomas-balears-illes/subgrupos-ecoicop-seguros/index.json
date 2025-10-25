@@ -16,6 +16,45 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 760
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Balears, Illes",
+      "CodigoSerie": "IPC256753",
+      "slug": "comunidades-y-ciudades-autonomas-balears-illes/subgrupos-ecoicop-seguros"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC252071",
+      "slug": "totales-territoriales-total-nacional/subgrupos-ecoicop-seguros"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC255840",
+      "slug": "comunidades-y-ciudades-autonomas-balears-illes/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Otros bienes y servicios",
+      "CodigoSerie": "IPC255890",
+      "slug": "comunidades-y-ciudades-autonomas-balears-illes/grupos-ecoicop-otros-bienes-y-servicios"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 2,
+      "Valor": "Seguros",
+      "CodigoSerie": "IPC256753",
+      "slug": "comunidades-y-ciudades-autonomas-balears-illes/subgrupos-ecoicop-seguros"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

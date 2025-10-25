@@ -16,6 +16,45 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 760
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Asturias, Principado de",
+      "CodigoSerie": "IPC256526",
+      "slug": "comunidades-y-ciudades-autonomas-asturias-principado-de/subgrupos-ecoicop-servicios-recreativos-deportivos-y-culturales"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC252019",
+      "slug": "totales-territoriales-total-nacional/subgrupos-ecoicop-servicios-recreativos-deportivos-y-culturales"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC255786",
+      "slug": "comunidades-y-ciudades-autonomas-asturias-principado-de/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Ocio y cultura",
+      "CodigoSerie": "IPC255824",
+      "slug": "comunidades-y-ciudades-autonomas-asturias-principado-de/grupos-ecoicop-ocio-y-cultura"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 2,
+      "Valor": "Servicios recreativos, deportivos y culturales",
+      "CodigoSerie": "IPC256526",
+      "slug": "comunidades-y-ciudades-autonomas-asturias-principado-de/subgrupos-ecoicop-servicios-recreativos-deportivos-y-culturales"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

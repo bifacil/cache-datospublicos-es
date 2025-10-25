@@ -16,6 +16,45 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 624
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 2,
+      "Valor": "Melilla",
+      "CodigoSerie": "IPC269109",
+      "slug": "provincias-melilla/grupos-ecoicop-comunicaciones"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Melilla",
+      "CodigoSerie": "IPC255658",
+      "slug": "comunidades-y-ciudades-autonomas-melilla/grupos-ecoicop-comunicaciones"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC251894",
+      "slug": "totales-territoriales-total-nacional/grupos-ecoicop-comunicaciones"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC269075",
+      "slug": "provincias-melilla/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Comunicaciones",
+      "CodigoSerie": "IPC269109",
+      "slug": "provincias-melilla/grupos-ecoicop-comunicaciones"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

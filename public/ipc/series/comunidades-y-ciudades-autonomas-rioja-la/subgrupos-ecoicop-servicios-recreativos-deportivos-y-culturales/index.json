@@ -16,6 +16,45 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 760
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Rioja, La",
+      "CodigoSerie": "IPC259075",
+      "slug": "comunidades-y-ciudades-autonomas-rioja-la/subgrupos-ecoicop-servicios-recreativos-deportivos-y-culturales"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC252019",
+      "slug": "totales-territoriales-total-nacional/subgrupos-ecoicop-servicios-recreativos-deportivos-y-culturales"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC255516",
+      "slug": "comunidades-y-ciudades-autonomas-rioja-la/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Ocio y cultura",
+      "CodigoSerie": "IPC255554",
+      "slug": "comunidades-y-ciudades-autonomas-rioja-la/grupos-ecoicop-ocio-y-cultura"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 2,
+      "Valor": "Servicios recreativos, deportivos y culturales",
+      "CodigoSerie": "IPC259075",
+      "slug": "comunidades-y-ciudades-autonomas-rioja-la/subgrupos-ecoicop-servicios-recreativos-deportivos-y-culturales"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

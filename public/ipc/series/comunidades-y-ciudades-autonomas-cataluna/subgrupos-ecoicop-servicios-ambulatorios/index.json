@@ -16,6 +16,45 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 760
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Catalu\u00F1a",
+      "CodigoSerie": "IPC257538",
+      "slug": "comunidades-y-ciudades-autonomas-cataluna/subgrupos-ecoicop-servicios-ambulatorios"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC251975",
+      "slug": "totales-territoriales-total-nacional/subgrupos-ecoicop-servicios-ambulatorios"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC256110",
+      "slug": "comunidades-y-ciudades-autonomas-cataluna/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Sanidad",
+      "CodigoSerie": "IPC256136",
+      "slug": "comunidades-y-ciudades-autonomas-cataluna/grupos-ecoicop-sanidad"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 2,
+      "Valor": "Servicios ambulatorios",
+      "CodigoSerie": "IPC257538",
+      "slug": "comunidades-y-ciudades-autonomas-cataluna/subgrupos-ecoicop-servicios-ambulatorios"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

@@ -16,6 +16,38 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 551
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Balears, Illes",
+      "CodigoSerie": "IPC264607",
+      "slug": "comunidades-y-ciudades-autonomas-balears-illes/grupos-especiales-2001-general-sin-alimentos-ni-bebidas-ni-tabaco-ni-carburantes-ni-combustibles"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC254004",
+      "slug": "totales-territoriales-total-nacional/grupos-especiales-2001-general-sin-alimentos-ni-bebidas-ni-tabaco-ni-carburantes-ni-combustibles"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "General sin alimentos ni bebidas ni tabaco ni carburantes ni combustibles",
+      "CodigoSerie": "IPC264607",
+      "slug": "comunidades-y-ciudades-autonomas-balears-illes/grupos-especiales-2001-general-sin-alimentos-ni-bebidas-ni-tabaco-ni-carburantes-ni-combustibles"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC255840",
+      "slug": "comunidades-y-ciudades-autonomas-balears-illes/grupos-ecoicop-indice-general"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

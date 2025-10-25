@@ -16,6 +16,45 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 624
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 2,
+      "Valor": "Badajoz",
+      "CodigoSerie": "IPC267475",
+      "slug": "provincias-badajoz/grupos-ecoicop-vestido-y-calzado"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Extremadura",
+      "CodigoSerie": "IPC256231",
+      "slug": "comunidades-y-ciudades-autonomas-extremadura/grupos-ecoicop-vestido-y-calzado"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC251869",
+      "slug": "totales-territoriales-total-nacional/grupos-ecoicop-vestido-y-calzado"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC267462",
+      "slug": "provincias-badajoz/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Vestido y calzado",
+      "CodigoSerie": "IPC267475",
+      "slug": "provincias-badajoz/grupos-ecoicop-vestido-y-calzado"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

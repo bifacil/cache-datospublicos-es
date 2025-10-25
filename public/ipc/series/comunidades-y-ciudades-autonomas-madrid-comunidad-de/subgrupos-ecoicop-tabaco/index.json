@@ -16,6 +16,45 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 760
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Madrid, Comunidad de",
+      "CodigoSerie": "IPC258795",
+      "slug": "comunidades-y-ciudades-autonomas-madrid-comunidad-de/subgrupos-ecoicop-tabaco"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC251919",
+      "slug": "totales-territoriales-total-nacional/subgrupos-ecoicop-tabaco"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC256325",
+      "slug": "comunidades-y-ciudades-autonomas-madrid-comunidad-de/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Bebidas alcoh\u00F3licas y tabaco",
+      "CodigoSerie": "IPC256335",
+      "slug": "comunidades-y-ciudades-autonomas-madrid-comunidad-de/grupos-ecoicop-bebidas-alcoholicas-y-tabaco"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 2,
+      "Valor": "Tabaco",
+      "CodigoSerie": "IPC258795",
+      "slug": "comunidades-y-ciudades-autonomas-madrid-comunidad-de/subgrupos-ecoicop-tabaco"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

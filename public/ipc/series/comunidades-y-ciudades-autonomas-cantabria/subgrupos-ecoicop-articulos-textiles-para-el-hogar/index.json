@@ -16,6 +16,45 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 760
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Cantabria",
+      "CodigoSerie": "IPC256986",
+      "slug": "comunidades-y-ciudades-autonomas-cantabria/subgrupos-ecoicop-articulos-textiles-para-el-hogar"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC251951",
+      "slug": "totales-territoriales-total-nacional/subgrupos-ecoicop-articulos-textiles-para-el-hogar"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC255948",
+      "slug": "comunidades-y-ciudades-autonomas-cantabria/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Muebles, art\u00EDculos del hogar y art\u00EDculos para el mantenimiento corriente del hogar",
+      "CodigoSerie": "IPC255970",
+      "slug": "comunidades-y-ciudades-autonomas-cantabria/grupos-ecoicop-muebles-articulos-del-hogar-y-articulos-para-el-mantenimiento-corriente-del-hogar"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 2,
+      "Valor": "Art\u00EDculos textiles para el hogar",
+      "CodigoSerie": "IPC256986",
+      "slug": "comunidades-y-ciudades-autonomas-cantabria/subgrupos-ecoicop-articulos-textiles-para-el-hogar"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

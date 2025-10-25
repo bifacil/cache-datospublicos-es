@@ -16,6 +16,45 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 760
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Arag\u00F3n",
+      "CodigoSerie": "IPC259597",
+      "slug": "comunidades-y-ciudades-autonomas-aragon/subgrupos-ecoicop-vestido"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC251923",
+      "slug": "totales-territoriales-total-nacional/subgrupos-ecoicop-vestido"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC255732",
+      "slug": "comunidades-y-ciudades-autonomas-aragon/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Vestido y calzado",
+      "CodigoSerie": "IPC255746",
+      "slug": "comunidades-y-ciudades-autonomas-aragon/grupos-ecoicop-vestido-y-calzado"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 2,
+      "Valor": "Vestido",
+      "CodigoSerie": "IPC259597",
+      "slug": "comunidades-y-ciudades-autonomas-aragon/subgrupos-ecoicop-vestido"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

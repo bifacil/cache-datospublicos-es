@@ -16,6 +16,45 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 760
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Galicia",
+      "CodigoSerie": "IPC258691",
+      "slug": "comunidades-y-ciudades-autonomas-galicia/subgrupos-ecoicop-servicios-de-transporte"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC251991",
+      "slug": "totales-territoriales-total-nacional/subgrupos-ecoicop-servicios-de-transporte"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC256271",
+      "slug": "comunidades-y-ciudades-autonomas-galicia/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Transporte",
+      "CodigoSerie": "IPC256301",
+      "slug": "comunidades-y-ciudades-autonomas-galicia/grupos-ecoicop-transporte"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 2,
+      "Valor": "Servicios de transporte",
+      "CodigoSerie": "IPC258691",
+      "slug": "comunidades-y-ciudades-autonomas-galicia/subgrupos-ecoicop-servicios-de-transporte"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

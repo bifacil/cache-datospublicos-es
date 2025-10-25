@@ -16,6 +16,45 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 760
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Cantabria",
+      "CodigoSerie": "IPC257108",
+      "slug": "comunidades-y-ciudades-autonomas-cantabria/subgrupos-ecoicop-servicios-financieros-n-c-o-p-"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC252075",
+      "slug": "totales-territoriales-total-nacional/subgrupos-ecoicop-servicios-financieros-n-c-o-p-"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC255948",
+      "slug": "comunidades-y-ciudades-autonomas-cantabria/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Otros bienes y servicios",
+      "CodigoSerie": "IPC255998",
+      "slug": "comunidades-y-ciudades-autonomas-cantabria/grupos-ecoicop-otros-bienes-y-servicios"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 2,
+      "Valor": "Servicios financieros n.c.o.p.",
+      "CodigoSerie": "IPC257108",
+      "slug": "comunidades-y-ciudades-autonomas-cantabria/subgrupos-ecoicop-servicios-financieros-n-c-o-p-"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

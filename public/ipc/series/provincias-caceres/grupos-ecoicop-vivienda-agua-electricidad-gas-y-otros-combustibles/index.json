@@ -16,6 +16,45 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 624
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 2,
+      "Valor": "C\u00E1ceres",
+      "CodigoSerie": "IPC266326",
+      "slug": "provincias-caceres/grupos-ecoicop-vivienda-agua-electricidad-gas-y-otros-combustibles"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Extremadura",
+      "CodigoSerie": "IPC256235",
+      "slug": "comunidades-y-ciudades-autonomas-extremadura/grupos-ecoicop-vivienda-agua-electricidad-gas-y-otros-combustibles"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC251874",
+      "slug": "totales-territoriales-total-nacional/grupos-ecoicop-vivienda-agua-electricidad-gas-y-otros-combustibles"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC267731",
+      "slug": "provincias-caceres/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Vivienda, agua, electricidad, gas y otros combustibles",
+      "CodigoSerie": "IPC266326",
+      "slug": "provincias-caceres/grupos-ecoicop-vivienda-agua-electricidad-gas-y-otros-combustibles"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

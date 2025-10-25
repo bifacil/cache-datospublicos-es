@@ -16,6 +16,45 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 760
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Rioja, La",
+      "CodigoSerie": "IPC259043",
+      "slug": "comunidades-y-ciudades-autonomas-rioja-la/subgrupos-ecoicop-utilizacion-de-vehiculos-personales"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC251987",
+      "slug": "totales-territoriales-total-nacional/subgrupos-ecoicop-utilizacion-de-vehiculos-personales"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC255516",
+      "slug": "comunidades-y-ciudades-autonomas-rioja-la/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Transporte",
+      "CodigoSerie": "IPC255546",
+      "slug": "comunidades-y-ciudades-autonomas-rioja-la/grupos-ecoicop-transporte"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 2,
+      "Valor": "Utilizaci\u00F3n de veh\u00EDculos personales",
+      "CodigoSerie": "IPC259043",
+      "slug": "comunidades-y-ciudades-autonomas-rioja-la/subgrupos-ecoicop-utilizacion-de-vehiculos-personales"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

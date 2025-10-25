@@ -16,6 +16,38 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 551
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Comunitat Valenciana",
+      "CodigoSerie": "IPC265205",
+      "slug": "comunidades-y-ciudades-autonomas-comunitat-valenciana/grupos-especiales-2001-general-sin-alimentos-no-elaborados-ni-productos-energeticos"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC253988",
+      "slug": "totales-territoriales-total-nacional/grupos-especiales-2001-general-sin-alimentos-no-elaborados-ni-productos-energeticos"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "General sin alimentos no elaborados ni productos energ\u00E9ticos",
+      "CodigoSerie": "IPC265205",
+      "slug": "comunidades-y-ciudades-autonomas-comunitat-valenciana/grupos-especiales-2001-general-sin-alimentos-no-elaborados-ni-productos-energeticos"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC256164",
+      "slug": "comunidades-y-ciudades-autonomas-comunitat-valenciana/grupos-ecoicop-indice-general"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

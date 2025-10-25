@@ -16,6 +16,45 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 760
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Pa\u00EDs Vasco",
+      "CodigoSerie": "IPC257981",
+      "slug": "comunidades-y-ciudades-autonomas-pais-vasco/subgrupos-ecoicop-productos-aparatos-y-equipos-medicos"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC251971",
+      "slug": "totales-territoriales-total-nacional/subgrupos-ecoicop-productos-aparatos-y-equipos-medicos"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC255462",
+      "slug": "comunidades-y-ciudades-autonomas-pais-vasco/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Sanidad",
+      "CodigoSerie": "IPC255488",
+      "slug": "comunidades-y-ciudades-autonomas-pais-vasco/grupos-ecoicop-sanidad"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 2,
+      "Valor": "Productos, aparatos y equipos m\u00E9dicos",
+      "CodigoSerie": "IPC257981",
+      "slug": "comunidades-y-ciudades-autonomas-pais-vasco/subgrupos-ecoicop-productos-aparatos-y-equipos-medicos"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

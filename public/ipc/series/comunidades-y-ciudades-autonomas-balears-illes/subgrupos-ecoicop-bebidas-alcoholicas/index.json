@@ -16,6 +16,45 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 760
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Balears, Illes",
+      "CodigoSerie": "IPC256598",
+      "slug": "comunidades-y-ciudades-autonomas-balears-illes/subgrupos-ecoicop-bebidas-alcoholicas"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC251915",
+      "slug": "totales-territoriales-total-nacional/subgrupos-ecoicop-bebidas-alcoholicas"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC255840",
+      "slug": "comunidades-y-ciudades-autonomas-balears-illes/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Bebidas alcoh\u00F3licas y tabaco",
+      "CodigoSerie": "IPC255850",
+      "slug": "comunidades-y-ciudades-autonomas-balears-illes/grupos-ecoicop-bebidas-alcoholicas-y-tabaco"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 2,
+      "Valor": "Bebidas alcoh\u00F3licas",
+      "CodigoSerie": "IPC256598",
+      "slug": "comunidades-y-ciudades-autonomas-balears-illes/subgrupos-ecoicop-bebidas-alcoholicas"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

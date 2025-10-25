@@ -16,6 +16,38 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 228
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Canarias",
+      "CodigoSerie": "IPC255942",
+      "slug": "comunidades-y-ciudades-autonomas-canarias/grupos-ecoicop-otros-bienes-y-servicios"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC251847",
+      "slug": "totales-territoriales-total-nacional/grupos-ecoicop-otros-bienes-y-servicios"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC255894",
+      "slug": "comunidades-y-ciudades-autonomas-canarias/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Otros bienes y servicios",
+      "CodigoSerie": "IPC255942",
+      "slug": "comunidades-y-ciudades-autonomas-canarias/grupos-ecoicop-otros-bienes-y-servicios"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

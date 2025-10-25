@@ -16,6 +16,45 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 760
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Comunitat Valenciana",
+      "CodigoSerie": "IPC258314",
+      "slug": "comunidades-y-ciudades-autonomas-comunitat-valenciana/subgrupos-ecoicop-restauracion-y-comedores"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC252051",
+      "slug": "totales-territoriales-total-nacional/subgrupos-ecoicop-restauracion-y-comedores"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC256164",
+      "slug": "comunidades-y-ciudades-autonomas-comunitat-valenciana/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Restaurantes y hoteles",
+      "CodigoSerie": "IPC256209",
+      "slug": "comunidades-y-ciudades-autonomas-comunitat-valenciana/grupos-ecoicop-restaurantes-y-hoteles"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 2,
+      "Valor": "Restauraci\u00F3n y comedores",
+      "CodigoSerie": "IPC258314",
+      "slug": "comunidades-y-ciudades-autonomas-comunitat-valenciana/subgrupos-ecoicop-restauracion-y-comedores"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

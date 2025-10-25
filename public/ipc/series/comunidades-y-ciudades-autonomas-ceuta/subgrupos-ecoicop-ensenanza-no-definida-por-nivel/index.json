@@ -16,6 +16,45 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 760
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Ceuta",
+      "CodigoSerie": "IPC258147",
+      "slug": "comunidades-y-ciudades-autonomas-ceuta/subgrupos-ecoicop-ensenanza-no-definida-por-nivel"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC252047",
+      "slug": "totales-territoriales-total-nacional/subgrupos-ecoicop-ensenanza-no-definida-por-nivel"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC255570",
+      "slug": "comunidades-y-ciudades-autonomas-ceuta/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Ense\u00F1anza",
+      "CodigoSerie": "IPC255612",
+      "slug": "comunidades-y-ciudades-autonomas-ceuta/grupos-ecoicop-ensenanza"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 2,
+      "Valor": "Ense\u00F1anza no definida por nivel",
+      "CodigoSerie": "IPC258147",
+      "slug": "comunidades-y-ciudades-autonomas-ceuta/subgrupos-ecoicop-ensenanza-no-definida-por-nivel"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

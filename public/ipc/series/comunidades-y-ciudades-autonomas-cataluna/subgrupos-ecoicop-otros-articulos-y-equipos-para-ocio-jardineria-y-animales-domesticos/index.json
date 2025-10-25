@@ -16,6 +16,45 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 760
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Catalu\u00F1a",
+      "CodigoSerie": "IPC257578",
+      "slug": "comunidades-y-ciudades-autonomas-cataluna/subgrupos-ecoicop-otros-articulos-y-equipos-para-ocio-jardineria-y-animales-domesticos"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC252015",
+      "slug": "totales-territoriales-total-nacional/subgrupos-ecoicop-otros-articulos-y-equipos-para-ocio-jardineria-y-animales-domesticos"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC256110",
+      "slug": "comunidades-y-ciudades-autonomas-cataluna/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Ocio y cultura",
+      "CodigoSerie": "IPC256148",
+      "slug": "comunidades-y-ciudades-autonomas-cataluna/grupos-ecoicop-ocio-y-cultura"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 2,
+      "Valor": "Otros art\u00EDculos y equipos para ocio, jardiner\u00EDa y animales dom\u00E9sticos",
+      "CodigoSerie": "IPC257578",
+      "slug": "comunidades-y-ciudades-autonomas-cataluna/subgrupos-ecoicop-otros-articulos-y-equipos-para-ocio-jardineria-y-animales-domesticos"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

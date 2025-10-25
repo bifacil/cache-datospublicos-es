@@ -16,6 +16,45 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 760
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Cantabria",
+      "CodigoSerie": "IPC257042",
+      "slug": "comunidades-y-ciudades-autonomas-cantabria/subgrupos-ecoicop-equipos-audiovisuales-fotograficos-y-de-procesamiento-de-informacion"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC252007",
+      "slug": "totales-territoriales-total-nacional/subgrupos-ecoicop-equipos-audiovisuales-fotograficos-y-de-procesamiento-de-informacion"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC255948",
+      "slug": "comunidades-y-ciudades-autonomas-cantabria/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Ocio y cultura",
+      "CodigoSerie": "IPC255986",
+      "slug": "comunidades-y-ciudades-autonomas-cantabria/grupos-ecoicop-ocio-y-cultura"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 2,
+      "Valor": "Equipos audiovisuales, fotogr\u00E1ficos y de procesamiento de informaci\u00F3n",
+      "CodigoSerie": "IPC257042",
+      "slug": "comunidades-y-ciudades-autonomas-cantabria/subgrupos-ecoicop-equipos-audiovisuales-fotograficos-y-de-procesamiento-de-informacion"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

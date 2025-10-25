@@ -16,6 +16,45 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 624
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 2,
+      "Valor": "Segovia",
+      "CodigoSerie": "IPC268487",
+      "slug": "provincias-segovia/grupos-ecoicop-alimentos-y-bebidas-no-alcoholicas"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Castilla y Le\u00F3n",
+      "CodigoSerie": "IPC256008",
+      "slug": "comunidades-y-ciudades-autonomas-castilla-y-leon/grupos-ecoicop-alimentos-y-bebidas-no-alcoholicas"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC251859",
+      "slug": "totales-territoriales-total-nacional/grupos-ecoicop-alimentos-y-bebidas-no-alcoholicas"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC268481",
+      "slug": "provincias-segovia/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Alimentos y bebidas no alcoh\u00F3licas",
+      "CodigoSerie": "IPC268487",
+      "slug": "provincias-segovia/grupos-ecoicop-alimentos-y-bebidas-no-alcoholicas"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

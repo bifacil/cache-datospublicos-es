@@ -16,6 +16,45 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 624
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 2,
+      "Valor": "M\u00E1laga",
+      "CodigoSerie": "IPC267956",
+      "slug": "provincias-malaga/grupos-ecoicop-vestido-y-calzado"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Andaluc\u00EDa",
+      "CodigoSerie": "IPC255692",
+      "slug": "comunidades-y-ciudades-autonomas-andalucia/grupos-ecoicop-vestido-y-calzado"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC251869",
+      "slug": "totales-territoriales-total-nacional/grupos-ecoicop-vestido-y-calzado"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC267942",
+      "slug": "provincias-malaga/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Vestido y calzado",
+      "CodigoSerie": "IPC267956",
+      "slug": "provincias-malaga/grupos-ecoicop-vestido-y-calzado"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

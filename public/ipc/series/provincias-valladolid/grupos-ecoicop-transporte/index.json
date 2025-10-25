@@ -16,6 +16,45 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 624
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 2,
+      "Valor": "Valladolid",
+      "CodigoSerie": "IPC268889",
+      "slug": "provincias-valladolid/grupos-ecoicop-transporte"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Castilla y Le\u00F3n",
+      "CodigoSerie": "IPC256032",
+      "slug": "comunidades-y-ciudades-autonomas-castilla-y-leon/grupos-ecoicop-transporte"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC251889",
+      "slug": "totales-territoriales-total-nacional/grupos-ecoicop-transporte"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC268859",
+      "slug": "provincias-valladolid/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Transporte",
+      "CodigoSerie": "IPC268889",
+      "slug": "provincias-valladolid/grupos-ecoicop-transporte"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

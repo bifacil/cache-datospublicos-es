@@ -16,6 +16,38 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 551
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Rioja, La",
+      "CodigoSerie": "IPC266009",
+      "slug": "comunidades-y-ciudades-autonomas-rioja-la/grupos-especiales-2001-general-sin-carburantes-ni-combustibles"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC253980",
+      "slug": "totales-territoriales-total-nacional/grupos-especiales-2001-general-sin-carburantes-ni-combustibles"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "General sin carburantes ni combustibles",
+      "CodigoSerie": "IPC266009",
+      "slug": "comunidades-y-ciudades-autonomas-rioja-la/grupos-especiales-2001-general-sin-carburantes-ni-combustibles"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC255516",
+      "slug": "comunidades-y-ciudades-autonomas-rioja-la/grupos-ecoicop-indice-general"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

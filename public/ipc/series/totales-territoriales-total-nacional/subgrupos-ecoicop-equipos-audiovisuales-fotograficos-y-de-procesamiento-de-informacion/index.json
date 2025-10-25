@@ -16,6 +16,38 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 41
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC252007",
+      "slug": "totales-territoriales-total-nacional/subgrupos-ecoicop-equipos-audiovisuales-fotograficos-y-de-procesamiento-de-informacion"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC251852",
+      "slug": "totales-territoriales-total-nacional/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Ocio y cultura",
+      "CodigoSerie": "IPC251899",
+      "slug": "totales-territoriales-total-nacional/grupos-ecoicop-ocio-y-cultura"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 2,
+      "Valor": "Equipos audiovisuales, fotogr\u00E1ficos y de procesamiento de informaci\u00F3n",
+      "CodigoSerie": "IPC252007",
+      "slug": "totales-territoriales-total-nacional/subgrupos-ecoicop-equipos-audiovisuales-fotograficos-y-de-procesamiento-de-informacion"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

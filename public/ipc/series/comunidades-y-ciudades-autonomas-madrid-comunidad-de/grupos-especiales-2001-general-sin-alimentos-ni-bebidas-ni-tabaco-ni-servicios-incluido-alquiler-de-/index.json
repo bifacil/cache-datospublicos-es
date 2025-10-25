@@ -16,6 +16,38 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 551
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Madrid, Comunidad de",
+      "CodigoSerie": "IPC265577",
+      "slug": "comunidades-y-ciudades-autonomas-madrid-comunidad-de/grupos-especiales-2001-general-sin-alimentos-ni-bebidas-ni-tabaco-ni-servicios-incluido-alquiler-de-"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC254012",
+      "slug": "totales-territoriales-total-nacional/grupos-especiales-2001-general-sin-alimentos-ni-bebidas-ni-tabaco-ni-servicios-incluido-alquiler-de-"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "General sin alimentos ni bebidas ni tabaco ni servicios (incluido alquiler de vivienda)",
+      "CodigoSerie": "IPC265577",
+      "slug": "comunidades-y-ciudades-autonomas-madrid-comunidad-de/grupos-especiales-2001-general-sin-alimentos-ni-bebidas-ni-tabaco-ni-servicios-incluido-alquiler-de-"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC256325",
+      "slug": "comunidades-y-ciudades-autonomas-madrid-comunidad-de/grupos-ecoicop-indice-general"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

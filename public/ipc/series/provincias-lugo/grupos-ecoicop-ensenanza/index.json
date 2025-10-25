@@ -16,6 +16,45 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 624
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 2,
+      "Valor": "Lugo",
+      "CodigoSerie": "IPC267876",
+      "slug": "provincias-lugo/grupos-ecoicop-ensenanza"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Galicia",
+      "CodigoSerie": "IPC256313",
+      "slug": "comunidades-y-ciudades-autonomas-galicia/grupos-ecoicop-ensenanza"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC251904",
+      "slug": "totales-territoriales-total-nacional/grupos-ecoicop-ensenanza"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC267834",
+      "slug": "provincias-lugo/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Ense\u00F1anza",
+      "CodigoSerie": "IPC267876",
+      "slug": "provincias-lugo/grupos-ecoicop-ensenanza"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

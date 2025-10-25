@@ -16,6 +16,38 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 551
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Castilla - La Mancha",
+      "CodigoSerie": "IPC265006",
+      "slug": "comunidades-y-ciudades-autonomas-castilla-la-mancha/grupos-especiales-2001-bienes-industriales-no-duraderos"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC254020",
+      "slug": "totales-territoriales-total-nacional/grupos-especiales-2001-bienes-industriales-no-duraderos"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Bienes industriales no duraderos",
+      "CodigoSerie": "IPC265006",
+      "slug": "comunidades-y-ciudades-autonomas-castilla-la-mancha/grupos-especiales-2001-bienes-industriales-no-duraderos"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC256056",
+      "slug": "comunidades-y-ciudades-autonomas-castilla-la-mancha/grupos-ecoicop-indice-general"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

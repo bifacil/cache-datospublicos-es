@@ -16,6 +16,45 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 760
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Catalu\u00F1a",
+      "CodigoSerie": "IPC257546",
+      "slug": "comunidades-y-ciudades-autonomas-cataluna/subgrupos-ecoicop-adquisicion-de-vehiculos"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC251983",
+      "slug": "totales-territoriales-total-nacional/subgrupos-ecoicop-adquisicion-de-vehiculos"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC256110",
+      "slug": "comunidades-y-ciudades-autonomas-cataluna/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Transporte",
+      "CodigoSerie": "IPC256140",
+      "slug": "comunidades-y-ciudades-autonomas-cataluna/grupos-ecoicop-transporte"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 2,
+      "Valor": "Adquisici\u00F3n de veh\u00EDculos",
+      "CodigoSerie": "IPC257546",
+      "slug": "comunidades-y-ciudades-autonomas-cataluna/subgrupos-ecoicop-adquisicion-de-vehiculos"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

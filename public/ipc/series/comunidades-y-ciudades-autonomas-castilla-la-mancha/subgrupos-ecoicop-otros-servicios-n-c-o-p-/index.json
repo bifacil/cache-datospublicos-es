@@ -16,6 +16,45 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 760
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Castilla - La Mancha",
+      "CodigoSerie": "IPC257466",
+      "slug": "comunidades-y-ciudades-autonomas-castilla-la-mancha/subgrupos-ecoicop-otros-servicios-n-c-o-p-"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC252079",
+      "slug": "totales-territoriales-total-nacional/subgrupos-ecoicop-otros-servicios-n-c-o-p-"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC256056",
+      "slug": "comunidades-y-ciudades-autonomas-castilla-la-mancha/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Otros bienes y servicios",
+      "CodigoSerie": "IPC256106",
+      "slug": "comunidades-y-ciudades-autonomas-castilla-la-mancha/grupos-ecoicop-otros-bienes-y-servicios"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 2,
+      "Valor": "Otros servicios n.c.o.p.",
+      "CodigoSerie": "IPC257466",
+      "slug": "comunidades-y-ciudades-autonomas-castilla-la-mancha/subgrupos-ecoicop-otros-servicios-n-c-o-p-"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

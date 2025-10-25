@@ -16,6 +16,38 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 551
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Castilla y Le\u00F3n",
+      "CodigoSerie": "IPC264846",
+      "slug": "comunidades-y-ciudades-autonomas-castilla-y-leon/grupos-especiales-2001-general-sin-alquiler-de-vivienda"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC253976",
+      "slug": "totales-territoriales-total-nacional/grupos-especiales-2001-general-sin-alquiler-de-vivienda"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "General sin alquiler de vivienda",
+      "CodigoSerie": "IPC264846",
+      "slug": "comunidades-y-ciudades-autonomas-castilla-y-leon/grupos-especiales-2001-general-sin-alquiler-de-vivienda"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC256002",
+      "slug": "comunidades-y-ciudades-autonomas-castilla-y-leon/grupos-ecoicop-indice-general"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

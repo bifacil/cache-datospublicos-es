@@ -16,6 +16,38 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 228
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Catalu\u00F1a",
+      "CodigoSerie": "IPC256132",
+      "slug": "comunidades-y-ciudades-autonomas-cataluna/grupos-ecoicop-muebles-articulos-del-hogar-y-articulos-para-el-mantenimiento-corriente-del-hogar"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC251879",
+      "slug": "totales-territoriales-total-nacional/grupos-ecoicop-muebles-articulos-del-hogar-y-articulos-para-el-mantenimiento-corriente-del-hogar"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC256110",
+      "slug": "comunidades-y-ciudades-autonomas-cataluna/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Muebles, art\u00EDculos del hogar y art\u00EDculos para el mantenimiento corriente del hogar",
+      "CodigoSerie": "IPC256132",
+      "slug": "comunidades-y-ciudades-autonomas-cataluna/grupos-ecoicop-muebles-articulos-del-hogar-y-articulos-para-el-mantenimiento-corriente-del-hogar"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

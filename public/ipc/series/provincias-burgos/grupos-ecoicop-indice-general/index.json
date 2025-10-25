@@ -16,6 +16,38 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 52
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 2,
+      "Valor": "Burgos",
+      "CodigoSerie": "IPC267677",
+      "slug": "provincias-burgos/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Castilla y Le\u00F3n",
+      "CodigoSerie": "IPC256002",
+      "slug": "comunidades-y-ciudades-autonomas-castilla-y-leon/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC251852",
+      "slug": "totales-territoriales-total-nacional/grupos-ecoicop-indice-general"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC267677",
+      "slug": "provincias-burgos/grupos-ecoicop-indice-general"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

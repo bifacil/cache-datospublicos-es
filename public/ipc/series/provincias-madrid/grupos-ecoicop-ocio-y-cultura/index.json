@@ -16,6 +16,45 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 624
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 2,
+      "Valor": "Madrid",
+      "CodigoSerie": "IPC267926",
+      "slug": "provincias-madrid/grupos-ecoicop-ocio-y-cultura"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Madrid, Comunidad de",
+      "CodigoSerie": "IPC256363",
+      "slug": "comunidades-y-ciudades-autonomas-madrid-comunidad-de/grupos-ecoicop-ocio-y-cultura"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC251899",
+      "slug": "totales-territoriales-total-nacional/grupos-ecoicop-ocio-y-cultura"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC267888",
+      "slug": "provincias-madrid/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Ocio y cultura",
+      "CodigoSerie": "IPC267926",
+      "slug": "provincias-madrid/grupos-ecoicop-ocio-y-cultura"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

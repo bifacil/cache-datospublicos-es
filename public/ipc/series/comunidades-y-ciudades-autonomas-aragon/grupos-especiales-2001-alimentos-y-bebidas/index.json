@@ -16,6 +16,38 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 551
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Arag\u00F3n",
+      "CodigoSerie": "IPC264399",
+      "slug": "comunidades-y-ciudades-autonomas-aragon/grupos-especiales-2001-alimentos-y-bebidas"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC254028",
+      "slug": "totales-territoriales-total-nacional/grupos-especiales-2001-alimentos-y-bebidas"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Alimentos y bebidas",
+      "CodigoSerie": "IPC264399",
+      "slug": "comunidades-y-ciudades-autonomas-aragon/grupos-especiales-2001-alimentos-y-bebidas"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC255732",
+      "slug": "comunidades-y-ciudades-autonomas-aragon/grupos-ecoicop-indice-general"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

@@ -16,6 +16,45 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 760
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Catalu\u00F1a",
+      "CodigoSerie": "IPC257586",
+      "slug": "comunidades-y-ciudades-autonomas-cataluna/subgrupos-ecoicop-prensa-libros-y-articulos-de-papeleria"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC252023",
+      "slug": "totales-territoriales-total-nacional/subgrupos-ecoicop-prensa-libros-y-articulos-de-papeleria"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC256110",
+      "slug": "comunidades-y-ciudades-autonomas-cataluna/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Ocio y cultura",
+      "CodigoSerie": "IPC256148",
+      "slug": "comunidades-y-ciudades-autonomas-cataluna/grupos-ecoicop-ocio-y-cultura"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 2,
+      "Valor": "Prensa, libros y art\u00EDculos de papeler\u00EDa",
+      "CodigoSerie": "IPC257586",
+      "slug": "comunidades-y-ciudades-autonomas-cataluna/subgrupos-ecoicop-prensa-libros-y-articulos-de-papeleria"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

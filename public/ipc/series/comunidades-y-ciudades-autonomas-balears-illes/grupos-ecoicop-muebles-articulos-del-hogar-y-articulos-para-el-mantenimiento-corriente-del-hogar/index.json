@@ -16,6 +16,38 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 228
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Balears, Illes",
+      "CodigoSerie": "IPC255862",
+      "slug": "comunidades-y-ciudades-autonomas-balears-illes/grupos-ecoicop-muebles-articulos-del-hogar-y-articulos-para-el-mantenimiento-corriente-del-hogar"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC251879",
+      "slug": "totales-territoriales-total-nacional/grupos-ecoicop-muebles-articulos-del-hogar-y-articulos-para-el-mantenimiento-corriente-del-hogar"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC255840",
+      "slug": "comunidades-y-ciudades-autonomas-balears-illes/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Muebles, art\u00EDculos del hogar y art\u00EDculos para el mantenimiento corriente del hogar",
+      "CodigoSerie": "IPC255862",
+      "slug": "comunidades-y-ciudades-autonomas-balears-illes/grupos-ecoicop-muebles-articulos-del-hogar-y-articulos-para-el-mantenimiento-corriente-del-hogar"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

@@ -16,6 +16,38 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 551
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Extremadura",
+      "CodigoSerie": "IPC265317",
+      "slug": "comunidades-y-ciudades-autonomas-extremadura/grupos-especiales-2001-general-sin-productos-energeticos"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC253984",
+      "slug": "totales-territoriales-total-nacional/grupos-especiales-2001-general-sin-productos-energeticos"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "General sin productos energ\u00E9ticos",
+      "CodigoSerie": "IPC265317",
+      "slug": "comunidades-y-ciudades-autonomas-extremadura/grupos-especiales-2001-general-sin-productos-energeticos"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC256217",
+      "slug": "comunidades-y-ciudades-autonomas-extremadura/grupos-ecoicop-indice-general"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

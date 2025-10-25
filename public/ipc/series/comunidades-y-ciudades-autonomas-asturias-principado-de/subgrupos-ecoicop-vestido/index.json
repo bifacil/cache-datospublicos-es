@@ -16,6 +16,45 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 760
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Asturias, Principado de",
+      "CodigoSerie": "IPC259773",
+      "slug": "comunidades-y-ciudades-autonomas-asturias-principado-de/subgrupos-ecoicop-vestido"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC251923",
+      "slug": "totales-territoriales-total-nacional/subgrupos-ecoicop-vestido"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC255786",
+      "slug": "comunidades-y-ciudades-autonomas-asturias-principado-de/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Vestido y calzado",
+      "CodigoSerie": "IPC255800",
+      "slug": "comunidades-y-ciudades-autonomas-asturias-principado-de/grupos-ecoicop-vestido-y-calzado"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 2,
+      "Valor": "Vestido",
+      "CodigoSerie": "IPC259773",
+      "slug": "comunidades-y-ciudades-autonomas-asturias-principado-de/subgrupos-ecoicop-vestido"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

@@ -16,6 +16,45 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 624
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 2,
+      "Valor": "Melilla",
+      "CodigoSerie": "IPC269101",
+      "slug": "provincias-melilla/grupos-ecoicop-sanidad"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Melilla",
+      "CodigoSerie": "IPC255650",
+      "slug": "comunidades-y-ciudades-autonomas-melilla/grupos-ecoicop-sanidad"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC251884",
+      "slug": "totales-territoriales-total-nacional/grupos-ecoicop-sanidad"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC269075",
+      "slug": "provincias-melilla/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Sanidad",
+      "CodigoSerie": "IPC269101",
+      "slug": "provincias-melilla/grupos-ecoicop-sanidad"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

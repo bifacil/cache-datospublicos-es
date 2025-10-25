@@ -16,6 +16,45 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 760
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Arag\u00F3n",
+      "CodigoSerie": "IPC259689",
+      "slug": "comunidades-y-ciudades-autonomas-aragon/subgrupos-ecoicop-otros-articulos-y-equipos-para-ocio-jardineria-y-animales-domesticos"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC252015",
+      "slug": "totales-territoriales-total-nacional/subgrupos-ecoicop-otros-articulos-y-equipos-para-ocio-jardineria-y-animales-domesticos"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC255732",
+      "slug": "comunidades-y-ciudades-autonomas-aragon/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Ocio y cultura",
+      "CodigoSerie": "IPC255770",
+      "slug": "comunidades-y-ciudades-autonomas-aragon/grupos-ecoicop-ocio-y-cultura"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 2,
+      "Valor": "Otros art\u00EDculos y equipos para ocio, jardiner\u00EDa y animales dom\u00E9sticos",
+      "CodigoSerie": "IPC259689",
+      "slug": "comunidades-y-ciudades-autonomas-aragon/subgrupos-ecoicop-otros-articulos-y-equipos-para-ocio-jardineria-y-animales-domesticos"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

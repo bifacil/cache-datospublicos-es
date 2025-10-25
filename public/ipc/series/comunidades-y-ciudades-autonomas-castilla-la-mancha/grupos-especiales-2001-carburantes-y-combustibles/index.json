@@ -16,6 +16,38 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 551
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Castilla - La Mancha",
+      "CodigoSerie": "IPC264946",
+      "slug": "comunidades-y-ciudades-autonomas-castilla-la-mancha/grupos-especiales-2001-carburantes-y-combustibles"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC253960",
+      "slug": "totales-territoriales-total-nacional/grupos-especiales-2001-carburantes-y-combustibles"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Carburantes y combustibles",
+      "CodigoSerie": "IPC264946",
+      "slug": "comunidades-y-ciudades-autonomas-castilla-la-mancha/grupos-especiales-2001-carburantes-y-combustibles"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC256056",
+      "slug": "comunidades-y-ciudades-autonomas-castilla-la-mancha/grupos-ecoicop-indice-general"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

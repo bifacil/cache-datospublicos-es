@@ -53,6 +53,14 @@
                       "type": "integer",
                       "format": "int32"
                     },
+                    "RutaNavegacion0": {
+                      "type": "integer",
+                      "format": "int32"
+                    },
+                    "RutaNavegacion1": {
+                      "type": "integer",
+                      "format": "int32"
+                    },
                     "Base": {
                       "type": "string"
                     },

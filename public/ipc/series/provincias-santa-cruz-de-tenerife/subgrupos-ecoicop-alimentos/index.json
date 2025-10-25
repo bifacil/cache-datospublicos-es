@@ -16,6 +16,52 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 52
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 2,
+      "Valor": "Santa Cruz de Tenerife",
+      "CodigoSerie": "IPC276815",
+      "slug": "provincias-santa-cruz-de-tenerife/subgrupos-ecoicop-alimentos"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Canarias",
+      "CodigoSerie": "IPC256765",
+      "slug": "comunidades-y-ciudades-autonomas-canarias/subgrupos-ecoicop-alimentos"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC251907",
+      "slug": "totales-territoriales-total-nacional/subgrupos-ecoicop-alimentos"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC268427",
+      "slug": "provincias-santa-cruz-de-tenerife/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Alimentos y bebidas no alcoh\u00F3licas",
+      "CodigoSerie": "IPC268433",
+      "slug": "provincias-santa-cruz-de-tenerife/grupos-ecoicop-alimentos-y-bebidas-no-alcoholicas"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 2,
+      "Valor": "Alimentos",
+      "CodigoSerie": "IPC276815",
+      "slug": "provincias-santa-cruz-de-tenerife/subgrupos-ecoicop-alimentos"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

@@ -16,6 +16,52 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 52
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 2,
+      "Valor": "Ourense",
+      "CodigoSerie": "IPC276282",
+      "slug": "provincias-ourense/subgrupos-ecoicop-alimentos"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Galicia",
+      "CodigoSerie": "IPC258522",
+      "slug": "comunidades-y-ciudades-autonomas-galicia/subgrupos-ecoicop-alimentos"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC251907",
+      "slug": "totales-territoriales-total-nacional/subgrupos-ecoicop-alimentos"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC268103",
+      "slug": "provincias-ourense/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Alimentos y bebidas no alcoh\u00F3licas",
+      "CodigoSerie": "IPC268109",
+      "slug": "provincias-ourense/grupos-ecoicop-alimentos-y-bebidas-no-alcoholicas"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 2,
+      "Valor": "Alimentos",
+      "CodigoSerie": "IPC276282",
+      "slug": "provincias-ourense/subgrupos-ecoicop-alimentos"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

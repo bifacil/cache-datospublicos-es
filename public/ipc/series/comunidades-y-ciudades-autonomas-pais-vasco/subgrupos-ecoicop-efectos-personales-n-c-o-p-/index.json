@@ -16,6 +16,45 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 760
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Pa\u00EDs Vasco",
+      "CodigoSerie": "IPC258943",
+      "slug": "comunidades-y-ciudades-autonomas-pais-vasco/subgrupos-ecoicop-efectos-personales-n-c-o-p-"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC252063",
+      "slug": "totales-territoriales-total-nacional/subgrupos-ecoicop-efectos-personales-n-c-o-p-"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC255462",
+      "slug": "comunidades-y-ciudades-autonomas-pais-vasco/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Otros bienes y servicios",
+      "CodigoSerie": "IPC255512",
+      "slug": "comunidades-y-ciudades-autonomas-pais-vasco/grupos-ecoicop-otros-bienes-y-servicios"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 2,
+      "Valor": "Efectos personales n.c.o.p.",
+      "CodigoSerie": "IPC258943",
+      "slug": "comunidades-y-ciudades-autonomas-pais-vasco/subgrupos-ecoicop-efectos-personales-n-c-o-p-"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

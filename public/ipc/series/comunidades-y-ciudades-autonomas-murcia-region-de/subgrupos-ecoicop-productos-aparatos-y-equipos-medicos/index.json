@@ -16,6 +16,45 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 760
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Murcia, Regi\u00F3n de",
+      "CodigoSerie": "IPC259285",
+      "slug": "comunidades-y-ciudades-autonomas-murcia-region-de/subgrupos-ecoicop-productos-aparatos-y-equipos-medicos"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC251971",
+      "slug": "totales-territoriales-total-nacional/subgrupos-ecoicop-productos-aparatos-y-equipos-medicos"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC256379",
+      "slug": "comunidades-y-ciudades-autonomas-murcia-region-de/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Sanidad",
+      "CodigoSerie": "IPC256405",
+      "slug": "comunidades-y-ciudades-autonomas-murcia-region-de/grupos-ecoicop-sanidad"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 2,
+      "Valor": "Productos, aparatos y equipos m\u00E9dicos",
+      "CodigoSerie": "IPC259285",
+      "slug": "comunidades-y-ciudades-autonomas-murcia-region-de/subgrupos-ecoicop-productos-aparatos-y-equipos-medicos"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",

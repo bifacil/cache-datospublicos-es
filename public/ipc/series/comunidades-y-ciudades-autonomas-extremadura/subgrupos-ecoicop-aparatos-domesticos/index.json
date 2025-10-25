@@ -16,6 +16,45 @@
     "Clasificacion": "Base 2021 (IPC)",
     "NumSeries": 760
   },
+  "RutaNavegacion0": [
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 1,
+      "Valor": "Extremadura",
+      "CodigoSerie": "IPC258394",
+      "slug": "comunidades-y-ciudades-autonomas-extremadura/subgrupos-ecoicop-aparatos-domesticos"
+    },
+    {
+      "Jerarquia": "Territorio",
+      "Nivel": 0,
+      "Valor": "Total Nacional",
+      "CodigoSerie": "IPC251955",
+      "slug": "totales-territoriales-total-nacional/subgrupos-ecoicop-aparatos-domesticos"
+    }
+  ],
+  "RutaNavegacion1": [
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 0,
+      "Valor": "\u00CDndice general",
+      "CodigoSerie": "IPC256217",
+      "slug": "comunidades-y-ciudades-autonomas-extremadura/grupos-ecoicop-indice-general"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 1,
+      "Valor": "Muebles, art\u00EDculos del hogar y art\u00EDculos para el mantenimiento corriente del hogar",
+      "CodigoSerie": "IPC256239",
+      "slug": "comunidades-y-ciudades-autonomas-extremadura/grupos-ecoicop-muebles-articulos-del-hogar-y-articulos-para-el-mantenimiento-corriente-del-hogar"
+    },
+    {
+      "Jerarquia": "Categor\u00EDa",
+      "Nivel": 2,
+      "Valor": "Aparatos dom\u00E9sticos",
+      "CodigoSerie": "IPC258394",
+      "slug": "comunidades-y-ciudades-autonomas-extremadura/subgrupos-ecoicop-aparatos-domesticos"
+    }
+  ],
   "Base": "Base 2021 (IPC)",
   "TipoDato": "\u00CDndice",
   "Unidad": "\u00CDndice",
